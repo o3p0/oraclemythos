@@ -1,0 +1,98 @@
+[
+    {
+        "id": "odyssey-c1",
+        "book_id": "odyssey",
+        "title": "1.Departure from Troy",
+        "image": "/images/stories/odyssey-troy.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c1.html"
+    },
+    {
+        "id": "odyssey-c2",
+        "book_id": "odyssey",
+        "title": "2.Cyclops’ Cave",
+        "image": "/images/stories/odyssey-cyclops.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c2.html"
+    },
+    {
+        "id": "odyssey-c3",
+        "book_id": "odyssey",
+        "title": "3.Escape from the Cyclops",
+        "image": "/images/stories/odyssey-excape.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c3.html"
+    },
+    {
+        "id": "odyssey-c4",
+        "book_id": "odyssey",
+        "title": "4.Island of Aeolus",
+        "image": "/images/stories/odyssey-ithaca.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c4.html"
+    },
+    {
+        "id": "odyssey-c5",
+        "book_id": "odyssey",
+        "title": "5.Land of the Laestrygonians",
+        "image": "/images/stories/odyssey-c5.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c5.html"
+    },
+    {
+        "id": "odyssey-c6",
+        "book_id": "odyssey",
+        "title": "6.Circe’s Island",
+        "image": "/images/stories/odyssey-aeolus.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c6.html"
+    },
+    {
+        "id": "odyssey-c7",
+        "book_id": "odyssey",
+        "title": "7.Journey to the Underworld",
+        "image": "/images/stories/odyssey-laestrygonians.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c7.html"
+    },
+    {
+        "id": "odyssey-c8",
+        "book_id": "odyssey",
+        "title": "8.Sirens & Scylla and Charybdis",
+        "image": "/images/stories/odyssey-sirens.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c8.html"
+    },
+    {
+        "id": "odyssey-c9",
+        "book_id": "odyssey",
+        "title": "9.The Island of Helios",
+        "image": "/images/stories/odyssey-underworld.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c9.html"
+    },
+    {
+        "id": "odyssey-c10",
+        "book_id": "odyssey",
+        "title": "10.Calypso’s Island",
+        "image": "/images/stories/odyssey-scylla-charybdis.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c10.html"
+    },
+    {
+        "id": "odyssey-c11",
+        "book_id": "odyssey",
+        "title": "11.The Shores of Phaeacia",
+        "image": "/images/stories/odyssey-helio.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c11.html"
+    },
+    {
+        "id": "odyssey-c12",
+        "book_id": "odyssey",
+        "title": "12.The Return to Ithaca",
+        "image": "/images/stories/odyssey-final-trial.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c12.html"
+    }
+]

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loki's Mischief - Norse Mythology</title>
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="/styles/story.css">
+  <style>
+      /* Fullscreen Hero Section */
+      .story-hero {
+          position: relative;
+          height: 100vh; /* Fullscreen height */
+          overflow: hidden;
+      }
+
+      .story-hero img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; /* Ensures the image fills the container without distortion */
+          filter: brightness(70%); /* Darken the image for text readability */
+          transform: scale(1.05); /* Slight zoom effect */
+      }
+
+      .hero-text-overlay {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: white;
+          z-index: 1;
+      }
+
+      .hero-text-overlay h1 {
+          font-size: 4rem;
+          font-family: 'Trajan Pro', serif;
+          color: #AF3335; /* Deep red accent for Norse mythology */
+          margin-bottom: 10px;
+          text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+      }
+
+      .hero-text-overlay p {
+          font-size: 1.5rem;
+          margin-top: 0;
+          font-style: italic;
+          color: #fff;
+          text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+      }
+
+      .breadcrumb {
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          color: #AF3335;
+      }
+
+      .breadcrumb a {
+          color: #AF3335;
+          text-decoration: none;
+      }
+
+      .breadcrumb a:hover {
+          text-decoration: underline;
+      }
+
+      /* Story Content Layout */
+      .story-content {
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 20px;
+          color: #e0e0e0; /* Softer white for readability */
+      }
+
+      .story-title {
+          font-family: 'Trajan Pro', serif;
+          font-size: 2.2rem;
+          text-align: center;
+          margin-bottom: 20px;
+          color: #AF3335;
+          text-shadow: 0 2px 8px rgba(175, 51, 53, 0.7);
+      }
+
+      .story-section {
+          margin-bottom: 40px;
+      }
+
+      .section-title {
+          font-family: 'Trajan Pro', serif;
+          font-size: 1.8rem;
+          margin-bottom: 10px;
+          color: #AF3335;
+          border-left: 4px solid #AF3335; /* Decorative line */
+          padding-left: 10px;
+      }
+
+      .story-image {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          margin: 20px 0;
+          border-radius: 10px;
+          border: 3px solid #AF3335; /* Red accent border */
+      }
+
+      .story-section p {
+          font-size: 1rem;
+          line-height: 1.8;
+          text-align: justify;
+      }
+
+      /* Subtle Divider between Sections */
+      .story-section:not(:last-child) {
+          border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+          padding-bottom: 20px;
+      }
+
+      /* Related Links Section */
+      .related-links {
+          text-align: center;
+          margin: 40px 0;
+      }
+
+      .related-links h3 {
+          font-family: 'Trajan Pro', serif;
+          font-size: 2rem;
+          color: #AF3335;
+          margin-bottom: 20px;
+      }
+
+      .related-cards {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+      }
+
+      .related-card {
+          display: flex;
+          flex-direction: column;
+          width: 250px;
+          background-color: #1a1a1a;
+          color: white;
+          text-align: center;
+          border-radius: 10px;
+          overflow: hidden;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+          transition: transform 0.3s, box-shadow 0.3s;
+          text-decoration: none;
+      }
+
+      .related-card img {
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+      }
+
+      .related-card .card-content {
+          padding: 15px;
+      }
+
+      .related-card h4 {
+          font-size: 1.2rem;
+          font-family: 'Trajan Pro', serif;
+          color: #AF3335;
+          margin-bottom: 10px;
+      }
+
+      .related-card p {
+          font-size: 0.9rem;
+          color: #ccc;
+      }
+
+      .related-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 6px 16px rgba(175, 51, 53, 0.7);
+      }
+
+      .related-card:hover h4 {
+          color: #FF6F61;
+      }
+
+      .related-card:hover p {
+          color: #fff;
+      }
+  </style>
+</head>
+<body>
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb">
+    <a href="/index.html">Home</a> > 
+    <a href="/stories.html">Stories</a> > 
+    <span>Loki's Mischief</span>
+  </nav>
+
+  <!-- Fullscreen Hero Section -->
+  <header class="story-hero">
+    <img src="/images/stories/loki.jpg" alt="Loki's Mischief">
+    <div class="hero-text-overlay">
+      <h1>Loki's Mischief</h1>
+      <p>Loki's tricks often bring trouble and occasionally solve problems.</p>
+    </div>
+  </header>
+
+  <!-- Story Content -->
+  <main class="story-content">
+    <h2 class="story-title">Loki's Mischief</h2>
+    <section class="story-section">
+      <h3 class="section-title">Chapter 1: The Trickster in Action</h3>
+      <p>
+        Loki's antics often shaped the course of events in Norse mythology. Whether aiding the gods with clever schemes or sowing chaos for personal gain, Loki’s duality defined his unpredictable nature.
+      </p>
+    </section>
+
+    <section class="story-section">
+      <h3 class="section-title">Chapter 2: The Death of Balder</h3>
+      <img src="/images/stories/loki-balder.jpg" alt="Loki tricking Hodr to kill Balder" class="story-image">
+      <p>
+        In his most infamous act, Loki tricked Hodr, the blind god, into killing Balder with a dart made of mistletoe, the only substance that could harm him. This act led to sorrow among the gods and set events into motion that would culminate in Ragnarok.
+      </p>
+    </section>
+
+    <section class="story-section">
+      <h3 class="section-title">Chapter 3: Aiding and Deceiving</h3>
+      <img src="/images/stories/loki-tricks.jpg" alt="Loki devising plans" class="story-image">
+      <p>
+        Loki’s cunning wasn’t always malicious. He saved Asgard by tricking a giant into forfeiting his claim to Freyja as payment for building the walls of Asgard. Yet, his deceitful nature often made him a liability to the gods he served.
+      </p>
+    </section>
+
+    <section class="story-section">
+      <h3 class="section-title">Chapter 4: Ragnarok and the End</h3>
+      <img src="/images/stories/loki-ragnarok.jpg" alt="Loki in Ragnarok" class="story-image">
+      <p>
+        At Ragnarok, Loki sided with the giants and faced Heimdall in battle, where both met their end. His role in Ragnarok solidified his place as a pivotal figure in the Norse pantheon, embodying chaos and inevitable change.
+      </p>
+    </section>
+  </main>
+
+  <!-- Related Links Section -->
+  <section class="related-links">
+    <h3>Related Myths</h3>
+    <div class="related-cards">
+      <a href="/stories/norse-ragnarok.html" class="related-card">
+        <img src="/images/stories/ragnarok-thumbnail.jpg" alt="Ragnarok">
+        <div class="card-content">
+          <h4>Ragnarok</h4>
+          <p>The gods and giants prepare for the ultimate battle of the ages.</p>
+        </div>
+      </a>
+      <a href="/stories/norse-yggdrasil.html" class="related-card">
+        <img src="/images/stories/yggdrasil-thumbnail.jpg" alt="The World Tree Yggdrasil">
+        <div class="card-content">
+          <h4>The World Tree Yggdrasil</h4>
+          <p>The tree that connects all nine realms of Norse mythology.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 OracleMythos. All rights reserved.</p>
+  </footer>
+</body>
+</html>

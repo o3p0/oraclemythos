@@ -1,0 +1,171 @@
+[
+    {
+        "id": "huitzilopochtli",
+        "name": "Huitzilopochtli",
+        "title": "God of War, the Sun, and the Patron Deity of the Aztecs",
+        "carousel_description": "<strong style='color: #FF8C00; font-size: 1.5em;'>The Hummingbird of the South, God of War and the Sun</strong><br><br> <em style='font-size: 1.2em; color: #FFD700;'>Under a sky aflame</em>, Huitzilopochtli rises, his spear blazing like the dawn. Born for battle, nourished by sacrifice, he is the shield of the Mexica and the light that pushes back the endless night.<br><br> <blockquote style='border-left: 5px solid #FF8C00; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFE4B5; background-color: #5D4037; padding: 10px;'>\"To keep the sun alive, the brave must bleed.\"</blockquote>",
+        "description": "Huitzilopochtli, the fierce and radiant god of war and the sun, stands as the protector of the Mexica people and the embodiment of their strength. As the driving force of the sun’s eternal journey, he battles the forces of darkness to sustain life itself. Revered as the patron deity of the Aztec Empire, Huitzilopochtli’s legacy is etched in the ideals of courage, sacrifice, and the warrior’s honor.",
+        "image": "mapimages/huitzilopochtli.png",
+        "traits": [
+          "Wisdom: 🧠 Huitzilopochtli’s strategic guidance secured the Mexica people’s rise to power and led them to their homeland.",
+          "Strength: 💪 As the god of war, his unmatched might ensures victory and sustains the sun’s power.",
+          "Courage: ⚔ From his first breath, armed for battle, Huitzilopochtli faced overwhelming odds with fearless resolve.",
+          "Power: ⚡ His dominion over the sun and war connects him to the life-and-death cycle of the cosmos.",
+          "Strategy: 🎯 A visionary, he directed the founding of Tenochtitlan, fulfilling divine prophecy.",
+          "Honor: 🤝 Huitzilopochtli embodies the warriors’ code of loyalty and sacrifice for their people and gods.",
+          "Preservation: 🌞 By powering the sun’s journey, he maintains the fragile balance of life on earth.",
+          "Prophecy: 🔮 He fulfilled his divine destiny, guiding the Mexica to their fated home and ensuring their empire’s prosperity."
+        ],
+        "Legends": [
+          "The Birth of Huitzilopochtli: 🕊 Born fully armed, Huitzilopochtli defeated his sister Coyolxauhqui and his 400 brothers, defending his mother, Coatlicue, and earning his place as a protector and warrior.",
+          "The Battle for the Sun: ⚔ Each day, Huitzilopochtli fights the forces of darkness to ensure the sun rises, an eternal struggle for survival and light.",
+          "The Founding of Tenochtitlan: 🏛 Following his guidance, the Mexica settled where they saw an eagle perched on a cactus, a divine sign marking the site of their great capital."
+        ],
+        "Lore": [
+          "The Hummingbird of the South: 🦅 His name reflects his swift and deadly nature, symbolized by the feathers of a hummingbird.",
+          "The Sun God: 🌞 Human sacrifices were essential to sustain his battles against the darkness, ensuring the sun’s survival.",
+          "Warriors and Sacrifice: ⚔ The souls of fallen warriors were believed to join him in his celestial battles, granting them eternal honor."
+        ],
+        "quick_facts": {
+          "Parents": "Coatlicue (mother); no definitive father.",
+          "Siblings": "Coyolxauhqui (sister) and the Centzon Huitznahua (400 brothers).",
+          "Symbols": "Hummingbird feathers, Serpent, Eagle, Sun, Warrior’s Shield.",
+          "Sacred Sites": "The Templo Mayor in Tenochtitlan, a grand temple dedicated to Huitzilopochtli and Tlaloc, was the heart of Aztec religious life."
+        }
+      }
+      ,
+    {
+        "id": "quetzalcoatl",
+        "name": "Quetzalcoatl",
+        "title": "The Feathered Serpent, God of Wind, Wisdom, and Renewal",
+        "carousel_description": "<strong style='color: #00C853; font-size: 1.5em;'>The Feathered Serpent, Bringer of Life</strong><br><br> <em style='font-size: 1.2em; color: #69F0AE;'>Under the shadow of ancient temples</em>, Quetzalcoatl descends, his emerald feathers shimmering like the promise of dawn. As the wind rises, life stirs—creation is his gift, renewal his legacy.<br><br> <blockquote style='border-left: 5px solid #00C853; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B9F6CA; background-color: #004D40; padding: 10px;'>\"From ashes and chaos, I breathe the breath of life.\"</blockquote>",
+        "description": "Quetzalcoatl, the Feathered Serpent, bridges the realms of the divine and mortal. As the god of wind and creation, he gave life to humanity, shaping existence from the bones of past worlds. Revered for his wisdom and benevolence, Quetzalcoatl embodies renewal, guiding civilizations toward enlightenment. Yet his myths also tell of sacrifice and exile, reflecting the cycles of destruction and rebirth central to Aztec cosmology.",
+        "image": "mapimages/quetzalcoatl.png",
+        "traits": [
+          "Wind: 🌬 As the god of wind, Quetzalcoatl brings life-sustaining breath and connects the heavens with the earth.",
+          "Wisdom: 🧠 Quetzalcoatl is a guide of knowledge and learning, inspiring civilizations to pursue enlightenment.",
+          "Creation: 🌱 He crafted humanity from the bones of previous worlds, embodying renewal and the sacredness of life.",
+          "Power: ⚡ Quetzalcoatl’s dual nature as a serpent and bird signifies his mastery over both the earth and the skies.",
+          "Compassion: 🤝 Known as a protector of humanity, he seeks harmony and balance in all things.",
+          "Sacrifice: 🔥 Quetzalcoatl’s myths often center on self-sacrifice, symbolizing the cycles of death and rebirth."
+        ],
+        "Legends": [
+          "The Creation of Humanity: 🏺 Quetzalcoatl descended to the underworld to retrieve the bones of past generations, mixing them with his own blood to create humanity.",
+          "Bringer of Corn: 🌬 As a benefactor of humankind, he gifted corn to the people, ensuring their survival and prosperity.",
+          "The Morning Star: 🔥 After his self-sacrifice, Quetzalcoatl transformed into the morning star, symbolizing hope and renewal."
+        ],
+        "Lore": [
+          "The Feathered Serpent: 🌀 His dual form, both bird and serpent, represents the union of earth and sky, life and spirit.",
+          "The Gift of Corn: 🌾 Quetzalcoatl’s efforts to provide food highlight his deep connection to humanity’s well-being.",
+          "Exile and Return: 🔥 Betrayed and exiled in some myths, Quetzalcoatl’s story reflects the cyclical nature of creation and renewal."
+        ],
+        "quick_facts": {
+          "Parents": "Mixcoatl (god of the hunt) and Chimalma.",
+          "Siblings": "Tezcatlipoca (rival and brother) and others in the pantheon.",
+          "Consorts": "Some myths associate him with Xochiquetzal, goddess of love and fertility.",
+          "Symbols": "Feathered Serpent, Wind, Corn, Morning Star.",
+          "Sacred Sites": "The city of Cholula, home to the Great Pyramid dedicated to Quetzalcoatl."
+        }
+      }
+,      
+{
+    "id": "tlaloc",
+    "name": "Tlaloc",
+    "title": "The Rain God and Lord of Storms",
+    "carousel_description": "<strong style='color: #4682B4; font-size: 1.5em;'>God of Rain and Storms, Bringer of Life and Destruction</strong><br><br> <em style='font-size: 1.2em; color: #87CEEB;'>Dark clouds churn</em> as Tlaloc’s voice echoes through the heavens. His rain nourishes the fields and fills the rivers, yet his storms rage with unrelenting fury.<br><br> <blockquote style='border-left: 5px solid #4682B4; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B0E0E6; background-color: #2E2E2E; padding: 10px;'>\"In the blessing of water lies the power to create—and destroy.\"</blockquote>",
+    "description": "Tlaloc, the mighty god of rain and fertility, embodies the dual nature of water as both a life-giving force and a harbinger of destruction. Revered for his ability to bring abundance and feared for his devastating storms, Tlaloc’s power touches every facet of life. Ruling over the verdant afterlife of Tlalocan, he is a deity of cycles—creation, destruction, death, and renewal—reminding mortals of nature’s delicate balance.",
+    "image": "mapimages/tlaloc.png",
+    "traits": [
+      "Rain and Fertility: 🌧 Tlaloc’s rains nourish the earth, ensuring agricultural prosperity, but his storms can bring ruin.",
+      "Strength: 💪 Wielding lightning and thunder, Tlaloc commands immense power over the natural world.",
+      "Fertility: 🌿 As a god of earth’s bounty, his blessings sustain life, while his wrath manifests in droughts and floods.",
+      "Power: ⚡ His mastery over storms and rainfall makes him essential to the survival of the Aztec people.",
+      "Honor: 🤝 Rituals and sacrifices sought to secure his favor, ensuring rainfall and averting disaster.",
+      "Death and Rebirth: 💀 Tlaloc’s domain extends to Tlalocan, a lush afterlife for those who perished by water, symbolizing renewal and rebirth.",
+      "Healing: 🌈 His rains cleanse and restore the earth, marking the cycles of life and growth."
+    ],
+    "Legends": [
+      "The Tears of Children: 🕊 Tlaloc demanded the tears of sacrificed children to summon rain, reflecting the Aztecs’ belief in the power of offerings to sustain life.",
+      "The Flood: ⚔ Tlaloc unleashed devastating floods to punish humanity, showcasing his control over life and death.",
+      "Tlalocan: 🏛 As the ruler of Tlalocan, Tlaloc welcomed those who died by water into a paradise of abundance, underscoring his duality as both nurturer and judge."
+    ],
+    "Lore": [
+      "Lord of Water: 🌊 Tlaloc governs all forms of water, from rain and rivers to seas, making him vital to the balance of life and nature.",
+      "Lightning and Thunder: ⚡ Tlaloc wields these forces as symbols of his wrath and power, striking down those who defy him.",
+      "The Tlaloque: 🌱 Minor rain deities under Tlaloc’s command, the Tlaloque manage different types of rainfall, from nourishing showers to destructive torrents."
+    ],
+    "quick_facts": {
+      "Parents": "Ometecuhtli and Omecihuatl, primordial creator gods.",
+      "Consort": "Chalchiuhtlicue, goddess of rivers, lakes, and streams.",
+      "Symbols": "Water, Lightning, Frogs, Mountains, Rainstorms.",
+      "Sacred Sites": "Tlaloc’s temples were often built atop mountains, believed to be his sacred dwellings and the source of rain."
+    }
+  }
+  ,
+  {
+    "id": "xipe_totec",
+    "name": "Xipe Totec",
+    "title": "The God of Agriculture, Fertility, and Renewal",
+    "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'>The Flayed God, Lord of Renewal and Transformation</strong><br><br> <em style='font-size: 1.2em; color: #FF6347;'>Clad in the skin of the sacrificed</em>, Xipe Totec strides forward, a harbinger of rebirth. From his flayed form springs life anew, each drop of blood a promise to the earth.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFA07A; background-color: #2E2E2E; padding: 10px;'>\"Through the pain of sacrifice, the world is made whole again.\"</blockquote>",
+    "description": "Xipe Totec, the 'Flayed One,' embodies the cycle of life, death, and rebirth. As the god of agriculture and fertility, he ensures the renewal of the earth, shedding the old to give way to the new. Depicted wearing flayed human skin, he symbolizes transformation and the profound truth that through sacrifice, life emerges. His influence extends to warriors and the spiritual realm, representing the regeneration of strength and vitality in all aspects of existence.",
+    "image": "mapimages/xipe_totec.png",
+    "traits": [
+      "Fertility: 🌿 Xipe Totec governs the earth’s renewal, ensuring the growth of crops and the transition from death to life.",
+      "Strength: 💪 He embodies resilience, guiding nature and humanity to recover and thrive despite hardship.",
+      "Sacrifice and Renewal: 🩸 Rituals of skin-shedding reflect his role as a god of transformation and rejuvenation.",
+      "Agriculture: 🌾 Tied to planting, growth, and harvest, Xipe Totec represents the cycle of sustaining life through death.",
+      "Warrior Spirit: ⚔ Protecting warriors, he helps them shed weakness to emerge stronger, mirroring the renewal of the earth.",
+      "Regeneration: 🎯 His influence extends to spiritual renewal, revitalizing both body and soul."
+    ],
+    "Legends": [
+      "The Flaying Rituals: 🕊 Priests wore the skin of sacrificial victims to honor Xipe Totec, symbolizing the earth shedding its old layer to reveal fertility and life beneath.",
+      "Warrior Protection: ⚔ Invoked by warriors, Xipe Totec was believed to grant renewed vitality and strength for success in battle.",
+      "Transformation of the Earth: 🏛 His myths emphasize the earth’s 'flaying' after the harvest, revealing fresh, fertile soil ready to sustain new crops."
+    ],
+    "Lore": [
+      "Flayed Skin: 💀 Central to his imagery, the flayed skin symbolizes the painful yet necessary process of transformation and renewal.",
+      "Planting and Harvest: 🌾 Worship of Xipe Totec ensured bountiful harvests, with rituals mirroring the cycles of death and growth in agriculture.",
+      "Warriors and Renewal: ⚔ His regenerative power fortified warriors, granting them the strength to rise victorious and renewed after conflict."
+    ],
+    "quick_facts": {
+      "Parents": "Ometecuhtli and Omecihuatl, primordial creator gods.",
+      "Symbols": "Flayed Skin, Maize, Blood, Gold, Renewal.",
+      "Sacred Sites": "Temples dedicated to Xipe Totec were centers of rituals, including flaying ceremonies, with prominent worship at the Templo Mayor in Tenochtitlan."
+    }
+  },
+
+        {
+            "id": "tezcatlipoca",
+            "name": "Tezcatlipoca",
+            "title": "The God of Night, Sorcery, and Chaos",
+            "carousel_description": "<strong style='color: #4B0082; font-size: 1.5em;'>The Smoking Mirror, God of Night and Destiny</strong><br><br> <em style='font-size: 1.2em; color: #800080;'>Amid the swirling shadows of the night</em>, Tezcatlipoca’s obsidian mirror gleams, revealing truths mortals dare not face. His jaguar’s roar echoes across the cosmos—a harbinger of chaos and destiny.<br><br> <blockquote style='border-left: 5px solid #4B0082; padding-left: 15px; margin-left: 10px; font-style: italic; color: #DDA0DD; background-color: #2E2E2E; padding: 10px;'>\"Look into the mirror, and find the price of ambition.\"</blockquote>",
+            "description": "Tezcatlipoca, the Smoking Mirror, embodies the volatile forces of night, chaos, and destiny. A master of sorcery and manipulation, he guides and tests mortals with both wisdom and cruelty. Revered and feared, he is a god of contradictions—creation and destruction, conflict and transformation. His rivalry with Quetzalcoatl reflects the eternal struggle between order and chaos, shaping the cosmic balance that governs existence.",
+            "image": "mapimages/tezcatlipoca.png",
+            "traits": [
+              "Cunning: 🧠 Tezcatlipoca’s intelligence and mastery of deception allow him to outwit gods and mortals alike.",
+              "Night: 🌌 As the god of night, he rules over darkness and the mysteries hidden within it.",
+              "Sorcery: 🔮 Tezcatlipoca wields a smoking obsidian mirror to foresee the future and bend reality to his will.",
+              "Chaos: ⚔ As the bringer of strife, he represents war, conflict, and the upheavals that define life.",
+              "Power: 💪 Tezcatlipoca’s control over life, death, and destiny cements his role as a formidable deity.",
+              "Rivalry: 🤝 His ongoing battle with Quetzalcoatl reflects the balance between chaos and order, destruction and renewal."
+            ],
+            "Legends": [
+              "The Rivalry with Quetzalcoatl: 🕊 Tezcatlipoca tricked Quetzalcoatl into disgrace and exile, their clash epitomizing the cosmic tension between opposing forces.",
+              "The Creation and Destruction of the World: ⚔ Together with Quetzalcoatl, Tezcatlipoca created the first world. When discord arose, he transformed into a jaguar to destroy it, ending the First Sun.",
+              "The Obsidian Mirror: 🏛 Central to his power, Tezcatlipoca’s mirror allows him to see all, manipulate destiny, and challenge mortals with their hidden truths."
+            ],
+            "Lore": [
+              "The Smoking Mirror: 🪞 His namesake symbolizes divination, transformation, and the power to reveal hidden realities.",
+              "Jaguar Transformation: 🐆 Often depicted as a jaguar, Tezcatlipoca’s form embodies his strength, ferocity, and connection to the primal forces of chaos.",
+              "God of Conflict: 🌌 As a deity of strife, he shapes the fates of individuals and civilizations, testing their resilience and ambition."
+            ],
+            "quick_facts": {
+              "Parents": "Ometecuhtli and Omecihuatl, primordial creators of the universe.",
+              "Siblings": "Quetzalcoatl, Xipe Totec, and Huitzilopochtli.",
+              "Symbols": "Obsidian Mirror, Jaguar, Smoking Mirror, Night Sky, Footless Leg (representing his sacrifice and enduring power).",
+              "Sacred Sites": "Temples dedicated to Tezcatlipoca were centers for rituals of divination, sacrifice, and appeals for strength in times of conflict."
+            }
+          }
+          
+    
+]

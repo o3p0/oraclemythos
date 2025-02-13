@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aztec Mythology - OracleMythos</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora&display=swap" rel="stylesheet">
+    <style>
+        body.aztec-theme {
+            background-color: black;
+            color: white;
+            font-family: 'Lora', serif;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            border: 2px solid #C4A484; /* Earthy tone for Aztec */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-image {
+            background-image: url('mapimages/aztec-hero.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            background-attachment: fixed;
+            border-bottom: 2px solid #C4A484;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px 5px black;
+            font-family: 'Cinzel', serif;
+        }
+
+        h1, h2 {
+            font-family: 'Cinzel', serif;
+            color: #C4A484;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #C4A484;
+            margin-top: 20px;
+            transition: color 0.3s ease;
+        }
+
+        h3:hover {
+            color: #ff5722;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .large-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .highlight {
+            background-color: rgba(255, 87, 34, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            color: #ccc;
+        }
+
+        .pull-quote {
+            font-size: 1.5em;
+            margin: 30px 0;
+            color: #C4A484;
+            text-align: center;
+            font-style: italic;
+            border-left: 5px solid #ff5722;
+            padding-left: 15px;
+        }
+
+        /* Character Grid */
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .character-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .character-card h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .character-card p {
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        .character-card a {
+            color: #ff5722;
+            text-decoration: none;
+        }
+
+        .character-card a:hover {
+            text-decoration: underline;
+        }
+
+        .character-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Notable Myths Section */
+        .myth-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .myth-section img {
+            width: 90%;
+            margin-top: 20px;
+        }
+
+        .key-stories h2 {
+            font-size: 2.5em;
+            color: #ff5722;
+        }
+
+        .key-stories p {
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #C4A484;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-link:hover {
+            background-color: #8B6A4F;
+        }
+
+        /* Hamburger Menu */
+        .hamburger-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .hamburger-menu button {
+            background-color: #C4A484;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.5em;
+        }
+
+        .hamburger-menu button:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #C4A484;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+        }
+
+        .dropdown a {
+            display: block;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown a:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .show-dropdown {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="aztec-theme">
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-image">
+        <div class="hero-text">Aztec Mythology</div>
+    </div>
+
+    <div class="container">
+        <h1>Aztec Mythology Overview</h1>
+
+        <!-- Introduction Section -->
+        <p>
+            In the great city of Tenochtitlán, where temples pierce the heavens and the sun god demands blood to keep the world in motion, Aztec mythology unfolds. At the heart of these beliefs is a deep reverence for the cycles of creation, destruction, and rebirth.
+        </p>
+
+        <img src="mapimages/aztec-symbol.png" alt="Aztec Symbol" class="large-image">
+
+        <div class="highlight">
+            Aztec mythology is rich with tales of gods sacrificing themselves for the world's survival, and humans following suit in a cycle of life, death, and rebirth.
+        </div>
+
+        <blockquote class="pull-quote">"In the face of inevitable destruction, the gods must be nourished with blood, and the sun must rise again."</blockquote>
+
+        <!-- Character Grid for Aztec Mythology -->
+        <h2>Major Figures</h2>
+        <div class="character-grid">
+            <div class="character-card">
+                <h3>Huitzilopochtli</h3>
+                <p>The god of war, the sun, and the patron deity of the Aztecs.</p>
+                <a href="characters.html#huitzilopochtli">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Quetzalcoatl</h3>
+                <p>The feathered serpent god of wind, wisdom, and creation.</p>
+                <a href="characters.html#quetzalcoatl">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Tezcatlipoca</h3>
+                <p>The god of night, sorcery, and chaos.</p>
+                <a href="characters.html#tezcatlipoca">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Tlaloc</h3>
+                <p>The rain god and lord of storms.</p>
+                <a href="characters.html#tlaloc">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Xipe Totec</h3>
+                <p>The god of agriculture, fertility, and renewal.</p>
+                <a href="characters.html#xipe-totec">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Notable Myths Section -->
+        <div class="key-stories">
+            <h2>Notable Myths</h2>
+
+            <!-- The Creation of the Fifth Sun -->
+            <div class="myth-section">
+                <h3>The Creation of the Fifth Sun</h3>
+                <p>
+                    According to Aztec mythology, the world has been destroyed and created four times, each ruled by a different sun. The current age, known as the Fifth Sun, was created by the gods after a great sacrifice.
+                </p>
+                <img src="mapimages/aztec-1.png" alt="Creation of the Fifth Sun" class="large-image">
+            </div>
+
+            <!-- The Journey of Huitzilopochtli -->
+            <div class="myth-section">
+                <h3>The Journey of Huitzilopochtli</h3>
+                <p>
+                    Leading the Aztec people to their homeland, Huitzilopochtli ensured their survival through his guidance and his demand for sacrifices to keep the universe in balance.
+                </p>
+                <img src="mapimages/aztec-2.png" alt="The Journey of Huitzilopochtli" class="large-image">
+            </div>
+
+            <!-- The Struggle Between Quetzalcoatl and Tezcatlipoca -->
+            <div class="myth-section">
+                <h3>The Struggle Between Quetzalcoatl and Tezcatlipoca</h3>
+                <p>
+                    In the cosmic battle between order and chaos, Quetzalcoatl and Tezcatlipoca fought for control over the heavens and the fate of mankind.
+                </p>
+                <img src="mapimages/aztec-3.png" alt="Struggle Between Quetzalcoatl and Tezcatlipoca" class="large-image">
+            </div>
+        </div>
+
+        <a href="map.html" class="back-link">Back to Map</a>
+    </div>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function () {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.classList.toggle('show-dropdown');
+        });
+    </script>
+</body>
+</html>

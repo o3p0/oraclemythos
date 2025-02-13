@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odyssey - Chapter 5: The Land of the Laestrygonians</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/story.css">
+    <script defer src="/scripts/global.js"></script>
+    <script defer src="/scripts/story.js"></script>
+    <script defer src="/scripts/scripts.js"></script>
+
+    <style>
+        #prev-button, #next-button, #back-to-book {
+            background-color: #ffcc00;
+            color: black;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        #prev-button, #next-button {
+            padding: 10px;
+            font-size: 1.5rem;
+        }
+
+        #prev-button:hover, #next-button:hover, #back-to-book:hover {
+            background-color: #e6b800;
+        }
+
+        .teaser-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #back-to-book {
+            position: static;
+            display: inline-block;
+            margin: 20px auto;
+        }
+
+        .hero-overlay {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #ffcc00;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .chapter-section {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn" aria-label="Open Menu">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu"></div>
+    </div>
+
+    <!-- Dynamic Progress Bar -->
+    <div id="progress-bar"></div>
+
+    <!-- Hero Text Above Image -->
+    <div class="hero-overlay">
+        <h1>The Land of the Laestrygonians</h1>
+        <p>"Where giants feast and hope shatters."</p>
+    </div>
+
+    <!-- Hero Section with Navigation Buttons -->
+    <header class="chapter-hero" style="background-image: url('/images/stories/odyssey-laestrygonians.jpg');">
+        <a href="/stories/odyssey-c4.html" id="prev-button">&#8592;</a>
+        <a href="/stories/odyssey-c6.html" id="next-button">&#8594;</a>
+    </header>
+
+    <!-- Chapter Content -->
+    <main class="chapter-content">
+        <section class="chapter-section fade-in">
+            <h2>The Harbor of Doom</h2>
+            <p>After being cast adrift once more, Odysseus and his battered fleet sailed into a bay framed by towering cliffs, its waters calm as glass. The harbor seemed a gift from the gods—narrow, sheltered, and serene. A place to rest, or so it appeared.</p>
+            <p>They anchored their ships within the cove, save for Odysseus’ vessel, which he wisely moored outside the harbor’s mouth—a decision born of instinct, sharpened by the trials already endured.</p>
+            <p>Odysseus sent a small scouting party inland, led by trusted men, to seek aid or supplies. What they found was no haven. They encountered a giantess by a well, who directed them to the palace of her father, King Antiphates.</p>
+            <p>But this was no king of mortal kind.</p>
+        </section>
+
+        <section class="chapter-section fade-in">
+            <h2>Feast of the Giants</h2>
+            <p>When the men entered the halls of the Laestrygonian king, they expected hospitality. Instead, they found horror. Antiphates, towering and monstrous, seized one of Odysseus’ men and devoured him on the spot—flesh torn like bread, bones crushed between jagged teeth.</p>
+            <p>The survivors fled in terror, but the alarm had been raised. Giants poured from the city—Laestrygonians with boulders gripped in hands as large as sails, their roars echoing like thunder through the cliffs.</p>
+            <p>Odysseus watched from his ship as chaos erupted. His men scrambled to escape, but the narrow harbor became a death trap. The giants hurled massive stones, smashing ships as if they were driftwood, the sea turning red with blood. Spears rained down like hail, skewering men before they could reach the water.</p>
+        </section>
+
+        <section class="chapter-section fade-in">
+            <h2>The Survivor’s Curse</h2>
+            <p>Odysseus did not hesitate. Shouting commands, he cut the mooring lines, his ship pulling free while the others were crushed, burned, and sunk. His heart was a furnace of grief, watching his comrades vanish beneath waves and stone.</p>
+            <p>His was the only ship to escape, carried by desperate oars and the haunting cries of the lost. The calm harbor faded behind them, its waters now a graveyard.</p>
+            <p>No gods intervened. No signs from Olympus. Just death—and the bitter taste of survival.</p>
+            <p>But the sea held no comfort, only more shadows on the horizon. Ahead lay Circe’s island, where witchcraft and temptation would test Odysseus in ways even monsters could not.</p>
+        </section>
+    </main>
+
+    <!-- Back to Cover Button -->
+    <section class="teaser-section">
+        <a href="/stories/greek-odyssey.html" id="back-to-book">Cover</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 OracleMythos. All rights reserved.</p>
+    </footer>
+</body>
+</html>

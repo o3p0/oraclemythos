@@ -1,0 +1,209 @@
+[
+  {
+    "id": "zeus",
+    "name": "Zeus",
+    "title": "King of the Gods, Lord of the Sky",
+    "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'> Lord of the Sky and Keeper of Oaths</strong><br><br> <em style='font-size: 1.2em; color: #FFE4B5;'>Thunder rolls across the heavens</em> as Zeus rises, his eyes alight with justice and fury. From his throne on Olympus, he watches all, a king whose word binds gods and mortals alike.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #F5DEB3; background-color: #333333; padding: 10px;'>\"Even the mighty must answer to the storm.\"</blockquote>",
+    "description": "Zeus reigns supreme as the wielder of storms and guardian of justice, shaping the destinies of gods and mortals alike. His power is unparalleled, his authority absolute—but his passions and pride have left marks on the tapestry of time. Zeus is the paradox of strength and vulnerability, order and chaos, whose legends echo through the ages.",
+    "image": "mapimages/zeus.png",
+    "traits": [
+      "Wisdom: 🧠 A strategist and arbiter, Zeus resolves disputes with divine insight, balancing fairness with the weight of eternal law.",
+      "Strength: 💪 With unmatched might, he wields the storm and bends the forces of nature to his will.",
+      "Power: ⚡ His thunderbolt, forged by the Cyclopes, is a symbol of unrivaled divine authority.",
+      "Leadership: 🎯 Zeus’s triumph in the Titanomachy cemented his role as a visionary ruler who shaped the divine order.",
+      "Honor: 🤝 As the enforcer of oaths, Zeus ensures sacred laws are upheld, striking down those who defy them."
+    ],
+    "Legends": [
+      "The Titanomachy: 🏛 Leading his siblings, Zeus overthrew the Titans, establishing the age of the Olympian gods.",
+      "The Great Flood: 🌧 Zeus cleansed a corrupt world with a deluge, sparing only the virtuous Deucalion and Pyrrha to rebuild humanity.",
+      "The Binding of Prometheus: 🔥 When the titan gifted fire to mortals, Zeus condemned him to eternal torment as a warning against defiance.",
+      "Father of Heroes: 👶 Zeus’s mortal children—Heracles, Perseus, and Helen of Troy—left indelible marks on myth and history."
+    ],
+    "Lore": [
+      "The Binding of Ixion: 🔥 Zeus’s justice condemned Ixion, a mortal who betrayed him, to an eternal fiery wheel.",
+      "The Abduction of Europa: 🌩 Disguised as a bull, Zeus carried Europa across the sea, heralding the birth of civilizations.",
+      "The Oak of Dodona: 🌳 Sacred oaks whispered Zeus’s will to those seeking divine guidance at this ancient oracle."
+    ],
+    "quick_facts": {
+      "Parents": "Cronus and Rhea",
+      "Siblings": "Poseidon, Hades, Hera, Demeter, Hestia",
+      "Consort": "Hera (Queen of the Gods), alongside numerous mortal and divine unions",
+      "Children": "Athena, Apollo, Artemis, Persephone, Dionysus, Perseus, Heracles, and more",
+      "Symbols": "Thunderbolt, Eagle, Oak Tree",
+      "Sacred Sites": "Olympia, home of the ancient games in his honor"
+    }
+  }
+   
+  ,
+  {
+    "id": "athena",
+    "name": "Athena",
+    "title": "Goddess of Wisdom, Strategy, and Protector of Athens",
+    "carousel_description": "<strong style='color: #8A2BE2; font-size: 1.5em;'> Goddess of Wisdom and Strategy</strong><br><br> <em style='font-size: 1.2em; color: #9370DB;'>Beneath the olive’s shadow</em>, Athena stands, her spear raised not for conquest but for guidance. With a steady hand and unyielding gaze, she reshapes the fates of cities and civilizations.<br><br> <blockquote style='border-left: 5px solid #8A2BE2; padding-left: 15px; margin-left: 10px; font-style: italic; color: #D8BFD8; background-color: #2E2E2E; padding: 10px;'>\"Wisdom’s blade cuts deeper than war’s fury.\"</blockquote>",
+    "description": "Athena embodies the harmony of intellect and might, a guardian of civilization and a champion of justice. Born fully armored from Zeus’s mind, she symbolizes pure reason, foresight, and unyielding resolve. Her counsel has guided heroes, her gifts nurtured peace, and her actions remind the world that true power lies in wisdom.",
+    "image": "mapimages/athena.png",
+    "traits": [
+      "Wisdom: 🧠 The source of invention and rational thought, Athena inspires ingenuity in gods and mortals alike.",
+      "Courage: ⚔ A fearless defender of justice, she excels in both strategy and battle.",
+      "Strategy: 🎯 Athena’s brilliance in governance and war ensures triumph through insight, not brute force.",
+      "Ingenuity: 🌿 Patron of crafts and architecture, she fosters human creativity and progress.",
+      "Honor: 🤝 As an arbiter of justice, she upholds the laws that govern both gods and men."
+    ],
+    "Legends": [
+      "Her Birth from Zeus: 🏛 Athena emerged fully formed from Zeus’s mind, a testament to her divine intellect and strength.",
+      "The Contest for Athens: 🌳 By gifting the olive tree, Athena secured her patronage of Athens, symbolizing wisdom and prosperity.",
+      "Arachne’s Punishment: 🧵 Transforming the hubristic weaver into a spider, Athena upheld the sanctity of humility and respect for the divine.",
+      "The Trojan War: ⚔ Her guidance to Odysseus and other heroes underscored her role as a strategist and protector."
+    ],
+    "Lore": [
+      "The Parthenon: 🏛 This architectural marvel in Athens stands as an enduring symbol of her patronage.",
+      "Medusa’s Slaying: 🏆 Empowering Perseus, Athena provided the tools to defeat Medusa, reinforcing her role as a guide.",
+      "The Trial of Orestes: ⚖ By establishing the rule of law, Athena replaced vengeance with justice, shaping civilization."
+    ],
+    "quick_facts": {
+      "Parents": "Zeus and Metis (Athena sprang from Zeus after he swallowed Metis)",
+      "Siblings": "Apollo, Artemis, Hermes, Ares, Hephaestus, and others",
+      "Consort": "None (Athena is a virgin goddess, known as Pallas Athena)",
+      "Symbols": "Owl, Olive Tree, Aegis, Gorgon’s Head",
+      "Sacred Sites": "The Acropolis of Athens, particularly the Parthenon"
+    }
+  }
+  ,
+  {
+    "id": "poseidon",
+    "name": "Poseidon",
+    "title": "God of the Sea, Earthquakes, and Horses",
+    "carousel_description": "<strong style='color: #1E90FF; font-size: 1.5em;'> Lord of the Seas and Earth-Shaker</strong><br><br> <em style='font-size: 1.2em; color: #4682B4;'>The waves rise at Poseidon’s call</em>, crashing against stone as his trident strikes the earth. In his wake, the seas both create and destroy, offering life to the humble and ruin to the proud.<br><br> <blockquote style='border-left: 5px solid #1E90FF; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B0C4DE; background-color: #2E2E2E; padding: 10px;'>\"The ocean answers only to its master.\"</blockquote>",
+    "description": "Poseidon rules the oceans with a hand as unpredictable as the tides. His trident commands both creation and destruction, embodying the wild, untamed forces of nature. Known as the Earth-Shaker, Poseidon’s wrath can summon storms, yet his gifts have shaped humanity’s path, from the creation of horses to the navigation of the seas.",
+    "image": "mapimages/poseidon.png",
+    "traits": [
+      "Command: 🌊 Wielder of the trident, Poseidon governs the tides, storms, and calm seas.",
+      "Strength: 💪 His immense power can shift continents and quell the fiercest tempests.",
+      "Wrath: ⚡ Quick to anger, his fury manifests in earthquakes and raging seas.",
+      "Creativity: 🐴 Creator of horses, Poseidon symbolizes grace, speed, and freedom.",
+      "Providence: 🤝 A protector of sailors, he ensures safe passage to those who honor him."
+    ],
+    "Legends": [
+      "The Contest for Athens: 🌪 His saltwater spring rivaled Athena’s olive tree in a bid for the city’s devotion.",
+      "The Creation of Horses: 🐴 Poseidon’s masterwork bridged humanity’s bond with nature.",
+      "The Odyssey: 🔱 His vengeance against Odysseus for blinding Polyphemus forged one of mythology’s greatest epics."
+    ],
+    "Lore": [
+      "Earthshaker: 🌊 His control over earthquakes reflects his dominion over both land and sea.",
+      "Father of Pegasus: 🐴 From Medusa, Poseidon fathered the winged horse, blending grace with divinity.",
+      "Ruler of Storms: 🌪 Poseidon’s temper stirs hurricanes and tsunamis, punishing mortals who defy him."
+    ],
+    "quick_facts": {
+      "Parents": "Cronus and Rhea",
+      "Siblings": "Zeus, Hades, Hera, Demeter, Hestia",
+      "Consort": "Amphitrite, with other mortal and divine unions",
+      "Symbols": "Trident, Horse, Dolphin, Bull",
+      "Sacred Sites": "Corinth and Poseidonia (Paestum), celebrated with grand temples"
+    }
+  }
+  ,
+  {
+    "id": "hades",
+    "name": "Hades",
+    "title": "God of the Underworld and Keeper of Souls",
+    "carousel_description": "<strong style='color: #4B0082; font-size: 1.5em;'> Lord of the Underworld</strong><br><br> <em style='font-size: 1.2em; color: #8B008B;'>In the shadowed depths where no light dares linger</em>, Hades sits upon his throne, unmoved by the passage of time. Cerberus guards the gates, ensuring no soul escapes the fate they deserve.<br><br> <blockquote style='border-left: 5px solid #4B0082; padding-left: 15px; margin-left: 10px; font-style: italic; color: #9370DB; background-color: #2E2E2E; padding: 10px;'>\"In the end, all paths lead to me.\"</blockquote>",
+    "description": "Hades presides over the underworld with solemn authority, embodying the inevitability of death and the balance it brings. Far from a figure of malice, he ensures the natural cycle of life, death, and rebirth remains unbroken. Known as “The Rich One,” he governs not only the souls of the dead but also the treasures hidden beneath the earth. His rule is quiet yet absolute, a reflection of order and eternal justice.",
+    "image": "mapimages/hades.png",
+    "traits": [
+      "Wisdom: 🧠 Hades’s deep understanding of mortality shapes his impartial and just rulings.",
+      "Authority: ⚔ As master of the underworld, he governs the fates of all souls with unyielding resolve.",
+      "Resilience: 💪 Enduring the shadowed burden of his realm, he maintains cosmic balance with unwavering strength.",
+      "Wealth: 🌑 The treasures of the earth, both material and spiritual, are under Hades’s dominion.",
+      "Honor: ⚖ A just ruler, Hades enforces the laws of the afterlife without anger or favoritism.",
+      "Guardian: 🐺 With Cerberus at his side, he protects the boundary between life and death."
+    ],
+    "Legends": [
+      "The Abduction of Persephone: 🌱 Hades brought Persephone to his realm, forging a union that explains the seasons and underscores the duality of life and death.",
+      "The Punishment of Sisyphus: 🪨 For defying death, Sisyphus was condemned to endlessly push a boulder uphill, symbolizing the futility of escape.",
+      "The Underworld’s Rivers: 🔥 Hades’s domain includes the Styx, Lethe, and Acheron, each representing a different aspect of the afterlife."
+    ],
+    "Lore": [
+      "Judgment of Souls: ⚖ Alongside Minos, Rhadamanthus, and Aeacus, Hades ensures the fair judgment of all departed spirits.",
+      "The Helm of Darkness: 🪦 A gift from the Cyclopes, Hades’s helm grants invisibility, reflecting his unseen yet omnipresent power.",
+      "Cerberus: 🐾 The three-headed guardian ensures no soul escapes and no living mortal intrudes upon Hades’s realm."
+    ],
+    "quick_facts": {
+      "Parents": "Cronus and Rhea",
+      "Siblings": "Zeus, Poseidon, Hera, Demeter, Hestia",
+      "Consort": "Persephone, Queen of the Underworld",
+      "Children": "None (Hades and Persephone are rarely depicted as parents)",
+      "Symbols": "Helm of Darkness, Cerberus, Cypress Tree, Narcissus Flower, Bident",
+      "Sacred Sites": "The Necromanteion, an ancient temple dedicated to communicating with the dead"
+    }
+  }
+  ,
+  {
+    "id": "apollo",
+    "name": "Apollo",
+    "title": "God of the Sun, Music, Prophecy, and Healing",
+    "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'> Bringer of Light and Prophecy</strong><br><br> <em style='font-size: 1.2em; color: #FF8C00;'>As dawn breaks over Delphi</em>, Apollo’s golden radiance banishes the shadows. His bow rests in his hand, and his voice carries truths cloaked in riddles. Mortals kneel before him, seeking wisdom to guide their fates.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFA500; background-color: #333333; padding: 10px;'>\"The light reveals, but do you dare to see?\"</blockquote>",
+    "description": "Apollo, radiant and multifaceted, embodies the harmony of intellect, artistry, and divine power. As the god of light and prophecy, his wisdom bridges the mortal and divine. Revered for his perfection in form and skill, he inspires creativity and guides humanity toward enlightenment. Yet, beneath his brilliance lies a god capable of vengeance, his arrows striking with unerring precision and purpose.",
+    "image": "mapimages/apollo.png",
+    "traits": [
+      "Radiance: 🌞 As the god of the sun, Apollo illuminates the world, bringing clarity and life.",
+      "Artistry: 🎶 His mastery of the lyre and poetry inspires harmony and creative expression.",
+      "Prophecy: 🔮 Through the Oracle of Delphi, Apollo reveals the future, guiding kings and mortals alike.",
+      "Healing: 🌿 A powerful healer, Apollo brings balance and cures through sacred rituals.",
+      "Precision: 🏹 His unmatched skill with the bow reflects his ability to protect or punish with divine accuracy.",
+      "Honor: 🤝 A champion of truth and justice, Apollo upholds moral and cosmic integrity."
+    ],
+    "Legends": [
+      "The Chariot of the Sun: 🌞 Apollo drives the sun across the sky, bringing light to the world and maintaining its rhythm.",
+      "The Fall of Niobe: 🏹 When Queen Niobe insulted Leto, Apollo and Artemis avenged their mother, demonstrating his fierce loyalty and divine retribution.",
+      "Oracle of Delphi: 🔮 At his sacred temple, mortals sought guidance from Apollo through his priestess, the Pythia."
+    ],
+    "Lore": [
+      "The God of Music: 🎶 Apollo’s lyre, crafted by Hermes, symbolizes the divine harmony he brings to both mortals and gods.",
+      "The Laurel Tree: 🌱 When Daphne transformed into a laurel to escape him, Apollo declared it sacred, a symbol of honor and triumph.",
+      "The Healer: 🌿 Apollo’s son, Asclepius, became the god of medicine, extending his legacy of healing and restoration."
+    ],
+    "quick_facts": {
+      "Parents": "Zeus and Leto",
+      "Siblings": "Twin sister, Artemis",
+      "Consorts": "Numerous, including Daphne, Coronis, and Hyacinthus",
+      "Children": "Asclepius (god of medicine), Troilus, Orpheus, and others",
+      "Symbols": "Lyre, Bow and Arrow, Laurel Tree, Sun, Raven",
+      "Sacred Sites": "Delphi, where the Oracle of Apollo offered prophecy and guidance"
+    }
+  }
+  ,
+  {
+    "id": "hermes",
+    "name": "Hermes",
+    "title": "Messenger of the Gods, Patron of Commerce and Travelers",
+    "carousel_description": "<strong style='color: #FF4500; font-size: 1.5em;'>Hermes: The Swift Messenger</strong><br><br> <em style='font-size: 1.2em; color: #FFD700;'>With a flash of winged sandals</em>, Hermes weaves between realms, his laughter echoing like wind through the trees. Mortals glimpse only his shadow—swift, clever, and always just out of reach.<br><br> <blockquote style='border-left: 5px solid #FF4500; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFA500; background-color: #333333; padding: 10px;'>\"The journey shapes the traveler as much as the destination.\"</blockquote>",
+    "description": "Hermes, the swift-footed herald of Olympus, bridges worlds with unmatched speed and cunning. As a guide for travelers and souls alike, he ensures the flow of journeys, trade, and communication. Known for his mischievous wit and adaptability, Hermes is both a trickster and a protector, embodying transformation, ingenuity, and the boundless freedom of movement.",
+    "image": "mapimages/hermes.png",
+    "traits": [
+      "Ingenuity: 🧠 Hermes’s clever mind fuels invention, persuasion, and strategic thinking.",
+      "Agility: 🦶 With his winged sandals, he traverses realms effortlessly, connecting gods and mortals.",
+      "Courage: ⚔ As the psychopomp, Hermes fearlessly escorts souls to the underworld and protects travelers from harm.",
+      "Versatility: ⚡ A master of adaptation, Hermes thrives in any situation, symbolizing transformation and opportunity.",
+      "Trickery: 🎯 Playful and cunning, his pranks often reveal profound truths and wisdom.",
+      "Loyalty: 🤝 Though mischievous, Hermes is devoted to his role, ensuring messages and souls reach their intended destinations."
+    ],
+    "Legends": [
+      "The Theft of Apollo’s Cattle: 🐄 As an infant, Hermes stole Apollo’s cattle but won forgiveness by gifting him the lyre, showcasing his charm and ingenuity.",
+      "Messenger of the Gods: ✉️ Hermes serves as the divine herald, delivering decrees from Zeus and mediating disputes among gods and mortals.",
+      "Guide of Souls: 🏛 Known as “Psychopomp,” Hermes safely leads souls to the underworld, bridging life and death."
+    ],
+    "Lore": [
+      "Winged Sandals and Helmet: 🦶 His Talaria and winged helmet embody speed and freedom, allowing him to traverse worlds unseen.",
+      "Creator of the Lyre: 🎶 Hermes crafted the lyre from a tortoise shell, gifting it to Apollo and earning his place among the gods of music.",
+      "Protector of Travelers: 🏞 Hermes ensures safe passage and success for those venturing into the unknown, making him a patron of movement and exploration."
+    ],
+    "quick_facts": {
+      "Parents": "Zeus and Maia (a Pleiad nymph)",
+      "Siblings": "Apollo, Artemis, Athena, Ares, Hephaestus, Dionysus, and others",
+      "Consorts": "Includes Aphrodite, Penelopeia, and Herse",
+      "Children": "Pan, Hermaphroditus, Abderus, and others",
+      "Symbols": "Caduceus (staff), Winged Sandals, Winged Helmet, Tortoise, Rooster",
+      "Sacred Sites": "Mount Cyllene in Arcadia, his birthplace, where he was honored as the god of transitions and boundaries"
+    }
+  }  
+]

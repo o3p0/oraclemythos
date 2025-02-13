@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perseus and Medusa - Greek Mythology</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/story.css">
+    <script defer src="/scripts/global.js"></script>
+    <script defer src="/scripts/story.js"></script>
+    <script defer src="/scripts/stories.js"></script>
+    <script defer src="/scripts/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        .hero-overlay {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #4caf50;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .chapter-card {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            transition: transform 0.3s ease;
+            margin: 10px;
+        }
+
+        .chapter-card:hover {
+            transform: scale(1.05);
+        }
+
+        .chapter-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .chapters-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        #back-to-stories {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin: 20px auto;
+        }
+
+        #back-to-stories:hover {
+            background-color: #e6b800;
+        }
+
+        footer {
+            text-align: center;
+            color: #e0e0e0;
+            background-color: #1a1a1a;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body data-book-id="perseus-medusa">
+    <!-- Hero Section -->
+    <div class="hero-overlay">
+        <h1>Perseus and Medusa</h1>
+        <p>"The hero who dared to face the Gorgon."</p>
+    </div>
+
+    <header class="chapter-hero" style="background-image: url('/images/stories/perseus-hero.jpg');"></header>
+
+    <!-- Chapter Cards -->
+    <main class="chapters-container">
+        <!-- Placeholder for future chapters -->
+        <div class="chapter-card">
+            <a href="/stories/perseus-c1.html">
+                <img src="/images/stories/perseus-c1.jpg" alt="Chapter 1">
+                <h3>Chapter 1: The Prophecy of Doom</h3>
+                <p>A curse foretold sets a hero’s journey in motion.</p>
+            </a>
+        </div>
+
+        <div class="chapter-card">
+            <a href="/stories/perseus-c2.html">
+                <img src="/images/stories/perseus-c2.jpg" alt="Chapter 2">
+                <h3>Chapter 2: The Gifts of the Gods</h3>
+                <p>Divine tools forged for an impossible quest.</p>
+            </a>
+        </div>
+
+        <div class="chapter-card">
+            <a href="/stories/perseus-c3.html">
+                <img src="/images/stories/perseus-c3.jpg" alt="Chapter 3">
+                <h3>Chapter 3: The Gorgon’s Lair</h3>
+                <p>In the shadows, Perseus faces Medusa’s deadly gaze.</p>
+            </a>
+        </div>
+
+        <div class="chapter-card">
+            <a href="/stories/perseus-c4.html">
+                <img src="/images/stories/perseus-c4.jpg" alt="Chapter 4">
+                <h3>Chapter 4: Triumph and Return</h3>
+                <p>From stone to glory, Perseus shapes his legend.</p>
+            </a>
+        </div>
+    </main>
+
+    <!-- Back to Stories Button -->
+    <div style="text-align: center;">
+        <a href="/stories.html" id="back-to-stories">Back to Stories</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 OracleMythos. All rights reserved.</p>
+    </footer>
+</body>
+</html>

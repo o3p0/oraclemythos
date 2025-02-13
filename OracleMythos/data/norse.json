@@ -1,0 +1,186 @@
+[
+  {
+    "id": "odin",
+    "name": "Odin",
+    "title": "The Allfather, God of Wisdom and War",
+    "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'>The One-Eyed Seeker of Wisdom</strong><br><br> <em style='font-size: 1.2em; color: #FFE4B5;'>Beneath the shadow of Yggdrasil</em>, Odin gazed into Mimir’s well, his reflection broken by rippling waters. With unwavering resolve, he cast his eye into the depths, trading sight for the boundless wisdom of the cosmos.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #F5DEB3; background-color: #333333; padding: 10px;'>\"Knowledge demands a sacrifice only the brave can bear.\"</blockquote>",
+    "description": "Odin, the Allfather and ruler of Asgard, embodies the relentless pursuit of knowledge and the burden of leadership. Revered as a sage, warrior, and master of fate, he is a god of paradoxes—both creator and destroyer, protector and harbinger of doom. Through sacrifice and foresight, Odin weaves the threads of destiny, preparing for the ultimate battle at Ragnarok, where even gods meet their end.",
+    "image": "mapimages/odin.png",
+    "traits": [
+      "Wisdom: 🧠 Odin sacrificed his eye at Mimir’s well and endured nine days on Yggdrasil to gain unmatched knowledge of the cosmos.",
+      "Courage: ⚔ Despite foreseeing his death, Odin faces Ragnarok with unflinching resolve.",
+      "Strategy: 🎯 A visionary tactician, Odin’s plans shape the fates of gods, men, and realms.",
+      "Prophecy: 🔮 As the seer of the future, he works tirelessly to prepare for the final apocalyptic clash.",
+      "Leadership: 🐺 Odin gathers and inspires gods, warriors, and mortals, earning loyalty through honor and insight.",
+      "Honor: 🤝 As the keeper of Valhalla, he rewards bravery and valor above all."
+    ],
+    "Legends": [
+      "The Well of Wisdom: 🕊 In pursuit of knowledge, Odin sacrificed his eye to drink from Mimir’s well, gaining insight into the past, present, and future.",
+      "Ragnarok: ⚔ Odin assembles the einherjar (fallen warriors) in Valhalla to stand beside him in the ultimate battle, where he will confront the monstrous wolf Fenrir.",
+      "The Creation of the World: 🏛 Alongside Vili and Vé, Odin forged the world from the giant Ymir, shaping the foundations of existence itself."
+    ],
+    "Lore": [
+      "Hugin and Munin: 🦉 His ravens, 'Thought' and 'Memory,' traverse the nine realms, gathering knowledge to guide Odin’s decisions.",
+      "Sleipnir: 🐴 The eight-legged steed, born of Loki’s cunning, carries Odin across the cosmos with unmatched speed.",
+      "The Valkyries: ⚔ These warrior maidens, chosen by Odin, select the bravest fallen to join the ranks of Valhalla, ensuring their place in Ragnarok."
+    ],
+    "quick_facts": {
+      "Parents": "Borr and Bestla",
+      "Consort": "Frigg, queen of Asgard",
+      "Children": "Thor, Baldr, Höðr, Víðarr, Váli, and others",
+      "Symbols": "Ravens, Wolves, Spear (Gungnir), Sleipnir",
+      "Sacred Sites": "Gladsheim, Odin’s hall in Asgard, and Valhalla, the resting place of heroes"
+    }
+  }
+  ,
+    
+      {
+        "id": "thor",
+        "name": "Thor",
+        "title": "God of Thunder, Strength, and Protector of Realms",
+        "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'>The Thunderer, Defender of Asgard</strong><br><br> <em style='font-size: 1.2em; color: #FFE4B5;'>The heavens thunder as Thor charges forward</em>, Mjölnir crackling with untamed lightning. Giants falter beneath his fury, and the earth quakes as his hammer strikes.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #F5DEB3; background-color: #333333; padding: 10px;'>\"Chaos meets its end in the hand of the unyielding.\"</blockquote>",
+        "description": "Thor, Asgard’s mightiest warrior, wields the storm with unmatched strength and unwavering loyalty. Armed with Mjölnir, the enchanted hammer, he shields gods and mortals alike from the chaos of giants and monsters. Fierce yet beloved, Thor embodies the raw power of storms and the steadfast duty of a protector, standing as a bulwark against destruction.",
+        "image": "mapimages/thor.png",
+        "traits": [
+          "Power: ⚡ Thor channels the energy of storms, his hammer capable of leveling mountains and crushing giants.",
+          "Strength: 💪 With unparalleled physical might, Thor’s feats in battle are the stuff of legend.",
+          "Courage: ⚔ Thor charges into danger without hesitation, facing even his destined death at Ragnarok with bravery.",
+          "Thunder: 🌩 Heralded by the roar of storms, Thor commands lightning and the winds of the heavens.",
+          "Protector: 🎯 As guardian of Asgard and Midgard, Thor tirelessly battles to preserve cosmic order.",
+          "Honor: 🤝 Thor’s sense of duty and justice drives his actions, ensuring he fights for what is right.",
+          "Temper: 🔥 His fiery nature fuels his ferocity in battle, making him a relentless opponent.",
+          "Loyalty: 🦅 Thor’s devotion to his family, friends, and the realms of Asgard defines his role as a stalwart defender."
+        ],
+        "Legends": [
+          "Mjölnir: ⚒️ Forged by the dwarves, Thor’s hammer is both a devastating weapon and a symbol of divine protection. It sanctifies, protects, and destroys.",
+          "The Battle with Jörmungandr: 🐍 At Ragnarok, Thor confronts the World Serpent, slaying it with Mjölnir but succumbing to its venom in a final act of heroism.",
+          "The Binding of Loki: ⚔ Thor played a pivotal role in capturing Loki after Baldr’s death, ensuring the trickster’s punishment for his betrayal.",
+          "Thor’s Magical Feasts: 🍲 His goats, Tanngrisnir and Tanngnjóstr, provide endless sustenance, resurrected by Mjölnir after each meal."
+        ],
+        "Lore": [
+          "Chariot of Goats: 🐐 Pulled by Tanngrisnir and Tanngnjóstr, Thor’s chariot symbolizes his unstoppable force and his bond with nature.",
+          "Protector of Midgard: 🌍 Thor’s battles against the giants and monsters safeguard the human world, endearing him to mortals.",
+          "Ragnarok’s Hero: 🌪 Thor’s role in Ragnarok epitomizes his bravery, even as he faces his prophesied death.",
+          "Giant Slayer: ⚔ Thor’s relentless war against the Jötnar ensures the preservation of cosmic balance and the safety of Asgard."
+        ],
+        "quick_facts": {
+          "Parents": "Odin and Fjörgyn (Earth goddess)",
+          "Siblings": "Baldr, Víðarr, Váli, Höðr, and others",
+          "Consort": "Sif, goddess of fertility and harvest",
+          "Children": "Magni, Modi (sons), and Þrúðr (daughter)",
+          "Symbols": "Mjölnir (Hammer), Lightning, Goats (Tanngrisnir and Tanngnjóstr), Oak Trees",
+          "Sacred Sites": "Thor’s temples were widespread throughout Scandinavia, where he was revered as a protector of humanity"
+        }
+      }      
+    ,
+    {
+      "id": "loki",
+      "name": "Loki",
+      "title": "The Trickster God, Master of Mischief and Change",
+      "carousel_description": "<strong style='color: #FF4500; font-size: 1.5em;'>The Trickster, Weaver of Chaos</strong><br><br> <em style='font-size: 1.2em; color: #FFA500;'>Firelight dances in Loki’s eyes</em>, his smile a riddle as the threads of his schemes entwine. Wherever he walks, balance falters, and change rises from the ashes.<br><br> <blockquote style='border-left: 5px solid #FF4500; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFD700; background-color: #333333; padding: 10px;'>\"Chaos is the spark that ignites creation—and ruin.\"</blockquote>",
+      "description": "Loki, the enigmatic trickster of Norse mythology, is both a force of creation and destruction. Known for his sharp wit, cunning schemes, and unpredictable nature, he defies order to bring about transformation. Though a figure of chaos, Loki is also a vital catalyst in the myths, his actions often driving the gods toward their fates. Loved and loathed in equal measure, Loki embodies the duality of ingenuity and betrayal, a constant reminder of the fragile balance between order and disorder.",
+      "image": "mapimages/loki.png",
+      "traits": [
+        "Cunning: 🧠 Loki’s intelligence and resourcefulness make him a master of manipulation and invention.",
+        "Mischief: 🔥 As the god of chaos, Loki’s pranks and schemes often sow discord—but sometimes lead to unexpected resolution.",
+        "Shapeshifting: 🎭 Loki’s ability to change form highlights his adaptability and the fluidity of his nature.",
+        "Instigator: ⚡ Loki’s actions spark many of the gods’ greatest challenges, forcing them to grow stronger.",
+        "Ingenuity: 🤝 His cleverness has saved the gods as often as it has betrayed them.",
+        "Rebellion: ⚔ Loki’s defiance of convention and order drives his complex relationships with the gods."
+      ],
+      "Legends": [
+        "The Binding of Fenrir: 🔥 Loki fathered the monstrous wolf Fenrir, whose uncontainable power led the gods to bind him until Ragnarok.",
+        "The Birth of Sleipnir: 🐴 In a scheme to protect Asgard, Loki transformed into a mare, giving birth to Sleipnir, Odin’s eight-legged steed.",
+        "The Death of Baldr: 🌑 Loki orchestrated Baldr’s death by tricking Höðr, sparking the chain of events leading to Ragnarok.",
+        "Loki’s Punishment: ⚔ After betraying the gods, Loki was bound beneath the earth with venom dripping onto him as eternal retribution."
+      ],
+      "Lore": [
+        "Catalyst of Ragnarok: 🔥 Loki’s actions, including fathering monsters like Fenrir and Jörmungandr, set the stage for the world’s end.",
+        "Shapeshifting Deceiver: 🎭 Loki’s transformations—from a fish to a mare—demonstrate his unparalleled adaptability and cunning.",
+        "The Serpent’s Venom: 🐍 As punishment for his betrayal, Loki’s binding beneath the earth reflects the gods’ need to contain his chaotic influence."
+      ],
+      "quick_facts": {
+        "Parents": "Fárbauti (a jötunn) and Laufey",
+        "Siblings": "Helblindi and Býleistr",
+        "Consort": "Sigyn, who remains loyal even after his fall",
+        "Children": "Fenrir (the wolf), Jörmungandr (the World Serpent), Hel (ruler of the underworld), and Sleipnir (Odin’s eight-legged steed)",
+        "Symbols": "Fire, Serpents, Knots, Shapeshifting",
+        "Sacred Sites": "Loki has no temples, but his myths permeate Norse storytelling as warnings and lessons"
+      }
+    }
+    ,
+    {
+      "id": "freyja",
+      "name": "Freyja",
+      "title": "Goddess of Love, Beauty, War, and Fertility",
+      "carousel_description": "<strong style='color: #FF69B4; font-size: 1.5em;'>Goddess of Love, War, and Seidr</strong><br><br> <em style='font-size: 1.2em; color: #FFB6C1;'>Under the aurora’s glow</em>, Freyja rides her chariot pulled by golden cats, her falcon cloak shimmering in the night. Her magic entwines fate, her passion ignites hearts, and her strength commands battlefields.<br><br> <blockquote style='border-left: 5px solid #FF69B4; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFD700; background-color: #333333; padding: 10px;'>\"Love and war are but two sides of the same coin.\"</blockquote>",
+      "description": "Freyja, radiant and fierce, embodies the powerful duality of love and war, passion and strength. As a goddess of fertility, she blesses the earth with abundance, yet she is also a fearsome warrior, claiming fallen heroes for her hall, Fólkvangr. A master of sorcery and a seeker of lost love, Freyja’s golden tears and her prized necklace, Brísingamen, reflect her deep connection to beauty, desire, and the mysteries of magic.",
+      "image": "mapimages/freyja.png",
+      "traits": [
+        "Love and Beauty: 💕 Freyja embodies romance, passion, and the irresistible allure of beauty.",
+        "Courage: ⚔ A battlefield goddess, Freyja fearlessly selects the bravest warriors for her hall.",
+        "Fertility: 🌾 As a goddess of abundance, she is invoked for blessings over crops, animals, and family.",
+        "Magic: 🔮 Freyja’s mastery of Seidr, a powerful Norse magic, bends fate and reveals hidden truths.",
+        "Protection: 🛡 Freyja shields warriors and lovers alike, offering her guidance and strength.",
+        "Death: 💀 As the chooser of the slain, Freyja presides over Fólkvangr, where the honored dead find peace.",
+        "Shapeshifting: 🦅 With her falcon cloak, Freyja soars across realms, bridging worlds with grace.",
+        "Wealth: 💰 Her tears turn to gold, symbolizing her longing for her lost husband and her ties to treasures."
+      ],
+      "Legends": [
+        "Battlefield Selection: ⚔ Freyja claims half of all fallen warriors, bringing them to her hall, Fólkvangr, where they rest and train for Ragnarok.",
+        "Brísingamen Necklace: 🌿 Forged by dwarves, her prized necklace represents her beauty and the lengths she will go to claim what she desires.",
+        "The Magic of Seidr: 🧙 Freyja introduced the powerful sorcery of Seidr to the Aesir, even teaching Odin its secrets.",
+        "Search for Óðr: ⚔ Freyja’s love for her elusive husband drives her through the realms, her golden tears falling as she weeps for him."
+      ],
+      "Lore": [
+        "Fólkvangr: 🌺 Freyja’s hall, a peaceful haven distinct from Valhalla, is where the honored dead find rest under her care.",
+        "Falcon Cloak: 🦅 Freyja’s magical cloak allows her to transform into a falcon and traverse the nine realms.",
+        "The Vanir Connection: 🏰 Freyja’s Vanir origins tie her to fertility and nature, and her life among the Aesir bridges the two divine clans.",
+        "Golden Tears: 💀 Her grief over Óðr is immortalized in her golden tears, embodying the intertwining of love and wealth."
+      ],
+      "quick_facts": {
+        "Parents": "Njord (god of the sea and wealth) and Nerthus (goddess of fertility)",
+        "Siblings": "Freyr, her twin brother, associated with fertility, prosperity, and peace",
+        "Consort": "Óðr, her elusive husband, whose absence inspires Freyja’s search and sorrow",
+        "Children": "Hnoss and Gersemi, daughters renowned for their beauty",
+        "Symbols": "Necklace (Brísingamen), Falcon Cloak, Cats, Boar (Hildisvíni), Chariot pulled by cats",
+        "Sacred Sites": "Freyja was worshipped throughout Scandinavia, where she was revered for her blessings of love and fertility"
+      }
+    }
+    ,
+    {
+      "id": "fenrir",
+      "name": "Fenrir",
+      "title": "The Monstrous Wolf, Destroyer of Worlds",
+      "carousel_description": "<strong style='color: #8B0000; font-size: 1.5em;'>The Bound Wolf, Herald of Ragnarok</strong><br><br> <em style='font-size: 1.2em; color: #FF6347;'>Chains groan and splinter</em> as Fenrir’s fury grows. His jaws stretch wide enough to devour the sun, and his howls echo across the nine realms—a warning of the chaos to come.<br><br> <blockquote style='border-left: 5px solid #8B0000; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFD700; background-color: #333333; padding: 10px;'>\"The wolf waits, for even the strongest bonds will one day break.\"</blockquote>",
+      "description": "Fenrir, the great wolf of Norse myth, is both a symbol of raw, untamed power and the inevitability of fate. Born of Loki and prophesied to bring the downfall of the gods, Fenrir’s might was so feared that the Aesir bound him with enchanted chains. Yet his destiny cannot be denied—for when Ragnarok dawns, Fenrir will break free, devour Odin, and herald the end of an age.",
+      "image": "mapimages/fenrir.png",
+      "traits": [
+        "Power: 🐺 Fenrir’s strength is unparalleled, his jaws capable of shattering gods and devouring celestial bodies.",
+        "Fury: ⚔ A force of relentless rage, Fenrir embodies the chaos that the gods seek to control.",
+        "Inevitability: 🔗 Bound by fearsome chains, Fenrir’s eventual escape signifies the inescapable march of fate.",
+        "Darkness: 🌑 Fenrir’s role in devouring the sun and slaying Odin cements him as a harbinger of destruction.",
+        "Loyalty: 🛡 Despite his rage, Fenrir’s initial trust in the gods reveals a tragic betrayal that fuels his vengeance.",
+        "Prophecy: 🔥 Fenrir’s existence is intertwined with Ragnarok, representing the cyclical nature of creation and destruction."
+      ],
+      "Legends": [
+        "The Binding of Fenrir: 🔗 The gods, fearing his strength, tricked Fenrir into being bound with Gleipnir, a magical chain forged by dwarves from impossibilities like a cat’s footsteps and a fish’s breath.",
+        "The Betrayal of Tyr: ⚔ To bind Fenrir, Tyr placed his hand in the wolf’s jaws as a show of trust. When the chains tightened, Fenrir bit off Tyr’s hand in fury.",
+        "Ragnarok’s Devourer: 🌑 At the end of days, Fenrir will break free, slay Odin, and devour the sun, plunging the world into darkness."
+      ],
+      "Lore": [
+        "Harbinger of Chaos: 🌪 Fenrir’s escape from his bindings marks the beginning of Ragnarok, signaling the destruction of the old world to make way for the new.",
+        "Gleipnir’s Magic: 🔗 The unbreakable chain represents the gods’ desperate attempt to control the uncontrollable.",
+        "Odin’s Slayer: ⚔ Fenrir’s destined role as Odin’s destroyer underscores the inevitability of fate in Norse mythology."
+      ],
+      "quick_facts": {
+        "Parents": "Loki and Angrboða (a jötunn)",
+        "Siblings": "Jörmungandr (the World Serpent) and Hel (ruler of the underworld)",
+        "Offspring": "Sköll (chases the sun) and Hati (chases the moon)",
+        "Symbols": "Chains, Wolves, Destruction, Darkness",
+        "Sacred Sites": "Fenrir has no temples, but his story is woven into the mythology of Ragnarok and cosmic destruction"
+      }
+    }
+    
+  ]
+  

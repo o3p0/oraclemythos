@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norse Mythology - OracleMythos</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <style>
+        body.norse-theme {
+            background-color: black;
+            color: white;
+            font-family: 'Lora', serif;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+            border: 2px solid #C5A253;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1, h2 {
+            font-family: 'Cinzel', serif;
+            color: #C5A253;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 1px solid #C5A253;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #C5A253;
+            margin-top: 20px;
+            transition: color 0.3s ease;
+        }
+
+        h3:hover {
+            color: #ff5722;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: rgba(255, 87, 34, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .pull-quote {
+            font-size: 1.3em;
+            margin: 30px 0;
+            color: #C5A253;
+            text-align: center;
+            font-style: italic;
+            border-left: 5px solid #ff5722;
+            padding-left: 15px;
+        }
+
+        .descriptive {
+            font-style: italic;
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .hero-image {
+            background-image: url('mapimages/norse-hero.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            background-attachment: fixed;
+            border-bottom: 2px solid #C5A253;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px 5px black;
+            font-family: 'Cinzel', serif;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .large-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #2F5D50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-link:hover {
+            background-color: #C5A253;
+        }
+
+        /* Character Grid */
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .character-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .character-card h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .character-card p {
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        .character-card a {
+            color: #ff5722;
+            text-decoration: none;
+        }
+
+        .character-card a:hover {
+            text-decoration: underline;
+        }
+
+        .character-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Notable Myths Section */
+        .myth-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .myth-section img {
+            width: 90%;
+            margin-top: 20px;
+        }
+
+        /* Hamburger Menu */
+        .hamburger-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .hamburger-menu button {
+            background-color: #C5A253;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.5em;
+        }
+
+        .hamburger-menu button:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #C5A253;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+        }
+
+        .dropdown a {
+            display: block;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown a:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .show-dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body class="norse-theme">
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section with Parallax -->
+    <div class="hero-image">
+        <div class="hero-text">Norse Mythology</div>
+    </div>
+
+    <div class="container">
+        <h1>Norse Mythology</h1>
+
+        <p>
+            At the edge of the Nine Realms, where gods walk with mortals and giants loom in the shadows, the threads of fate are woven, and all beings prepare for the twilight of the gods—Ragnarok.
+        </p>
+
+        <!-- Norse Symbol Image -->
+        <img src="mapimages/norse-symbol.png" alt="Norse Symbol" class="large-image">
+
+        <div class="highlight">
+            Norse mythology is filled with sagas of bravery, betrayal, and destiny, reflecting the Vikings' view of a harsh and unpredictable world.
+        </div>
+
+        <blockquote class="pull-quote">"In the realm of thunderous skies and ancient oaths, the gods are bound to meet their doom—yet still, they fight."</blockquote>
+
+        <h2>Major Figures</h2>
+
+        <!-- Character Grid for Norse Mythology -->
+        <div class="character-grid">
+            <div class="character-card">
+                <h3>Odin</h3>
+                <p>The Allfather, god of wisdom and war, who sacrificed his eye for knowledge.</p>
+                <a href="characters.html#odin">Learn More</a>
+            </div>
+        
+            <div class="character-card">
+                <h3>Thor</h3>
+                <p>The protector of gods and men, wielding his mighty hammer Mjölnir.</p>
+                <a href="characters.html#thor">Learn More</a>
+            </div>
+        
+            <div class="character-card">
+                <h3>Loki</h3>
+                <p>The cunning trickster, whose actions both help and doom the gods.</p>
+                <a href="characters.html#loki">Learn More</a>
+            </div>
+        
+            <div class="character-card">
+                <h3>Freyja</h3>
+                <p>Goddess of love, war, and beauty, riding into battle and choosing the fallen warriors.</p>
+                <a href="characters.html#freyja">Learn More</a>
+            </div>
+        
+            <div class="character-card">
+                <h3>Fenrir</h3>
+                <p>The monstrous wolf prophesied to devour Odin during Ragnarok.</p>
+                <a href="characters.html#fenrir">Learn More</a>
+            </div>
+        </div>
+        
+        
+
+        <!-- Notable Myths Section -->
+        <div class="key-stories">
+            <h2>Notable Myths</h2>
+
+            <!-- Creation Myth -->
+            <div class="myth-section">
+                <h3>Creation of the World</h3>
+                <p>
+                    From the void, a great frost giant named Ymir arose. When he was slain by Odin and his brothers, his body became the world—the earth from his flesh, the mountains from his bones, and the oceans from his blood.
+                </p>
+                <img src="mapimages/norse-1.png" alt="Creation of the World" class="large-image">
+            </div>
+
+            <!-- Ragnarok Myth -->
+            <div class="myth-section">
+                <h3>Ragnarok</h3>
+                <p>
+                    The end of the world is foretold in Norse myth. A great battle between gods and giants will shatter the realms.
+                </p>
+                <img src="mapimages/norse-2.png" alt="Ragnarok" class="large-image">
+            </div>
+
+            <!-- Fenrir Myth -->
+            <div class="myth-section">
+                <h3>Fenrir's Prophecy</h3>
+                <p>
+                    Fenrir, the monstrous wolf, is prophesied to kill Odin during Ragnarok. The gods bound him with a magical ribbon, knowing that one day, he will break free and devour their king.
+                </p>
+                <img src="mapimages/norse-3.png" alt="Fenrir" class="large-image">
+            </div>
+        </div>
+
+        <a href="map.html" class="back-link">Back to Map</a>
+    </div>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function () {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.classList.toggle('show-dropdown');
+        });
+    </script>
+</body>
+</html>

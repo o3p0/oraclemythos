@@ -1,0 +1,204 @@
+[
+    {
+        
+            "id": "ra",
+            "name": "Ra",
+            "title": "The Sun God and Supreme Deity of Ancient Egypt",
+            "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'>The Sun God, Keeper of the Eternal Cycle</strong><br><br> <em style='font-size: 1.2em; color: #FFB84D;'>From dawn’s first light to the shadows of dusk</em>, Ra’s solar barque sails the heavens, his brilliance igniting the skies. Each night, he descends into the underworld, his light waging battle against chaos.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFE4B5; background-color: #8B4513; padding: 10px;'>\"In every rising sun lies the promise of renewal.\"</blockquote>",
+            "description": "Ra, the radiant sun god, is the creator and sustainer of life in Egyptian mythology. Revered as the supreme deity, he commands the sun’s journey across the sky, bringing light and life to the world. Each night, Ra battles the serpent of chaos in the underworld, ensuring the sun’s rebirth at dawn. As the embodiment of creation, order, and divine power, Ra holds a central place in Egyptian cosmology, his light symbolizing the triumph of life over darkness.",
+            "image": "mapimages/ra.png",
+            "traits": [
+                "Sun: 🌞 Ra governs the sun’s journey, embodying light, creation, and the life cycle.",
+                "Creation: 🌌 As the creator god, Ra brought the universe, gods, and living beings into existence, ensuring cosmic harmony.",
+                "Strength: 💪 His power drives life and defends the cosmos against chaos.",
+                "Power: ⚡ As the supreme deity, Ra’s authority extends over gods and mortals, representing ultimate divine strength.",
+                "Strategy: 🎯 Ra’s nightly battle with Apep reflects his unwavering resolve to uphold order.",
+                "Civilization: 🌍 Protector of Egypt, Ra’s influence ensures harmony and prosperity for his people."
+            ],
+            "Legends": [
+                "The Creation of the World: 🕊 Emerging from the primordial waters of Nun, Ra brought light to the universe, creating gods, humans, and nature, establishing cosmic order.",
+                "The Battle with Apep: ⚔ Each night, Ra journeys through the underworld on his solar barque, where he battles the chaos serpent Apep to ensure the sun’s rebirth. His victory symbolizes the triumph of order over chaos.",
+                "The Eye of Ra: 🏛 Ra sent his fiery eye, personified as Sekhmet, to punish humanity’s disobedience, showcasing his power and wrath."
+            ],
+            "Lore": [
+                "The Solar Journey: 🌞 Ra’s daily voyage across the sky represents life, while his underworld journey symbolizes death and renewal.",
+                "Creator of the Gods: 🌌 Ra fathered many deities, including Shu (air), Tefnut (moisture), Geb (earth), and Nut (sky), who helped shape the universe.",
+                "Protector of Ma’at: 🛡 Ra’s existence upholds Ma’at, the concept of cosmic balance and truth, ensuring universal harmony."
+            ],
+            "quick_facts": {
+                "Parents": "Self-created or born from the waters of Nun.",
+                "Consort": "Hathor, sometimes depicted as his companion or daughter.",
+                "Symbols": "Solar Disk, Falcon, Scarab, Sun Barque.",
+                "Sacred Sites": "Heliopolis (City of the Sun) was Ra’s primary cult center, where he was worshipped as the supreme deity."
+            }
+        },
+   
+        {
+            "id": "osiris",
+            "name": "Osiris",
+            "title": "God of the Afterlife, Resurrection, and Fertility",
+            "carousel_description": "<strong style='color: #32CD32; font-size: 1.5em;'>Lord of the Dead, God of Resurrection</strong><br><br> <em style='font-size: 1.2em; color: #98FB98;'>In the shadowed halls of the underworld</em>, Osiris reigns, his green visage glowing with the promise of renewal. Betrayed and reborn, he stands as the eternal judge, where life flows unbroken through death.<br><br> <blockquote style='border-left: 5px solid #32CD32; padding-left: 15px; margin-left: 10px; font-style: italic; color: #ADFF2F; background-color: #2F4F4F; padding: 10px;'>\"From every ending springs a new beginning.\"</blockquote>",
+            "description": "Osiris, the god of resurrection and fertility, holds a central place in Egyptian mythology as the ruler of the underworld and the judge of the dead. Betrayed by his brother Set and resurrected by his wife Isis, Osiris symbolizes the enduring cycles of life, death, and rebirth. His governance of the afterlife ensures the balance of Ma’at, the cosmic order, offering justice and eternal peace to the virtuous. Associated with the Nile’s renewal and agricultural abundance, Osiris embodies the promise of regeneration in both life and the natural world.",
+            "image": "mapimages/osiris.png",
+            "traits": [
+                "Death and Rebirth: 💀 Osiris represents the cycle of life and death, offering renewal through resurrection.",
+                "Justice: ⚖ As judge of the dead, he weighs souls against the feather of Ma’at, ensuring fairness and truth.",
+                "Fertility: 🌿 Osiris is tied to the Nile’s floods, symbolizing agricultural abundance and the earth’s renewal.",
+                "Strength: 💪 His enduring role as a guide for the deceased highlights his resilience and authority.",
+                "Power: ⚡ As ruler of the underworld, Osiris wields immense influence over life after death.",
+                "Balance: 🌌 By upholding Ma’at, Osiris ensures harmony between the realms of the living and the dead."
+            ],
+            "Legends": [
+                "The Death and Resurrection of Osiris: 🕊 Betrayed by Set, Osiris was killed and dismembered. Isis reassembled his body and resurrected him, granting him dominion over the afterlife and symbolizing renewal and triumph over death.",
+                "The Weighing of the Heart: ⚔ Osiris presides over the judgment of souls, where hearts are weighed against the feather of Ma’at to determine entry into the paradise of the Field of Reeds.",
+                "Protector of the Nile: 🏛 Osiris’s connection to the Nile underscores his role in sustaining life and ensuring Egypt’s prosperity."
+            ],
+            "Lore": [
+                "Green-Skinned God: 🌿 His green skin symbolizes fertility, renewal, and the connection to vegetation and life cycles.",
+                "Judge of the Dead: ⚖ Osiris ensures truth and justice prevail in the afterlife, determining the fate of all souls.",
+                "Field of Reeds: 🌌 The paradise under Osiris’s rule offers eternal peace and abundance to the virtuous."
+            ],
+            "quick_facts": {
+                "Parents": "Geb (earth) and Nut (sky).",
+                "Siblings": "Set (brother and rival), Isis, and Nephthys.",
+                "Consort": "Isis, the goddess of magic and motherhood, who resurrected Osiris after his death.",
+                "Symbols": "Crook and Flail, Green Skin, Djed Pillar, White Crown of Upper Egypt.",
+                "Sacred Sites": "Abydos, a major cult center for Osiris worship, where annual festivals celebrated his death and resurrection."
+            }
+        },
+    
+        {
+            "id": "isis",
+            "name": "Isis",
+            "title": "Goddess of Magic, Motherhood, and Rebirth",
+            "carousel_description": "<strong style='color: #6A5ACD; font-size: 1.5em;'>Goddess of Magic, Healing, and Rebirth</strong><br><br> <em style='font-size: 1.2em; color: #9370DB;'>Under the moon’s quiet light</em>, Isis weaves spells of life and protection. Her wings shelter the broken, her love defies death, and her resolve restores the balance of worlds.<br><br> <blockquote style='border-left: 5px solid #6A5ACD; padding-left: 15px; margin-left: 10px; font-style: italic; color: #D8BFD8; background-color: #2F4F4F; padding: 10px;'>\"Through love and magic, even the lost can rise again.\"</blockquote>",
+            "description": "Isis, one of Egypt’s most revered goddesses, symbolizes the transformative power of magic, love, and resilience. As the mother of Horus and the devoted wife of Osiris, Isis bridges the realms of life and death, embodying fertility, healing, and renewal. Her mastery of magic is unmatched, as seen in her resurrection of Osiris and her nurturing of Horus to reclaim his father’s throne. Known for her compassion and strength, Isis remains a beacon of hope and protection for gods and mortals alike.",
+            "image": "mapimages/isis.png",
+            "traits": [
+                "Magic: 🌌 Isis’s unparalleled command of magic enables her to overcome even death, protecting gods and mortals.",
+                "Fertility: 🌿 Connected to the Nile’s life-giving waters, Isis ensures the fertility of the land and life’s renewal.",
+                "Strength: 💪 Her unwavering determination reflects her role as a protector of family and the natural order.",
+                "Healing: 🌈 Isis is invoked for restoration and protection, her power bringing solace to the grieving and the ill.",
+                "Loyalty: ⚖ As a devoted wife and mother, she represents steadfast love and the bonds of family.",
+                "Rebirth: 💀 Through acts of magic and compassion, Isis embodies the triumph of life over death and the cyclical nature of existence."
+            ],
+            "Legends": [
+                "The Resurrection of Osiris: 🕊 After Set killed and dismembered Osiris, Isis used her magic to reassemble and resurrect him, allowing him to rule the underworld.",
+                "The Raising of Horus: ⚔ To protect her son from Set, Isis hid Horus in the Nile marshes, guiding and nurturing him to avenge Osiris and restore Ma’at.",
+                "The Secret Name of Ra: 🏛 Using her cunning and magical skill, Isis learned Ra’s secret name, gaining immense power to safeguard her family and kingdom."
+            ],
+            "Lore": [
+                "Protector of the Weak: 🌿 Known for her compassion, Isis offers healing and protection to those in need.",
+                "Goddess of Magic: ⚡ Her sorcery is a central part of her identity, making her a guardian of fertility, healing, and cosmic balance.",
+                "Mother of Kings: 🌌 As Horus’s mother, Isis is the divine protector of pharaohs, ensuring their legitimacy and connection to the gods."
+            ],
+            "quick_facts": {
+                "Parents": "Geb (earth) and Nut (sky).",
+                "Siblings": "Osiris (husband), Set, and Nephthys.",
+                "Consort": "Osiris, god of the afterlife and resurrection.",
+                "Symbols": "Throne, Wings, Knot of Isis (Tyet), Ankh.",
+                "Sacred Sites": "Philae, a major center of Isis worship, where her influence endured into the Greco-Roman era."
+            }
+        },
+    
+        {
+            "id": "horus",
+            "name": "Horus",
+            "title": "God of the Sky, Kingship, and Protection",
+            "carousel_description": "<strong style='color: #1E90FF; font-size: 1.5em;'>The Falcon God, Avenger of Osiris</strong><br><br> <em style='font-size: 1.2em; color: #87CEFA;'>Beneath the boundless sky</em>, Horus spreads his wings, his falcon gaze fixed on justice. A warrior born of vengeance and destiny, he stands unyielding against chaos, a symbol of kingship and balance.<br><br> <blockquote style='border-left: 5px solid #1E90FF; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B0E0E6; background-color: #2E2E2E; padding: 10px;'>\"Where the falcon soars, order triumphs over chaos.\"</blockquote>",
+            "description": "Horus, the falcon-headed god, represents divine kingship, celestial power, and the eternal struggle for justice. As the son of Isis and Osiris, Horus avenged his father’s death by defeating Set, the god of chaos, restoring Ma’at to the cosmos. Revered as the guardian of Egypt’s pharaohs, Horus ensures balance and harmony, his presence tied to the sun, moon, and the enduring legacy of protection.",
+            "image": "mapimages/horus.png",
+            "traits": [
+                "Sky and Celestial Power: 🌞 As the god of the sky, Horus governs the balance of day and night, with the sun and moon as his watchful eyes.",
+                "Warrior Spirit: ⚔ A fierce protector and avenger, Horus embodies courage and justice in his battles against chaos.",
+                "Kingship: 🌌 Horus personifies the divine right of kingship, with each pharaoh regarded as his earthly manifestation.",
+                "Strength: 💪 His might enables him to overcome chaos and defend the harmony of Egypt.",
+                "Justice: ⚖ Horus’s triumph over Set symbolizes the victory of Ma’at (order) over Isfet (chaos).",
+                "Protection: 🛡 As a guardian deity, Horus ensures the safety and prosperity of Egypt and its rulers."
+            ],
+            "Legends": [
+                "The Battle with Set: 🕊 Horus waged a series of epic battles against Set to avenge his father and reclaim Egypt’s throne, restoring cosmic balance.",
+                "The Eye of Horus: ⚔ During his battle with Set, Horus lost his left eye, which Thoth later restored. The Eye of Horus became a symbol of healing, protection, and restoration.",
+                "Protector of Kings: 🏛 As the divine protector of pharaohs, Horus guarantees their legitimacy and continuity, ensuring Ma’at’s presence in the mortal realm."
+            ],
+            "Lore": [
+                "The Sky God: 🌞 Horus’s dominion over the sky ties him to celestial cycles, with his right eye as the sun and his left as the moon.",
+                "Symbol of Protection: 🛡 The Wedjat, or Eye of Horus, is one of the most iconic symbols of protection and healing in Egyptian culture.",
+                "Champion of Ma’at: ⚡ His defeat of Set solidifies Horus as a defender of truth, justice, and balance in the universe."
+            ],
+            "quick_facts": {
+                "Parents": "Osiris and Isis.",
+                "Rivals": "Set, the god of chaos, whom Horus defeated to reclaim Egypt’s throne.",
+                "Symbols": "Falcon, Eye of Horus, Winged Sun Disk, Crown of Upper and Lower Egypt.",
+                "Sacred Sites": "Edfu, home to the Temple of Horus, a lasting testament to his importance in Egyptian religion and mythology."
+            }
+        },
+
+        {
+            "id": "anubis",
+            "name": "Anubis",
+            "title": "God of the Dead, Mummification, and the Afterlife",
+            "carousel_description": "<strong style='color: #8B0000; font-size: 1.5em;'>Keeper of the Dead</strong><br><br> <em style='font-size: 1.2em; color: #FF6347;'>Silent as the desert night</em>, Anubis watches over the rites of the dead, his jackal eyes unwavering. At the scales of Ma’at, every heart is judged with truth’s unyielding gaze.<br><br> <blockquote style='border-left: 5px solid #8B0000; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFA07A; background-color: #2E2E2E; padding: 10px;'>\"In the balance of eternity, justice is the key to peace.\"</blockquote>",
+            "description": "Anubis, the jackal-headed god, stands as the eternal protector of the dead and the guide of souls to the afterlife. Presiding over mummification and funerary rituals, Anubis ensures the safe passage of souls through the underworld. As a figure of judgment and preservation, he weighs the hearts of the deceased, upholding Ma’at, the balance of truth and order. His vigilant watch over tombs and sacred rites symbolizes his role as a guardian between life, death, and eternity.",
+            "image": "mapimages/anubis.png",
+            "traits": [
+                "Death and Protection: 💀 Anubis safeguards the deceased, ensuring their graves remain undisturbed and their journey is secure.",
+                "Judgment: ⚖ In the Weighing of the Heart, Anubis determines the fate of souls, balancing their hearts against the feather of Ma’at.",
+                "Guide to the Underworld: 🌌 Leading the deceased through the Duat, Anubis acts as a protector and guide in the perilous afterlife.",
+                "Preservation: 🌿 As the god of mummification, he ensures the body’s preservation, a cornerstone of Egyptian beliefs in immortality.",
+                "Strength: 💪 His power lies in his vigilance and guardianship over the sacred transition between life and death.",
+                "Spiritual Authority: 🔮 Anubis governs death rituals, embodying the transition between the mortal and divine realms."
+            ],
+            "Legends": [
+                "The Weighing of the Heart: 🕊 Anubis oversees the judgment of the dead, weighing their hearts against the feather of Ma’at. Virtuous souls pass into the afterlife; the unworthy are devoured by Ammit.",
+                "Protector of Osiris: ⚔ Anubis embalmed Osiris’s body after his death, preserving it for resurrection and securing Osiris’s role as lord of the underworld.",
+                "Guardian of Tombs: 🏛 Anubis protects tombs from desecration, ensuring the sanctity of burial sites and the safe passage of spirits."
+            ],
+            "Lore": [
+                "Master of Mummification: ⚖ Anubis invented mummification, teaching the Egyptians the sacred rituals necessary for eternal life.",
+                "Jackal Symbolism: 🐾 Associated with cemeteries and deserts, the jackal reflects his vigilance and protection against desecration.",
+                "Guide Through the Duat: 🌌 Anubis helps souls navigate the dangers of the underworld, ensuring they reach their final judgment."
+            ],
+            "quick_facts": {
+                "Parents": "In some myths, Ra, or Osiris and Nephthys.",
+                "Consort": "Anput, a goddess linked to mummification and protection.",
+                "Symbols": "Jackal, Scales, Flail, Ankh, Embalming Tools.",
+                "Sacred Sites": "Cynopolis ('City of the Dogs'), where Anubis was honored as the guardian of the dead."
+            }
+        },
+    
+        {
+            "id": "set",
+            "name": "Set",
+            "title": "God of Chaos, Desert, and Storms",
+            "carousel_description": "<strong style='color: #D2691E; font-size: 1.5em;'>God of Chaos, Storms, and the Desert</strong><br><br> <em style='font-size: 1.2em; color: #8B4513;'>Amid the shifting sands</em>, Set’s storms rage with untamed fury. His chaotic presence tests the will of gods and mortals alike, carving a path for transformation through defiance and destruction.<br><br> <blockquote style='border-left: 5px solid #D2691E; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFDEAD; background-color: #2E2E2E; padding: 10px;'>\"Chaos is not the end—it is the challenge from which strength is forged.\"</blockquote>",
+            "description": "Set, the god of chaos and storms, embodies the wild and destructive forces of nature. Known for his unpredictable nature and fierce ambition, Set is both a disruptor and a protector. As the murderer of Osiris, Set’s role in Egyptian mythology is infamous, sparking a cosmic conflict with Horus. However, his defense of Ra’s solar barque from Apep highlights the necessity of chaos in maintaining balance. Complex and dual in nature, Set symbolizes both the trials of life and the power of transformation.",
+            "image": "mapimages/set.png",
+            "traits": [
+                "Chaos: 🌌 Set personifies disorder and upheaval, representing the untamed aspects of existence.",
+                "Warrior Spirit: ⚔ A fierce and cunning warrior, Set’s strength is unparalleled among the gods.",
+                "Storms and Deserts: 🔥 As the god of the desert, Set is linked to barren landscapes and violent storms.",
+                "Strength: 💪 His physical power makes him a formidable figure in both combat and cosmic struggles.",
+                "Ambition: 🎯 Set’s desire for power drives his conflicts, reflecting his role as an agent of disruption.",
+                "Duality: 🌈 While chaotic, Set defends Ra’s solar barque from Apep, demonstrating his protective side."
+            ],
+            "Legends": [
+                "The Murder of Osiris: 🕊 Set’s betrayal of Osiris led to his dismemberment and the scattering of his body. This act initiated the cosmic struggle between Set and Horus.",
+                "The Battle with Horus: ⚔ Set’s prolonged conflict with Horus for Egypt’s throne symbolizes the eternal struggle between chaos and order.",
+                "Protector of Ra: 🏛 Set battles Apep during Ra’s nightly journey through the underworld, ensuring the sun’s rebirth and cosmic balance."
+            ],
+            "Lore": [
+                "God of the Desert: 🌪 Set’s association with the desert reflects his connection to inhospitable, barren lands and survival struggles.",
+                "Champion and Destroyer: ⚔ Set’s duality as both a disruptor and protector underscores the necessity of chaos for balance in the universe.",
+                "The Cosmic Rivalry: 🌌 His ongoing battle with Horus mirrors the central theme of Egyptian cosmology—the tension between chaos and order."
+            ],
+            "quick_facts": {
+                "Parents": "Geb (earth) and Nut (sky).",
+                "Siblings": "Osiris, Isis, and Nephthys.",
+                "Consort": "Nephthys (in some myths); other myths link him to foreign deities and lands.",
+                "Symbols": "Set Animal (Sha), Storms, Deserts, Was Scepter.",
+                "Sacred Sites": "Ombos, one of Set’s primary cult centers, where he was revered as both a god of strength and chaos."
+            }
+        }
+    ]    
+

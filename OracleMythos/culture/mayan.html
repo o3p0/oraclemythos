@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayan Mythology - OracleMythos</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <style>
+        body.mayan-theme {
+            background-color: black;
+            color: white;
+            font-family: 'Lora', serif;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+            border: 2px solid #AF5A28;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1, h2 {
+            font-family: 'Cinzel', serif;
+            color: #AF5A28;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 1px solid #AF5A28;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #AF5A28;
+            margin-top: 20px;
+            transition: color 0.3s ease;
+        }
+
+        h3:hover {
+            color: #ff5722;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: rgba(255, 87, 34, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .pull-quote {
+            font-size: 1.3em;
+            margin: 30px 0;
+            color: #AF5A28;
+            text-align: center;
+            font-style: italic;
+            border-left: 5px solid #ff5722;
+            padding-left: 15px;
+        }
+
+        .hero-image {
+            background-image: url('mapimages/mayan-hero.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            background-attachment: fixed;
+            border-bottom: 2px solid #AF5A28;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px 5px black;
+            font-family: 'Cinzel', serif;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .large-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Character Grid */
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .character-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .character-card h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .character-card p {
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        .character-card a {
+            color: #ff5722;
+            text-decoration: none;
+        }
+
+        .character-card a:hover {
+            text-decoration: underline;
+        }
+
+        .character-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Notable Myths Section */
+        .myth-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .myth-section img {
+            width: 90%;
+            margin-top: 20px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #AF5A28;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-link:hover {
+            background-color: #8B3E1A;
+        }
+
+        /* Hamburger Menu */
+        .hamburger-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .hamburger-menu button {
+            background-color: #AF5A28;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.5em;
+        }
+
+        .hamburger-menu button:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #AF5A28;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+        }
+
+        .dropdown a {
+            display: block;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown a:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .show-dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body class="mayan-theme">
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-image">
+        <div class="hero-text">Mayan Mythology</div>
+    </div>
+
+    <div class="container">
+        <h1>Mayan Mythology Overview</h1>
+
+        <p>
+            Deep in the dense jungles of Central America, where towering pyramids rise toward the heavens and the sacred cenotes lead to the underworld, Mayan mythology tells the story of gods, heroes, and cosmic cycles. The Mayans viewed the universe as a continuous cycle of creation and destruction, with the gods playing a central role in the fate of humanity.
+        </p>
+
+        <!-- Mayan Symbol Image -->
+        <img src="mapimages/mayan-symbol.png" alt="Mayan Symbol" class="large-image">
+
+        <!-- Highlighted Text -->
+        <div class="highlight">
+            Their myths, recorded in texts like the Popol Vuh, reveal a world where life, death, and rebirth are inextricably linked, and where the journey of the soul is shaped by the gods of the sky, earth, and the underworld.
+        </div>
+
+        <blockquote class="pull-quote">"In the shadow of pyramids and the eternal cycle of life and death, the gods shape the world of the Maya."</blockquote>
+
+        <h2>Major Figures</h2>
+
+        <!-- Character Grid for Mayan Mythology -->
+        <div class="character-grid">
+            <div class="character-card">
+                <h3>Itzamna</h3>
+                <p>The supreme creator god, associated with the sky, writing, and medicine.</p>
+                <a href="characters.html#itzamna">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Kukulkan</h3>
+                <p>The feathered serpent god, representing wind, rain, and storms.</p>
+                <a href="characters.html#kukulkan">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Ah Puch</h3>
+                <p>God of death and ruler of Xibalba, the Mayan underworld.</p>
+                <a href="characters.html#ahpuch">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Ix Chel</h3>
+                <p>Goddess of the moon, fertility, and medicine.</p>
+                <a href="characters.html#ixchel">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Hunahpu & Xbalanque</h3>
+                <p>The Hero Twins, who defeated the lords of Xibalba in the Popol Vuh.</p>
+                <a href="characters.html#hunahpuxbalanque">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Notable Myths Section -->
+        <h2>Notable Myths</h2>
+
+        <!-- The Creation of the World Myth -->
+        <div class="myth-section">
+            <h3>The Creation of the World</h3>
+            <p>
+                In Mayan mythology, the gods created the world through multiple attempts. After the failure of the first creations—beings made of mud and wood—the gods finally created humanity from maize, the sacred crop. This successful creation linked the fate of mankind to the earth and the gods.
+            </p>
+            <p class="descriptive">
+                From the sacred maize, the gods shaped humanity, their hands crafting life from the very essence of the earth. In this creation, the bond between mankind and the divine was sealed, destined to flourish and endure.
+            </p>
+            <img src="mapimages/mayan-1.png" alt="Creation of the World" class="large-image">
+        </div>
+
+        <!-- The Journey of the Hero Twins Myth -->
+        <div class="myth-section">
+            <h3>The Journey of the Hero Twins (Popol Vuh)</h3>
+            <p>
+                Hunahpu and Xbalanque, the Hero Twins, descended into the underworld to challenge the lords of Xibalba. Through cleverness and courage, they overcame the deadly trials set before them, including ball games and deadly traps, eventually defeating the lords of death. Their victory symbolized the triumph of life over death and brought balance to the world.
+            </p>
+            <p class="descriptive">
+                In the dark depths of Xibalba, the Hero Twins danced between life and death, their wits sharp as blades. With every trap they evaded, they drew closer to victory, their triumph restoring light to the world above.
+            </p>
+            <img src="mapimages/mayan-2.png" alt="Journey of the Hero Twins" class="large-image">
+        </div>
+
+        <!-- The Ball Game of the Gods Myth -->
+        <div class="myth-section">
+            <h3>The Ball Game of the Gods</h3>
+            <p>
+                The ball game, a central ritual in Mayan culture, held deep mythological significance. The Hero Twins' victory over the lords of Xibalba in the underworld ball game not only secured their ascent to the heavens but also established the game as a sacred act, representing the struggle between life and death.
+            </p>
+            <p class="descriptive">
+                The ball echoed through the courts of the gods, each strike a battle between darkness and light. In their final match, the Hero Twins played for the fate of the world, their every move watched by the gods.
+            </p>
+            <img src="mapimages/mayan-3.png" alt="Ball Game of the Gods" class="large-image">
+        </div>
+
+        <a href="map.html" class="back-link">Back to Map</a>
+    </div>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function () {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.classList.toggle('show-dropdown');
+        });
+    </script>
+</body>
+</html>

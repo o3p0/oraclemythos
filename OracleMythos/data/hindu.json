@@ -1,0 +1,198 @@
+[
+    {
+        "id": "brahma",
+        "name": "Brahma",
+        "title": "The Creator and Source of the Universe",
+        "carousel_description": "<strong style='color: #FF4500; font-size: 1.5em;'>The Creator, Weaver of the Cosmos</strong><br><br> <em style='font-size: 1.2em; color: #FFA07A;'>From the lotus blooming at Vishnu’s navel</em>, Brahma emerged, his four faces gazing into the infinite void. With every breath, he shaped the universe, weaving the stars and seas into a cosmic dance.<br><br> <blockquote style='border-left: 5px solid #FF4500; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFDAB9; background-color: #2E2E2E; padding: 10px;'>\"Creation is the first thread in the tapestry of eternity.\"</blockquote>",
+        "description": "Brahma, the god of creation in Hindu mythology, stands as the architect of the cosmos and the origin of life. As a member of the Trimurti—the holy trinity of Brahma, Vishnu, and Shiva—he represents the creative force that initiates the cycle of existence. Depicted with four faces and seated on a lotus, Brahma embodies purity, wisdom, and infinite knowledge. Though his role in creation is unparalleled, his limited worship in modern times reflects the cyclical nature of Hindu cosmology, where creation inevitably yields to preservation and dissolution.",
+        "image": "mapimages/brahma.png",
+        "traits": [
+            "Creation: 🌌 Brahma is the source of all life, shaping the universe from the primordial waters and giving form to existence.",
+            "Wisdom: 🧠 As the creator, Brahma is associated with the Vedas, symbolizing his boundless knowledge and insight.",
+            "Balance: ⚖ His role within the Trimurti underscores the harmony between creation, preservation (Vishnu), and destruction (Shiva).",
+            "Fertility and Growth: 🌿 Brahma’s creations encompass all living beings, ensuring the continuity of the life cycle.",
+            "Divine Knowledge: 🎯 His connection to the sacred texts ties him to the spiritual and cosmic order.",
+            "Transience: 💀 Brahma’s work is bound by time, representing the cyclical and impermanent nature of creation."
+        ],
+        "Legends": [
+            "The Creation of the Universe: 🕊 Emerging from a golden cosmic egg (Hiranyagarbha) or a lotus sprouting from Vishnu’s navel, Brahma crafted the heavens, earth, and all living beings.",
+            "The Four Faces of Brahma: ⚔ To observe his consort, Saraswati, as she moved in every direction, Brahma grew four faces. These faces symbolize the four Vedas and cardinal directions.",
+            "The Curse of Limited Worship: 🏛 After a dispute with Vishnu and Shiva, Brahma was cursed by Shiva to have few temples dedicated to him, reflecting his diminished presence in modern worship compared to other Trimurti deities."
+        ],
+        "Lore": [
+            "The Lotus Throne: 🌺 Brahma is depicted seated on a lotus, representing purity and detachment, emerging from the primordial waters of creation.",
+            "The Vedas: 📜 As the giver of the sacred Vedas, Brahma is revered as the fountain of spiritual and worldly knowledge.",
+            "Cyclic Creation: 🌌 Brahma’s cosmic day spans 4.32 billion human years, during which he creates and governs the universe. At the end of his day, the universe dissolves, and the cycle begins anew."
+        ],
+        "quick_facts": {
+            "Consort": "Saraswati, the goddess of wisdom, learning, and the arts.",
+            "Symbols": "Lotus, Swan, Vedas, Kamandalu (water pot).",
+            "Sacred Sites": "The Brahma Temple in Pushkar, Rajasthan, is one of the few temples dedicated to Brahma.",
+            "Legacy": "Brahma’s story represents the eternal cycle of creation and the boundless potential of the universe."
+        }
+    },
+    {
+        "id": "vishnu",
+        "name": "Vishnu",
+        "title": "The Preserver and Guardian of Harmony",
+        "carousel_description": "<strong style='color: #1E90FF; font-size: 1.5em;'>The Preserver, Guardian of Harmony</strong><br><br> <em style='font-size: 1.2em; color: #87CEEB;'>Reclining on Ananta in the cosmic ocean</em>, Vishnu’s serene gaze guards creation. When chaos stirs, his avatars descend, restoring dharma and balance to the world.<br><br> <blockquote style='border-left: 5px solid #1E90FF; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B0E0E6; background-color: #2E2E2E; padding: 10px;'>\"In his stillness lies the power to preserve; in his action, the will to restore.\"</blockquote>",
+        "description": "Vishnu, the preserver of the cosmos, is a central figure in Hindu mythology and a member of the Trimurti alongside Brahma and Shiva. Representing sustenance and protection, Vishnu ensures the continuity of creation by upholding dharma—the cosmic law of order and righteousness. His iconic reclining posture on the serpent Ananta signifies his role as the eternal guardian of balance. During times of great upheaval, Vishnu manifests as avatars, descending to Earth to restore harmony and guide humanity. His enduring vigilance reflects his divine commitment to maintaining the delicate balance of existence.",
+        "image": "mapimages/vishnu.png",
+        "traits": [
+            "Preservation: 🌌 Vishnu safeguards creation, ensuring its stability and harmony amidst cosmic cycles.",
+            "Strength: 💪 His divine power is both steady and decisive, allowing him to defeat chaos and protect the universe.",
+            "Avatars: 🎯 Through his ten primary incarnations, Vishnu intervenes in critical moments to uphold dharma and restore order.",
+            "Power: ⚡ His cosmic influence spans realms, embodying the unity of physical and spiritual existence.",
+            "Compassion: 🌿 As a protector, Vishnu’s actions are guided by love for all beings, ensuring their well-being and spiritual growth.",
+            "Eternal Vigilance: 🌊 Vishnu’s presence in the cosmic ocean symbolizes his unending watch over creation, ready to act when needed."
+        ],
+        "Legends": [
+            "The Cosmic Ocean and Ananta: 🕊 Vishnu rests on the serpent Ananta, floating on the cosmic ocean, representing his timeless guardianship over creation.",
+            "The Dashavatara (Ten Avatars): ⚔ Vishnu’s ten incarnations, including Rama and Krishna, represent his divine interventions in human history to restore dharma and protect life.",
+            "The Churning of the Ocean (Samudra Manthan): 🏛 Vishnu played a pivotal role in this legendary event, helping gods and demons churn the ocean to retrieve the nectar of immortality, symbolizing balance and cooperation."
+        ],
+        "Lore": [
+            "Preserver of Dharma: 🌌 Vishnu’s primary role is to uphold cosmic order, ensuring the universe’s continuity through balance and righteousness.",
+            "Avatars and Humanity: 🎯 His avatars, such as Rama and Krishna, exemplify ideals of leadership, devotion, and moral action, guiding mortals in their spiritual journeys.",
+            "Symbol of Unity: 🌊 Vishnu’s connection to water, the cosmic ocean, and the serpent Ananta emphasizes his role in connecting and sustaining the physical and spiritual realms."
+        ],
+        "quick_facts": {
+            "Consort": "Lakshmi, the goddess of wealth and prosperity, symbolizes his harmonious relationship with abundance and creation.",
+            "Symbols": "Conch (Shankha), Discus (Chakra), Lotus (Padma), Mace (Gada).",
+            "Sacred Sites": "Vishnu is worshipped in numerous temples across India, including the Tirupati Balaji Temple and the Jagannath Temple in Puri.",
+            "Legacy": "Vishnu’s timeless vigilance and his avatars’ actions inspire devotion and reflect the divine promise to protect and sustain life."
+        }
+    },
+    {
+        "id": "shiva",
+        "name": "Shiva",
+        "title": "The Destroyer, Transformer, and Supreme Ascetic",
+        "carousel_description": "<strong style='color: #8B0000; font-size: 1.5em;'>The Destroyer, Lord of Transformation</strong><br><br> <em style='font-size: 1.2em; color: #FF6347;'>Beneath Mount Kailash’s shadow</em>, Shiva meditates in silence, his stillness holding the universe in balance. With the rhythm of his damaru, he ends one cycle and begins another, his dance shaping the cosmos.<br><br> <blockquote style='border-left: 5px solid #8B0000; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFA07A; background-color: #2E2E2E; padding: 10px;'>\"In destruction lies the seed of creation; in stillness, the promise of change.\"</blockquote>",
+        "description": "Shiva, the great destroyer in Hindu mythology and a member of the Trimurti, embodies transformation and renewal. As the force that dissolves the universe at the end of each cosmic cycle, Shiva clears the path for rebirth and new beginnings. Known as Mahadeva, the \"Great God,\" Shiva represents duality: the serene yogi in meditation and the fierce warrior who battles evil. His Nataraja form, performing the Tandava dance, symbolizes the eternal cycles of time. Shiva’s boundless presence reflects his role as both a cosmic transformer and a protector of devotees.",
+        "image": "mapimages/shiva.png",
+        "traits": [
+            "Destruction and Renewal: ⚡ Shiva’s power clears the way for transformation, dissolving the old to make space for the new.",
+            "Cosmic Dancer: 🌀 As Nataraja, Shiva’s Tandava dance embodies the cycles of creation, preservation, and destruction.",
+            "Strength: 💪 Whether in meditation or battle, Shiva’s might is unparalleled, defeating even the most formidable forces.",
+            "Meditation and Asceticism: 🌌 The ultimate yogi, Shiva’s detachment from material desires inspires spiritual discipline and inner peace.",
+            "Wrath and Compassion: 🔥 Shiva’s duality manifests in his fierce destruction of evil and his deep compassion for his devotees.",
+            "Nature’s Lord: 🌿 Revered as the guardian of nature, Shiva is deeply connected to the elements, symbolized by his abode on Mount Kailash."
+        ],
+        "Legends": [
+            "The Churning of the Ocean (Samudra Manthan): 🕊 When poison emerged during the churning of the cosmic ocean, Shiva drank it to save the universe. Holding it in his throat turned it blue, earning him the title Neelkanth (\"Blue-Throated One\").",
+            "The Destruction of Tripura: ⚔ Shiva destroyed the three celestial cities of the asuras (demons) with a single arrow, symbolizing the triumph of divine wisdom over ignorance and chaos.",
+            "Marriage to Parvati: 🏛 After intense penance, Parvati united with Shiva, representing the balance of masculine and feminine energies and the cosmic harmony of creation."
+        ],
+        "Lore": [
+            "Nataraja - The Cosmic Dancer: 🌀 Shiva’s Tandava symbolizes the eternal rhythm of the universe, encompassing creation, destruction, and renewal.",
+            "The Third Eye: 🌌 Shiva’s third eye signifies spiritual wisdom and the destruction of ignorance, releasing fiery energy when opened.",
+            "Symbols of Asceticism: 🌿 His ash-covered body, crescent moon, and the Ganga flowing from his matted hair emphasize his role as the ultimate ascetic, detached from material desires."
+        ],
+        "quick_facts": {
+            "Consort": "Parvati, the goddess of fertility and love, whose union with Shiva represents cosmic balance.",
+            "Children": "Ganesha (god of wisdom) and Kartikeya (god of war).",
+            "Symbols": "Trishul (trident), Damru (drum), Crescent Moon, Snake, Lingam.",
+            "Sacred Sites": "Varanasi (Kashi), Mount Kailash, and Kedarnath temple are some of the holiest places dedicated to Shiva.",
+            "Titles": "Mahadeva (\"Great God\"), Neelkanth (\"Blue-Throated\"), Shankara (\"Beneficent\")."
+        }
+    },
+    {
+        "id": "lakshmi",
+        "name": "Lakshmi",
+        "title": "Goddess of Wealth, Prosperity, and Fortune",
+        "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'>Goddess of Fortune, Prosperity, and Grace</strong><br><br> <em style='font-size: 1.2em; color: #FFB84D;'>From the golden heart of the lotus</em>, Lakshmi bestows blessings that flow like rivers, her light nourishing the hearts of gods and mortals alike.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFE4B5; background-color: #8B4513; padding: 10px;'>\"True wealth lies in balance; abundance blooms where harmony thrives.\"</blockquote>",
+        "description": "Lakshmi, the radiant goddess of fortune, is the embodiment of wealth, prosperity, and grace in Hindu mythology. Revered as the consort of Vishnu, Lakshmi sustains cosmic balance by blessing those who uphold dharma and virtue. Her presence brings material riches, spiritual abundance, and harmony, symbolizing the interconnectedness of prosperity and righteousness. Seated on a lotus, Lakshmi’s serene form radiates purity and divine beauty, reminding her devotees that true fortune is found in balance and gratitude.",
+        "image": "mapimages/lakshmi.png",
+        "traits": [
+            "Wealth and Abundance: 🌟 Lakshmi governs material and spiritual wealth, bestowing prosperity and fortune on her devotees.",
+            "Grace and Beauty: 💖 She embodies charm, elegance, and the radiance of divine femininity.",
+            "Harmony: 🎯 Lakshmi’s blessings foster peace, balance, and well-being in homes, communities, and relationships.",
+            "Protector of Dharma: ⚡ Her favor rewards those who live virtuously, reinforcing the connection between ethics and prosperity.",
+            "Fertility and Growth: 🌿 Lakshmi ensures the fertility of the land and the flourishing of life, nurturing abundance in all forms.",
+            "Compassion and Generosity: 🙏 Her blessings flow to those who approach her with devotion, humility, and reverence."
+        ],
+        "Legends": [
+            "The Churning of the Ocean (Samudra Manthan): 🕊 During the churning of the cosmic ocean, Lakshmi emerged as a symbol of prosperity and divine grace, choosing Vishnu as her consort.",
+            "Lakshmi and Vishnu’s Avatars: ⚔ In each of Vishnu’s incarnations, Lakshmi manifests alongside him, supporting his divine missions as Sita with Rama or Rukmini with Krishna.",
+            "The Diwali Celebration: 🏛 Lakshmi is honored during Diwali, the festival of lights, when her blessings are sought to remove darkness and bring prosperity."
+        ],
+        "Lore": [
+            "The Lotus Symbol: 🌸 Depicted seated on a lotus, Lakshmi symbolizes spiritual awakening, purity, and detachment from material attachments.",
+            "Giver of Ashta-Lakshmi: 🌀 Lakshmi manifests in eight forms, each representing a different type of wealth, from material riches to knowledge and courage.",
+            "The Ever-Elusive Goddess: 💖 Her blessings are earned through virtue, hard work, and devotion, highlighting the balance of effort and divine grace."
+        ],
+        "quick_facts": {
+            "Consort": "Vishnu, the preserver of the universe, with whom she sustains cosmic harmony.",
+            "Symbols": "Lotus Flower, Gold Coins, Elephants, Water Pots.",
+            "Sacred Sites": "Temples such as the Padmavathi Temple (Tirupati) and Mahalakshmi Temple (Mumbai) honor her.",
+            "Titles": "Shri (Auspicious One), Padma (Lotus-Born), Chanchala (Ever-Elusive).",
+            "Festivals": "Lakshmi Puja during Diwali is her most significant celebration, marked by lights, offerings, and prayers."
+        }
+    },
+    {
+        "id": "durga",
+        "name": "Durga",
+        "title": "The Invincible Warrior and Protector of the Cosmos",
+        "carousel_description": "<strong style='color: #FF4500; font-size: 1.5em;'>The Warrior Goddess, Defender of the Divine</strong><br><br> <em style='font-size: 1.2em; color: #FF6347;'>Beneath a blood-red sky</em>, Durga rides into battle, her lion’s roar shattering chaos. Ten arms wield divine weapons with purpose, her calm gaze commanding storms into submission.<br><br> <blockquote style='border-left: 5px solid #FF4500; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFA07A; background-color: #8B0000; padding: 10px;'>\"In her hands lies both the end and the beginning—a force born to restore balance.\"</blockquote>",
+        "description": "Durga, the fierce warrior goddess, embodies divine power and justice in Hindu mythology. Created by the gods to vanquish the demon Mahishasura, she symbolizes the ultimate triumph of good over evil. Riding a lion or tiger, Durga’s radiant form wields weapons gifted by the gods, representing courage, strength, and the balance of creation and destruction. Fierce yet compassionate, she is both a nurturing mother and an unyielding protector of the cosmos.",
+        "image": "mapimages/durga.png",
+        "traits": [
+            "Invincible Warrior: ⚔ Durga is the ultimate force against evil, undefeatable in battle and relentless in maintaining justice.",
+            "Protector: 🛡 Guardian of the cosmos, she shields her devotees and preserves dharma (righteousness).",
+            "Strength and Power: 💪 Durga wields the combined powers of all gods, unmatched in might and resolve.",
+            "Divine Feminine Energy: 🌌 As Shakti, she embodies the creative and destructive forces of the universe, symbolizing empowerment.",
+            "Compassion: 🌿 Beneath her fierce exterior lies a nurturing, motherly presence, offering blessings and guidance to her devotees.",
+            "Balance: 🌈 Durga’s role ensures the harmony between creation and destruction, preserving cosmic order."
+        ],
+        "Legends": [
+            "The Defeat of Mahishasura: 🕊 Created by the gods to defeat the shape-shifting demon Mahishasura, Durga waged a fierce battle and triumphed, restoring universal balance.",
+            "The Creation of Durga: ⚔ When the gods were powerless, they combined their divine energy to form Durga, gifting her their most powerful weapons to fight Mahishasura.",
+            "Durga Puja: 🏛 Her victory is celebrated annually during Durga Puja and Navaratri, where she is venerated as the ultimate force of protection and empowerment."
+        ],
+        "Lore": [
+            "Ten Arms of Power: ⚡ Durga’s ten arms, each holding a weapon, signify her ability to protect and destroy in all directions.",
+            "Lion/Tiger Mount: 🌀 Her mount symbolizes courage and her mastery over untamed forces.",
+            "Divine Protector: 🌌 Durga’s influence extends to protecting her devotees from harm and guiding them through internal struggles."
+        ],
+        "quick_facts": {
+            "Titles": "Mahishasura Mardini (\"Slayer of Mahishasura\"), Devi (\"Goddess\"), Shakti (\"Divine Power\").",
+            "Symbols": "Trishul (trident), Sword, Chakra (discus), Lotus, Lion/Tiger.",
+            "Sacred Sites": "Vaishno Devi Temple and Dakshineswar Kali Temple are prominent places of her worship.",
+            "Festivals": "Durga Puja and Navaratri celebrate her victory and divine energy with grandeur and devotion.",
+            "Cultural Impact": "Durga is a symbol of resilience and empowerment, invoked in times of injustice and struggle."
+        }
+    },
+    {
+        "id": "krishna",
+        "name": "Krishna",
+        "title": "The Divine Flute-Player and God of Love, Wisdom, and Dharma",
+        "carousel_description": "<strong style='color: #1E90FF; font-size: 1.5em;'>The Divine Strategist, Keeper of Dharma</strong><br><br> <em style='font-size: 1.2em; color: #87CEEB;'>Beneath the shade of a sacred tree</em>, Krishna’s flute sings, weaving melodies that enchant gods and mortals alike. On Kurukshetra’s battlefield, his wisdom shapes destiny, his calm presence a beacon amidst chaos.<br><br> <blockquote style='border-left: 5px solid #1E90FF; padding-left: 15px; margin-left: 10px; font-style: italic; color: #ADD8E6; background-color: #2E2E2E; padding: 10px;'>\"Where he walks, dharma is restored, and the cosmos dances to his eternal song.\"</blockquote>",
+        "description": "Krishna, the eighth avatar of Vishnu, is a beloved figure in Hindu mythology, celebrated as the god of love, wisdom, and dharma. His life reflects a balance of playful joy and profound purpose, from his childhood leelas in Vrindavan to his pivotal role in the Mahabharata. As a divine protector, strategist, and teacher, Krishna’s actions uphold cosmic order, while his teachings in the Bhagavad Gita illuminate the path of devotion and righteous living.",
+        "image": "mapimages/krishna.png",
+        "traits": [
+            "Divine Love: 🎵 Krishna’s bond with Radha and the gopis embodies the purest form of spiritual love, inspiring devotion.",
+            "Protector: 🌀 Krishna shields his devotees, defeating demons and lifting Mount Govardhan to protect his people.",
+            "Strength and Courage: 💪 Known for miraculous feats, Krishna’s power is unmatched, reflecting his divine authority.",
+            "Wisdom and Strategy: ⚖ His guidance in the Bhagavad Gita offers timeless lessons on duty, detachment, and dharma.",
+            "Playfulness: 🌌 Krishna’s joyful leelas bring happiness and devotion, making him an approachable and cherished deity.",
+            "Compassion: 💖 Descending to earth, Krishna uplifts the virtuous and restores balance, embodying divine grace."
+        ],
+        "Legends": [
+            "The Birth of Krishna: 🕊 Born to vanquish King Kamsa’s tyranny, Krishna’s miraculous escape to Vrindavan marked the beginning of his divine journey.",
+            "The Defeat of Kamsa: ⚔ Fulfilling his destiny, Krishna overthrew his tyrannical uncle, liberating Mathura.",
+            "The Bhagavad Gita: 🏛 On the battlefield of Kurukshetra, Krishna’s discourse to Arjuna revealed profound truths about life, duty, and spirituality."
+        ],
+        "Lore": [
+            "The Flute of Krishna: 🎵 His flute’s melody symbolizes divine love, calling all souls toward spiritual union.",
+            "Leelas (Divine Plays): 🌌 His childhood mischief and miracles, like stealing butter and dancing with the gopis, reveal the joyful aspects of his divinity.",
+            "Preserver of Dharma: ⚔ Krishna’s actions during the Mahabharata emphasize his role as the upholder of cosmic order."
+        ],
+        "quick_facts": {
+            "Consort": "Radha, his eternal beloved; Rukmini, his principal queen.",
+            "Symbols": "Flute, Peacock Feather, Lotus, Sudarshana Chakra (discus).",
+            "Sacred Sites": "Mathura (his birthplace), Vrindavan (his childhood home), and Dwarka (his kingdom).",
+            "Festivals": "Janmashtami (celebrating his birth) and Holi (honoring his playful spirit).",
+            "Cultural Legacy": "Krishna inspires art, music, and literature as the embodiment of divine love, wisdom, and protection."
+        }
+    }    
+]

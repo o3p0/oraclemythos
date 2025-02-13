@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mythology Characters</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/character.css">
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+    <script defer src="scripts/character.js"></script>
+    <script defer src="scripts/scripts.js"></script>
+</head>
+<body>
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn" aria-label="Open Menu">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="stories.html">Explore Stories</a>
+            <a href="characters.html">Meet the Characters</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Dropdown for Selecting Mythology -->
+        <div class="mythology-dropdown">
+            <button id="mythology-btn" class="dropdown-button" aria-haspopup="true" aria-expanded="false">Select Mythology</button>
+            <div id="mythology-dropdown" class="dropdown-content" role="menu">
+                <div class="dropdown-item" data-value="greek" role="menuitem">Greek</div>
+                <div class="dropdown-item" data-value="norse" role="menuitem">Norse</div>
+                <div class="dropdown-item" data-value="aztec" role="menuitem">Aztec</div>
+                <div class="dropdown-item" data-value="chinese" role="menuitem">Chinese</div>
+                <div class="dropdown-item" data-value="egyptian" role="menuitem">Egyptian</div>
+                <div class="dropdown-item" data-value="hindu" role="menuitem">Hindu</div>
+                <div class="dropdown-item" data-value="mayan" role="menuitem">Mayan</div>
+                <div class="dropdown-item" data-value="yoruba" role="menuitem">Yoruba</div>
+            </div>
+        </div>
+
+        <!-- Character Carousel -->
+        <section class="character-carousel" id="carousel-section">
+            <div class="carousel-container">
+                <button class="carousel-button prev" aria-label="Previous slide" id="prev-btn">&#10094;</button>
+                <div class="carousel-slides">
+                    <!-- Character slides will be dynamically inserted here -->
+                </div>
+                <button class="carousel-button next" aria-label="Next slide" id="next-btn">&#10095;</button>
+            </div>
+
+            <!-- Description below carousel -->
+            <div class="carousel-description" id="carousel-description">
+                <h2 id="carousel-description-title"></h2>
+                <p id="carousel-description-text"></p>
+            </div>
+
+            <div class="carousel-dots">
+                <!-- Dots will be generated dynamically -->
+            </div>
+        </section>
+
+        <!-- Character Modal -->
+        <div id="character-modal" class="modal" aria-hidden="true" aria-labelledby="modal-character-name" role="dialog">
+            <div class="modal-content">
+                <button class="close-btn" aria-label="Close modal">&times;</button>
+                <h2 id="modal-character-name">Zeus</h2>
+                <h3 id="modal-character-title">King of the Gods, Lord of the Sky</h3>
+                <p id="modal-character-description">Zeus, the supreme deity in Greek mythology...</p>
+                <h4>Legends:</h4>
+                <ul id="modal-character-stories">
+                    <li><strong>Titanomachy:</strong> Zeus led the Olympians in their victory over the Titans...</li>
+                    <li><strong>Shaper of Mortals:</strong> Punished Prometheus for giving fire to humanity...</li>
+                </ul>
+                <h4>Lore:</h4>
+                <ul id="modal-character-lesser-known-tales">
+                    <li><strong>The Binding of Ixion:</strong> Zeus condemned Ixion to be eternally bound...</li>
+                </ul>
+                <h4>Traits:</h4>
+                <ul id="modal-character-traits">
+                    <li><strong>Wisdom:</strong> Renowned for his deep intellect...</li>
+                </ul>
+                <h4>More:</h4>
+                <ul id="modal-character-quick-facts"></ul>
+                <a href="stories.html?id=zeus" class="link-button">Read More Stories</a>
+                <a href="family-tree.html?id=zeus" class="link-button family-tree-button">View Family Tree</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 OracleMythos. All rights reserved.</p>
+    </footer>
+</body>
+</html>

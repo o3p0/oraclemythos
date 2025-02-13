@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoruba Mythology - OracleMythos</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <style>
+        body.yoruba-theme {
+            background-color: black;
+            color: white;
+            font-family: 'Lora', serif;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+            border: 2px solid #8C4D34;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1, h2 {
+            font-family: 'Cinzel', serif;
+            color: #8C4D34;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 1px solid #8C4D34;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #8C4D34;
+            margin-top: 20px;
+            transition: color 0.3s ease;
+        }
+
+        h3:hover {
+            color: #ff5722;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: rgba(255, 87, 34, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .pull-quote {
+            font-size: 1.3em;
+            margin: 30px 0;
+            color: #8C4D34;
+            text-align: center;
+            font-style: italic;
+            border-left: 5px solid #ff5722;
+            padding-left: 15px;
+        }
+
+        .descriptive {
+            font-style: italic;
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .hero-image {
+            background-image: url('mapimages/yoruba-hero.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+            background-attachment: fixed;
+            border-bottom: 2px solid #8C4D34;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            color: #fff;
+            text-shadow: 2px 2px 5px black;
+            font-family: 'Cinzel', serif;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .large-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8C4D34;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-link:hover {
+            background-color: #6A2F1C;
+        }
+
+        /* Character Grid */
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .character-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .character-card h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .character-card p {
+            font-size: 1em;
+            color: #ccc;
+        }
+
+        .character-card a {
+            color: #ff5722;
+            text-decoration: none;
+        }
+
+        .character-card a:hover {
+            text-decoration: underline;
+        }
+
+        .character-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Notable Myths Section */
+        .myth-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .myth-section img {
+            width: 90%;
+            margin-top: 20px;
+        }
+
+        /* Hamburger Menu */
+        .hamburger-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .hamburger-menu button {
+            background-color: #8C4D34;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.5em;
+        }
+
+        .hamburger-menu button:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #8C4D34;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+        }
+
+        .dropdown a {
+            display: block;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .dropdown a:hover {
+            background-color: #ff5722;
+        }
+
+        .dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .show-dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body class="yoruba-theme">
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-image">
+        <div class="hero-text">Yoruba Mythology</div>
+    </div>
+
+    <div class="container">
+        <h1>Yoruba Mythology Overview</h1>
+
+        <p>
+            In the vibrant lands of West Africa, where rivers flow like veins of life through the earth, Yoruba mythology unfolds as a living tradition of gods, ancestors, and spirits. Central to this belief system is the concept of Ase—the sacred power to make things happen. The Yoruba people believe that the Orisha, a pantheon of deities, shape the world and guide human destiny. These gods, along with the ancestors and nature spirits, are woven into the fabric of life, offering wisdom, protection, and guidance.
+        </p>
+
+        <!-- Yoruba Symbol Image -->
+        <img src="mapimages/yoruba-symbol.png" alt="Yoruba Symbol" class="large-image">
+
+        <!-- Highlighted Section -->
+        <div class="highlight">
+            The Yoruba myths are stories of creation, morality, and the eternal dance between the forces of nature and humanity.
+        </div>
+
+        <blockquote class="pull-quote">"The Orisha guide our paths, shaping the world with their sacred power of Ase."</blockquote>
+
+        <!-- Character Grid for Yoruba Mythology -->
+        <h2>Major Figures</h2>
+        <div class="character-grid">
+            <div class="character-card">
+                <h3>Olodumare</h3>
+                <p>The supreme god and creator of the universe, Olodumare is the source of all life.</p>
+                <a href="characters.html#olodumare">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Obatala</h3>
+                <p>The Orisha of wisdom, purity, and the creator of humanity from clay.</p>
+                <a href="characters.html#obatala">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Shango</h3>
+                <p>The Orisha of thunder, lightning, and fire; a fierce warrior god.</p>
+                <a href="characters.html#shango">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Oshun</h3>
+                <p>The Orisha of love, fertility, and rivers; a goddess of beauty and healing.</p>
+                <a href="characters.html#oshun">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Ogun</h3>
+                <p>The Orisha of iron, war, and craftsmanship; a master blacksmith and warrior.</p>
+                <a href="characters.html#ogun">Learn More</a>
+            </div>
+
+            <div class="character-card">
+                <h3>Esu</h3>
+                <p>The trickster god and guardian of the crossroads; a messenger between gods and humans.</p>
+                <a href="characters.html#esu">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Notable Myths Section -->
+        <div class="key-stories">
+            <h2>Notable Myths</h2>
+
+            <div class="myth-section">
+                <h3>The Creation of Humanity by Obatala</h3>
+                <p>
+                    According to Yoruba mythology, Obatala was tasked with creating the first humans. Using clay, he shaped them, but when he grew tired and drank palm wine, he accidentally created some with imperfections. These individuals became revered, as they are seen as being close to the god of creation and purity.
+                </p>
+                <img src="mapimages/yoruba-1.png" alt="Creation of Humanity by Obatala" class="large-image">
+            </div>
+
+            <div class="myth-section">
+                <h3>Shango and the Thunderstones</h3>
+                <p>
+                    Shango, the god of thunder and lightning, is known for wielding his double-headed axe, which can summon storms. In myth, he became a powerful king who, through his divine power, brought rain to his people and smote his enemies with fire from the sky.
+                </p>
+                <img src="mapimages/yoruba-2.png" alt="Shango and the Thunderstones" class="large-image">
+            </div>
+
+            <div class="myth-section">
+                <h3>Oshun and the Creation of Rivers</h3>
+                <p>
+                    In one myth, the gods were struggling to create the world until they realized they had not included Oshun, the goddess of love and fertility, in their plans. When they sought her out, she poured forth her waters, creating rivers that brought life to the earth.
+                </p>
+                <img src="mapimages/yoruba-3.png" alt="Oshun and the Creation of Rivers" class="large-image">
+            </div>
+        </div>
+
+        <a href="map.html" class="back-link">Back to Map</a>
+    </div>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        document.getElementById('hamburger-btn').addEventListener('click', function () {
+            const dropdown = document.getElementById('dropdown-menu');
+            dropdown.classList.toggle('show-dropdown');
+        });
+    </script>
+</body>
+</html>

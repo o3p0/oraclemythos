@@ -1,0 +1,158 @@
+[
+    {
+        "id": "itzamna",
+        "name": "Itzamna",
+        "title": "The Supreme Creator God, Associated with the Sky, Writing, and Medicine",
+        "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'>Creator of the Cosmos, Keeper of Knowledge</strong><br><br> <em style='font-size: 1.2em; color: #87CEFA;'>Beneath the heavens</em>, Itzamna crafted the world, his wisdom etched into stars and stone. The first sunrise obeyed his call, its light revealing order from chaos.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B0E0E6; background-color: #2E2E2E; padding: 10px;'>\"In knowledge lies the power to create, to heal, and to guide.\"</blockquote>",
+        "description": "Itzamna, the supreme creator god in Mayan mythology, embodies the wisdom and power that shaped the cosmos and humanity. Credited with establishing the earth, sky, and the cycles of time, he brought order to chaos and laid the foundation of Mayan civilization. Through his gifts of writing, medicine, and intellectual pursuits, Itzamna became a central figure of reverence, guiding mortals toward harmony and enlightenment. As the architect of existence and the patron of knowledge, his influence touches every aspect of life and creation.",
+        "image": "mapimages/itzamna.png",
+        "traits": [
+            "Wisdom: 🧠 As the god of knowledge, Itzamna invented Mayan hieroglyphs, governing the spiritual and intellectual realms.",
+            "Creation: 🌌 He shaped the universe, creating the earth, sky, and cycles of time that sustain life.",
+            "Strength: 💪 Itzamna’s strength lies in maintaining cosmic balance, ensuring harmony between opposing forces like day and night.",
+            "Power: ⚡ As the supreme authority, he holds sway over the celestial and terrestrial realms, influencing all aspects of existence.",
+            "Healing: 🌿 Associated with medicine, Itzamna embodies the union of physical and spiritual well-being, invoked for cures and health.",
+            "Writing and Knowledge: 📜 The inventor of hieroglyphic writing, Itzamna became the patron of scribes and scholars, the cornerstone of Mayan intellectual life."
+        ],
+        "Legends": [
+            "The Creation of the World: 🕊 Itzamna established the cosmos, crafting the earth, sky, and cycles of time, setting the foundation for life’s order.",
+            "The God of Civilization: ⚔ By gifting writing, the calendar, and medicine, Itzamna provided the tools for Mayan cultural and intellectual advancement.",
+            "The Father of the Gods: 🏛 As the progenitor of many deities, Itzamna presides over gods and mortals alike, ensuring balance and prosperity."
+        ],
+        "Lore": [
+            "The Sky God: 🌞 Ruling over the sun, moon, and stars, Itzamna governs time and the harmony of day, night, and seasons.",
+            "God of Medicine: 🌿 Known for his knowledge of plants and healing, Itzamna is invoked for health and well-being, blending the physical with the divine.",
+            "The Invention of Writing: 📜 By introducing hieroglyphs, he enabled the Maya to record their history, knowledge, and spiritual practices, becoming the patron of scribes and scholars."
+        ],
+        "quick_facts": {
+            "Parents": "Self-created or one of the original creator gods.",
+            "Consort": "Ix Chel, goddess of the moon and fertility.",
+            "Symbols": "Sky, Writing, Medicine, Day, Night, Sun, Hieroglyphs.",
+            "Sacred Sites": "Temples dedicated to Itzamna served as centers for learning, healing, and worship, reflecting his multifaceted role in Mayan culture."
+        }
+    },
+    {
+        "id": "kukulkan",
+        "name": "Kukulkan",
+        "title": "The Feathered Serpent God, Representing Wind, Rain, and Storms",
+        "carousel_description": "<strong style='color: #FFD700; font-size: 1.5em;'>The Feathered Serpent, Bringer of Rain and Renewal</strong><br><br> <em style='font-size: 1.2em; color: #87CEFA;'>Under storm-laden skies</em>, Kukulkan descends, his shimmering scales rippling with jade and gold. The winds rise, carrying life-giving rain to the earth, yet his presence is a reminder—creation and destruction are inseparably bound.<br><br> <blockquote style='border-left: 5px solid #FFD700; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B0E0E6; background-color: #2E2E2E; padding: 10px;'>\"The storm does not ask for permission; it simply is.\"</blockquote>",
+        "description": "Kukulkan, the feathered serpent, is one of the most venerated deities in Mayan mythology. As the god of wind, rain, and storms, he governs the forces that sustain and renew life while embodying the balance between creation and destruction. Kukulkan’s influence extends beyond nature, as he is also revered as a god of civilization, providing the knowledge and resources essential for Mayan society. His feathered serpent form represents the harmony between sky and earth, underscoring his role as a bridge between realms and a symbol of cosmic balance.",
+        "image": "mapimages/kukulkan.png",
+        "traits": [
+            "Wind: 💨 Kukulkan governs the wind, connecting the heavens and earth while guiding natural cycles and seasons.",
+            "Rain and Storms: 🌧 As the rainmaker, Kukulkan delivers nourishing rains for crops and powerful storms that cleanse and renew the earth.",
+            "Strength: 💪 His dominion over nature reflects immense power, capable of destruction and regeneration.",
+            "Power: ⚡ Kukulkan embodies cosmic balance and harmony, influencing both the physical and spiritual worlds.",
+            "Strategy: 🎯 A wise and calculated deity, Kukulkan ensures harmony between chaos and order through wind, rain, and storms.",
+            "Civilization: 🌍 Kukulkan’s guidance shaped Mayan culture, fostering agricultural prosperity and societal growth."
+        ],
+        "Legends": [
+            "The Creation of the World: 🕊 Kukulkan balanced the elements and established natural cycles, ensuring life’s continuity and the world’s stability.",
+            "The God of Storms: ⚔ Reflecting his dual nature, Kukulkan summoned both life-giving rains and destructive storms, embodying creation and renewal.",
+            "The Feathered Serpent’s Descent: 🏛 During the equinox at Chichen Itza, Kukulkan’s shadow appears as a serpent descending the pyramid, symbolizing his connection to the heavens and earth."
+        ],
+        "Lore": [
+            "Feathered Serpent: 🐍 Kukulkan’s form, adorned with feathers, bridges celestial and terrestrial realms, representing his duality and cosmic significance.",
+            "Wind and Rain: 🌪 Central to his identity, Kukulkan’s mastery of these forces made him vital to Mayan rituals, ensuring prosperity and protection.",
+            "God of Agriculture: 🌿 Protector of crops and bringer of rain, Kukulkan’s blessings ensured the agricultural success that sustained Mayan civilization."
+        ],
+        "quick_facts": {
+            "Parents": "Self-created or one of the primordial creator gods.",
+            "Symbols": "Feathered Serpent, Wind, Rain, Storms, Crops, Chichen Itza.",
+            "Sacred Sites": "The Pyramid of Kukulkan at Chichen Itza, where his descent is celebrated during the equinox, remains a testament to his central role in Mayan culture."
+        }
+    },
+    {
+        "id": "ah_puch",
+        "name": "Ah Puch",
+        "title": "God of Death and Ruler of Xibalba, the Mayan Underworld",
+        "carousel_description": "<strong style='color: #8B0000; font-size: 1.5em;'>Lord of Death and the Underworld</strong><br><br> <em style='font-size: 1.2em; color: #FF6347;'>In the shadowed depths of Xibalba</em>, Ah Puch walks silently, his skeletal form a reminder of life’s fragile boundary. Beneath his hollow gaze lies no malice, only the inevitability of what must come.<br><br> <blockquote style='border-left: 5px solid #8B0000; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FFA07A; background-color: #2E2E2E; padding: 10px;'>\"In the stillness of death, balance is restored.\"</blockquote>",
+        "description": "Ah Puch, the fearsome Mayan god of death, presides over Xibalba, the dark and perilous underworld where the souls of the dead are judged. Known as \"The Stinking One\" or \"The Flatulent One,\" he embodies decay, the end of life, and the cosmic balance between existence and oblivion. Depicted as a skeletal figure adorned with symbols of death, Ah Puch rules over the journey of souls, offering challenges to test their moral worth. While terrifying to the living, his role is essential in maintaining the natural cycle of life and death.",
+        "image": "mapimages/ah_puch.png",
+        "traits": [
+            "Death: 💀 Ah Puch governs the passage of souls into the afterlife, ensuring their journey through Xibalba is just and inevitable.",
+            "Decay: 🩸 He oversees decomposition, symbolizing the completion of life’s cycle and the return to the earth.",
+            "Fear: ⚔ As a figure of dread, Ah Puch embodies humanity’s fear of mortality and the unknown.",
+            "Fate: 🔮 Ah Puch determines the trials and ultimate fate of souls, reflecting their deeds in life.",
+            "Power: 💪 His dominion over death and decay places him at the center of the Mayan spiritual world.",
+            "Balance: 🌌 Despite his grim nature, Ah Puch’s role ensures harmony in the cycle of life and death, preserving cosmic order."
+        ],
+        "Legends": [
+            "The Lord of Xibalba: 🕊 As ruler of the underworld, Ah Puch oversees a realm filled with trials for the souls of the dead, testing their worthiness for peace or punishment.",
+            "The Hero Twins’ Challenge: ⚔ In the Popol Vuh, Ah Puch and the lords of Xibalba devise deadly trials for the Hero Twins, Hunahpu and Xbalanque. Despite his cunning, the twins outsmart him, symbolizing the triumph of life over death.",
+            "Judgment of the Dead: 🏛 Ah Puch judges souls entering Xibalba, offering mercy to the virtuous and harsh justice to the wicked."
+        ],
+        "Lore": [
+            "Skeletal Form: 💀 Ah Puch’s skeletal appearance, often adorned with bones and symbols of death, reflects his domain over mortality and decay.",
+            "Xibalba: 🌌 The treacherous underworld, ruled by Ah Puch, represents the trials and challenges faced by the soul after death.",
+            "Rituals for the Dead: 🩸 The Maya offered prayers and sacrifices to Ah Puch, seeking his favor for a peaceful passage into the afterlife and protection for the living."
+        ],
+        "quick_facts": {
+            "Parents": "Likely one of the primordial lords of Xibalba, with no specific parentage.",
+            "Symbols": "Skulls, Bones, Owls, Xibalba, Skeletons.",
+            "Sacred Sites": "Xibalba, the feared underworld, is the spiritual realm where Ah Puch reigns supreme."
+        }
+    },
+    {
+        "id": "ix_chel",
+        "name": "Ix Chel",
+        "title": "Goddess of the Moon, Fertility, and Medicine",
+        "carousel_description": "<strong style='color: #4682B4; font-size: 1.5em;'>Goddess of the Moon, Fertility, and Medicine</strong><br><br> <em style='font-size: 1.2em; color: #87CEFA;'>Beneath the moon’s changing light</em>, Ix Chel weaves life’s delicate threads. She cradles water and storms alike, her dual nature shaping the cycles of creation and renewal.<br><br> <blockquote style='border-left: 5px solid #4682B4; padding-left: 15px; margin-left: 10px; font-style: italic; color: #B0E0E6; background-color: #2F4F4F; padding: 10px;'>\"In her hands lie life’s rhythms—ever shifting, ever eternal.\"</blockquote>",
+        "description": "Ix Chel, the lunar goddess of Mayan mythology, embodies the interconnected cycles of life, death, and rebirth. Governing the moon’s phases and the rhythms of nature, she influences fertility, agriculture, and timekeeping. As a healer and protector, Ix Chel watches over childbirth and provides the wisdom of medicine, guiding women and healers alike. Yet, her nurturing power is balanced by her capacity for destruction, with storms and floods reflecting her dual nature. Both creator and destroyer, Ix Chel ensures the harmony of existence through her mastery of the elements.",
+        "image": "mapimages/ix_chel.png",
+        "traits": [
+            "Moon: 🌕 Governs the phases of the moon, tying her to life’s natural rhythms, fertility, and agriculture.",
+            "Fertility: 🌿 Oversees childbirth, the growth of crops, and the continuation of life, ensuring renewal and prosperity.",
+            "Strength: 💪 While nurturing, she wields the power to summon destructive storms, embodying balance through strength.",
+            "Healing: 🌈 A master of medicine, Ix Chel shares her knowledge of plants and remedies with healers and midwives.",
+            "Death and Rebirth: 💀 Her dominion includes the cycles of destruction and renewal, essential to maintaining life’s balance.",
+            "Water: 🌙 Associated with rain and storms, Ix Chel symbolizes water’s dual roles as a life-giving and transformative force."
+        ],
+        "Legends": [
+            "The Weaver of Life: 🕊 Ix Chel is depicted as a divine weaver, crafting the fabric of existence and controlling the cycles of fertility, lunar phases, and life itself.",
+            "The Flood: ⚔ In some myths, Ix Chel unleashes devastating floods to cleanse the world, demonstrating her power over chaos and destruction.",
+            "The Consort of Itzamna: 🏛 As the partner of the creator god Itzamna, Ix Chel represents the balance of opposing forces—male and female, creation and destruction."
+        ],
+        "Lore": [
+            "Lunar Goddess: 🌕 Her connection to the moon’s cycles ties her to timekeeping, agriculture, and the fertility of women and the land.",
+            "Healer and Midwife: 🌿 Ix Chel is invoked during childbirth and healing rituals, serving as a protector of women and a source of medical wisdom.",
+            "Bringer of Rain and Storms: 🌧 Her dominion over water ensures the nourishment of crops and reflects her power to cleanse through floods when provoked."
+        ],
+        "quick_facts": {
+            "Consort": "Itzamna, the supreme creator god, is often regarded as her partner.",
+            "Symbols": "Moon, Water, Rainbows, Weaving, Medicine, Childbirth, Rainstorms.",
+            "Sacred Sites": "Temples dedicated to Ix Chel celebrated her roles as healer, fertility goddess, and guardian of life’s cycles, central to Mayan spiritual practices."
+        }
+    },
+    {
+        "id": "hunahpu_xbalanque",
+        "name": "Hunahpu & Xbalanque",
+        "title": "The Hero Twins, Champions of Xibalba",
+        "carousel_description": "<strong style='color: #8B0000; font-size: 1.5em;'>The Hero Twins, Champions of Xibalba</strong><br><br> <em style='font-size: 1.2em; color: #CD5C5C;'>In the depths of Xibalba</em>, Hunahpu’s wit and Xbalanque’s resolve forged their path. Together, they defied gods and monsters, proving that unity and cunning can shape the fate of the world.<br><br> <blockquote style='border-left: 5px solid #8B0000; padding-left: 15px; margin-left: 10px; font-style: italic; color: #FA8072; background-color: #2E2E2E; padding: 10px;'>\"In the darkest trials, strength lies in harmony.\"</blockquote>",
+        "description": "Hunahpu and Xbalanque, the legendary Hero Twins of Mayan mythology, are celebrated for their bravery, intelligence, and divine purpose. Their journey into Xibalba, the Mayan underworld, to avenge their father and defeat its lords is one of the central narratives of the Popol Vuh, the sacred text of the Maya. Through cunning, courage, and the strength of their bond, the twins outsmarted the forces of chaos, restoring balance and ensuring the renewal of life. As symbols of unity and resilience, their adventures embody the Mayan ideals of perseverance and cosmic harmony.",
+        "image": "mapimages/hero_twins.png",
+        "traits": [
+            "Strength: 💪 Relying on their unity and resourcefulness, the twins overcame challenges that brute force alone could not.",
+            "Power: ⚡ Gifted with divine abilities, they wielded the forces of life and death to triumph in Xibalba.",
+            "Strategy: 🎯 Clever and inventive, the twins turned every trial to their advantage, outwitting even the most cunning foes.",
+            "Balance: 🌌 By conquering the lords of Xibalba, they restored cosmic order and ensured the continuation of life’s cycle.",
+            "Courage: ⚔ Facing deadly trials, they demonstrated unwavering bravery, exemplifying the spirit of true heroes.",
+            "Prophecy: 🔮 Their journey fulfilled their destiny to avenge their father and bring justice and balance to the cosmos."
+        ],
+        "Legends": [
+            "The Defeat of the Lords of Xibalba: 🕊 The twins ventured into the underworld to avenge their father, Hun Hunahpu, defeating its rulers through cleverness and courage, ensuring cosmic harmony.",
+            "The Ballgame in Xibalba: ⚔ In one of their greatest challenges, they outplayed the lords of Xibalba in a sacred and deadly ballgame, a pivotal moment in their victory.",
+            "The Resurrection of Their Father: 🏛 After their triumph, the twins resurrected Hun Hunahpu, symbolizing the triumph of life over death and the renewal of the cosmic cycle."
+        ],
+        "Lore": [
+            "The Hero Twins: ⚔ Their resourcefulness and unity symbolize the strength of working together to overcome challenges, a core value in Mayan culture.",
+            "The Underworld Journey: 🌑 Their trials in Xibalba reflect the struggles of existence and the ultimate victory of life and order over death and chaos.",
+            "The Sacred Ballgame: 🎮 Their ballgame against Xibalba’s lords became a symbol of hope, renewal, and the eternal struggle between light and darkness."
+        ],
+        "quick_facts": {
+            "Parents": "Hun Hunahpu (father), a legendary ballplayer slain by Xibalba’s lords, and Blood Moon (mother).",
+            "Symbols": "Ballgame, Twinhood, Sun and Moon, Intelligence, Resurrection.",
+            "Sacred Sites": "Ballcourts throughout the Mayan world honor the Hero Twins’ journey, serving as a reminder of their triumph and the renewal they brought to the cosmos."
+        }
+    }    
+]
