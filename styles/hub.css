@@ -1,0 +1,382 @@
+/* 🌑 Global Theme */
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background: linear-gradient(to bottom, #121212, #1e1e1e);
+    color: white;
+}
+
+/* 📜 Header with Hero Background */
+.hero-header {
+    position: relative;
+    height: 50vh; /* Keeps all hubs consistent */
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid #C5A253;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Dark Overlay for Readability */
+.hero-header::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+/* 📌 Hero Text */
+.hero-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+}
+
+.hero-text .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* 📌 Main Content Container */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* 🛡️ Character Grid */
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.character-card {
+    background: #252525;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: auto;
+}
+
+.character-card:hover {
+    transform: scale(1.05);
+}
+
+.character-image {
+    width: 100%;
+    height: 180px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* 📖 Notable Myths Section */
+.story-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding: 20px 10px;
+}
+
+.story-card {
+    flex: 0 0 280px;
+    background: #2e2e2e;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: auto;
+}
+
+.story-card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.story-card:hover {
+    transform: scale(1.05);
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #C5A253;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #ff5722;
+}
+
+/* 📜 Fade-in Effect for Sections */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 🍔 Sticky Hamburger Menu */
+.hamburger-menu {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.hamburger-menu button {
+    background-color: #C5A253;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.hamburger-menu button:hover {
+    background-color: #ff5722;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #2e2e2e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.dropdown a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.dropdown a:hover {
+    background-color: #ff5722;
+}
+
+.show-dropdown {
+    display: block;
+}
+
+/* 🎭 Mobile Optimizations */
+@media (max-width: 768px) {
+    .hero-header {
+        height: 40vh; /* Reduce hero size */
+        background-size: cover;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .character-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .story-slider {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .story-card {
+        flex: 0 0 90%;
+    }
+}
+/* 🔱 Norse Symbol Image */
+.large-image {
+    display: block;
+    max-width: 40%; /* ✅ Limits image size */
+    height: auto;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 📱 Responsive Fix */
+@media (max-width: 768px) {
+    .large-image {
+        max-width: 60%; /* ✅ Adjusts size for mobile */
+    }
+}
+.character-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+/* 🛠 Hide Scrollbar for Character Scroll */
+.character-scroll {
+    display: flex;
+    overflow-x: scroll; /* Allows horizontal scrolling */
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding-bottom: 10px; /* Prevents cut-off effect */
+}
+
+/* 🔒 Hide Scrollbar */
+.character-scroll::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+.character-scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+
+.character-card {
+    flex: 0 0 auto;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    border-radius: 10px;
+    object-fit: cover; /* Ensures the full image fits */
+}
+
+
+.character-card:hover {
+    transform: scale(1.1);
+}
+
+/* Scroll Buttons */
+.scroll-btn {
+    background: #C5A253;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.scroll-btn:hover {
+    background: #ff5722;
+}
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.story-card {
+    background: #2e2e2e;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.story-card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.story-card:hover {
+    transform: scale(1.05);
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #C5A253;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #ff5722;
+}
+/* 🔙 Stylish Back to Map Button */
+.back-link {
+    display: inline-block;
+    margin: 30px auto; /* Centers the button */
+    padding: 12px 20px;
+    background: #C5A253; /* Golden tone to match theme */
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 🔥 Hover Effect */
+.back-link:hover {
+    background: #ff5722; /* Vibrant orange for hover */
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* 🎭 Centering on Mobile */
+@media (max-width: 768px) {
+    .back-link {
+        font-size: 1rem;
+        padding: 10px 18px;
+    }
+}
+
+
+/* 🚫 Remove Underline from Character Links */
+.character-card {
+    text-decoration: none; /* Removes underline */
+    color: rgb(255, 255, 255); /* Ensures the text remains visible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+

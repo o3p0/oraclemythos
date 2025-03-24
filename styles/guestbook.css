@@ -1,0 +1,405 @@
+/* 🌟 General Page Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* ✅ Compact Login Box */
+#login-container {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: rgba(30, 30, 30, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgba(255, 204, 0, 0.6);
+}
+
+#username {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#login-btn {
+    background: linear-gradient(45deg, #ffcc00, #ff5722);
+    padding: 8px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+#login-btn:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+/* ✅ Hero Section */
+.hero-header {
+    height: 35vh;
+    background-image: url('../mapimages/guestbook-hero.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #ffcc00;
+}
+
+/* ✅ Guestbook Entries */
+#guestbook-entries {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(40, 40, 40, 0.8);
+    border-radius: 8px;
+    border-left: 4px solid rgba(255, 204, 0, 0.8);
+}
+
+/* ✅ Individual Guestbook Entry */
+.guest-entry {
+    padding: 10px;
+    margin-bottom: 15px;
+    background: rgba(50, 50, 50, 0.9);
+    border-radius: 8px;
+    border-left: 3px solid rgba(255, 204, 0, 0.8);
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* ✅ Reply Button Styling */
+.reply-btn {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    background: rgba(255, 204, 0, 0.8);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reply-btn:hover {
+    background: rgba(255, 204, 0, 1);
+}
+
+/* ✅ Reply Box */
+.reply-section {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(20, 20, 20, 0.9);
+    border-radius: 5px;
+}
+
+.reply-input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid rgba(255, 204, 0, 0.8);
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.submit-reply {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background: rgba(255, 204, 0, 0.8);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-reply:hover {
+    background: rgba(255, 204, 0, 1);
+}
+
+/* ✅ Replies Section */
+.replies-box {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-left: 3px solid rgba(255, 204, 0, 0.8);
+}
+
+.guest-reply {
+    padding-left: 15px;
+    font-size: 0.9rem;
+    color: #ffcc00;
+}
+
+/* ✅ Profile Link */
+.profile-link {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-link:hover {
+    text-decoration: underline;
+}
+/* 🌟 General Page Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+/* ✅ Clean & Stylish Message Box */
+#guestbook-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 204, 0, 0.8);
+    box-shadow: 0px 0px 12px rgba(255, 204, 0, 0.5);
+    width: 100%;
+}
+
+#message {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 2px solid rgba(255, 204, 0, 0.6);
+    background: rgba(40, 40, 40, 0.9);
+    color: white;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    background: linear-gradient(45deg, #ffcc00, #ff5722);
+    padding: 12px;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+/* ✅ Move Login Box to the Left Side */
+#login-container {
+    width: 250px; /* Adjust width for a neat box */
+    margin: 20px 0 20px 20px; /* Moves it to the left with spacing */
+    background: rgba(30, 30, 30, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.5);
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+/* ✅ Username Input */
+#username {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ffcc00;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* ✅ Login Button */
+#login-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(45deg, #ffcc00, #ff5722);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+
+#login-btn:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+/* ✅ 'Logged in as' text below login */
+#logged-in-user {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ffcc00;
+    font-weight: bold;
+    display: none; /* Initially hidden, appears after login */
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+/* ✅ Smaller & Cleaner Message Box */
+#guestbook-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 204, 0, 0.8);
+    box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.5);
+    width: 80%; /* 🔥 Adjusted Width */
+    max-width: 500px; /* ✅ Prevents it from stretching too much */
+    margin: auto;
+}
+
+#message {
+    width: 90%; /* ✅ Adjusted Width */
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 2px solid rgba(255, 204, 0, 0.6);
+    background: rgba(40, 40, 40, 0.9);
+    color: white;
+    border-radius: 5px;
+    resize: none;
+    margin: auto;
+}
+
+button {
+    background: linear-gradient(45deg, #ffcc00, #ff5722);
+    padding: 10px;
+    font-size: 1rem; /* 🔥 Adjusted for consistency */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 50%; /* ✅ Keeps button compact */
+    max-width: 150px;
+    margin: auto;
+}
+
+button:hover {
+    background: #ffcc00;
+    color: black;
+}
+/* ✅ Guestbook Entries - Smaller & More Defined */
+#guestbook-entries {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 8px;
+    border-left: 4px solid rgba(255, 204, 0, 0.8);
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* ✅ Individual Entries - More Compact */
+.guest-entry {
+    background: rgba(50, 50, 50, 0.8);
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    box-shadow: 0px 0px 6px rgba(255, 204, 0, 0.4);
+    transition: transform 0.2s ease-in-out;
+}
+
+.guest-entry:hover {
+    transform: scale(1.02); /* 🔥 Slight hover effect */
+}
+
+/* ✅ Username Styling */
+.guest-entry strong {
+    color: #ffcc00;
+    font-size: 1rem;
+}
+
+/* ✅ Replies Box - More Separated */
+.replies-box {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-left: 3px solid rgba(255, 204, 0, 0.6);
+}
+
+/* ✅ Individual Reply - Smaller & Defined */
+.guest-reply {
+    padding: 6px;
+    font-size: 0.9rem;
+    color: #ffcc00;
+    border-bottom: 1px dashed rgba(255, 204, 0, 0.4);
+    margin-bottom: 5px;
+}
+
+/* ✅ Profile Link */
+.profile-link {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-link:hover {
+    text-decoration: underline;
+}
+
+/* ✅ Smaller & More Readable Reply Button */
+.reply-btn, .delete-btn {
+    background: linear-gradient(45deg, #ffcc00, #ff5722);
+    padding: 6px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s ease;
+    margin-top: 8px;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.reply-btn:hover, .delete-btn:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+/* ✅ Reply Box */
+.reply-section {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 5px;
+}
+
+.reply-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    background: rgba(40, 40, 40, 0.9);
+    color: white;
+    border-radius: 5px;
+}
