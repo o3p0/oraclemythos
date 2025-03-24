@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestbook - OracleMythos</title>
+
+    <!-- ✅ Styles -->
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/guestbook.css">
+
+    <!-- ✅ Scripts -->
+    <script defer src="../scripts/guestbook.js"></script>
+    <script defer src="../scripts/scripts.js"></script> <!-- Include Global Scripts -->
+</head>
+
+<body class="guestbook-theme">
+    <!-- 🔥 Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn">☰</button>
+        <div id="dropdown-menu" class="dropdown"></div>
+    </div>
+
+ <!-- 🔥 Fixed Login Box Layout -->
+<div id="login-container">
+    <h3>Login</h3>
+    <input type="text" id="username" placeholder="Enter your name" required>
+    <button id="login-btn">Login</button>
+    <p id="logged-in-user"></p> <!-- ✅ Username appears BELOW the login button -->
+</div>
+
+
+    <header class="hero-header">
+        <div class="hero-text">
+            <h1>Guestbook</h1>
+            <p class="subtitle">Leave a message and share your thoughts!</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <form id="guestbook-form">
+            <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Previous Entries</h2>
+        <div id="guestbook-entries"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+[
+    {
+        "id": "odyssey",
+        "mythology": "greek",
+        "title": "The Odyssey",
+        "date": -800,
+        "image": "/images/stories/odyssey.jpg",
+        "tags": ["bravery", "wisdom"],
+        "full_story": "/stories/greek-odyssey.html"
+    },
+    {
+        "id": "trojan-war",
+        "mythology": "greek",
+        "title": "The Trojan War",
+        "date": -1200,
+        "image": "/images/stories/trojan-war.jpg",
+        "tags": ["chaos", "bravery"],
+        "full_story": "/stories/trojan-war.html"
+    },
+    {
+        "id": "medusa",
+        "mythology": "greek",
+        "title": "Medusa and Perseus",
+        "date": -700,
+        "image": "/images/stories/greek-medusa.jpg",
+        "tags": ["bravery", "wisdom"],
+        "full_story": "/stories/greek-medusa.html"
+    },
+    {
+        "id": "yggdrasil",
+        "mythology": "norse",
+        "title": "The World Tree Yggdrasil",
+        "date": -500,
+        "image": "/images/stories/yggdrasil.jpg",
+        "tags": ["creation", "wisdom"],
+        "full_story": "/stories/norse-yggdrasil.html"
+    },
+    {
+        "id": "ra",
+        "mythology": "egyptian",
+        "title": "Ra's Journey",
+        "date": -3000,
+        "image": "/images/stories/ra.jpg",
+        "tags": ["creation", "wisdom"],
+        "full_story": "/stories/egypt-ra.html"
+    },
+    {
+        "id": "isis-osiris",
+        "mythology": "egyptian",
+        "title": "The Story of Osiris and Isis",
+        "date": -2500,
+        "image": "/images/stories/isis-osiris.jpg",
+        "tags": ["love", "death"],
+        "full_story": "/stories/egypt-story.html"
+    },
+
+        {
+            "id": "fifth-sun",
+            "mythology": "aztec",
+            "title": "The Creation of the Fifth Sun",
+            "date": -1200,
+            "image": "/images/stories/fifth-sun.jpg",
+            "tags": ["creation", "sacrifice"],
+            "full_story": "/stories/aztec-fifth-sun.html"
+        },
+        {
+            "id": "huitzilopochtli-serpent",
+            "mythology": "aztec",
+            "title": "The Legend of Huitzilopochtli & the Serpent Woman",
+            "date": -1000,
+            "image": "/images/stories/huitzilopochtli.jpg",
+            "tags": ["war", "divine-birth"],
+            "full_story": "/stories/aztec-huitzilopochtli.html"
+        },
+        {
+            "id": "cowherd-weaver",
+            "mythology": "chinese",
+            "title": "The Cowherd and the Weaver Girl",
+            "date": -300,
+            "image": "/images/stories/cowherd-weaver.jpg",
+            "tags": ["love", "tragedy"],
+            "full_story": "/stories/chinese-cowherd-weaver.html"
+        },
+        {
+            "id": "monkey-king-battle",
+            "mythology": "chinese",
+            "title": "The Battle of the Monkey King",
+            "date": -500,
+            "image": "/images/stories/monkey-king.jpg",
+            "tags": ["trickery", "immortality"],
+            "full_story": "/stories/chinese-monkey-king.html"
+        },
+        {
+            "id": "ramayana",
+            "mythology": "hindu",
+            "title": "The Ramayana",
+            "date": -500,
+            "image": "/images/stories/ramayana.jpg",
+            "tags": ["dharma", "heroism", "devotion"],
+            "full_story": "/stories/hindu-ramayana.html"
+          },
+          {
+            "id": "churning-ocean",
+            "mythology": "hindu",
+            "title": "The Churning of the Ocean",
+            "date": -1500,
+            "image": "/images/stories/churning-ocean.jpg",
+            "tags": ["creation", "immortality", "cosmic-balance"],
+            "full_story": "/stories/hindu-churning-ocean.html"
+          },
+        {
+            "id": "creation-world-yoruba",
+            "mythology": "yoruba",
+            "title": "The Creation of the World",
+            "date": -2000,
+            "image": "/images/stories/creation-yoruba.jpg",
+            "tags": ["creation", "divine-power"],
+            "full_story": "/stories/yoruba-creation.html"
+        },
+        {
+            "id": "legend-of-sango",
+            "mythology": "yoruba",
+            "title": "The Legend of Sango",
+            "date": -1200,
+            "image": "/images/stories/sango.jpg",
+            "tags": ["thunder", "power", "justice"],
+            "full_story": "/stories/yoruba-sango.html"
+          },
+        {
+            "id": "hero-twins-xibalba",
+            "mythology": "mayan",
+            "title": "The Hero Twins and the Lords of Xibalba",
+            "date": -1500,
+            "image": "/images/stories/hero-twins.jpg",
+            "tags": ["trickery", "underworld"],
+            "full_story": "/stories/mayan-hero-twins.html"
+        },
+        {
+            "id": "creation-humans-maize",
+            "mythology": "mayan",
+            "title": "The Creation of Humans from Maize",
+            "date": -2000,
+            "image": "/images/stories/maize-humans.jpg",
+            "tags": ["creation", "spirituality"],
+            "full_story": "/stories/mayan-maize-humans.html"
+        }
+    ]
+    
+
+
+
+
+
+   
+

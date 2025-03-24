@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egyptian Mythology - OracleMythos</title>
+
+    <!-- ✅ Styles -->
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/hub.css">
+
+    <!-- ✅ Scripts -->
+    <script defer src="../scripts/scripts.js"></script>
+    <script defer src="../scripts/hub.js"></script>
+
+    <style>
+        .hero-header {
+            background-image: url('../mapimages/egyptian-hero.png'); /* ✅ Egyptian Mythology Image */
+        }
+    </style>
+</head>
+
+<body class="egyptian-theme">
+
+    <!-- 🍔 Sticky Navigation & Header with Hero Image -->
+    <header class="hero-header">
+        <div class="hamburger-menu">
+            <button id="hamburger-btn">&#9776;</button>
+            <div class="dropdown" id="dropdown-menu"></div>
+        </div>
+        <div class="hero-text">
+            <h1>Egyptian Mythology</h1>
+            <p class="subtitle">Tales of divine order, the afterlife, and the cosmic balance of Ma’at.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 📜 Overview Section -->
+        <h1>Egyptian Mythology</h1>
+        <p>From the dawn of the cosmos to the rule of the pharaohs, Egyptian mythology tells of gods, kings, and the balance of Ma’at that sustains the universe.</p>
+
+        <img src="../mapimages/egyptian-symbol.png" alt="Egyptian Symbol" class="large-image">
+
+        <div class="highlight">Egyptian mythology is a grand cycle of life, death, and rebirth—woven through the gods and their eternal domains.</div>
+
+        <h2>Major Figures</h2>
+        <div class="character-container">
+            <button class="scroll-btn left">←</button>
+            <div class="character-scroll">
+                <a href="../characters.html?mythology=egyptian&character=ra" class="character-card">
+                    <img src="../mapimages/ra.png" alt="Ra">
+                    <h3>Ra</h3>
+                </a>
+                <a href="../characters.html?mythology=egyptian&character=osiris" class="character-card">
+                    <img src="../mapimages/osiris.png" alt="Osiris">
+                    <h3>Osiris</h3>
+                </a>
+                <a href="../characters.html?mythology=egyptian&character=isis" class="character-card">
+                    <img src="../mapimages/isis.png" alt="Isis">
+                    <h3>Isis</h3>
+                </a>
+                <a href="../characters.html?mythology=egyptian&character=anubis" class="character-card">
+                    <img src="../mapimages/anubis.png" alt="Anubis">
+                    <h3>Anubis</h3>
+                </a>
+                <a href="../characters.html?mythology=egyptian&character=horus" class="character-card">
+                    <img src="../mapimages/horus.png" alt="Horus">
+                    <h3>Horus</h3>
+                </a>
+                <a href="../characters.html?mythology=egyptian&character=set" class="character-card">
+                    <img src="../mapimages/set.png" alt="Set">
+                    <h3>Set</h3>
+                </a>
+            </div>
+            <button class="scroll-btn right">→</button>
+        </div>
+
+        <h2>Notable Myths</h2>
+        <div class="story-grid">
+            <div class="story-card">
+                <img src="../images/stories/ra-journey.jpg" alt="Ra’s Journey">
+                <h3>Ra’s Journey</h3>
+                <p>The sun god’s eternal voyage through the underworld and his battle with Apophis.</p>
+                <a href="../stories/egyptian-ra-journey.html" class="read-more">Read More</a>
+            </div>
+
+            <div class="story-card">
+                <img src="../images/stories/osiris-isis.jpg" alt="The Story of Osiris and Isis">
+                <h3>The Story of Osiris and Isis</h3>
+                <p>A tale of betrayal, resurrection, and the divine right to rule.</p>
+                <a href="../stories/egyptian-osiris-isis.html" class="read-more">Read More</a>
+            </div>
+        </div>
+
+        <a href="../map.html" class="back-link">Back to Map</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Mythology - OracleMythos</title>
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/hub.css">
+
+    <script defer src="../scripts/scripts.js"></script>
+    <script defer src="../scripts/hub.js"></script>
+
+    <style>
+        .hero-header {
+            background-image: url('../mapimages/greek-hero.png'); /* ✅ Greek Mythology Image */
+        }
+    </style>
+</head>
+
+<body class="greek-theme">
+
+    <header class="hero-header">
+        <div class="hamburger-menu">
+            <button id="hamburger-btn">&#9776;</button>
+            <div class="dropdown" id="dropdown-menu"></div>
+        </div>
+        <div class="hero-text">
+            <h1>Greek Mythology</h1>
+            <p class="subtitle">Tales of gods, heroes, and epic battles that shaped the ancient world.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Greek Mythology</h1>
+        <p>From the powerful Olympian gods to tragic heroes and legendary monsters, Greek mythology is filled with tales of destiny, courage, and divine intervention.</p>
+
+        <img src="../mapimages/greek-symbol.png" alt="Greek Symbol" class="large-image">
+
+        <div class="highlight">Greek mythology explores the struggles between gods and mortals, shaping the fate of the world.</div>
+
+        <h2>Major Figures</h2>
+        <div class="character-container">
+            <button class="scroll-btn left">←</button>
+            <div class="character-scroll">
+                <a href="../characters.html?mythology=greek&character=zeus" class="character-card">
+                    <img src="../mapimages/zeus.png" alt="Zeus">
+                    <h3>Zeus</h3>
+                </a>
+                <a href="../characters.html?mythology=greek&character=poseidon" class="character-card">
+                    <img src="../mapimages/poseidon.png" alt="Poseidon">
+                    <h3>Poseidon</h3>
+                </a>
+                <a href="../characters.html?mythology=greek&character=hades" class="character-card">
+                    <img src="../mapimages/hades.png" alt="Hades">
+                    <h3>Hades</h3>
+                </a>
+            </div>
+            <button class="scroll-btn right">→</button>
+        </div>
+
+        <h2>Notable Myths</h2>
+        <div class="story-grid">
+            <div class="story-card">
+                <img src="../images/stories/titanomachy.jpg" alt="Titanomachy">
+                <h3>The Titanomachy</h3>
+                <p>The great war between the Olympian gods and the Titans.</p>
+                <a href="../stories/greek-titanomachy.html" class="read-more">Read More</a>
+            </div>
+            <div class="story-card">
+                <img src="../images/stories/heracles.jpg" alt="Heracles' Twelve Labors">
+                <h3>Heracles' Twelve Labors</h3>
+                <p>A hero's impossible trials to seek redemption.</p>
+                <a href="../stories/greek-heracles.html" class="read-more">Read More</a>
+            </div>
+        </div>
+
+        <a href="../map.html" class="back-link">Back to Map</a>
+    </div>
+
+</body>
+</html>

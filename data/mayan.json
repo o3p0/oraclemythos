@@ -1,0 +1,384 @@
+[
+    {
+        "id": "kukulkan",
+        "name": "Kukulkan",
+        "title": "The Feathered Serpent, The Bringer of Civilization",
+        "image": "mapimages/kukulkan.png",
+      
+        "core_identity": {
+            "pantheon": "Mayan",
+            "faction": "Mayan Pantheon",
+            "domain": "Wind, Rain, Creation, Civilization, War, Prophecy, Wisdom"
+        },
+      
+        "archetype_alignment": {
+            "roles": ["The Ruler"],
+            "alignment": "Leo",
+            "essence": ["🪨⚡ Titan"],
+            "instruments": ["🐍 Feathered Serpent Form", "🌬 The Winds of Change", "📜 Sacred Codices"]
+        },
+      
+        "attributes": {
+            "dominion": 100,
+            "wrath": 75,
+            "arcana": 95,
+            "guile": 85,
+            "resolve": 100
+        },
+      
+        "expandable_section": {
+            "quick_facts": {
+                "sacred_places": ["🏛 Chichen Itza", "🏛 Uxmal", "🏛 Mayapan"],
+                "rivalries_alliances": {
+                    "rivals": ["Tezcatlipoca", "War Gods"],
+                    "allies": ["Itzamná", "Hero Twins"]
+                }
+            },
+            "about_section": [
+                {
+                    "title": "Divine Order & Role in the Cosmos",
+                    "description": "Kukulkan is a creator and teacher, a god of wisdom, wind, and civilization. As the feathered serpent, he bridges the celestial and earthly realms, bringing order, knowledge, and prosperity."
+                },
+                {
+                    "title": "Mythological Power & Influence",
+                    "description": "Kukulkan is the force behind civilization—he teaches writing, astronomy, and law. He is associated with celestial cycles, returning in time to guide humanity once more."
+                },
+                {
+                    "title": "Worship & Cultural Impact",
+                    "description": "The pyramid of Kukulkan at Chichen Itza aligns with the equinox, marking his return. Unlike many Mesoamerican gods, he may have preferred incense and prayers over human sacrifice."
+                },
+                {
+                    "title": "Allies & Rivalries",
+                    "description": "Kukulkan shares wisdom with Itzamná and the Hero Twins, but opposes gods of war and destruction. In later interpretations, he rivals Tezcatlipoca in the cosmic struggle for balance."
+                },
+                {
+                    "title": "Artifacts & Symbols of Power",
+                    "description": "His **Feathered Serpent Form** represents transformation and celestial power, while the **Sacred Codices** held his wisdom (though many were lost during conquest)."
+                },
+                {
+                    "title": "Mortal Encounters & Legacy",
+                    "description": "His legend endured beyond the Maya civilization, influencing historical events such as the arrival of the Spanish, who were mistaken for his prophesied return."
+                }
+            ],
+            "legends": [
+                "🐍 The Arrival of Kukulkan: Descending from the heavens, he brought knowledge of agriculture, astronomy, and governance to the Maya before departing, promising to return.",
+                "🌞 The Equinox Serpent Shadow: Each equinox, a serpent's shadow slithers along El Castillo at Chichen Itza, symbolizing Kukulkan’s descent to the mortal realm.",
+                "⚔ The Feathered Serpent vs. Chaos: Kukulkan opposes destruction, ensuring nature and civilization remain in balance against forces of disorder.",
+                "🔄 The Prophecy of Kukulkan’s Return: Maya myths foretold his return, a belief that later influenced real-world historical events and encounters with foreign conquerors."
+            ],
+            "lore": [
+                "📜 Sacred Codices: Ancient books detailing Kukulkan’s wisdom, mostly lost to time.",
+                "🐍 Feathered Serpent Imagery: Found across Mayan temples, representing divinity and transformation.",
+                "🏛 The Pyramid of Kukulkan: A masterpiece of Mesoamerican architecture, aligned with celestial cycles."
+            ]
+        }
+    },
+    {
+        "id": "itzamna",
+        "name": "Itzamná",
+        "title": "The Supreme Creator, The Sage of the Cosmos",
+        "image": "mapimages/itzamna.png",
+      
+        "core_identity": {
+            "pantheon": "Mayan",
+            "faction": "Mayan Pantheon",
+            "domain": "Sky, Creation, Knowledge, Healing, Writing, Magic, Civilization"
+        },
+      
+        "archetype_alignment": {
+            "roles": ["The High Priestess"],
+            "alignment": "Pisces",
+            "essence": ["🌿⚡ Lush"],
+            "instruments": ["📝 Sacred Glyphs", "🌎 The Cosmic Crocodile", "☀ Solar Knowledge"]
+        },
+      
+        "attributes": {
+            "dominion": 100,
+            "wrath": 50,
+            "arcana": 100,
+            "guile": 80,
+            "resolve": 100
+        },
+      
+        "expandable_section": {
+            "quick_facts": {
+                "sacred_places": ["Izamal", "Uxmal", "Chichen Itza"],
+                "rivalries_alliances": {
+                    "rivals": ["Tezcatlipoca", "War Gods"],
+                    "allies": ["Ix Chel", "Kukulkan"]
+                }
+            },
+            
+            "about_section": [
+                {
+                    "title": "Divine Order & Role in the Cosmos",
+                    "description": "Itzamná is the original creator deity, the divine mind behind the universe. He governs celestial cycles, bestows wisdom upon humankind, and ensures the balance of cosmic forces."
+                },
+                {
+                    "title": "Mythological Power & Influence",
+                    "description": "Itzamná is responsible for bringing civilization, writing, and medicine to the Maya. He is a bridge between the heavens and the mortal world, guiding rulers and priests in sacred knowledge."
+                },
+                {
+                    "title": "Worship & Cultural Impact",
+                    "description": "Itzamná was revered in major city-temples, where priests sought his guidance in interpreting celestial events and sacred texts."
+                },
+                {
+                    "title": "Allies & Rivalries",
+                    "description": "Itzamná and Ix Chel are often paired together, with Kukulkan acting as another great civilizing force. In later Mesoamerican interpretations, he is contrasted with Tezcatlipoca, who represents chaos."
+                },
+                {
+                    "title": "Artifacts & Symbols of Power",
+                    "description": "His **Sacred Glyphs** symbolize his divine authority over writing, while the **Cosmic Crocodile** represents the primordial waters from which creation emerged."
+                },
+                {
+                    "title": "Mortal Encounters & Legacy",
+                    "description": "Itzamná is credited with gifting the Maya their written language and sacred knowledge. His teachings influenced the construction of observatories and calendrical systems."
+                }
+            ],
+      
+            "legends": [
+                "☀ The Supreme Creator of the Cosmos: Itzamná formed the world, the heavens, and time itself, ensuring harmony between Earth and Sky.",
+                "📝 The Gift of Writing: Itzamná granted the Maya the ability to write, allowing them to preserve knowledge and sacred teachings.",
+                "🛡 The Healing God: As a protector of life, Itzamná was invoked in medicine and rituals for longevity and prosperity.",
+                "☀ The Celestial Journey: Itzamná guides the sun and ensures the passage of kings and priests into the afterlife, connecting the mortal and divine realms."
+            ],
+      
+            "lore": [
+                "📝 Sacred Codices: Books containing his divine wisdom, many lost to conquest.",
+                "🐊 The Cosmic Crocodile: Symbolizing the Earth resting on primordial waters.",
+                "☀ The Sun Disc: Representing his role in the daily cycle of light and time."
+            ]
+        }
+    },
+    {
+        "id": "ah_puch",
+        "name": "Ah Puch",
+        "title": "The Lord of Death, The Tormentor of Souls",
+        "image": "mapimages/ah_puch.png",
+      
+        "core_identity": {
+            "pantheon": "Mayan",
+            "faction": "Mayan Pantheon",
+            "domain": "Death, the Underworld (Xibalba), Disease, Decay, Nightmares, Doom"
+        },
+      
+        "archetype_alignment": {
+                "roles": ["The Shadow"],
+                "alignment": "Scorpio",
+                "essence": ["☠️ Nether"],
+            "instruments": ["☠ The Death Staff", "🕭 Death Bells", "🦇 Bats of Xibalba"]
+        },
+      
+        "attributes": {
+            "dominion": 100,
+            "wrath": 95,
+            "arcana": 85,
+            "guile": 70,
+            "resolve": 100
+        },
+      
+        "expandable_section": {
+            "quick_facts": {
+                "sacred_places": ["🌑 Cenotes (Entrances to Xibalba)", "⚰ Ritual Sacrificial Sites"],
+                "rivalries_alliances": {
+                    "rivals": ["The Hero Twins", "Itzamná"],
+                    "allies": ["Other Lords of Xibalba"]
+                }
+            },
+      
+            "about_section": [
+                {
+                    "title": "Divine Order & Role in the Cosmos",
+                    "description": "Ah Puch is the ruler of Xibalba, the ultimate force of death and decay. Unlike merciful death gods, he revels in tormenting souls and spreading suffering."
+                },
+                {
+                    "title": "Mythological Power & Influence",
+                    "description": "He is the master of plague, nightmares, and the inevitable doom of all mortals. No one can escape his grasp when their time comes."
+                },
+                {
+                    "title": "Worship & Cultural Impact",
+                    "description": "Feared more than worshiped, Ah Puch was invoked to avoid misfortune and disease. Death rituals and sacrifices were made to appease him."
+                },
+                {
+                    "title": "Allies & Rivalries",
+                    "description": "He is opposed by Itzamná and the Hero Twins, who symbolize wisdom and rebirth. His allies are the Lords of Xibalba, each ruling a different form of torment."
+                },
+                {
+                    "title": "Artifacts & Symbols of Power",
+                    "description": "Ah Puch's **Death Bells** announce his arrival, striking fear into the living. His **Skull Masks** are worn by priests in dark rituals."
+                },
+                {
+                    "title": "Mortal Encounters & Legacy",
+                    "description": "His presence was feared across the Mayan world, and even today, folklore warns against the call of the death owl at night."
+                }
+            ],
+      
+            "legends": [
+                "☠ The Reign of Ah Puch: He rules the lowest levels of Xibalba, tormenting souls and spreading disease.",
+                "📜 The Hero Twins vs. Ah Puch: The twins outwit him and his death lords, symbolizing the triumph of wisdom over doom.",
+                "🦇 The Night Hunts: Ah Puch roams the mortal world at night, seeking souls, his presence marked by eerie sounds and distant bells.",
+                "⚰ The Sacrifices to Ah Puch: Blood sacrifices were performed to appease him, thrown into sacred cenotes or left in ritual caves."
+            ],
+      
+            "lore": [
+                "🕭 Death Bells: Announce his arrival and bring fear to mortals.",
+                "💀 Skull Masks: Worn in his honor by death priests.",
+                "🕷 Ritual Bloodstones: Used to invoke his power in ceremonies."
+            ]
+        }
+    },
+    {
+        "id": "ix_chel",
+        "name": "Ix Chel",
+        "title": "The Lunar Weaver, The Great Mother",
+        "image": "mapimages/ix_chel.png",
+      
+        "core_identity": {
+            "pantheon": "Mayan",
+            "faction": "Mayan Pantheon",
+            "domain": "Moon, Water, Rain, Medicine, Childbirth, Love, Weaving, War"
+        },
+      
+        "archetype_alignment": {
+            "roles": ["The Divine Mother"],
+            "alignment": "Cancer",
+            "essence": ["🌿 Verdant"],
+            "instruments": ["🌙 Crescent Moon", "🕸 Sacred Weavings", "🌊 Cenotes of Healing"]
+        },
+      
+        "attributes": {
+            "dominion": 95,
+            "wrath": 50,
+            "arcana": 90,
+            "guile": 70,
+            "resolve": 100
+        },
+      
+        "expandable_section": {
+            "quick_facts": {
+                "sacred_places": ["🏛 Island of Cozumel", "🌊 Sacred Cenotes & Wells"],
+                "rivalries_alliances": {
+                    "rivals": ["Ah Puch", "Sun Gods"],
+                    "allies": ["Itzamná", "Chaac"]
+                }
+            },
+            "about_section": [
+                {
+                    "title": "Divine Order & Role in the Cosmos",
+                    "description": "Ix Chel is the Moon Goddess of the Maya, embodying both creation and destruction. She governs fertility, healing, and time, ensuring the balance of life."
+                },
+                {
+                    "title": "Mythological Power & Influence",
+                    "description": "She is the weaver of destiny, crafting the cosmic threads of mortal and divine fate. Her influence extends over childbirth, healing, and storms."
+                },
+                {
+                    "title": "Worship & Cultural Impact",
+                    "description": "Women traveled to Cozumel to seek her blessings for fertility and safe childbirth. Rituals involving weaving, lunar offerings, and cenote ceremonies honored her."
+                },
+                {
+                    "title": "Allies & Rivalries",
+                    "description": "Ix Chel is closely linked to Itzamná, representing the celestial balance between sky and moon. She opposes Ah Puch, the god of death, as a protector of life."
+                },
+                {
+                    "title": "Artifacts & Symbols of Power",
+                    "description": "Her **Sacred Weavings** symbolize fate and creation, while **Lunar Glyphs** represent her dominion over astronomy and cycles."
+                },
+                {
+                    "title": "Mortal Encounters & Legacy",
+                    "description": "Ix Chel’s influence persists in Mayan culture, where weaving and midwifery remain sacred arts. Her name is still invoked in ceremonies tied to fertility and healing."
+                }
+            ],
+            "legends": [
+                "🕸 Ix Chel, the Weaver of Fate: The goddess who weaves the threads of destiny, guiding the hands of Mayan women as they create sacred textiles.",
+                "🌙 Ix Chel and the Moon’s Cycles: Governing fertility and celestial balance, her waxing and waning mirror the cycle of life and rebirth.",
+                "⚡ Ix Chel’s Storm Wrath: In some myths, she becomes a serpent, unleashing storms and rain, embodying her dual nature as a healer and a warrior.",
+                "🏛 The Sacred Pilgrimage to Cozumel: Women traveled to her temple to leave offerings, seeking blessings for childbirth and protection."
+            ],
+            "lore": [
+                "🕸 Sacred Weavings: Textiles offered to Ix Chel, symbolizing fate and cosmic order.",
+                "🌊 Cenotes as Portals: Sacred water bodies connected to her healing and mystical powers.",
+                "🌙 Lunar Glyphs: Mayan inscriptions honoring her role in timekeeping and celestial cycles."
+            ]
+        }
+    },
+    {
+        "id": "hunahpu_xbalanque",
+        "name": "Hunahpu & Xbalanque",
+        "title": "The Hero Twins, The Cosmic Saviors",
+        "image": "mapimages/hunahpu_xbalanque.png",
+      
+        "core_identity": {
+            "pantheon": "Mayan",
+            "faction": "Mayan Pantheon",
+            "domain": "Sun, Moon, Life, Death, Transformation, War, Trickery, Sacrifice"
+        },
+      
+        "archetype_alignment": {
+            "roles": ["The Hero"],
+            "alignment": "Sagittarius",
+            "essence": ["🔥🌊🪨 Maelstrom"],
+            "instruments": ["🏹 Blowguns", "🎭 Ritual Masks", "🌞 The Sun & Moon"]
+        },
+      
+        "attributes": {
+            "dominion": 85,
+            "wrath": 80,
+            "arcana": 90,
+            "guile": 100,
+            "resolve": 100
+        },
+      
+        "expandable_section": {
+            "quick_facts": {
+                "sacred_places": ["🏛 Sacred Ballcourts", "🏛 Tikal", "🏛 Copán"],
+                "rivalries_alliances": {
+                    "rivals": ["The Lords of Xibalba", "Seven Macaw"],
+                    "allies": ["Itzamná", "Kukulkan"]
+                }
+            },
+            "about_section": [
+                {
+                    "title": "Divine Order & Role in the Cosmos",
+                    "description": "The Hero Twins are the ultimate champions of cosmic balance, tricksters, and warrior-gods. They outwitted the Lords of Death and ensured the world remained in balance."
+                },
+                {
+                    "title": "Mythological Power & Influence",
+                    "description": "As cosmic saviors, they defeated false gods and tricked their way through the underworld, proving that intelligence and bravery overcome darkness."
+                },
+                {
+                    "title": "Worship & Cultural Impact",
+                    "description": "Their trials are reenacted in sacred ballgames, and Mayan rulers saw themselves as their earthly avatars."
+                },
+                {
+                    "title": "Allies & Rivalries",
+                    "description": "They are aligned with Itzamná and Kukulkan but opposed by the Lords of Xibalba, who represent death and suffering."
+                },
+                {
+                    "title": "Artifacts & Symbols of Power",
+                    "description": "Their **Sacred Blowguns** symbolize their cunning, and their final transformation into the **Sun & Moon** represents cosmic balance."
+                },
+                {
+                    "title": "Mortal Encounters & Legacy",
+                    "description": "Their legend persists in the Maya world, where ballgames remain sacred, and their story explains the balance between day and night."
+                }
+            ],
+            "legends": [
+                "🎭 The Birth of the Hero Twins: Their father was tricked and killed, but they were miraculously conceived and destined for greatness.",
+                "⚔ The Trickery Against Seven Macaw: They exposed a false Sun God by tricking him into breaking his own teeth.",
+                "🏹 The Journey to Xibalba: They faced deadly trials in the underworld, ultimately outwitting the Lords of Death.",
+                "🌞 The Hero Twins Become the Sun & Moon: After their final sacrifice, they rose as celestial bodies, ensuring cosmic balance."
+            ],
+            "lore": [
+                "🏹 The Sacred Blowguns: Used in their battle against the Lords of Xibalba.",
+                "🌞 The Sun & Moon: Their divine transformation after completing their trials.",
+                "🎭 Ritual Masks: Representing their roles as cosmic tricksters and warriors."
+            ]
+        }
+    }
+    
+    
+
+]
+
+
+    

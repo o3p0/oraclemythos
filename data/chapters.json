@@ -1,0 +1,845 @@
+[
+    {
+        "id": "odyssey-c1",
+        "book_id": "odyssey",
+        "title": "1.Departure from Troy",
+        "image": "/images/stories/odyssey-troy.jpg",
+        
+        "full_story": "/stories/odyssey-c1.html"
+    },
+    {
+        "id": "odyssey-c2",
+        "book_id": "odyssey",
+        "title": "2.Cyclops’ Cave",
+        "image": "/images/stories/odyssey-cyclops.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c2.html"
+    },
+    {
+        "id": "odyssey-c3",
+        "book_id": "odyssey",
+        "title": "3.Escape from the Cyclops",
+        "image": "/images/stories/odyssey-excape.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c3.html"
+    },
+    {
+        "id": "odyssey-c4",
+        "book_id": "odyssey",
+        "title": "4.Island of Aeolus",
+        "image": "/images/stories/odyssey-aeolus.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c4.html"
+    },
+    {
+        "id": "odyssey-c5",
+        "book_id": "odyssey",
+        "title": "5.Land of the Laestrygonians",
+        "image": "/images/stories/odyssey-c5.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c5.html"
+    },
+    {
+        "id": "odyssey-c6",
+        "book_id": "odyssey",
+        "title": "6.Circe’s Island",
+        "image": "/images/stories/odyssey-c6.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c6.html"
+    },
+    {
+        "id": "odyssey-c7",
+        "book_id": "odyssey",
+        "title": "7.Journey to the Underworld",
+        "image": "/images/stories/odyssey-c7.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c7.html"
+    },
+    {
+        "id": "odyssey-c8",
+        "book_id": "odyssey",
+        "title": "8.Sirens & Scylla and Charybdis",
+        "image": "/images/stories/odyssey-8.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c8.html"
+    },
+    {
+        "id": "odyssey-c9",
+        "book_id": "odyssey",
+        "title": "9.The Island of Helios",
+        "image": "/images/stories/odyssey-c9.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c9.html"
+    },
+    {
+        "id": "odyssey-c10",
+        "book_id": "odyssey",
+        "title": "10.Calypso’s Island",
+        "image": "/images/stories/odyssey-c10.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c10.html"
+    },
+    {
+        "id": "odyssey-c11",
+        "book_id": "odyssey",
+        "title": "11.The Shores of Phaeacia",
+        "image": "/images/stories/odyssey-c11.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c11.html"
+    },
+    {
+        "id": "odyssey-c12",
+        "book_id": "odyssey",
+        "title": "12.The Return to Ithaca",
+        "image": "/images/stories/odyssey-c12.jpg",
+        "summary": "",
+        "full_story": "/stories/odyssey-c12.html"
+    },
+
+    {
+        "id": "perseus-c1",
+        "book_id": "perseus-medusa",
+        "title": "1. The Call to Action",
+        "image": "/images/stories/perseus-c1.jpg",
+        "summary": "A prophecy foretells the fate of Perseus, setting him on a path of destiny.",
+        "full_story": "/stories/perseus-c1.html"
+    },
+    {
+        "id": "perseus-c2",
+        "book_id": "perseus-medusa",
+        "title": "2. The Hunt for Medusa",
+        "image": "/images/stories/perseus-c2.jpg",
+        "summary": "Armed with divine gifts, Perseus embarks on his perilous journey.",
+        "full_story": "/stories/perseus-c2.html"
+    },
+    {
+        "id": "perseus-c3",
+        "book_id": "perseus-medusa",
+        "title": "3. The Return of the Hero",
+        "image": "/images/stories/perseus-c3.jpg",
+        "summary": "Perseus returns home, but his destiny is far from over.",
+        "full_story": "/stories/perseus-c3.html"
+    },
+
+    
+    
+    {
+        "id": "trojan-war-c1",
+        "book_id": "trojan-war",
+        "title": "1. The Judgment of Paris ⚔️",
+        "image": "/images/stories/trojan-war-hero.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c1.html"
+    },
+    {
+        "id": "trojan-war-c2",
+        "book_id": "trojan-war",
+        "title": "2. The Abduction of Helen",
+        "image": "/images/stories/trojan-war-c2.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c2.html"
+    },
+    {
+        "id": "trojan-war-c3",
+        "book_id": "trojan-war",
+        "title": "3. The Gathering of Greek Forces ⚔️",
+        "image": "/images/stories/trojan-war-c3.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c3.html"
+    },
+    {
+        "id": "trojan-war-c4",
+        "book_id": "trojan-war",
+        "title": "4. The Siege of Troy Begins ⚔️",
+        "image": "/images/stories/trojan-war-c4.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c4.html"
+    },
+    {
+        "id": "trojan-war-c5",
+        "book_id": "trojan-war",
+        "title": "5. The Rage of Achilles ⚔️",
+        "image": "/images/stories/trojan-war-c5.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c5.html"
+    },
+    {
+        "id": "trojan-war-c6",
+        "book_id": "trojan-war",
+        "title": "6. The Death of Achilles",
+        "image": "/images/stories/trojan-war-c6.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c6.html"
+    },
+    {
+        "id": "trojan-war-c7",
+        "book_id": "trojan-war",
+        "title": "7. The Trojan Horse",
+        "image": "/images/stories/trojan-war-c7.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c7.html"
+    },
+    {
+        "id": "trojan-war-c8",
+        "book_id": "trojan-war",
+        "title": "8. The Aftermath of Troy",
+        "image": "/images/stories/trojan-war-c8.jpg",
+        "summary": "",
+        "full_story": "/stories/trojan-c8.html"
+    },
+
+
+    {
+        "id": "yggdrasil-c1",
+        "book_id": "yggdrasil",
+        "title": "1. The Tree That Holds the Worlds",
+        "image": "/images/stories/yggdrasil-c1.jpg",
+        "summary": "",
+        "full_story": "/stories/yggdrasil-c1.html"
+    },
+    {
+        "id": "yggdrasil-c2",
+        "book_id": "yggdrasil",
+        "title": "2. The Prophecy of Ragnarök",
+        "image": "/images/stories/yggdrasil-c2.jpg",
+        "summary": "",
+        "full_story": "/stories/yggdrasil-c2.html"
+    },
+    {
+        "id": "yggdrasil-c3",
+        "book_id": "yggdrasil",
+        "title": "3. The Binding of Fenrir",
+        "image": "/images/stories/yggdrasil-c3.jpg",
+        "summary": "",
+        "full_story": "/stories/yggdrasil-c3.html"
+    },
+    {
+        "id": "yggdrasil-c4",
+        "book_id": "yggdrasil",
+        "title": "4. The Death of Baldr",
+        "image": "/images/stories/yggdrasil-c4.jpg",
+        "summary": "",
+        "full_story": "/stories/yggdrasil-c4.html"
+    },
+    {
+        "id": "yggdrasil-c5",
+        "book_id": "yggdrasil",
+        "title": "5. The Beginning of the End ⚔️",
+        "image": "/images/stories/yggdrasil-c5.jpg",
+        "summary": "",
+        "full_story": "/stories/yggdrasil-c5.html"
+    },
+    {
+        "id": "yggdrasil-c6",
+        "book_id": "yggdrasil",
+        "title": "6. The Twilight of the Gods 🌅",
+        "image": "/images/stories/yggdrasil-c6.jpg",
+        "summary": "",
+        "full_story": "/stories/yggdrasil-c6.html"
+    },
+
+
+    {
+        "id": "loki-c1",
+        "book_id": "loki",
+        "title": "1. The Trickster’s Rise 🔥",
+        "image": "/images/stories/loki-c1.jpg",
+        "summary": "",
+        "full_story": "/stories/loki-c1.html"
+    },
+    {
+        "id": "loki-c2",
+        "book_id": "loki",
+        "title": "2. The Flyting with the Gods ⚡",
+        "image": "/images/stories/loki-c2.jpg",
+        "summary": "",
+        "full_story": "/stories/loki-c2.html"
+    },
+    {
+        "id": "loki-c3",
+        "book_id": "loki",
+        "title": "3. The Death of Baldr 🌑",
+        "image": "/images/stories/loki-c3.jpg",
+        "summary": "",
+        "full_story": "/stories/loki-c3.html"
+    },
+    {
+        "id": "loki-c4",
+        "book_id": "loki",
+        "title": "4. The Punishment of Loki 🔗",
+        "image": "/images/stories/loki-c4.jpg",
+        "summary": "",
+        "full_story": "/stories/loki-c4.html"
+    },
+    {
+        "id": "loki-c5",
+        "book_id": "loki",
+        "title": "5. The Rise of Ragnarök ⚔️",
+        "image": "/images/stories/loki-c5.jpg",
+        "summary": "",
+        "full_story": "/stories/loki-c5.html"
+    },
+
+
+    {
+        "id": "ra-c1",
+        "book_id": "ra",
+        "title": "1. The Dawn of Ra",
+        "image": "/images/stories/ra-c1.jpg",
+        "summary": "",
+        "full_story": "/stories/ra-c1.html"
+    },
+    {
+        "id": "ra-c2",
+        "book_id": "ra",
+        "title": "2. The Serpent in the Darkness",
+        "image": "/images/stories/ra-c2.jpg",
+        "summary": "",
+        "full_story": "/stories/ra-c2.html"
+    },
+    {
+        "id": "ra-c3",
+        "book_id": "ra",
+        "title": "3. The Eternal Cycle",
+        "image": "/images/stories/ra-c3.jpg",
+        "summary": "",
+        "full_story": "/stories/ra-c3.html"
+    },
+    {
+        "id": "ra-c4",
+        "book_id": "ra",
+        "title": "4. The Descent Into Darkness",
+        "image": "/images/stories/ra-c4.jpg",
+        "summary": "",
+        "full_story": "/stories/ra-c4.html"
+    },
+    {
+        "id": "ra-c5",
+        "book_id": "ra",
+        "title": "5. The Rebirth of the Sun",
+        "image": "/images/stories/ra-c5.jpg",
+        "summary": "",
+        "full_story": "/stories/ra-c5.html"
+    },
+
+
+    {
+        "id": "osiris-c1",
+        "book_id": "osiris-isis",
+        "title": "1. The Divine Reign of Osiris",
+        "image": "/images/stories/osiris-c1.jpg",
+        "summary": "The birth of Osiris and his rule over Egypt.",
+        "full_story": "/stories/osiris-c1.html"
+    },
+    {
+        "id": "osiris-c2",
+        "book_id": "osiris-isis",
+        "title": "2. The Hunt for the Scattered King",
+        "image": "/images/stories/osiris-c2.jpg",
+        "summary": "Isis embarks on a perilous journey to recover Osiris' remains.",
+        "full_story": "/stories/osiris-c2.html"
+    },
+    {
+        "id": "osiris-c3",
+        "book_id": "osiris-isis",
+        "title": "3. The Rise of Horus",
+        "image": "/images/stories/osiris-c3.jpg",
+        "summary": "Horus prepares to challenge Set for the throne of Egypt.",
+        "full_story": "/stories/osiris-c3.html"
+    },
+    {
+        "id": "osiris-c4",
+        "book_id": "osiris-isis",
+        "title": "4. The Lord of the Underworld",
+        "image": "/images/stories/osiris-c4.jpg",
+        "summary": "Osiris' transformation into the ruler of the afterlife.",
+        "full_story": "/stories/osiris-c4.html"
+    },
+    {
+        "id": "osiris-c5",
+        "book_id": "osiris-isis",
+        "title": "5. The Triumph of Horus",
+        "image": "/images/stories/osiris-c5.jpg",
+        "summary": "Horus' final battle with Set and the fate of Egypt.",
+        "full_story": "/stories/osiris-c5.html"
+    },
+    
+
+     {
+          "id": "ramayana-c1",
+          "book_id": "ramayana",
+          "title": "1. The Birth and Exile of Rama",
+          "image": "/images/stories/ramayana-c1.jpg",
+          "summary": "Prince Rama is born and banished, setting the stage for a divine journey.",
+          "full_story": "/stories/ramayana-c1.html"
+        },
+        {
+          "id": "ramayana-c2",
+          "book_id": "ramayana",
+          "title": "2. The Abduction of Sita",
+          "image": "/images/stories/ramayana-c2.jpg",
+          "summary": "Ravana kidnaps Sita, and Rama’s search begins.",
+          "full_story": "/stories/ramayana-c2.html"
+        },
+        {
+          "id": "ramayana-c3",
+          "book_id": "ramayana",
+          "title": "3. Rama’s Alliance and the Battle of Lanka",
+          "image": "/images/stories/ramayana-c3.jpg",
+          "summary": "Rama unites with Hanuman and wages war on Lanka.",
+          "full_story": "/stories/ramayana-c3.html"
+        },
+        {
+          "id": "ramayana-c4",
+          "book_id": "ramayana",
+          "title": "4. The Return to Ayodhya",
+          "image": "/images/stories/ramayana-c4.jpg",
+          "summary": "Rama returns victorious, fulfilling his destiny.",
+          "full_story": "/stories/ramayana-c4.html"
+        },
+
+        
+            {
+              "id": "churning-ocean-c1",
+              "book_id": "churning-ocean",
+              "title": "1. The Devas’ Fall & Vishnu’s Plan",
+              "image": "/images/stories/churning-ocean-c1.jpg",
+              "summary": "The gods lose their strength and turn to Vishnu for a cosmic solution.",
+              "full_story": "/stories/churning-ocean-c1.html"
+            },
+            {
+              "id": "churning-ocean-c2",
+              "book_id": "churning-ocean",
+              "title": "2. The Churning Begins & Halahala Poison",
+              "image": "/images/stories/churning-ocean-c2.jpg",
+              "summary": "The churning starts and a deadly poison threatens the universe.",
+              "full_story": "/stories/churning-ocean-c2.html"
+            },
+            {
+              "id": "churning-ocean-c3",
+              "book_id": "churning-ocean",
+              "title": "3. The Divine Treasures & The Emergence of Amrita",
+              "image": "/images/stories/churning-ocean-c3.jpg",
+              "summary": "Gems of the cosmos appear and Amrita, the nectar of immortality, rises.",
+              "full_story": "/stories/churning-ocean-c3.html"
+            },
+            {
+              "id": "churning-ocean-c4",
+              "book_id": "churning-ocean",
+              "title": "4. Vishnu’s Trick & The Fate of Rahu",
+              "image": "/images/stories/churning-ocean-c4.jpg",
+              "summary": "Vishnu deceives the demons, and a shadow demon changes the moon forever.",
+              "full_story": "/stories/churning-ocean-c4.html"
+            },
+
+            {
+                "id": "fifth-sun-c1",
+                "book_id": "fifth-sun",
+                "title": "1. The World in Darkness & The Gathering of the Gods",
+                "image": "/images/stories/fifth-sun-c1.jpg",
+                "summary": "The gods convene to end the era of darkness and spark a new sun.",
+                "full_story": "/stories/fifth-sun-c1.html"
+              },
+              {
+                "id": "fifth-sun-c2",
+                "book_id": "fifth-sun",
+                "title": "2. The Trial of Fire",
+                "image": "/images/stories/fifth-sun-c2.jpg",
+                "summary": "Two gods must face the fire and prove their worth to illuminate the world.",
+                "full_story": "/stories/fifth-sun-c2.html"
+              },
+              {
+                "id": "fifth-sun-c3",
+                "book_id": "fifth-sun",
+                "title": "3. The Motionless Sun & The Ultimate Sacrifice",
+                "image": "/images/stories/fifth-sun-c3.jpg",
+                "summary": "Though a sun is born, it refuses to move—until the gods offer their lives.",
+                "full_story": "/stories/fifth-sun-c3.html"
+              },
+              {
+                "id": "fifth-sun-c4",
+                "book_id": "fifth-sun",
+                "title": "4. The Legacy of Sacrifice",
+                "image": "/images/stories/fifth-sun-c4.jpg",
+                "summary": "The Fifth Sun is born—along with the sacred duty of sacrifice in Aztec life.",
+                "full_story": "/stories/fifth-sun-c4.html"
+              },
+
+              {
+                "id": "huitzilopochtli-c1",
+                "book_id": "huitzilopochtli-serpent",
+                "title": "1. Coatlicue’s Mysterious Pregnancy & The Rising Threat",
+                "image": "/images/stories/huitzilopochtli-c1.jpg",
+                "summary": "Coatlicue conceives Huitzilopochtli, sparking fury from her other children.",
+                "full_story": "/stories/huitzilopochtli-c1.html"
+              },
+              {
+                "id": "huitzilopochtli-c2",
+                "book_id": "huitzilopochtli-serpent",
+                "title": "2. The Betrayal & The Birth of the War God",
+                "image": "/images/stories/huitzilopochtli-c2.jpg",
+                "summary": "Coyolxauhqui and the 400 stars strike—but Huitzilopochtli is born in battle.",
+                "full_story": "/stories/huitzilopochtli-c2.html"
+              },
+              {
+                "id": "huitzilopochtli-c3",
+                "book_id": "huitzilopochtli-serpent",
+                "title": "3. The Cosmic Battle – Huitzilopochtli vs. The 400 Stars",
+                "image": "/images/stories/huitzilopochtli-c3.jpg",
+                "summary": "The newborn god unleashes divine fury, scattering the stars across the heavens.",
+                "full_story": "/stories/huitzilopochtli-c3.html"
+              },
+              {
+                "id": "huitzilopochtli-c4",
+                "book_id": "huitzilopochtli-serpent",
+                "title": "4. The Eternal Struggle – The Sun Against the Night",
+                "image": "/images/stories/huitzilopochtli-c4.jpg",
+                "summary": "Huitzilopochtli becomes the sun, forever battling the darkness of night.",
+                "full_story": "/stories/huitzilopochtli-c4.html"
+              },
+
+              {
+                "id": "cowherd-weaver-c1",
+                "book_id": "cowherd-weaver",
+                "title": "1. The Heavenly Weaver & the Mortal Cowherd",
+                "image": "/images/stories/cowherd-weaverc1.jpg",
+                "summary": "Zhinü descends to Earth and falls in love with the humble cowherd Niulang.",
+                "full_story": "/stories/cowherd-weaver-c1.html"
+              },
+              {
+                "id": "cowherd-weaver-c2",
+                "book_id": "cowherd-weaver",
+                "title": "2. The Separation – The Wrath of Heaven",
+                "image": "/images/stories/cowherd-weaverc2.jpg",
+                "summary": "The Jade Emperor learns of their union and tears them apart.",
+                "full_story": "/stories/cowherd-weaver-c2.html"
+              },
+              {
+                "id": "cowherd-weaver-c3",
+                "book_id": "cowherd-weaver",
+                "title": "3. The Celestial Divide – The Creation of the Milky Way",
+                "image": "/images/stories/cowherd-weaverc3.jpg",
+                "summary": "A river of stars is formed to forever separate the lovers.",
+                "full_story": "/stories/cowherd-weaver-c3.html"
+              },
+              {
+                "id": "cowherd-weaver-c4",
+                "book_id": "cowherd-weaver",
+                "title": "4. The Magpie Bridge & The Qixi Festival",
+                "image": "/images/stories/cowherd-weaverc4.jpg",
+                "summary": "On Qixi, magpies form a bridge to reunite the lovers once a year.",
+                "full_story": "/stories/cowherd-weaver-c4.html"
+              },
+
+              {
+                "id": "monkey-king-c1",
+                "book_id": "monkey-king-battle",
+                "title": "1. The Birth of the Monkey King",
+                "image": "/images/stories/monkey-king-c1.jpg",
+                "summary": "From a magical stone, Sun Wukong emerges with unmatched potential.",
+                "full_story": "/stories/monkey-king-c1.html"
+              },
+              {
+                "id": "monkey-king-c2",
+                "book_id": "monkey-king-battle",
+                "title": "2. The Monkey King’s Path to Power",
+                "image": "/images/stories/monkey-king-c2.jpg",
+                "summary": "Sun Wukong seeks mastery in martial arts and immortality.",
+                "full_story": "/stories/monkey-king-c2.html"
+              },
+              {
+                "id": "monkey-king-c3",
+                "book_id": "monkey-king-battle",
+                "title": "3. Rebellion Against Heaven",
+                "image": "/images/stories/monkey-king-c3.jpg",
+                "summary": "Wukong challenges the heavens, refusing to bow.",
+                "full_story": "/stories/monkey-king-c3.html"
+              },
+              {
+                "id": "monkey-king-c4",
+                "book_id": "monkey-king-battle",
+                "title": "4. The Great Battle in the Heavens",
+                "image": "/images/stories/monkey-king-c4.jpg",
+                "summary": "The celestial armies clash with the mighty Monkey King.",
+                "full_story": "/stories/monkey-king-c4.html"
+              },
+              {
+                "id": "monkey-king-c5",
+                "book_id": "monkey-king-battle",
+                "title": "5. Bound by Fate",
+                "image": "/images/stories/monkey-king-c5.jpg",
+                "summary": "Buddha intervenes, imprisoning Wukong beneath a mountain.",
+                "full_story": "/stories/monkey-king-c5.html"
+              },
+              {
+                "id": "monkey-king-c6",
+                "book_id": "monkey-king-battle",
+                "title": "6. The First Demon Battle – Sun Wukong’s Test of Strength & Obedience",
+                "image": "/images/stories/monkey-king-c6.jpg",
+                "summary": "Freed from imprisonment, Wukong faces his first true test.",
+                "full_story": "/stories/monkey-king-c6.html"
+              },
+              {
+                "id": "monkey-king-c7",
+                "book_id": "monkey-king-battle",
+                "title": "7. The Trial of Loyalty – Sun Wukong’s Exile & Return",
+                "image": "/images/stories/monkey-king-c7.jpg",
+                "summary": "Banished for pride, Wukong must prove his loyalty.",
+                "full_story": "/stories/monkey-king-c7.html"
+              },
+              {
+                "id": "monkey-king-c8",
+                "book_id": "monkey-king-battle",
+                "title": "8. The Sun Rises – Sun Wukong’s Redemption",
+                "image": "/images/stories/monkey-king-c8.jpg",
+                "summary": "In the end, Wukong finds wisdom, honor, and redemption.",
+                "full_story": "/stories/monkey-king-c8.html"
+              },
+
+              {
+          
+              },
+
+              {
+                "id": "hero-twins-c1",
+                "book_id": "hero-twins-xibalba",
+                "title": "1. The Death of the First Hero Twins & The Birth of Hunahpu and Xbalanque",
+                "image": "/images/stories/hero-twins-c1.jpg",
+                "summary": "The origin of the twins and the legacy of their fallen forebears.",
+                "full_story": "/stories/hero-twins-c1.html"
+              },
+              {
+                "id": "hero-twins-c2",
+                "book_id": "hero-twins-xibalba",
+                "title": "2. The Twins’ Journey to Xibalba & The Deadly Trials",
+                "image": "/images/stories/hero-twins-c2.jpg",
+                "summary": "The Hero Twins descend into the underworld and face brutal challenges.",
+                "full_story": "/stories/hero-twins-c2.html"
+              },
+              {
+                "id": "hero-twins-c3",
+                "book_id": "hero-twins-xibalba",
+                "title": "3. The Final Trick & The Defeat of Xibalba",
+                "image": "/images/stories/hero-twins-c3.jpg",
+                "summary": "Outwitting the Lords of Xibalba, the twins change the fate of the world.",
+                "full_story": "/stories/hero-twins-c3.html"
+              },
+              {
+                "id": "hero-twins-c4",
+                "book_id": "hero-twins-xibalba",
+                "title": "4. The Ascension of the Hero Twins",
+                "image": "/images/stories/hero-twins-c4.jpg",
+                "summary": "Their victory complete, the twins rise to the sky as celestial beings.",
+                "full_story": "/stories/hero-twins-c4.html"
+              },
+
+              {
+                "id": "maize-c1",
+                "book_id": "creation-humans-maize",
+                "title": "1. The First Creation – Humans of Mud",
+                "image": "/images/stories/maize-c1.jpg",
+                "summary": "The gods attempt to form humans from mud, but they crumble without form.",
+                "full_story": "/stories/maize-c1.html"
+              },
+              {
+                "id": "maize-c2",
+                "book_id": "creation-humans-maize",
+                "title": "2. The Second Creation – Humans of Wood",
+                "image": "/images/stories/maize-c2.jpg",
+                "summary": "Wooden people walk the earth, soulless and emotionless, doomed to fall.",
+                "full_story": "/stories/maize-c2.html"
+              },
+              {
+                "id": "maize-c3",
+                "book_id": "creation-humans-maize",
+                "title": "3. The Third and Final Creation – Humans of Maize",
+                "image": "/images/stories/maize-c3.jpg",
+                "summary": "Maize gives life to true humans—noble, wise, and spiritually connected.",
+                "full_story": "/stories/maize-c3.html"
+              },
+              {
+                "id": "maize-c4",
+                "book_id": "creation-humans-maize",
+                "title": "4. The Blessing and Limitation of Humanity",
+                "image": "/images/stories/maize-c4.jpg",
+                "summary": "The gods humble humanity’s perfection, granting balance and purpose.",
+                "full_story": "/stories/maize-c4.html"
+              },
+
+              {
+                "id": "yoruba-c1",
+                "book_id": "creation-world-yoruba",
+                "title": "1. The Divine Mission Begins",
+                "image": "/images/stories/yoruba-c1.jpg",
+                "summary": "Olodumare sends Obatala on a sacred journey to form the earth.",
+                "full_story": "/stories/yoruba-c1.html"
+              },
+              {
+                "id": "yoruba-c2",
+                "book_id": "creation-world-yoruba",
+                "title": "2. The Birth of the Land & the First Trees",
+                "image": "/images/stories/yoruba-c2.jpg",
+                "summary": "Obatala shapes mountains, forests, and rivers to bring the world to life.",
+                "full_story": "/stories/yoruba-c2.html"
+              },
+              {
+                "id": "yoruba-c3",
+                "book_id": "creation-world-yoruba",
+                "title": "3. Orunmila’s Wisdom & the Completion of Humanity",
+                "image": "/images/stories/yoruba-c3.jpg",
+                "summary": "With Orunmila’s help, the first humans are given form and essence.",
+                "full_story": "/stories/yoruba-c3.html"
+              },
+              {
+                "id": "yoruba-c4",
+                "book_id": "creation-world-yoruba",
+                "title": "4. The Breath of Olodumare – Life Awakens",
+                "image": "/images/stories/yoruba-c4.jpg",
+                "summary": "Olodumare breathes life into the clay forms, creating souls.",
+                "full_story": "/stories/yoruba-c4.html"
+              },
+              {
+                "id": "yoruba-c5",
+                "book_id": "creation-world-yoruba",
+                "title": "5. The Wrath of Olokun – The Battle for Balance",
+                "image": "/images/stories/yoruba-c5.jpg",
+                "summary": "Olokun challenges the gods’ creation, threatening to drown the world.",
+                "full_story": "/stories/yoruba-c5.html"
+              },
+              {
+                "id": "yoruba-c6",
+                "book_id": "creation-world-yoruba",
+                "title": "6. The Journey of Ori – The Fate of Mankind",
+                "image": "/images/stories/yoruba-c6.jpg",
+                "summary": "Each soul chooses its destiny before descending to earth.",
+                "full_story": "/stories/yoruba-c6.html"
+              },
+              {
+                "id": "yoruba-c7",
+                "book_id": "creation-world-yoruba",
+                "title": "7. The Trial of the Gods – The First Sacrifice",
+                "image": "/images/stories/yoruba-c7.jpg",
+                "summary": "The Orishas offer a sacrifice to preserve balance in creation.",
+                "full_story": "/stories/yoruba-c7.html"
+              },
+              {
+                "id": "yoruba-c8",
+                "book_id": "creation-world-yoruba",
+                "title": "8. The Wrath of Olokun – The Flood of the Gods 🌊⚡",
+                "image": "/images/stories/yoruba-c8.jpg",
+                "summary": "A great flood tests the resilience of gods and humans alike.",
+                "full_story": "/stories/yoruba-c8.html"
+              },
+              {
+                "id": "yoruba-c9",
+                "book_id": "creation-world-yoruba",
+                "title": "9. The Birth of Kings – Oranmiyan’s Rise to Power",
+                "image": "/images/stories/yoruba-c9.jpg",
+                "summary": "A divine warrior rises to lead and restore order.",
+                "full_story": "/stories/yoruba-c9.html"
+              },
+              {
+                "id": "yoruba-c10",
+                "book_id": "creation-world-yoruba",
+                "title": "10. The Divine Order Restored – Oranmiyan’s Legacy",
+                "image": "/images/stories/yoruba-c10.jpg",
+                "summary": "Oranmiyan establishes harmony between heaven and earth.",
+                "full_story": "/stories/yoruba-c10.html"
+              },
+
+              {
+                "id": "sango-c1",
+                "book_id": "legend-of-sango",
+                "title": "1. The Rise of a Warrior King ⚡👑",
+                "image": "/images/stories/sango-c1.jpg",
+                "summary": "Sango rises from prince to a powerful and revered king.",
+                "full_story": "/stories/sango-c1.html"
+              },
+              {
+                "id": "sango-c2",
+                "book_id": "legend-of-sango",
+                "title": "2. The King’s Restlessness",
+                "image": "/images/stories/sango-c2.jpg",
+                "summary": "Consumed by ambition, Sango seeks power beyond his throne.",
+                "full_story": "/stories/sango-c2.html"
+              },
+              {
+                "id": "sango-c3",
+                "book_id": "legend-of-sango",
+                "title": "3. The Wrath of a King 🔥",
+                "image": "/images/stories/sango-c3.jpg",
+                "summary": "Sango’s temper flares, causing destruction among friend and foe.",
+                "full_story": "/stories/sango-c3.html"
+              },
+              {
+                "id": "sango-c4",
+                "book_id": "legend-of-sango",
+                "title": "4. The Fall of the Thunder King",
+                "image": "/images/stories/sango-c4.jpg",
+                "summary": "Betrayal and hubris lead to Sango’s dramatic downfall.",
+                "full_story": "/stories/sango-c4.html"
+              },
+              {
+                "id": "sango-c5",
+                "book_id": "legend-of-sango",
+                "title": "5. The Legend of a God",
+                "image": "/images/stories/sango-c5.jpg",
+                "summary": "Sango’s death gives rise to myths of his divine transformation.",
+                "full_story": "/stories/sango-c5.html"
+              },
+              {
+                "id": "sango-c6",
+                "book_id": "legend-of-sango",
+                "title": "6. The Orisha of Storms",
+                "image": "/images/stories/sango-c6.jpg",
+                "summary": "Sango is reborn as a god of thunder, revered by generations.",
+                "full_story": "/stories/sango-c6.html"
+              },
+              {
+                "id": "sango-c7",
+                "book_id": "legend-of-sango",
+                "title": "7. The Thunder God Walks Among Men",
+                "image": "/images/stories/sango-c7.jpg",
+                "summary": "Sango returns in spirit to guide and test mankind.",
+                "full_story": "/stories/sango-c7.html"
+              },
+              {
+                "id": "sango-c8",
+                "book_id": "legend-of-sango",
+                "title": "8. Clash of the Gods: Fire Against Iron",
+                "image": "/images/stories/sango-c8.jpg",
+                "summary": "A legendary battle erupts between Sango and Ogun.",
+                "full_story": "/stories/sango-c8.html"
+              },
+              {
+                "id": "sango-c9",
+                "book_id": "legend-of-sango",
+                "title": "9. The Final Trial of Sango ⚡",
+                "image": "/images/stories/sango-c9.jpg",
+                "summary": "Sango faces his greatest test—will power consume or elevate him?",
+                "full_story": "/stories/sango-c9.html"
+              },
+              {
+                "id": "sango-c10",
+                "book_id": "legend-of-sango",
+                "title": "10. The Legacy of Sango: From King to Orisha 🔥",
+                "image": "/images/stories/sango-c10.jpg",
+                "summary": "The legacy of Sango lives on through worship and myth.",
+                "full_story": "/stories/sango-c10.html"
+              }
+
+
+
+          ]
+          
+
+
+
+
+      
+      
+    
+
+
+
+

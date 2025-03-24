@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odyssey - Chapter 2: The Cyclops' Cave</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/story.css">
+    <script defer src="/scripts/global.js"></script>
+    <script defer src="/scripts/story.js"></script>
+    <script defer src="/scripts/scripts.js"></script>
+
+    <style>
+        #prev-button, #next-button, #back-to-book {
+            background-color: #ffcc00;
+            color: black;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        #prev-button, #next-button {
+            padding: 10px;
+            font-size: 1.5rem;
+        }
+
+        #prev-button:hover, #next-button:hover, #back-to-book:hover {
+            background-color: #e6b800;
+        }
+
+        .teaser-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #back-to-book {
+            position: static;
+            display: inline-block;
+            margin: 20px auto;
+        }
+
+        .hero-overlay {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #ffcc00;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .chapter-section {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn" aria-label="Open Menu">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu"></div>
+    </div>
+
+    <!-- Dynamic Progress Bar -->
+    <div id="progress-bar"></div>
+
+    <!-- Hero Text Above Image -->
+    <div class="hero-overlay">
+        <h1>The Cyclops' Cave</h1>
+        <p>"When brute strength met cunning wit."</p>
+    </div>
+
+    <!-- Hero Section with Navigation Buttons -->
+    <header class="chapter-hero" style="background-image: url('/images/stories/odyssey-cyclops.jpg');">
+        <a href="/stories/odyssey-c1.html" id="prev-button">&#8592;</a>
+        <a href="/stories/odyssey-c3.html" id="next-button">&#8594;</a>
+    </header>
+
+    <!-- Chapter Content -->
+    <main class="chapter-content">
+        <section class="chapter-section fade-in">
+            <h2>The Island of the Cyclopes</h2>
+            <p>The sea carried Odysseus and his men to a rugged, untamed shore where towering cliffs clawed at the sky and the land breathed with wild, ancient silence. Here, there were no cities, no harbors—only the raw pulse of nature, untouched by mortal hands.</p>
+            <p>Venturing inland, they found a vast, shadowed cave carved into the rock, its entrance gaping like the maw of some sleeping giant. Inside: woven baskets brimming with cheese, amphorae heavy with milk, and sheep penned in tight circles. The air was thick with the scent of beasts and ash—but no sign of the owner.</p>
+            <p>Odysseus’ men urged caution. "Let us take what we need and flee," they whispered, fear flickering in their voices. But Odysseus, driven by curiosity and pride, refused. "No," he said, "let us meet our host. Perhaps they will offer gifts, as custom and honor demand."</p>
+            <p>But not all hosts honor the sacred laws of hospitality.</p>
+        </section>
+
+        <section class="chapter-section fade-in">
+            <h2>The Shadow That Filled the Cave</h2>
+            <p>As the sun dipped below the horizon, the earth trembled beneath heavy footsteps. A shadow darkened the cave’s mouth—Polyphemus, the Cyclops, son of Poseidon. Towering, monstrous, with a single eye blazing like a molten star, he herded his flock inside and sealed the entrance with a boulder no mortal could move.</p>
+            <p>The men were trapped.</p>
+            <p>Polyphemus’ gaze swept the cave, falling upon the intruders. There were no words of greeting, no gesture of hospitality. Without hesitation, he seized two men, dashed their skulls against the stone, and devoured them raw—flesh, bone, and screams swallowed whole.</p>
+            <p>Odysseus stood frozen, his heart pounding like a war drum. But fear could not rule him. Strength would not save them here. Only metis—cunning—could carve a path through the darkness.</p>
+        </section>
+
+        <section class="chapter-section fade-in">
+            <h2>The Trick of “Nobody”</h2>
+            <p>When the beast’s hunger waned, Odysseus stepped forward, masking terror with a diplomat’s calm. "Cyclops," he said, "we are your guests, and it is custom to offer gifts. But instead, allow me to offer you something finer—wine from the lands of Troy."</p>
+            <p>Polyphemus, curious and greedy, snatched the skin of dark, potent wine. He drank deeply, the strong brew burning like fire down his throat, softening the edges of his rage. His monstrous eyelid grew heavy, his breath thick with the scent of fermented grapes.</p>
+            <p>"You’ve pleased me, little man," the Cyclops rumbled, swaying. "Tell me your name, so I may grant you a gift."</p>
+            <p>Odysseus’ eyes gleamed with the spark of a plan. "My name is Nobody," he replied, voice as smooth as the wine itself. "And that is the name you’ll remember."</p>
+            <p>Polyphemus laughed, a sound like boulders grinding together. Soon, sleep claimed him, his great form slumping beside the fire. But Odysseus did not sleep. His mind sharpened in the dark, for the time had come to turn cunning into action.</p>
+            <p>In the flickering torchlight, he and his men gripped a sharpened stake, the fire’s glow reflecting in their determined eyes.</p>
+        </section>
+    </main>
+
+    <!-- Back to Cover Button -->
+    <section class="teaser-section">
+        <a href="/stories/greek-odyssey.html" id="back-to-book">Cover</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 OracleMythos. All rights reserved.</p>
+    </footer>
+</body>
+</html>

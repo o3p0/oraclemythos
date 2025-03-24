@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mythology Characters</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/character.css">
+    <script defer src="scripts/character.js"></script>
+    <script defer src="scripts/scripts.js"></script>
+</head>
+<body>
+    <!-- 🍔 Hamburger Menu -->
+    <div class="hamburger-menu">
+        <button id="hamburger-btn" aria-label="Open Menu">&#9776;</button>
+        <div class="dropdown" id="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="stories.html">Explore Stories</a>
+            <a href="characters.html">Meet the Characters</a>
+        </div>
+    </div>
+
+  <!-- 🔽 Mythology Dropdown - Fixed at the Top -->
+<div class="mythology-dropdown">
+    <button id="mythology-btn" class="dropdown-button" aria-haspopup="true" aria-expanded="false">
+        Select Mythology ▼
+    </button>
+    <div id="mythology-dropdown" class="dropdown-content" role="menu">
+        <div class="dropdown-item" data-value="greek">Greek</div>
+        <div class="dropdown-item" data-value="norse">Norse</div>
+        <div class="dropdown-item" data-value="egyptian">Egyptian</div>
+        <div class="dropdown-item" data-value="mayan">Mayan</div>
+        <div class="dropdown-item" data-value="chinese">Chinese</div>
+        <div class="dropdown-item" data-value="aztec">Aztec</div>
+        <div class="dropdown-item" data-value="hindu">Hindu</div>
+        <div class="dropdown-item" data-value="yoruba">Yoruba</div>
+        
+    </div>
+</div>
+<!-- 📜 Character Details Modal -->
+<div id="character-modal" class="modal">
+    <div class="modal-content">
+        <button id="close-modal" class="close-button">&times;</button>
+        <h2 id="modal-title"></h2>
+
+        <div id="modal-quick-facts">
+            <h3>Info</h3>
+            <p><strong>Sacred Places:</strong> <span id="sacred-places"></span></p>
+            <p><strong>Rivals:</strong> <span id="rival-names"></span></p>
+            <p><strong>Allies:</strong> <span id="ally-names"></span></p>
+        </div>
+
+        <div id="modal-about-section">
+            <h3>About</h3>
+            <ul id="world-building-list"></ul>
+        </div>
+
+        <div id="modal-legends">
+            <h3>Legends</h3>
+            <ul id="legend-list"></ul>
+        </div>
+
+        <div id="modal-lore">
+            <h3>Lore</h3>
+            <ul id="lore-list"></ul>
+        </div>
+    </div>
+</div>
+
+
+
+    <main>
+        <!-- 🔥 Hero Section -->
+        <section class="hero-section">
+            <button class="carousel-button prev" id="prev-btn" aria-label="Previous slide">&#10094;</button>
+            
+            <div class="hero-content">
+                <img id="hero-image" src="path/to/default-image.png" alt="Character Image">
+                <h2 id="hero-character-name"></h2>
+            </div>
+
+            <button class="carousel-button next" id="next-btn" aria-label="Next slide">&#10095;</button>
+        </section>
+
+        <!-- 🎭 Character Overview -->
+        <section class="character-overview">
+            <!-- Left: Character Identity -->
+            <div class="character-identity">
+                <div class="character-name-title">
+                    <h2 id="character-name"></h2>
+                    <h3 id="character-title"></h3>
+                </div>
+                <p><strong>🏛 Pantheon:</strong> <span id="character-pantheon"></span></p>
+                <p><strong>⚔️ Faction:</strong> <span id="character-faction"></span></p>
+                <p><strong>🎭 Roles:</strong> <span id="character-archetype"></span></p>
+                <p><strong>⚖ Alignment:</strong> <span id="character-alignment"></span></p>
+                <p><strong>🔥 Essence:</strong> <span id="character-essence"></span></p>
+                <p><strong>🛠 Instruments:</strong> <span id="character-instruments"></span></p>
+            </div>
+
+            <!-- Right: Core Attributes -->
+            <div class="character-attributes">
+                <h4>🛡 Core Attributes</h4>
+                <div class="stats-container">
+                    <p><strong>👑 Dominion:</strong> <span id="stat-dominion"></span>%</p>
+                    <div class="stat-bar-container"><div id="bar-dominion" class="stat-bar"></div></div>
+
+                    <p><strong>🔥 Wrath:</strong> <span id="stat-wrath"></span>%</p>
+                    <div class="stat-bar-container"><div id="bar-wrath" class="stat-bar"></div></div>
+
+                    <p><strong>🔮 Arcana:</strong> <span id="stat-arcana"></span>%</p>
+                    <div class="stat-bar-container"><div id="bar-arcana" class="stat-bar"></div></div>
+
+                    <p><strong>🎭 Guile:</strong> <span id="stat-guile"></span>%</p>
+                    <div class="stat-bar-container"><div id="bar-guile" class="stat-bar"></div></div>
+
+                    <p><strong>💪 Resolve:</strong> <span id="stat-resolve"></span>%</p>
+                    <div class="stat-bar-container"><div id="bar-resolve" class="stat-bar"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🎡 Character Carousel -->
+        <section class="character-carousel">
+            <div class="carousel-container">
+                <div class="carousel-slides"></div>
+            </div>
+        </section>
+        
+    </main>
+    
+
+
+    <footer>
+        <p>&copy; 2024 OracleMythos. All rights reserved.</p>
+    </footer>
+</body>
+</html>

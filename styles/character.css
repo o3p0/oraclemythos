@@ -1,0 +1,763 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+/* General Page Styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif; /* ✅ Pick ONE font */
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1; /* ✅ Keep it below the modal */
+}
+.modal {
+    display: none; /* 🛠 Fixes modal opening on page load */
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 🔲 Modal Content Fix */
+.modal-content {
+    background-color: #1e1e1e;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    color: white;
+    border: 3px solid #ff5722;
+    box-shadow: 0px 0px 25px rgba(255, 87, 34, 0.9);
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    position: relative;
+    z-index: 1000000 !important; /* ✅ Ensures content is above everything */
+}
+
+/* 🔲 Fix Other Elements That Might Be Blocking */
+.hero-section, 
+.character-overview, 
+.character-carousel, 
+footer {
+    position: relative;
+    z-index: 10; /* ✅ Makes sure these elements are BELOW the modal */
+}
+
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    margin-top: 80px;
+    position: relative;
+    gap: 30px;
+    z-index: 10; /* ✅ Makes sure it's BELOW the modal */
+}
+
+
+/* Wrap hero content */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 🎭 HERO IMAGE - Clickable & Enhanced */
+#hero-image {
+    width: 380px;
+    max-width: 85%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+/* 🌟 Hover Effect */
+#hero-image:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.4);
+    filter: brightness(1.1);
+}
+
+/* 📱 Responsive Adjustments */
+@media (max-width: 768px) {
+    #hero-image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #hero-image {
+        width: 250px;
+    }
+}
+
+
+/* 🎯 ARROWS - Properly Aligned */
+.carousel-button {
+    background-color: #ff5722;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 2em;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* 🎯 Place Arrows Inside the Flexbox */
+.carousel-button.prev {
+    order: -1;
+}
+
+.carousel-button.next {
+    order: 1;
+}
+
+/* 📱 Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+        gap: 15px;
+    }
+
+    #hero-image {
+        width: 280px;
+    }
+
+    .carousel-button {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+}
+
+/* 🌟 Character Overview - Fantasy MMORPG Look */
+.character-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(255, 204, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.3);
+}
+
+/* 🎭 Character Name & Epic Title */
+.character-name-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.character-name-title h2 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    font-family: 'Playfair Display', serif;
+}
+
+.character-name-title h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ffcc00;
+}
+
+/* 🏛 Left Section - Character Identity */
+.character-identity {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.character-identity p {
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px 0;
+}
+
+.character-identity strong {
+    color: #ffcc00;
+}
+
+/* 🛡 Right Section - Core Attributes */
+.character-attributes {
+    flex: 1;
+    background: rgba(20, 20, 20, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 204, 0, 0.7);
+    box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.2);
+}
+
+.character-attributes h4 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+/* 🎯 Attribute Bars */
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stats-container p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 🔥 Fantasy Progress Bars */
+.stat-bar {
+    flex-grow: 1;
+    height: 12px;
+    background: linear-gradient(90deg, #ffcc00 0%, #ff5722 100%);
+    border-radius: 5px;
+    transition: width 0.4s ease-in-out;
+}
+
+.stat-bar-container {
+    width: 100%;
+    background: #222;
+    border-radius: 5px;
+    height: 12px;
+    overflow: hidden;
+}
+
+/* 📜 Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    margin: 5% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid #ff5722;
+    box-shadow: 0px 0px 20px rgba(255, 87, 34, 0.7);
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+}
+
+/* Close Button */
+.close-btn {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ff5722;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #e64a19;
+    transform: scale(1.1);
+}
+
+/* 🔥 FIXED Mythology Dropdown */
+/* 🔥 FIXED HEADER - Only for Hamburger Menu */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3000;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 12px 10px;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+    box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
+}
+
+
+/* 🎭 MYTHOLOGY DROPDOWN - STATIC (Below Fixed Header) */
+.mythology-dropdown {
+    position: relative; /* STATIC so it moves with page */
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15px 20px;
+    border-bottom: 2px solid #ffcc00;
+    box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.3);
+    margin-top: 70px; /* ✅ Creates space below fixed header */
+}
+
+/* 🎭 Mythology Button */
+.dropdown-button {
+    background: linear-gradient(45deg, #ffcc00, #ff5722);
+    color: white;
+    font-size: 1.3em;
+    border: 2px solid rgba(255, 204, 0, 0.8);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-family: 'Playfair Display', serif;
+    padding: 12px 30px;
+}
+
+/* 🔽 Push Content Down */
+main {
+    margin-top: 40px; /* Ensures main content doesn’t overlap with dropdown */
+}
+
+/* 🎭 Dropdown Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    min-width: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(255, 204, 0, 0.3);
+    z-index: 2000;
+    padding: 10px 0;
+    top: 55px; /* Positioned just below button */
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid rgba(255, 204, 0, 0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+/* 🎯 Dropdown Animation */
+.show-dropdown {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 🌍 Mythology List Items */
+.dropdown-item {
+    padding: 12px 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-size: 1.2rem;
+}
+
+.dropdown-item:hover {
+    background: rgba(255, 204, 0, 0.7);
+    color: black;
+    transform: scale(1.05);
+}
+
+/* 📱 RESPONSIVE ADJUSTMENTS */
+@media (max-width: 768px) {
+    .mythology-dropdown {
+        padding: 8px 15px;
+    }
+
+    .dropdown-button {
+        font-size: 1.1em;
+        padding: 10px 20px;
+    }
+
+    .dropdown-content {
+        min-width: 180px;
+    }
+
+    .dropdown-item {
+        font-size: 1rem;
+    }
+}
+/* 📜 Modal Enhancements for MMORPG Aesthetic */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 🏛 Modal Content - Fantasy UI */
+.modal-content {
+    background: linear-gradient(160deg, rgba(20, 20, 20, 0.95) 60%, rgba(40, 20, 10, 0.9));
+    padding: 30px;
+    width: 85%;
+    max-width: 850px;
+    border-radius: 15px;
+    color: white;
+    border: 3px solid rgba(255, 204, 0, 0.8);
+    box-shadow: 0px 0px 30px rgba(255, 204, 0, 0.4);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+
+/* 🎯 Title Styling */
+#modal-title {
+    font-size: 2.2rem;
+    color: #ffcc00;
+    text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.6);
+    border-bottom: 2px solid rgba(255, 204, 0, 0.8);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* ✨ Quick Facts */
+#modal-quick-facts {
+    background: rgba(255, 204, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 204, 0, 0.6);
+    text-align: left;
+}
+
+/* 📖 Section Headers */
+.modal-content h3 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+    text-shadow: 0px 0px 5px rgba(255, 204, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+/* 📜 Text Formatting */
+.modal-content p, 
+.modal-content li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 8px;
+}
+
+/* 🏛 List Styling */
+.modal-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.modal-content li {
+    padding: 10px;
+    background: rgba(40, 40, 40, 0.7);
+    border-radius: 8px;
+    margin-bottom: 6px;
+    box-shadow: inset 0px 0px 10px rgba(255, 204, 0, 0.3);
+}
+
+/* 🔥 Glowing Close Button */
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #ff5722;
+    transition: color 0.3s ease, transform 0.3s ease;
+    border: 2px solid rgba(255, 204, 0, 0.6);
+    background: rgba(255, 87, 34, 0.2);
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.close-button:hover {
+    color: #e64a19;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px rgba(255, 87, 34, 0.7);
+}
+
+/* 🌟 MODAL CONTENT GENERAL STYLES */
+.modal-content {
+    background: rgba(20, 20, 20, 0.95); /* Dark fantasy feel */
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    max-height: 80vh; /* Prevents modal from being too long */
+    overflow-y: auto; /* Enables scrolling */
+}
+
+/* 🏛 SECTION HEADINGS (e.g. Legends, Lore) */
+.modal-content h3 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    text-shadow: 0px 0px 6px rgba(255, 204, 0, 0.7);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgba(255, 204, 0, 0.8);
+    text-align: left;
+    text-transform: uppercase; /* Adds emphasis */
+}
+
+/* 📖 TITLES (e.g. "The Titanomachy", "The Binding of Prometheus") */
+#world-building-list li strong,
+#legend-list li strong,
+#lore-list li strong {
+    display: block; /* Moves title to a new line */
+    color: #ffcc00;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-shadow: 0px 0px 8px rgba(255, 204, 0, 0.5);
+}
+
+/* 🔥 DESCRIPTION TEXT (After Title) */
+#world-building-list li span,
+#legend-list li span,
+#lore-list li span {
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+/* 📜 CONTAINER STYLING */
+#world-building-list,
+#legend-list,
+#lore-list {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 15px;
+    background: rgba(20, 20, 20, 0.85);
+    border: 2px solid rgba(255, 204, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 15px rgba(255, 204, 0, 0.4);
+}
+
+/* 🔄 SMOOTH SCROLLING */
+#world-building-list,
+#legend-list,
+#lore-list {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 204, 0, 0.7) rgba(40, 40, 40, 0.7);
+}
+
+/* 🌀 CUSTOM SCROLLBAR */
+#world-building-list::-webkit-scrollbar,
+#legend-list::-webkit-scrollbar,
+#lore-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+#world-building-list::-webkit-scrollbar-track,
+#legend-list::-webkit-scrollbar-track,
+#lore-list::-webkit-scrollbar-track {
+    background: rgba(40, 40, 40, 0.7);
+    border-radius: 10px;
+}
+
+#world-building-list::-webkit-scrollbar-thumb,
+#legend-list::-webkit-scrollbar-thumb,
+#lore-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(255, 204, 0, 0.7), rgba(255, 87, 34, 0.7));
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px rgba(255, 204, 0, 0.5);
+}
+
+/* 📜 LIST ITEMS (World Building, Legends, Lore) */
+#world-building-list li,
+#legend-list li,
+#lore-list li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background: rgba(30, 30, 30, 0.7);
+    border-left: 4px solid rgba(255, 204, 0, 0.8);
+    font-weight: bold;
+    box-shadow: inset 0px 0px 10px rgba(255, 204, 0, 0.3);
+    transition: background 0.3s ease-in-out;
+}
+
+/* 🌟 HOVER EFFECT FOR LIST ITEMS */
+#world-building-list li:hover,
+#legend-list li:hover,
+#lore-list li:hover {
+    background: rgba(50, 50, 50, 0.85);
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
+
+/* 🛡 QUICK FACTS STYLING */
+#modal-quick-facts p {
+    font-size: 1.3rem;
+    background: rgba(30, 30, 30, 0.8);
+    padding: 10px;
+    border-left: 5px solid rgba(255, 204, 0, 0.9);
+    box-shadow: inset 0px 0px 8px rgba(255, 204, 0, 0.4);
+    margin-bottom: 8px;
+}
+
+
+
+
+
+/* 📜 Headings & Subheadings (Before Colon) */
+#world-building-list li strong,
+#legend-list li strong,
+#lore-list li strong {
+    display: block; /* Moves title to a new line */
+    color: #ffcc00; /* Gold color */
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-shadow: 0px 0px 8px rgba(255, 204, 0, 0.5);
+}
+
+/* 🎯 Description Text (After Colon) */
+#world-building-list li span,
+#legend-list li span,
+#lore-list li span {
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+/* 🔥 Hover Effect (Optional - Adds Glow) */
+#world-building-list li strong:hover,
+#legend-list li strong:hover,
+#lore-list li strong:hover {
+    color: #ff9900;
+    text-shadow: 0px 0px 10px rgba(255, 153, 0, 0.8);
+}
+
+
+
+/* 📜 Modal Content - Info, Legends, Lore, and About Section */
+#modal-quick-facts, 
+#modal-about-section, 
+#modal-legends, 
+#modal-lore {
+    background: rgba(20, 20, 20, 0.85);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 204, 0, 0.6);
+    box-shadow: inset 0px 0px 15px rgba(255, 204, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+/* 🔥 Section Titles (Info, About, Legends, Lore) */
+#modal-quick-facts h3, 
+#modal-about-section h3, 
+#modal-legends h3, 
+#modal-lore h3 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    text-shadow: 0px 0px 6px rgba(255, 204, 0, 0.7);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgba(255, 204, 0, 0.8);
+    text-align: left;
+    text-transform: uppercase; /* Adds emphasis */
+}
+
+/* 📖 Titles Before `:` in Info, Legends, and Lore */
+#modal-quick-facts p strong,
+#world-building-list li strong,
+#legend-list li strong,
+#lore-list li strong {
+    color: #ffcc00;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 8px rgba(255, 204, 0, 0.5);
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+/* ✨ Content Text (After `:`) */
+#modal-quick-facts p span,
+#world-building-list li span,
+#legend-list li span,
+#lore-list li span {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    display: block;
+}
+
+/* 📜 List Items in Info, Legends, and Lore */
+#world-building-list li,
+#legend-list li,
+#lore-list li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background: rgba(30, 30, 30, 0.7);
+    border-left: 4px solid rgba(255, 204, 0, 0.8);
+    font-weight: bold;
+    box-shadow: inset 0px 0px 10px rgba(255, 204, 0, 0.3);
+    transition: background 0.3s ease-in-out;
+}
+
+/* 🔥 Hover Effect for List Items */
+#world-building-list li:hover,
+#legend-list li:hover,
+#lore-list li:hover {
+    background: rgba(50, 50, 50, 0.85);
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
+
+/* 🌀 Custom Scrollbar */
+#world-building-list, 
+#legend-list, 
+#lore-list {
+    max-height: 300px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 204, 0, 0.7) rgba(40, 40, 40, 0.7);
+}
+
+/* 🏛 Custom Scrollbar Styling */
+#world-building-list::-webkit-scrollbar,
+#legend-list::-webkit-scrollbar,
+#lore-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+#world-building-list::-webkit-scrollbar-track,
+#legend-list::-webkit-scrollbar-track,
+#lore-list::-webkit-scrollbar-track {
+    background: rgba(40, 40, 40, 0.7);
+    border-radius: 10px;
+}
+
+#world-building-list::-webkit-scrollbar-thumb,
+#legend-list::-webkit-scrollbar-thumb,
+#lore-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(255, 204, 0, 0.7), rgba(255, 87, 34, 0.7));
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px rgba(255, 204, 0, 0.5);
+}

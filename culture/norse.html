@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norse Mythology - OracleMythos</title>
+    
+    <!-- ✅ Corrected Paths for CSS -->
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/hub.css">
+    
+    <!-- ✅ Corrected Paths for JS -->
+    <script defer src="../scripts/scripts.js"></script>
+    <script defer src="../scripts/hub.js"></script>
+
+    <style>
+        .hero-header {
+            background-image: url('../mapimages/norse-1.png'); /* ✅ Forward slashes */
+        }
+    </style>
+    
+    
+
+</head>
+<body class="norse-theme">
+
+    <!-- 🍔 Sticky Navigation & Header with Hero Image -->
+    <header class="hero-header">
+        <div class="hamburger-menu">
+            <button id="hamburger-btn">&#9776;</button>
+            <div class="dropdown" id="dropdown-menu"></div>
+        </div>
+        <div class="hero-text">
+            <h1>Norse Mythology</h1>
+            <p class="subtitle">Stories of gods, giants, and fate woven by time.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 📜 Overview Section -->
+        <h1>Norse Mythology</h1>
+        <p>
+            At the edge of the Nine Realms, where gods walk with mortals and giants loom in the shadows, the threads of fate are woven, and all beings prepare for the twilight of the gods—Ragnarok.
+        </p>
+        
+        <!-- ✅ Fixed Image Paths -->
+        <img src="../mapimages/norse-symbol.png" alt="Norse Symbol" class="large-image">
+
+        <div class="highlight">Norse mythology is filled with sagas of bravery, betrayal, and destiny.</div>
+       
+       
+        <h2>Major Figures</h2>
+        <div class="character-container">
+            <button class="scroll-btn left">←</button>
+            <div class="character-scroll">
+                <a href="../characters.html?mythology=norse&character=odin" class="character-card">
+                    <img src="../mapimages/odin.png" alt="Odin">
+                    <h3>Odin</h3>
+                </a>
+                <a href="../characters.html?mythology=norse&character=thor" class="character-card">
+                    <img src="../mapimages/thor.png" alt="Thor">
+                    <h3>Thor</h3>
+                </a>
+                <a href="../characters.html?mythology=norse&character=loki" class="character-card">
+                    <img src="../mapimages/loki.png" alt="Loki">
+                    <h3>Loki</h3>
+                </a>
+                <a href="../characters.html?mythology=norse&character=freyja" class="character-card">
+                    <img src="../mapimages/freyja.png" alt="Freyja">
+                    <h3>Freyja</h3>
+                </a>
+                <a href="../characters.html?mythology=norse&character=fenrir" class="character-card">
+                    <img src="../mapimages/fenrir.png" alt="Fenrir">
+                    <h3>Fenrir</h3>
+                </a>
+            </div>
+            <button class="scroll-btn right">→</button>
+        </div>
+        
+
+        <h2>Notable Myths</h2>
+        <div class="story-grid">
+            <div class="story-card">
+                <img src="../images\stories\yggdrasil_hero_image_1920x1080.png" alt="Creation of the World">
+                <h3>yggdrasil</h3>
+                <p>The world tree.</p>
+                <a href="../stories/norse-yggdrasil.html" class="read-more">Read More</a>
+            </div>
+        
+            <div class="story-card">
+                <img src="../images\stories\loki.jpg" alt="Fenrir's Prophecy">
+                <h3>Lokis story</h3>
+                <p>The trickster</p>
+                <a href="../stories/norse-loki.html" class="read-more">Read More</a>
+            </div>
+        </div>
+        
+
+
+        <a href="../map.html" class="back-link">Back to Map</a>
+    </div>
+</body>
+</html>

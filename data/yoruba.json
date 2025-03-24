@@ -1,0 +1,433 @@
+[
+
+    {
+        "id": "shango",
+        "name": "Shango",
+        "title": "The God of Thunder, Lightning, and Fire",
+        "image": "mapimages/shango.png",
+        "core_identity": {
+          "pantheon": "Yoruba",
+          "faction": "The Orisha",
+          "domain": "Thunder, Lightning, Fire, Justice, War, Power"
+        },
+        "archetype_alignment": {
+          "roles": ["The Champion"],
+        "alignment": "Leo",
+        "essence": ["🔥⚡ Solar"],
+          "instruments": ["🔱 The Double-Bladed Axe", "⚡ Thunderstones", "🔥 The Dance of Fire"]
+        },
+        "attributes": {
+          "dominion": 100,
+          "wrath": 95,
+          "arcana": 80,
+          "guile": 75,
+          "resolve": 100
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["⛰ The Mountains of Oyo", "🌩 Thunderstorm Ritual Sites"],
+            "rivalries_alliances": {
+              "rivals": ["Obatala", "Ogun (at times)", "Forces of Injustice"],
+              "allies": ["Oya", "Eleggua", "The Warriors of Oyo"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Storm King and Divine Warrior",
+              "description": "Shango is the mighty Orisha of thunder and lightning, known for his immense power, passion, and justice."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "With his fiery energy, Shango commands storms and lightning, enforcing divine justice and leading warriors into battle."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Shango is widely revered in the Yoruba religion and diaspora faiths, including **Santería and Candomblé**, where his dance and rituals invoke divine energy."
+            },
+            {
+              "title": "Allies & Rivalries",
+              "description": "While Shango shares powerful bonds with **Oya** and **Eleggua**, his pride sometimes puts him at odds with other Orishas, such as **Obatala**."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "His **Double-Bladed Axe** represents his mastery over war and lightning, the **Thunderstones** channel his energy, and the **Dance of Fire** symbolizes his commanding presence."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Shango inspires warriors, rulers, and dancers, embodying the spirit of strength, charisma, and resilience."
+            }
+          ],
+          "legends": [
+            "⚡ The King of Oyo: Before ascending to divinity, Shango was a powerful king whose fiery rule shaped Yoruba history.",
+            "🔥 The Wrath of Shango: His anger calls forth storms, striking down those who act unjustly.",
+            "🌀 The Love of Oya: Oya, the goddess of winds and storms, became Shango’s greatest ally and counterpart in power.",
+            "🌩 The Legacy of the Thunderstones: Shango’s followers believe his divine energy is left behind in lightning-struck stones."
+          ],
+          "lore": [
+            "🔱 The Double-Bladed Axe: A sacred weapon symbolizing his ability to rule both war and justice.",
+            "⚡ Thunderstones: Believed to contain his divine energy, granting protection and strength.",
+            "🔥 The Dance of Fire: Shango’s movements are said to call forth fire and lightning, blessing his devotees with power and charisma."
+          ]
+        }
+      },
+      {
+        "id": "olodumare",
+        "name": "Olodumare",
+        "title": "The Supreme Creator, The Source of All Existence",
+        "image": "mapimages/olodumare.png",
+        "core_identity": {
+          "pantheon": "Yoruba",
+          "faction": "The Supreme Divine",
+          "domain": "Creation, Omnipotence, Destiny, Balance, Universal Order"
+        },
+        "archetype_alignment": {
+          "roles": ["The Divine Whole"],
+          "alignment": "Sagittarius",
+          "essence": ["☯️ Omniversal"],
+          "instruments": ["📜 The Ase of Creation", "🌞 The Cosmic Breath", "🔮 The Divine Knowledge"]
+        },
+        "attributes": {
+          "dominion": 100,
+          "wrath": 0,
+          "arcana": 100,
+          "guile": 50,
+          "resolve": 100
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🌌 The Highest Realm", "⛩ The Eternal Sky"],
+            "rivalries_alliances": {
+              "rivals": ["None"],
+              "allies": ["Orunmila", "Obatala", "The Orisha"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Supreme Creator and Universal Order",
+              "description": "Olodumare is the ultimate, transcendent force in Yoruba cosmology, beyond human comprehension, shaping all reality and existence."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "Unlike other deities, Olodumare does not intervene in worldly affairs but grants Ase—the divine power of existence—to the Orisha."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Olodumare is not directly worshipped but is honored through prayers and rituals invoking the Orisha, who act as intermediaries."
+            },
+            {
+              "title": "Allies & Divine Delegation",
+              "description": "Olodumare entrusted Orunmila with wisdom, Obatala with creation, and the Orisha with various aspects of life to maintain balance."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Ase of Creation** represents divine authority, the **Cosmic Breath** animates all life, and the **Divine Knowledge** contains the mysteries of the universe."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "While Olodumare does not directly interact with mortals, all prayers, rituals, and destinies ultimately flow back to the Supreme Creator."
+            }
+          ],
+          "legends": [
+            "🌍 The Gift of Ase: Olodumare granted the power of creation and transformation to the Orisha, allowing them to shape existence.",
+            "☀ The Birth of the Universe: Olodumare breathed life into the void, giving rise to the heavens, earth, and all living things.",
+            "📜 The Balance of Fate: Olodumare inscribed the destinies of all beings, allowing free will while maintaining cosmic balance.",
+            "✨ The Unseen Presence: Unlike the Orisha, Olodumare does not take form but exists beyond time, space, and perception."
+          ],
+          "lore": [
+            "📜 The Ase of Creation: The divine force that governs existence, enabling deities and mortals to shape their fates.",
+            "🌞 The Cosmic Breath: The essence of life itself, flowing through all living beings and celestial bodies.",
+            "🔮 The Divine Knowledge: A sacred wisdom that only Orunmila, the Orisha of wisdom, can fully comprehend."
+          ]
+        }
+      },
+      {
+        "id": "obatala",
+        "name": "Obatala",
+        "title": "The Orisha of Wisdom, Purity, and Creation",
+        "image": "mapimages/obatala.png",
+        "core_identity": {
+          "pantheon": "Yoruba",
+          "faction": "The Orisha",
+          "domain": "Creation, Purity, Wisdom, Justice, Compassion"
+        },
+        "archetype_alignment": {
+          "roles": ["The Sage"],
+          "alignment": "Virgo",
+          "essence": ["🌿 Verdant"],
+          "instruments": ["🌀 The White Cloth of Purity", "🏺 The Clay of Creation", "👑 The Crown of Peace"]
+        },
+        "attributes": {
+          "dominion": 95,
+          "wrath": 10,
+          "arcana": 90,
+          "guile": 60,
+          "resolve": 100
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["⛰ The Sacred Hills of Ife", "🛕 Temples of Obatala"],
+            "rivalries_alliances": {
+              "rivals": ["Forces of Chaos and Corruption"],
+              "allies": ["Olodumare", "Orunmila", "The Orisha"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Divine Sculptor of Humanity",
+              "description": "Obatala, the eldest Orisha, was chosen by Olodumare to shape human beings from sacred clay, instilling wisdom and purity in them."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "As the Orisha of wisdom and justice, Obatala ensures fairness, encourages patience, and promotes inner peace among both deities and mortals."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Obatala is honored across the Yoruba world, particularly by those seeking guidance, healing, and spiritual clarity."
+            },
+            {
+              "title": "Allies & Divine Harmony",
+              "description": "Obatala is closely linked to Olodumare, Orunmila, and other Orisha of wisdom, standing in opposition to forces of disorder and recklessness."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **White Cloth of Purity** represents his wisdom and clarity, the **Clay of Creation** symbolizes his role as humanity’s sculptor, and the **Crown of Peace** embodies his divine rule."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Obatala continues to guide mortals through dreams, visions, and acts of divine intervention, teaching them patience, justice, and the importance of inner purity."
+            }
+          ],
+          "legends": [
+            "🏺 The Creation of Humanity: Tasked by Olodumare, Obatala sculpted the first human beings from clay, giving them life and purpose.",
+            "☁ The Drunken Mistake: In one myth, Obatala accidentally created some individuals imperfectly after drinking palm wine, leading to the existence of those with disabilities, whom he deeply cherishes.",
+            "⚖ The Keeper of Peace: Obatala is often invoked to mediate disputes and restore balance in times of conflict.",
+            "🌬 The Breath of Life: It is said that Obatala whispers wisdom into the ears of those who seek knowledge and enlightenment."
+          ],
+          "lore": [
+            "🌀 The White Cloth of Purity: Symbolizes Obatala’s untainted wisdom and the importance of self-control.",
+            "🏺 The Clay of Creation: The divine material from which he shaped the first humans.",
+            "👑 The Crown of Peace: A sacred artifact that represents his authority over wisdom and justice."
+          ]
+        }
+      },
+      {
+        "id": "oshun",
+        "name": "Oshun",
+        "title": "The Goddess of Love, Beauty, and Rivers",
+        "image": "mapimages/oshun.png",
+        "core_identity": {
+          "pantheon": "Yoruba",
+          "faction": "The Orisha",
+          "domain": "Love, Beauty, Fertility, Water, Prosperity, Healing"
+        },
+        "archetype_alignment": {
+          "roles": ["The Divine Mother"],
+         "alignment": "Libra",
+          "essence": ["🌿 Verdant"],
+          "instruments": ["🌿 The Golden Mirror", "💧 The Waters of Healing", "🎶 The Dance of Seduction"]
+        },
+        "attributes": {
+          "dominion": 90,
+          "wrath": 40,
+          "arcana": 85,
+          "guile": 95,
+          "resolve": 80
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🌊 The Oshun River", "🛕 Temples of Oshogbo"],
+            "rivalries_alliances": {
+              "rivals": ["Forces of Neglect and Cruelty"],
+              "allies": ["Obatala", "Shango", "Yemaya"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Divine Enchantress and Healer",
+              "description": "Oshun is the Orisha of love, beauty, and fertility, known for her deep compassion, irresistible charm, and boundless generosity."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "Oshun governs all bodies of fresh water, healing the sick, bestowing prosperity, and guiding lovers with her divine wisdom."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Oshun is honored in Yoruba and diaspora traditions, particularly during the **Oshun Festival in Oshogbo**, where devotees seek her blessings for love and abundance."
+            },
+            {
+              "title": "Allies & Divine Balance",
+              "description": "She works alongside **Obatala** and **Yemaya**, yet she has a fiery passion that sometimes leads to conflicts with the other Orisha."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Golden Mirror** symbolizes self-love and inner beauty, the **Waters of Healing** bring fertility and vitality, and the **Dance of Seduction** represents her ability to charm and influence."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Oshun remains one of the most beloved Orisha, inspiring music, dance, and rituals dedicated to love, abundance, and self-empowerment."
+            }
+          ],
+          "legends": [
+            "💧 The Tears of Oshun: When the Orisha neglected her, she wept until the rivers dried, showing that love and beauty are necessary for life.",
+            "🌊 The Healing Waters: She saved humanity by purifying the rivers, ensuring fertility and abundance.",
+            "🎶 The Seduction of Shango: Using her charm and dance, she won the heart of the fiery thunder god.",
+            "🌟 The Golden River: It is said that the glimmering waters of Oshun’s sacred river are touched by divine gold."
+          ],
+          "lore": [
+            "🌿 The Golden Mirror: A symbol of self-reflection, beauty, and divine charm.",
+            "💧 The Waters of Healing: Sacred waters believed to grant fertility, love, and spiritual cleansing.",
+            "🎶 The Dance of Seduction: Oshun’s ability to sway hearts and bring harmony through movement and song."
+          ]
+        }
+      },
+      {
+        "id": "ogun",
+        "name": "Ogun",
+        "title": "The God of Iron, War, and Craftsmanship",
+        "image": "mapimages/ogun.png",
+        "core_identity": {
+          "pantheon": "Yoruba",
+          "faction": "The Orisha",
+          "domain": "Iron, War, Hunting, Blacksmithing, Labor, Strength"
+        },
+        "archetype_alignment": {
+          "roles": ["The Hero"],
+          "alignment": "Aries",
+          "essence": ["🪨 Obsidian"],
+          "instruments": ["⚔ The Iron Blade", "🛠 The Forge Hammer", "🌳 The Sacred Forest"]
+        },
+        "attributes": {
+          "dominion": 95,
+          "wrath": 90,
+          "arcana": 60,
+          "guile": 50,
+          "resolve": 100
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🌳 The Sacred Groves of Ogun", "🔥 The Iron Forges"],
+            "rivalries_alliances": {
+              "rivals": ["Shango (at times)", "Forces of Cowardice and Deception"],
+              "allies": ["Orunmila", "Ochosi", "The Blacksmiths and Warriors"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Divine Blacksmith and Warrior",
+              "description": "Ogun is the Orisha of iron and war, embodying the strength, skill, and determination needed to forge weapons, tools, and destinies."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "Ogun’s mastery over iron makes him the patron of warriors, hunters, and craftsmen, giving them the power to shape and defend their world."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Ogun is revered in Yoruba culture and the African diaspora, particularly by blacksmiths, soldiers, and laborers seeking his protection and strength."
+            },
+            {
+              "title": "Allies & Divine Balance",
+              "description": "He often works alongside **Orunmila** and **Ochosi**, but his fierce nature sometimes clashes with Orisha like **Shango**."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Iron Blade** represents his role as a warrior, the **Forge Hammer** symbolizes craftsmanship, and the **Sacred Forest** is his divine home."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Ogun grants strength and perseverance to those who work hard, fight for justice, and respect the power of metal and fire."
+            }
+          ],
+          "legends": [
+            "⚔ The First Blacksmith: Ogun was the first to forge tools and weapons, teaching humanity how to work with iron.",
+            "🔥 The Blood Oath of Ogun: He once swore an oath that no coward would ever wield his weapons without consequence.",
+            "🌳 The Warrior Who Became a God: After leading many battles, Ogun disappeared into the sacred forest, ascending to divinity.",
+            "🛠 The Builder of Civilization: Ogun’s iron tools allowed cities and roads to be built, shaping the foundations of society."
+          ],
+          "lore": [
+            "⚔ The Iron Blade: A sacred weapon used for protection, battle, and justice.",
+            "🛠 The Forge Hammer: A tool of creation, symbolizing Ogun’s craftsmanship and labor.",
+            "🌳 The Sacred Forest: A mystical place where Ogun's spirit resides, offering strength to those who seek him."
+          ]
+        }
+      },
+      {
+        "id": "esu",
+        "name": "Esu (Eshu)",
+        "title": "The Trickster and Divine Messenger",
+        "image": "mapimages/esu.png",
+        "core_identity": {
+          "pantheon": "Yoruba",
+          "faction": "The Orisha",
+          "domain": "Trickery, Crossroads, Fate, Chaos, Communication, Balance"
+        },
+        "archetype_alignment": {
+          "roles": ["The Trickster"],
+         "alignment": "Gemini",
+         "essence": ["🌀⚡ Tempest"],
+          "instruments": ["🛤 The Crossroads Staff", "🎭 The Mask of Duality", "🔥 The Divine Words"]
+        },
+        "attributes": {
+          "dominion": 85,
+          "wrath": 60,
+          "arcana": 100,
+          "guile": 100,
+          "resolve": 70
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🛤 The Crossroads", "⛩ Temples of Esu"],
+            "rivalries_alliances": {
+              "rivals": ["Forces of Stagnation and Rigidity"],
+              "allies": ["Orunmila", "Ogun", "The Orisha"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Trickster and Keeper of Balance",
+              "description": "Esu is the divine trickster and messenger of the Orisha, ensuring balance by guiding and testing mortals and spirits alike."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "Esu has the power to manipulate fate, deliver messages between worlds, and challenge individuals to choose their paths wisely."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Revered across the Yoruba world and diaspora, Esu is honored in ceremonies where he is called upon to open the roads to success, fortune, and destiny."
+            },
+            {
+              "title": "Allies & Divine Role",
+              "description": "Though sometimes seen as a troublemaker, Esu plays an essential role in maintaining cosmic balance, working closely with **Orunmila** and **Ogun**."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Crossroads Staff** represents decision-making and transformation, the **Mask of Duality** reflects his ever-changing nature, and the **Divine Words** carry the power of fate."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Esu frequently appears at crucial moments in people's lives, offering choices, challenges, and riddles that shape their destinies."
+            }
+          ],
+          "legends": [
+            "🛤 The Guardian of the Crossroads: Esu ensures that every traveler and seeker must make a choice that determines their fate.",
+            "🎭 The Trickster’s Lessons: He often tests mortals and Orisha alike, teaching wisdom through chaos and mischief.",
+            "🔥 The Messenger of the Gods: Esu carries prayers and offerings between the human and divine realms, ensuring balance in the universe.",
+            "⚖ The Keeper of Duality: As a being of both order and chaos, he ensures that neither side ever dominates the other."
+          ],
+          "lore": [
+            "🛤 The Crossroads Staff: A mystical staff that guides travelers and seekers toward their destined paths.",
+            "🎭 The Mask of Duality: Symbolizing his ever-changing nature, appearing both as a benevolent guide and a mischievous trickster.",
+            "🔥 The Divine Words: Esu's speech can shape reality, influencing fate, destiny, and cosmic order."
+          ]
+        }
+      }
+      
+      
+      
+      
+      
+      
+
+
+
+
+]

@@ -1,0 +1,390 @@
+[
+  {
+    "id": "odin",
+    "name": "Odin",
+    "title": "The Allfather, The Wanderer, The Sorcerer",
+    "image": "mapimages/odin.png",
+
+    "core_identity": {
+      "pantheon": "Norse",
+      "faction": "Æsir",
+      "domain": "Wisdom, War, Magic, Poetry, Death, Prophecy, Runes"
+    },
+
+    "archetype_alignment": {
+    "roles": ["The Ruler"],
+    "alignment": "Aries",
+    "essence": ["🔥⚡ Solar"],
+      "instruments": ["🏹 Gungnir", "🦉 Huginn & Muninn", "🌳 Yggdrasil"]
+    },
+
+    "attributes": {
+      "dominion": 100,
+      "wrath": 90,
+      "arcana": 100,
+      "guile": 95,
+      "resolve": 100
+    },
+
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🌳 Yggdrasil", "🏛 Uppsala", "⛩ Gamla Uppsala"],
+        "rivalries_alliances": {
+          "rivals": ["Fenrir", "Loki", "The Jötunn"],
+          "allies": ["Frigg", "Thor", "The Valkyries"]
+        }
+      },
+
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Odin, the Allfather, is the ruler of Asgard and the overseer of fate. A seeker of knowledge and a master of war, he prepares warriors for the final battle of Ragnarök."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Odin wields magic, prophecy, and wisdom. He sacrificed his eye for knowledge and discovered the runes through self-sacrifice, shaping the fate of gods and men."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Odin was honored through sacrificial rituals (Blóts), Viking rune magic, and the legendary Wild Hunt, a spectral army riding through the sky before war."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Odin commands the Valkyries and Thor, but he knows Loki’s tricks and foresees Fenrir’s fated role in his demise."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "His spear, **Gungnir**, never misses, and his ravens, **Huginn & Muninn**, whisper the secrets of the world into his ears."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Odin intervenes in the lives of warriors and kings, guiding them toward wisdom or war. His legacy shapes Norse lore and the cosmic struggle of Ragnarök."
+        }
+      ],
+
+      "legends": [
+        "👁 The Sacrifice for Knowledge: Odin gave his eye at Mímir’s Well, gaining supreme wisdom.",
+        "🍷 The Mead of Poetry: He tricked the giants to steal the Mead of Poetry, granting divine inspiration.",
+        "🌎 The Creation of the World: With Vili and Vé, Odin slew Ymir, shaping the world from his remains.",
+        "⚔ Ragnarök: Odin will fight Fenrir in the final battle, knowing he is doomed to fall."
+      ],
+
+      "lore": [
+        "🏹 Gungnir: A magical spear that never misses its target, symbolizing Odin’s strategic mastery.",
+        "🐺 Geri & Freki: The wolves that accompany Odin, feeding on the offerings of warriors.",
+        "🦉 Huginn & Muninn: Ravens that gather knowledge across the realms, ensuring Odin’s foresight."
+      ]
+    }
+  },
+  {
+    "id": "thor",
+    "name": "Thor",
+    "title": "The Thunderer, The Protector of Asgard",
+    "image": "mapimages/thor.png",
+  
+    "core_identity": {
+      "pantheon": "Norse",
+      "faction": "Æsir",
+      "domain": "Thunder, Storms, Strength, Protection, War, Fertility, Honor"
+    },
+  
+    "archetype_alignment": {
+      "roles": ["The Champion"],
+      "alignment": "Capricorn",
+      "essence": ["🪨⚡ Titan"],
+      "instruments": ["⚡ Mjölnir", "🏋 Megingjörð", "🛡 Járngreipr"]
+    },
+  
+    "attributes": {
+      "dominion": 95,
+      "wrath": 100,
+      "arcana": 40,
+      "guile": 50,
+      "resolve": 100
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🏛 Uppsala", "🌳 Thor’s Oak", "🛡 Viking Burial Sites"],
+        "rivalries_alliances": {
+          "rivals": ["Jörmungandr", "Loki", "The Giants"],
+          "allies": ["Odin", "Sif", "Magni & Móði"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Thor is the strongest warrior of the Æsir, the eternal defender of gods and mortals alike. While Odin strategizes, Thor acts—he is the hammer that crushes chaos."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Thor controls storms, wields immense strength, and fights against giants and cosmic threats. His hammer, Mjölnir, is both a weapon of war and a symbol of protection."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Thor was the most widely worshiped Norse deity. His hammer was worn as an amulet for protection, his name invoked in oaths, and his power sought before battles."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Thor stands with Odin and the gods, but his battles with Jörmungandr and his conflicts with Loki define his role in Norse destiny."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "Mjölnir, his legendary hammer, is both a weapon of destruction and an instrument of divine blessing. His belt, Megingjörð, doubles his already colossal strength."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Thor’s legend shaped Viking culture—warriors sought his favor, and his name endures in days of the week (‘Thursday’ derives from ‘Thor’s Day’)."
+        }
+      ],
+  
+      "legends": [
+        "⚡ The Battle Against Jörmungandr: Thor and the World Serpent are destined to slay each other at Ragnarök.",
+        "🌪 The Theft of Mjölnir: Disguised as a bride, Thor infiltrated the giants and reclaimed his hammer in a furious battle.",
+        "🎣 Thor’s Fishing Trip: He nearly pulled Jörmungandr from the sea, but his companion cut the line, foreshadowing their final battle.",
+        "🛡 The Giant Slayer: Thor crushed Hrungnir in single combat, though he carried a wound from the fight for the rest of his days."
+      ],
+  
+      "lore": [
+        "⚡ Mjölnir: The hammer that can shatter mountains and return to Thor’s grasp.",
+        "🏋 Megingjörð: A belt that enhances his already legendary strength.",
+        "🛡 Járngreipr: The iron gloves required to wield the raw power of Mjölnir."
+      ]
+    }
+  },
+  {
+    "id": "loki",
+    "name": "Loki",
+    "title": "The Trickster, The Catalyst of Fate",
+    "image": "mapimages/loki.png",
+  
+    "core_identity": {
+      "pantheon": "Norse",
+      "faction": "Æsir & Jötunn (Ambiguous)",
+      "domain": "Trickery, Chaos, Fire, Deception, Transformation, Mischief, Betrayal"
+    },
+  
+    "archetype_alignment": {
+      "roles": ["The Trickster"],
+      "alignment": "Gemini",
+      "essence": ["🌀⚡ Tempest"],
+      "instruments": ["🌀 Shapeshifting", "🐺 Fenrir", "🐍 Jörmungandr"]
+    },
+  
+    "attributes": {
+      "dominion": 80,
+      "wrath": 70,
+      "arcana": 90,
+      "guile": 100,
+      "resolve": 60
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🔥 The Flames of Chaos", "🐺 Fenrir’s Chains", "❄ The Realm of Jötunheim"],
+        "rivalries_alliances": {
+          "rivals": ["Thor", "Odin", "The Gods of Asgard"],
+          "allies": ["Sigyn", "Fenrir", "Jörmungandr"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Loki is both a helper and a destroyer, a being of limitless transformation. He aids the gods but also sets the events of Ragnarök into motion."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Loki is the master of illusions, a shapeshifter who can weave reality to his whims. His children—Fenrir, Jörmungandr, and Hel—embody cosmic chaos."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Unlike Odin and Thor, Loki had no historical temples. He was seen as a force of nature, an agent of change rather than a god of worship."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Loki was once a friend to the Æsir, but his trickery and deception led to the downfall of the gods, making him Asgard’s greatest enemy."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "Loki’s power lies in his wit and transformations. His mind is his greatest weapon, shaping the destiny of gods and mortals alike."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Loki’s archetype endures in folklore and mythology. He represents rebellion, transformation, and the destruction necessary for rebirth."
+        }
+      ],
+  
+      "legends": [
+        "🎭 The Trickster's Deception: Loki once cut Sif’s hair, forcing the dwarves to craft Mjölnir and other divine artifacts.",
+        "🐺 The Binding of Fenrir: Loki’s son, the monstrous wolf Fenrir, was chained by the gods, but not before taking Týr’s hand.",
+        "🌿 The Death of Baldur: Loki tricked Baldur’s blind brother into killing him, ensuring his own exile and punishment.",
+        "🔥 Ragnarök & The Final Battle: Loki will lead the armies of chaos against the gods, fighting Heimdallr in a duel where both will fall."
+      ],
+  
+      "lore": [
+        "🔥 Loki's Shapeshifting: Able to transform into animals, giants, and even women, Loki's form is never fixed.",
+        "🐍 Jörmungandr: Loki's serpent child, destined to fight Thor and poison the world.",
+        "🐺 Fenrir: Loki's wolf son, prophesied to devour Odin at Ragnarök."
+      ]
+    }
+  },
+  {
+    "id": "freyja",
+    "name": "Freyja",
+    "title": "The Sorceress, The War Queen",
+    "image": "mapimages/freyja.png",
+  
+    "core_identity": {
+      "pantheon": "Norse",
+      "faction": "Vanir (Later integrated into the Æsir)",
+      "domain": "Love, Beauty, War, Fertility, Magic (Seiðr), Death, Gold"
+    },
+  
+    "archetype_alignment": {
+      "roles": ["The Divine Mother"],
+      "alignment": "Taurus",
+      "essence": ["🌿 Verdant"],
+      "instruments": ["✨ Brísingamen", "🦅 Falcon Cloak", "🛡 Fólkvangr"]
+    },
+  
+    "attributes": {
+      "dominion": 90,
+      "wrath": 85,
+      "arcana": 100,
+      "guile": 80,
+      "resolve": 95
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🏛 Uppsala", "✨ Fólkvangr", "🌿 Swedish & Norwegian Viking Sites"],
+        "rivalries_alliances": {
+          "rivals": ["Loki", "The Jötunn", "Thor"],
+          "allies": ["Freyr", "Odin", "The Valkyries"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Freyja is a goddess of passion, magic, and war, wielding love and battle as equal forces. She rules over Fólkvangr, claiming the bravest fallen warriors before Odin."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Freyja is the greatest practitioner of seiðr magic, teaching it to Odin himself. She represents fertility, gold, and the dual nature of love and war."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Freyja was widely worshiped across Viking lands, associated with beauty, prosperity, and fertility. Her influence remained even after Christianity spread."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Freyja shares kinship with Freyr and Odin, but Loki constantly seeks to undermine her. Giants often lust after her, leading to abductions and conflicts."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "Brísingamen, her enchanted golden necklace, amplifies her beauty and power. Her falcon cloak grants her the ability to shapeshift and soar across the realms."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Vikings called upon Freyja for love, magic, and war. She was especially venerated by female warriors and practitioners of seiðr."
+        }
+      ],
+  
+      "legends": [
+        "✨ The Brísingamen Necklace: Freyja obtained the most beautiful necklace from dwarves, but at a great personal cost.",
+        "⚔ The War of the Gods: She was sent to Asgard after the Vanir-Æsir War, bringing magic to Odin and reshaping Norse power.",
+        "🛡 The Chooser of the Slain: Freyja claims half of the fallen warriors in battle, taking them to her hall, Fólkvangr.",
+        "💔 The Search for Óðr: Freyja's lost husband, Óðr, vanished, and her golden tears fell as a symbol of love and sorrow."
+      ],
+  
+      "lore": [
+        "✨ Brísingamen: A necklace of immense beauty and power, tied to her influence over love and magic.",
+        "🦅 Falcon Cloak: A magical cloak that allows her to shapeshift and fly.",
+        "🛡 Fólkvangr: Her hall, where the bravest warriors find rest after death."
+      ]
+    }
+  },
+  {
+    "id": "fenrir",
+    "name": "Fenrir",
+    "title": "The Doom Wolf, The Beast of Ragnarök",
+    "image": "mapimages/fenrir.png",
+  
+    "core_identity": {
+      "pantheon": "Norse",
+      "faction": "Jötunn Bloodline (Enemy of the Æsir)",
+      "domain": "Chaos, Destruction, Fate, The End of the Gods (Ragnarök)"
+    },
+  
+    "archetype_alignment": {
+     "roles": ["The Shadow"],
+     "alignment": "Virgo",
+      "essence": ["☠️ Nether"],
+      "instruments": ["🔗 Gleipnir", "🔥 His Jaws", "🌘 The Howl of Doom"]
+    },
+  
+    "attributes": {
+      "dominion": 90,
+      "wrath": 100,
+      "arcana": 50,
+      "guile": 60,
+      "resolve": 100
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["⚔ Ragnarök Battlefield", "🌲 Nordic Wolf Shrines"],
+        "rivalries_alliances": {
+          "rivals": ["Odin", "Týr", "The Æsir"],
+          "allies": ["Loki", "Jörmungandr", "Hel"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Fenrir is not a god, but a force of nature, destined to bring about the end of the Æsir. Bound by fate, he will one day break free and consume Odin himself."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Fenrir is an unstoppable force, feared by the gods. His power is not just physical but woven into fate itself—his freedom marks the beginning of Ragnarök."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Fenrir was not worshiped, but Viking warriors respected his primal power, wearing wolf pelts and invoking his strength in battle."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Fenrir shares blood ties with Loki, Jörmungandr, and Hel, but his greatest rival is Odin, the Allfather, whom he is fated to destroy."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "His chain, **Gleipnir**, is a magical binding woven from impossible materials. His howl echoes across the nine realms, a warning of the end to come."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Fenrir's legend endures as a symbol of inevitable fate, chaos, and the wild power that even gods cannot contain."
+        }
+      ],
+  
+      "legends": [
+        "🔗 The Binding of Fenrir: Tricked by the gods, Fenrir was bound by Gleipnir, but not before taking Týr’s hand.",
+        "🐺 The Howl of Doom: His terrifying howl is said to echo through the realms, signaling the coming of Ragnarök.",
+        "🌘 The Sons of Fenrir: Sköll and Hati, his children, will devour the sun and moon at Ragnarök.",
+        "⚔ The Death of Odin: Fenrir will break free and consume the Allfather himself, marking the fall of the gods."
+      ],
+  
+      "lore": [
+        "🔗 Gleipnir: The magical chain that holds Fenrir, woven from impossible things.",
+        "🔥 His Jaws: No weapon can stop them; they are destined to devour Odin.",
+        "🐺 The Wild Hunt of Fenrir: The wolf’s presence is felt in every untamed force of nature."
+      ]
+    }
+  }
+  
+  
+  
+]

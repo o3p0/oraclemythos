@@ -1,0 +1,362 @@
+[
+
+
+{
+  "id": "quetzalcoatl",
+  "name": "Quetzalcoatl",
+  "title": "The Feathered Serpent, God of Wind, Wisdom, and Life",
+  "image": "mapimages/quetzalcoatl.png",
+  "core_identity": {
+    "pantheon": "Aztec",
+    "faction": "The Creator Gods",
+    "domain": "Wind, Wisdom, Life, Arts, Civilization"
+  },
+  "archetype_alignment": {
+    "roles": ["The Seeker"],
+    "alignment": "Gemini",
+    "essence": ["🌊⚡ Tidal "],
+    "instruments": ["🌿 The Serpent Form", "📖 The Codex of Knowledge", "🌪 Wind of Creation"]
+  },
+  "attributes": {
+    "dominion": 100,
+    "wrath": 40,
+    "arcana": 95,
+    "guile": 70,
+    "resolve": 90
+  },
+  "expandable_section": {
+    "quick_facts": {
+      "sacred_places": ["🌋 Teotihuacan", "🏛 The Temple of Quetzalcoatl"],
+      "rivalries_alliances": {
+        "rivals": ["Tezcatlipoca", "The Forces of Destruction"],
+        "allies": ["Tlaloc", "Xolotl", "The Toltecs"]
+      }
+    },
+    "about_section": [
+      {
+        "title": "The Creator of Humanity",
+        "description": "Quetzalcoatl shaped the first humans from bones and gave them life, ensuring their prosperity through wisdom and knowledge."
+      },
+      {
+        "title": "Mythological Power & Influence",
+        "description": "As the god of wind and knowledge, he brought civilization, writing, and the arts to humanity, guiding them towards enlightenment."
+      },
+      {
+        "title": "Worship & Cultural Impact",
+        "description": "Quetzalcoatl was honored across Mesoamerica, particularly by the Toltecs and the Aztecs, as the benevolent god of civilization and wisdom."
+      },
+      {
+        "title": "Allies & Rivalries",
+        "description": "He opposed Tezcatlipoca, who tempted him into exile, and was later associated with cycles of renewal and transformation."
+      },
+      {
+        "title": "Artifacts & Symbols of Power",
+        "description": "The **Serpent Form** represents his dual nature as a god of the heavens and the earth, while the **Codex of Knowledge** contains the wisdom he granted to humanity."
+      },
+      {
+        "title": "Mortal Encounters & Legacy",
+        "description": "Legends say he departed the world on a raft of serpents, promising to return, a prophecy later associated with historical events."
+      }
+    ],
+    "legends": [
+      "🌪 The Birth of Humanity: Quetzalcoatl retrieved the bones of past generations and gave them life, shaping the first people.",
+      "🌀 The War Against Tezcatlipoca: A cosmic struggle between light and darkness, leading to his exile from Tula.",
+      "🔥 The Self-Sacrifice of Quetzalcoatl: In some versions, he immolated himself, rising as the Morning Star.",
+      "🌊 The Prophecy of His Return: A legend foretold his return, influencing historical narratives in Mesoamerica."
+    ],
+    "lore": [
+      "🌿 The Serpent Form: A divine representation of his role as both a celestial and earthly deity.",
+      "📖 The Codex of Knowledge: A sacred text containing the wisdom of the gods, gifted to humanity.",
+      "🌪 Wind of Creation: The breath of Quetzalcoatl is said to bring life, guide travelers, and stir the cosmos."
+    ]
+  }
+},
+
+{
+  "id": "huitzilopochtli",
+  "name": "Huitzilopochtli",
+  "title": "God of War, Sun, and Human Sacrifice",
+  "image": "mapimages/huitzilopochtli.png",
+  "core_identity": {
+    "pantheon": "Aztec",
+    "faction": "The Solar Deities",
+    "domain": "War, Sun, Sacrifice, Victory, Conquest"
+  },
+  "archetype_alignment": {
+    "roles": ["The Champion"],
+    "alignment": "Aries",
+    "essence": ["🔥⚡ Solar"],
+    "instruments": ["🌞 The Solar Disk", "🗡 Xiuhcoatl (The Fire Serpent)", "🛡 The Shield of Tenochtitlan"]
+  },
+  "attributes": {
+    "dominion": 100,
+    "wrath": 100,
+    "arcana": 60,
+    "guile": 75,
+    "resolve": 100
+  },
+  "expandable_section": {
+    "quick_facts": {
+      "sacred_places": ["🏛 Templo Mayor", "🛡 The Battlefield of the Sun"],
+      "rivalries_alliances": {
+        "rivals": ["Coyolxauhqui", "The Centzon Huitznahua (The 400 Stars)", "The Moon"],
+        "allies": ["The Aztec Warriors", "Tonatiuh (The Sun)", "Tlaloc"]
+      }
+    },
+    "about_section": [
+      {
+        "title": "The Birth of the Warrior God",
+        "description": "Born in full battle gear, Huitzilopochtli emerged from his mother Coatlicue to defeat his sister Coyolxauhqui and the 400 stars, securing his place as the sun god."
+      },
+      {
+        "title": "Mythological Power & Influence",
+        "description": "He is the embodiment of war and the guiding force of the Aztecs, leading them to found Tenochtitlan through divine prophecy."
+      },
+      {
+        "title": "Worship & Cultural Impact",
+        "description": "Huitzilopochtli was central to Aztec religious life, honored through grand ceremonies and human sacrifices at the Templo Mayor."
+      },
+      {
+        "title": "Allies & Rivalries",
+        "description": "His greatest rivalry was with his sister Coyolxauhqui and the stars, whom he vanquished in cosmic battle, ensuring the rise of the sun."
+      },
+      {
+        "title": "Artifacts & Symbols of Power",
+        "description": "The **Fire Serpent (Xiuhcoatl)**, his weapon, symbolizes his destructive power, while the **Solar Disk** represents his celestial dominance."
+      },
+      {
+        "title": "Mortal Encounters & Legacy",
+        "description": "The Aztecs revered him as their divine patron, believing that their conquests and sacrifices sustained him in his eternal battle against the forces of darkness."
+      }
+    ],
+    "legends": [
+      "⚔ The Battle Against Coyolxauhqui: Huitzilopochtli struck down his sister, casting her broken body to the foot of Templo Mayor.",
+      "🔥 The Eternal War of the Sun: He fights daily against the forces of night, requiring blood sacrifice to ensure victory.",
+      "🛡 The Founding of Tenochtitlan: He guided the Mexica people to settle where they saw an eagle devouring a snake on a cactus.",
+      "☀ The Five Suns Myth: Huitzilopochtli is one of the divine beings who sustained the current era through cosmic struggle."
+    ],
+    "lore": [
+      "🗡 Xiuhcoatl (The Fire Serpent): A divine weapon representing the scorching force of the sun.",
+      "🌞 The Solar Disk: Symbol of his power as the warrior sun, demanding constant tribute to remain victorious.",
+      "🛡 The Shield of Tenochtitlan: A sacred artifact said to protect the Aztec capital from its enemies."
+    ]
+  }
+},
+{
+  "id": "tezcatlipoca",
+  "name": "Tezcatlipoca",
+  "title": "The Smoking Mirror, God of Sorcery and Fate",
+  "image": "mapimages/tezcatlipoca.png",
+  "core_identity": {
+    "pantheon": "Aztec",
+    "faction": "The Gods of Night and Destiny",
+    "domain": "Fate, Sorcery, Night, Deception, War, Chaos"
+  },
+  "archetype_alignment": {
+    "roles": ["The Shadow"],
+    "alignment": "Scorpio",
+    "essence": ["🪨⚡ Titan"],
+    "instruments": ["🪞 The Smoking Mirror", "🐆 Jaguar Form", "⚔ The Obsidian Blade"]
+  },
+  "attributes": {
+    "dominion": 95,
+    "wrath": 80,
+    "arcana": 100,
+    "guile": 100,
+    "resolve": 85
+  },
+  "expandable_section": {
+    "quick_facts": {
+      "sacred_places": ["🌆 The Obsidian Temple", "🌌 The Eternal Night"],
+      "rivalries_alliances": {
+        "rivals": ["Quetzalcoatl", "Huitzilopochtli", "The Sun Gods"],
+        "allies": ["The Jaguar Warriors", "The Sorcerers of the Night"]
+      }
+    },
+    "about_section": [
+      {
+        "title": "The Lord of Fate and Chaos",
+        "description": "Tezcatlipoca is a god of contradictions—both a bringer of fortune and destruction, guiding destinies while shrouding them in uncertainty."
+      },
+      {
+        "title": "Mythological Power & Influence",
+        "description": "He wields the Smoking Mirror, an obsidian portal that reveals truths and illusions, and is known for manipulating mortals and gods alike."
+      },
+      {
+        "title": "Worship & Cultural Impact",
+        "description": "As a god of rulers and warriors, Tezcatlipoca was honored with human sacrifices and revered for his role in shaping fate."
+      },
+      {
+        "title": "Allies & Rivalries",
+        "description": "His greatest rivalry is with Quetzalcoatl, whom he tricked into exile, yet he also stands as a cosmic force necessary for balance."
+      },
+      {
+        "title": "Artifacts & Symbols of Power",
+        "description": "His **Smoking Mirror** grants visions of truth and deception, while his **Jaguar Form** embodies his power over war and the night."
+      },
+      {
+        "title": "Mortal Encounters & Legacy",
+        "description": "Tezcatlipoca is said to walk among mortals in disguise, testing their virtues and dooming those who succumb to their desires."
+      }
+    ],
+    "legends": [
+      "🌀 The Exile of Quetzalcoatl: Tezcatlipoca deceived Quetzalcoatl, causing his downfall and departure from Tula.",
+      "🐆 The Jaguar Sun: He ruled the first world as the Jaguar Sun, until Quetzalcoatl destroyed it in their eternal struggle.",
+      "🔥 The Test of Kings: Aztec rulers were chosen by a ritual dedicated to Tezcatlipoca, proving their worth through trials of fate.",
+      "🌑 The Mirror of Truth: Those who gazed into his Smoking Mirror saw either their destiny or their doom."
+    ],
+    "lore": [
+      "🪞 The Smoking Mirror: A sacred obsidian mirror through which Tezcatlipoca reveals hidden truths and illusions.",
+      "🐆 The Jaguar Form: He transforms into a jaguar, symbolizing his connection to warriors and the night.",
+      "⚔ The Obsidian Blade: A weapon forged from darkness, said to cut through both flesh and fate."
+    ]
+  }
+},
+{
+  "id": "tlaloc",
+  "name": "Tlaloc",
+  "title": "The Rain God and Lord of Storms",
+  "image": "mapimages/tlaloc.png",
+  "core_identity": {
+    "pantheon": "Aztec",
+    "faction": "The Storm Deities",
+    "domain": "Rain, Fertility, Storms, Water, Agriculture"
+  },
+  "archetype_alignment": {
+    "roles": ["The Divine Mother"],
+    "alignment": "Cancer",
+    "essence": ["🌿⚡ Lush"],
+    "instruments": ["⚡ Thunderous Lightning", "💦 The Sacred Jar", "🌊 The Rains of Life"]
+  },
+  "attributes": {
+    "dominion": 95,
+    "wrath": 85,
+    "arcana": 80,
+    "guile": 60,
+    "resolve": 90
+  },
+  "expandable_section": {
+    "quick_facts": {
+      "sacred_places": ["🏛 The Great Temple of Tlaloc", "⛰ Mount Tlaloc"],
+      "rivalries_alliances": {
+        "rivals": ["Destructive Droughts", "The Gods of Fire"],
+        "allies": ["Quetzalcoatl", "The Tlaloques (Rain Spirits)", "Chalchiuhtlicue"]
+      }
+    },
+    "about_section": [
+      {
+        "title": "The Bringer of Rain and Life",
+        "description": "Tlaloc controls the rain and water cycles, ensuring the prosperity of crops and the survival of civilizations."
+      },
+      {
+        "title": "Mythological Power & Influence",
+        "description": "With his divine waters, he nourishes the land, but he can also unleash devastating floods and storms upon those who displease him."
+      },
+      {
+        "title": "Worship & Cultural Impact",
+        "description": "Highly revered by farmers, Tlaloc was honored with rituals and sacrifices to ensure seasonal rains and agricultural bounty."
+      },
+      {
+        "title": "Allies & Rivalries",
+        "description": "His allies include Quetzalcoatl and Chalchiuhtlicue, while he opposes droughts and the destructive forces of fire gods."
+      },
+      {
+        "title": "Artifacts & Symbols of Power",
+        "description": "The **Sacred Jar** contains the life-giving rains, while his **Lightning** strikes down those who defy the will of nature."
+      },
+      {
+        "title": "Mortal Encounters & Legacy",
+        "description": "Tlaloc was both feared and worshiped, with children sacrificed in his name to ensure abundant rains and prevent devastating droughts."
+      }
+    ],
+    "legends": [
+      "💦 The Tears of the Children: It was believed that the tears of sacrificed children pleased Tlaloc and brought rainfall.",
+      "⛈ The Flood of Renewal: In some myths, Tlaloc unleashed a great flood to cleanse the world and restore balance.",
+      "🌾 The Guardian of Crops: Farmers prayed to Tlaloc, leaving offerings to secure his blessings for a bountiful harvest.",
+      "🌊 The Waters of Paradise: Tlaloc rules over **Tlalocan**, a lush afterlife reserved for those who died by water-related causes."
+    ],
+    "lore": [
+      "⚡ Thunderous Lightning: Tlaloc wields lightning bolts to command the skies and bring storms.",
+      "💦 The Sacred Jar: A mystical vessel holding the waters that nourish or punish the earth.",
+      "🌊 The Rains of Life: The life-giving waters that sustain civilization and agriculture."
+    ]
+  }
+},
+{
+  "id": "xipe_totec",
+  "name": "Xipe Totec",
+  "title": "The Flayed God, Lord of Rebirth and Renewal",
+  "image": "mapimages/xipe_totec.png",
+  "core_identity": {
+    "pantheon": "Aztec",
+    "faction": "The Gods of Life and Death",
+    "domain": "Rebirth, Agriculture, Renewal, Sacrifice, Gold"
+  },
+  "archetype_alignment": {
+    "roles": ["The Catalyst"],
+    "alignment": "Aries",
+    "essence": ["🔥🪨⚡ Pyroclasm"],
+    "instruments": ["🩸 The Flayed Skin", "🌽 The Sacred Maize", "⚔ The Ritual Knife"]
+  },
+  "attributes": {
+    "dominion": 90,
+    "wrath": 70,
+    "arcana": 85,
+    "guile": 75,
+    "resolve": 95
+  },
+  "expandable_section": {
+    "quick_facts": {
+      "sacred_places": ["🏛 The Temple of Xipe Totec", "🌿 The Fields of Renewal"],
+      "rivalries_alliances": {
+        "rivals": ["The Lords of Decay", "Obstacles to Growth"],
+        "allies": ["Tlaloc", "Tonacatecuhtli", "The Priests of Renewal"]
+      }
+    },
+    "about_section": [
+      {
+        "title": "The God of Rebirth and Renewal",
+        "description": "Xipe Totec represents the cycle of life and death, shedding his old skin to bring forth new growth and prosperity."
+      },
+      {
+        "title": "Mythological Power & Influence",
+        "description": "As the deity of agricultural fertility, he symbolizes the renewal of crops and the transformation of life through sacrifice."
+      },
+      {
+        "title": "Worship & Cultural Impact",
+        "description": "He was honored in **Tlacaxipehualiztli**, the ‘Flaying of Men’ festival, where warriors were sacrificed, and their skin worn to symbolize renewal."
+      },
+      {
+        "title": "Allies & Rivalries",
+        "description": "Xipe Totec works alongside Tlaloc to ensure seasonal renewal but opposes stagnation and forces that hinder transformation."
+      },
+      {
+        "title": "Artifacts & Symbols of Power",
+        "description": "His **Flayed Skin** represents the shedding of the old to bring forth new life, while the **Sacred Maize** is his gift of sustenance."
+      },
+      {
+        "title": "Mortal Encounters & Legacy",
+        "description": "He is invoked by warriors, farmers, and those seeking renewal, with sacrifices made in his honor to bring about transformation and abundance."
+      }
+    ],
+    "legends": [
+      "🩸 The Festival of Flayed Men: Priests donned the flayed skins of sacrificial victims, symbolizing rebirth and renewal.",
+      "🌽 The Gift of Maize: Xipe Totec ensured the growth of crops by ‘shedding’ his skin, mirroring the husking of corn.",
+      "⚔ The Warrior’s Transformation: Those who died in ritual combat were offered to him, their bodies fueling the cycle of life.",
+      "🔥 The Trial of Renewal: Through sacrifice, the Aztecs believed he cleansed the world and restored balance."
+    ],
+    "lore": [
+      "🩸 The Flayed Skin: A symbol of transformation and the shedding of the past for new life.",
+      "🌽 The Sacred Maize: Represents Xipe Totec’s power over agriculture and sustenance.",
+      "⚔ The Ritual Knife: The tool of sacrifice used in ceremonies dedicated to him."
+    ]
+  }
+}
+
+
+
+
+
+
+
+]

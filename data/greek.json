@@ -1,0 +1,466 @@
+[
+  {
+    "id": "zeus",
+    "name": "Zeus",
+    "title": "King of the Gods, Lord of the Sky",
+    "image": "mapimages/zeus.png",
+
+    "core_identity": {
+      "pantheon": "Greek",
+      "faction": "Olympian",
+      "domain": "Sky, Thunder, Storms, Kingship, Justice, Fate"
+    },
+
+    "archetype_alignment": {
+      "roles": ["The Ruler 👑"],
+      "alignment": "Sagittarius",
+      "essence": ["🔥⚡ Solar"],
+      "instruments": ["⚡ Thunderbolt", "🦅 Eagle Companion", "🛡 Aegis Shield"]
+    },
+
+    "attributes": {
+      "dominion": 100,
+      "wrath": 90,
+      "arcana": 80,
+      "guile": 70,
+      "resolve": 95
+    },
+
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🏛 Olympia", "🌳 Dodona", "🏔 Mount Olympus"],
+        "rivalries_alliances": {
+          "rivals": ["Cronus", "Typhon", "Prometheus"],
+          "allies": ["Athena", "Hermes", "Apollo"]
+        }
+      },
+
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Zeus rules from Mount Olympus, enforcing divine law and maintaining balance between mortals and gods."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Zeus controls thunder, lightning, and rain, overseeing fate and justice in both the mortal and divine realms."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Zeus was revered across ancient Greece, with grand temples, oracles, and the Olympic Games held in his honor."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Zeus led the Olympians against the Titans. His allies include Athena, Hermes, and Apollo, while his rivals include Cronus, Typhon, and Prometheus."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "Zeus wields the mighty Thunderbolt and is often accompanied by an eagle. His sacred oak at Dodona was believed to whisper prophecies."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Zeus fathered legendary heroes like Heracles and Perseus, shaping the myths and history of ancient Greece."
+        }
+      ],
+
+      "legends": [
+        "🏛 The Titanomachy: Led the Olympians to victory against the Titans.",
+        "🌧 The Great Flood: Sent a deluge to cleanse the earth, sparing Deucalion and Pyrrha.",
+        "🔥 The Binding of Prometheus: Punished Prometheus for giving fire to mortals.",
+        "👶 Father of Heroes: Sired Heracles, Perseus, and Helen of Troy."
+      ],
+
+      "lore": [
+        "🔥 The Binding of Ixion: Condemned the traitorous mortal to eternal punishment.",
+        "🌩 The Abduction of Europa: Took the form of a bull to carry Europa across the sea.",
+        "🌳 The Oak of Dodona: Ancient trees whispered Zeus’s will to his followers."
+      ]
+    }
+  },
+  {
+    "id": "athena",
+    "name": "Athena",
+    "title": "The Wise Counselor, The Unyielding Strategist",
+    "image": "mapimages/athena.png",
+
+    "core_identity": {
+      "pantheon": "Greek",
+      "faction": "Olympian",
+      "domain": "Wisdom, Strategy, Warfare, Civilization, Weaving, Justice"
+    },
+
+    "archetype_alignment": {
+      "roles": ["The Sage"],
+      "alignment": "Virgo ",
+      "essence": ["🪨⚡ Titan "],
+      "instruments": ["🛡 Aegis Shield", "🦉 Owl Companion", "⚔ Spear"]
+    },
+
+    "attributes": {
+      "dominion": 95,
+      "wrath": 80,
+      "arcana": 85,
+      "guile": 75,
+      "resolve": 100
+    },
+
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🏛 The Parthenon", "🏛 The Erechtheion", "🏛 Temple of Athena Nike"],
+        "rivalries_alliances": {
+          "rivals": ["Poseidon", "Ares", "Arachne"],
+          "allies": ["Zeus", "Odysseus", "Hephaestus"]
+        }
+      },
+
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Athena is the guardian of civilization, embodying wisdom, justice, and disciplined warfare. She aids heroes and rulers, ensuring order and enlightenment."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Athena excels in strategy, law, and craftsmanship. She champions disciplined warfare, wise governance, and artistic expression."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Athenians held the Panathenaic Festival in her honor, built grand temples like the Parthenon, and planted sacred olive groves as offerings."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Athena allied with Zeus and Odysseus but clashed with Poseidon over Athens and punished Arachne for her arrogance."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "Athena wields the Aegis shield and the Palladium statue, both instilling fear and protection. The olive tree remains her enduring symbol."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Athena guided Odysseus, aided Perseus against Medusa, and shaped the destiny of Achilles and other heroes through divine intervention."
+        }
+      ],
+
+      "legends": [
+        "🎭 The Birth of Athena: Emerged fully armed from Zeus’ head, embodying divine wisdom and power.",
+        "🌪 The Contest for Athens: Bested Poseidon by gifting the olive tree, securing her patronage of the city.",
+        "🕸 The Wrath of Athena: Transformed Arachne into a spider for her hubris in challenging divine artistry.",
+        "⚔ The Trojan War: Devised the Trojan Horse strategy and guided Greek heroes to victory."
+      ],
+
+      "lore": [
+        "🏛 The Parthenon: A grand temple in Athens, symbolizing her enduring influence on Greek civilization.",
+        "🔮 The Aegis Shield: A weapon of divine terror, carrying Medusa’s face, wielded by Athena in battle.",
+        "🌿 The Sacred Olive Tree: The source of prosperity and peace, gifted by Athena to the Athenians."
+      ]
+    }
+  },
+  {
+    "id": "poseidon",
+    "name": "Poseidon",
+    "title": "The Tempest Lord, The Earth-Shaker",
+    "image": "mapimages/poseidon.png",
+  
+    "core_identity": {
+      "pantheon": "Greek",
+      "faction": "Olympian",
+      "domain": "Sea, Storms, Earthquakes, Horses, Waterways"
+    },
+  
+    "archetype_alignment": {
+      "roles": ["The Champion"],
+      "alignment": "Pisces",
+      "essence": ["🌊⚡ Tidal"],
+      "instruments": ["🔱 Trident", "🐴 Divine Steed", "🌊 Ocean’s Might"]
+    },
+  
+    "attributes": {
+      "dominion": 95,
+      "wrath": 90,
+      "arcana": 75,
+      "guile": 60,
+      "resolve": 85
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🌊 Atlantis", "🏛 Corinth", "🏝 Cape Sounion"],
+        "rivalries_alliances": {
+          "rivals": ["Athena", "Odysseus", "Zeus"],
+          "allies": ["Triton", "Amphitrite", "Scylla & Charybdis"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Poseidon is the Lord of the Seas, one of the Three Great Olympians alongside Zeus and Hades. While Zeus rules the sky, Poseidon governs the deep, wielding dominion over water, storms, and the shifting earth."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Poseidon commands the waves, storms, and seismic forces. He raises islands and sinks cities with his trident."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Coastal cities and seafarers venerated Poseidon, praying for safe voyages and bountiful waters. Sacrificial offerings of horses were common before sea voyages."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Poseidon clashed with Athena over Athens’ patronage and cursed Odysseus, yet he stood with the gods in great battles."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "His trident is a divine instrument of destruction, splitting seas and crumbling mountains."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Poseidon fathered legendary creatures like Pegasus and played a key role in mythological conflicts and the shaping of civilizations."
+        }
+      ],
+  
+      "legends": [
+        "🏛 The Contest of Athens: Lost the city's patronage to Athena but left his mark with a saltwater spring.",
+        "🌊 The Wrath of Poseidon: Cursed Odysseus to wander the seas for years after the fall of Troy.",
+        "⚡ The Battle Against Giants: Stood beside Zeus and Hades in the war against the Gigantes."
+      ],
+  
+      "lore": [
+        "🔱 The Trident of Power: Said to control the tides and summon earthquakes.",
+        "🌊 Atlantis: A lost civilization believed to be blessed and cursed by Poseidon himself.",
+        "🐴 The Birth of Horses: Created the first horse as a gift to mortals."
+      ]
+    }
+  },
+  {
+    "id": "hades",
+    "name": "Hades",
+    "title": "The Dark King, The Gatekeeper",
+    "image": "mapimages/hades.png",
+  
+    "core_identity": {
+      "pantheon": "Greek",
+      "faction": "Olympian (Chthonic Deity)",
+      "domain": "Underworld, Wealth, the Dead, Funeral Rites, Hidden Knowledge"
+    },
+  
+    "archetype_alignment": {
+      "roles": ["The Shadow"],
+      "alignment": "Scorpio ",
+      "essence": ["☠️⚡ Spectral"],
+      "instruments": ["⚰️ Helm of Darkness", "⚖️ Bident", "🐍 Serpentine Staff"]
+    },
+  
+    "attributes": {
+      "dominion": 100,
+      "wrath": 75,
+      "arcana": 90,
+      "guile": 80,
+      "resolve": 100
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🏛 Necromanteion of Ephyra", "🌑 The Underworld", "🏺 Sanctuary of Pluto"],
+        "rivalries_alliances": {
+          "rivals": ["Demeter", "Heracles", "Orpheus"],
+          "allies": ["Persephone", "Thanatos", "Charon"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Hades is the ruler of the Underworld, ensuring balance between life and death. He does not judge the dead but maintains the cycle of souls."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Hades controls all riches beneath the earth, commands the dead, and enforces divine law. He wields immense mystical power but does not seek mortal worship."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Though feared, Hades was honored in sacred rites like the Eleusinian Mysteries. Black animals were sacrificed to him in underground rituals."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Hades maintains alliances with Persephone and Charon, while his clashes with Demeter over Persephone’s fate shape the seasons."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "The Helm of Darkness renders the wearer unseen, while the Bident commands spirits and enforces divine judgment."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Hades rarely interferes with mortals, but when he does, it is absolute. He granted Orpheus a chance to reclaim Eurydice, and allowed Heracles to borrow Cerberus."
+        }
+      ],
+  
+      "legends": [
+        "🌑 The Division of the Cosmos: After the Titanomachy, Hades received the Underworld as his domain.",
+        "⚖️ The Abduction of Persephone: Took Persephone as his queen, leading to the creation of the seasons.",
+        "🐕 Heracles & Cerberus: Allowed Heracles to take Cerberus as part of his Twelve Labors.",
+        "🎵 Orpheus' Descent: Granted Orpheus the chance to reclaim Eurydice, but imposed a fatal condition."
+      ],
+  
+      "lore": [
+        "⚰️ The Helm of Darkness: Grants true invisibility, even from the gods.",
+        "🌊 The Five Rivers of the Underworld: Each river represents an aspect of death—Styx (oaths), Lethe (forgetfulness), Acheron (sorrow), Phlegethon (fire), Cocytus (lamentation).",
+        "🐍 The Black Serpent: A symbol of the Underworld, representing death and transformation."
+      ]
+    }
+  },
+  {
+    "id": "apollo",
+    "name": "Apollo",
+    "title": "The Divine Messenger, The Healer & Destroyer",
+    "image": "mapimages/apollo.png",
+  
+    "core_identity": {
+      "pantheon": "Greek",
+      "faction": "Olympian",
+      "domain": "Sun, Prophecy, Music, Healing, Archery, Poetry, Truth"
+    },
+  
+    "archetype_alignment": {
+      "roles": ["The Visionary"],
+      "alignment": "Leo ",
+      "essence": ["🔥⚡ Solar"],
+      "instruments": ["🏹 Golden Bow & Arrows", "🎵 Lyre", "🏛 Laurel Wreath"]
+    },
+  
+    "attributes": {
+      "dominion": 95,
+      "wrath": 80,
+      "arcana": 100,
+      "guile": 70,
+      "resolve": 90
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🏛 Delphi", "🌞 Delos", "🏛 Didyma"],
+        "rivalries_alliances": {
+          "rivals": ["Python", "Niobe", "Achilles"],
+          "allies": ["Artemis", "Hermes", "Asclepius"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Apollo governs light, prophecy, and artistic inspiration. He serves as a divine judge, healer, and enforcer of cosmic order."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Apollo's influence extends over the Delphic Oracle, healing temples, and the arts. His golden bow brings both healing and destruction."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Worshipped in grand festivals like the Pythian Games and the Delia Festival, Apollo’s influence shaped Greek prophecy, poetry, and medicine."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Apollo shares a close bond with Artemis and Hermes but has clashed with Python, Niobe, and Achilles."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "Apollo wields the **Golden Bow** and **Lyre**, representing his dual nature of destruction and harmony. The **Delphic Oracle** remains his most sacred seat of power."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Apollo's mythic love stories, musical mastery, and divine wrath have shaped the fates of mortals like Daphne, Hyacinthus, and Cassandra."
+        }
+      ],
+  
+      "legends": [
+        "🏛 The Slaying of Python: Apollo vanquishes Python and claims Delphi as his divine sanctuary.",
+        "🌿 Apollo & Daphne: Daphne transforms into a laurel tree, becoming Apollo’s sacred plant.",
+        "⚔ The Trojan War: Apollo aids the Trojans and strikes down Achilles with a divine-guided arrow.",
+        "🔮 The Birth of Asclepius: Apollo fathers the god of medicine, leading to a cosmic struggle over life and death."
+      ],
+  
+      "lore": [
+        "🎵 The Lyre: A gift from Hermes, symbolizing Apollo’s dominion over music and divine harmony.",
+        "🏛 The Delphic Oracle: The most revered prophetic site, where mortals sought divine wisdom.",
+        "☀️ The Chariot of the Sun: Apollo was later associated with Helios, representing solar purity and celestial order."
+      ]
+    }
+  },
+  {
+    "id": "hermes",
+    "name": "Hermes",
+    "title": "The Trickster, The Messenger, The Guide",
+    "image": "mapimages/hermes.png",
+  
+    "core_identity": {
+      "pantheon": "Greek",
+      "faction": "Olympian",
+      "domain": "Communication, Travel, Trade, Thieves, Trickery, Boundaries, Soul-Guiding"
+    },
+  
+    "archetype_alignment": {
+      "roles": ["The Trickster"],
+      "alignment": "Gemini",
+      "essence": ["🌀⚡ Tempest"],
+      "instruments": ["🏛 Caduceus", "🦶 Winged Sandals", "🎭 Cap of Invisibility"]
+    },
+  
+    "attributes": {
+      "dominion": 90,
+      "wrath": 60,
+      "arcana": 85,
+      "guile": 100,
+      "resolve": 75
+    },
+  
+    "expandable_section": {
+      "quick_facts": {
+        "sacred_places": ["🏛 Mount Cyllene", "🛤 Roadside Herms", "🏺 Hermes Agoraios (Athens)"],
+        "rivalries_alliances": {
+          "rivals": ["Argus Panoptes", "Hephaestus", "Hera"],
+          "allies": ["Apollo", "Hades", "Zeus"]
+        }
+      },
+  
+      "about_section": [
+        {
+          "title": "Divine Order & Role in the Cosmos",
+          "description": "Hermes is the divine intermediary, bridging the world of gods, mortals, and the underworld. He governs communication, trade, and transitions."
+        },
+        {
+          "title": "Mythological Power & Influence",
+          "description": "Hermes is the master of movement and trickery, revered for his role as a messenger, guide of souls, and patron of merchants and thieves alike."
+        },
+        {
+          "title": "Worship & Cultural Impact",
+          "description": "Merchants and travelers honored Hermes at road markers, while the Hermaia Festival celebrated his wit and divine cunning."
+        },
+        {
+          "title": "Allies & Rivalries",
+          "description": "Hermes shares alliances with Zeus, Apollo, and Hades, but has outwitted or conflicted with Hera, Hephaestus, and Argus Panoptes."
+        },
+        {
+          "title": "Artifacts & Symbols of Power",
+          "description": "The **Caduceus** represents diplomacy and divine authority, while the **Winged Sandals** grant Hermes unparalleled speed."
+        },
+        {
+          "title": "Mortal Encounters & Legacy",
+          "description": "Hermes guided Perseus against Medusa, helped Odysseus against Circe, and played a role in Prometheus’ fate."
+        }
+      ],
+  
+      "legends": [
+        "🔮 The Trickster’s First Theft: Stole Apollo’s cattle as an infant and invented the lyre to reconcile their feud.",
+        "⚔ The Slayer of Argus: Tricked and slew the giant Argus Panoptes to free Zeus' lover, Io.",
+        "🚶 The Psychopomp: Guides the souls of the dead to the Underworld, serving as the only Olympian with free passage to Hades' realm.",
+        "🌀 Hermes & Odysseus: Assisted Odysseus against Circe’s magic and later convinced Calypso to release him."
+      ],
+  
+      "lore": [
+        "🏛 The Caduceus: A staff entwined with serpents, symbolizing peace and hidden knowledge.",
+        "🦶 The Winged Sandals: The divine footwear that allows Hermes to travel between realms with unmatched speed.",
+        "🎭 The Cap of Invisibility: A borrowed artifact from Hades, used by Perseus to evade sight during his battle with Medusa."
+      ]
+    }
+  }
+  
+  
+  
+]

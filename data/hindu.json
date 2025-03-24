@@ -1,0 +1,430 @@
+[
+    {
+        "id": "brahma",
+        "name": "Brahma",
+        "title": "The Creator, The Grand Architect of the Universe",
+        "image": "mapimages/brahma.png",
+        "core_identity": {
+          "pantheon": "Hindu",
+          "faction": "The Trimurti",
+          "domain": "Creation, Knowledge, Wisdom, The Vedas"
+        },
+        "archetype_alignment": {
+          "roles": ["The Divine Mother"],
+          "alignment": "Cancer",
+          "essence": ["🔥⚡🌿 Lush"],
+          "instruments": ["📖 The Vedas", "💠 The Lotus of Creation", "🕉 The Mantras of Existence"]
+        },
+        "attributes": {
+          "dominion": 100,
+          "wrath": 30,
+          "arcana": 95,
+          "guile": 50,
+          "resolve": 90
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🏛 The Brahma Temple in Pushkar", "🌊 The Cosmic Ocean"],
+            "rivalries_alliances": {
+              "rivals": ["Forces of Ignorance and Chaos"],
+              "allies": ["Vishnu", "Shiva", "Saraswati"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Divine Creator of the Universe",
+              "description": "Brahma is the source of all creation, bringing the universe into existence from the cosmic lotus emerging from Vishnu's navel."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "As the god of creation, Brahma shaped the cosmos, the elements, and all living beings, imparting wisdom and knowledge to humanity."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Though revered, Brahma has few temples due to his role being complete, while worship is primarily directed to Vishnu and Shiva."
+            },
+            {
+              "title": "Allies & Rivalries",
+              "description": "Brahma works alongside Vishnu and Shiva, yet is sometimes challenged by forces of disorder seeking to unmake creation."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Vedas** contain the divine knowledge of the universe, the **Lotus of Creation** symbolizes his role as the origin of existence, and the **Mantras of Existence** sustain cosmic balance."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Brahma granted divine wisdom to sages and taught humanity the sacred scriptures, shaping Hindu philosophy and thought."
+            }
+          ],
+          "legends": [
+            "🌺 The Birth of the Universe: Brahma emerged from a lotus flower growing from Vishnu’s navel and began the act of creation.",
+            "📖 The Writing of the Vedas: He composed the sacred texts that contain the divine laws of existence and cosmic order.",
+            "⚔ The Curse of Shiva: For speaking falsely, Brahma was cursed by Shiva to have few temples and little direct worship.",
+            "🌀 The Four Faces of Brahma: To oversee creation from all directions, he grew four faces, symbolizing his omniscience."
+          ],
+          "lore": [
+            "📖 The Vedas: The divine scriptures revealed by Brahma, forming the foundation of Hindu knowledge and dharma.",
+            "🌺 The Lotus of Creation: The sacred flower from which he was born, representing the unfolding of existence.",
+            "🕉 The Mantras of Existence: The sacred chants that sustain the universe and guide spiritual enlightenment."
+          ]
+        }
+      },
+      {
+        "id": "vishnu",
+        "name": "Vishnu",
+        "title": "The Preserver, Guardian of the Cosmic Order",
+        "image": "mapimages/vishnu.png",
+        "core_identity": {
+          "pantheon": "Hindu",
+          "faction": "The Trimurti",
+          "domain": "Preservation, Protection, Dharma, Cosmic Balance"
+        },
+        "archetype_alignment": {
+          "roles": ["The King"],
+          "alignment": "Pisces",
+          "essence": ["🌊⚡ Tidal"],
+          "instruments": ["🔱 The Sudarshana Chakra", "🪔 The Eternal Conch (Panchajanya)", "🐍 Ananta Shesha (The Cosmic Serpent)"]
+        },
+        "attributes": {
+          "dominion": 100,
+          "wrath": 40,
+          "arcana": 95,
+          "guile": 75,
+          "resolve": 100
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🏛 Tirupati Temple", "🌊 The Cosmic Ocean"],
+            "rivalries_alliances": {
+              "rivals": ["Forces of Adharma (Unrighteousness)"],
+              "allies": ["Brahma", "Shiva", "Lakshmi", "His Avatars"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Divine Preserver of the Universe",
+              "description": "Vishnu upholds dharma and cosmic balance, intervening whenever the forces of chaos and destruction threaten the world."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "He takes multiple avatars, such as Rama and Krishna, to restore righteousness, ensuring the universe remains in harmony."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Vishnu is one of the most widely worshipped deities, with millions of followers dedicated to his devotion through Vaishnavism."
+            },
+            {
+              "title": "Allies & Rivalries",
+              "description": "He collaborates with Brahma and Shiva in the cosmic cycle of creation, sustenance, and destruction, while opposing demonic beings who seek to disrupt dharma."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "His **Sudarshana Chakra** represents divine justice, the **Eternal Conch** signals cosmic balance, and the **Cosmic Serpent (Ananta Shesha)** supports the universe."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Vishnu’s incarnations have shaped the spiritual and historical narratives of Hinduism, guiding humanity towards righteousness and wisdom."
+            }
+          ],
+          "legends": [
+            "🔄 The Ten Avatars of Vishnu: He has descended as various incarnations, including Rama, Krishna, and Narasimha, to restore cosmic balance.",
+            "🐍 The Cosmic Sleep: Vishnu rests on the infinite serpent, Ananta Shesha, awaiting the time for creation to begin anew.",
+            "🔱 The Battle Against Evil: In each era, Vishnu intervenes to defeat powerful demons who threaten dharma.",
+            "📖 The Bhagavad Gita: As Krishna, he revealed the wisdom of karma, devotion, and duty to Arjuna on the battlefield of Kurukshetra."
+          ],
+          "lore": [
+            "🔱 The Sudarshana Chakra: Vishnu’s celestial discus, a weapon of divine justice and cosmic destruction.",
+            "🪔 The Eternal Conch (Panchajanya): A symbol of divine sound, announcing the triumph of dharma.",
+            "🐍 Ananta Shesha: The infinite cosmic serpent on which Vishnu reclines, representing the endless nature of time."
+          ]
+        }
+      },
+      {
+        "id": "shiva",
+        "name": "Shiva",
+        "title": "The Destroyer, The Transformer, The Supreme Yogi",
+        "image": "mapimages/shiva.png",
+        "core_identity": {
+          "pantheon": "Hindu",
+          "faction": "The Trimurti",
+          "domain": "Destruction, Transformation, Meditation, Cosmic Balance"
+        },
+        "archetype_alignment": {
+          "roles": ["The Phoenix"],
+          "alignment": "Scorpio",
+          "essence": ["🪨⚡ Titan"],
+          "instruments": ["🔱 The Trident (Trishul)", "🕉 The Damaru (Cosmic Drum)", "🐍 The Serpent Vasuki"]
+        },
+        "attributes": {
+          "dominion": 100,
+          "wrath": 90,
+          "arcana": 95,
+          "guile": 70,
+          "resolve": 100
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🛕 Mount Kailash", "🌊 The Ganges River"],
+            "rivalries_alliances": {
+              "rivals": ["Forces of Ego and Ignorance"],
+              "allies": ["Vishnu", "Brahma", "Parvati", "Nandi (His Bull)"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Cosmic Force of Destruction and Renewal",
+              "description": "Shiva is responsible for dissolving the universe in order for it to be reborn, representing both destruction and transformation."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "As the Supreme Yogi, he embodies divine detachment, meditation, and enlightenment, guiding spiritual seekers."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Shiva is one of the most revered deities, with Shaivism being a major tradition in Hinduism. His devotees seek liberation (moksha) through devotion and asceticism."
+            },
+            {
+              "title": "Allies & Rivalries",
+              "description": "Though he works with Vishnu and Brahma to maintain cosmic balance, Shiva’s destructive nature often clashes with forces that resist change."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Trident (Trishul)** symbolizes his threefold power, the **Damaru** produces the cosmic vibrations of creation, and the **Serpent Vasuki** represents the conquest of fear."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Shiva appears to mortals in many forms, granting boons, testing devotion, and leading seekers towards enlightenment."
+            }
+          ],
+          "legends": [
+            "🔥 The Tandava Dance: Shiva performs the cosmic dance, symbolizing destruction and creation.",
+            "☠ The Drinking of the Halahala Poison: To save the cosmos, Shiva drank the deadly poison churned from the ocean, turning his throat blue.",
+            "🔱 The Defeat of Tripura: Shiva destroyed the three demon cities with a single arrow, restoring cosmic balance.",
+            "🌊 The Descent of the Ganges: Shiva caught the mighty river in his hair to prevent it from destroying the earth."
+          ],
+          "lore": [
+            "🔱 The Trident (Trishul): Represents the three fundamental aspects of existence—creation, preservation, and destruction.",
+            "🕉 The Damaru (Cosmic Drum): Produces the sound that created the universe and guides the rhythm of existence.",
+            "🐍 The Serpent Vasuki: Coiled around Shiva’s neck, it symbolizes control over fear, ego, and the cycle of life and death."
+          ]
+        }
+      },
+      {
+        "id": "lakshmi",
+        "name": "Lakshmi",
+        "title": "The Goddess of Wealth, Fortune, and Prosperity",
+        "image": "mapimages/lakshmi.png",
+        "core_identity": {
+          "pantheon": "Hindu",
+          "faction": "The Devas",
+          "domain": "Wealth, Prosperity, Fortune, Abundance, Beauty"
+        },
+        "archetype_alignment": {
+          "roles": ["The Divine Mother"],
+          "alignment": "Taurus",
+          "essence": ["🌿 Verdant"],
+          "instruments": ["🌸 The Lotus of Purity", "💰 The Shower of Gold Coins", "🕉 The Mantra of Prosperity"]
+        },
+        "attributes": {
+          "dominion": 95,
+          "wrath": 30,
+          "arcana": 85,
+          "guile": 70,
+          "resolve": 90
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🛕 The Padmanabhaswamy Temple", "🌊 The Milky Ocean"],
+            "rivalries_alliances": {
+              "rivals": ["Forces of Poverty and Ignorance"],
+              "allies": ["Vishnu", "Ganesha", "Saraswati"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Goddess of Wealth and Fortune",
+              "description": "Lakshmi is the divine source of prosperity, blessing her devotees with abundance, success, and happiness."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "As the eternal consort of Vishnu, she ensures balance in material and spiritual wealth, guiding devotees toward prosperity."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Lakshmi is worshipped in homes and temples, especially during **Diwali**, where devotees seek her blessings for wealth and well-being."
+            },
+            {
+              "title": "Allies & Rivalries",
+              "description": "She stands alongside Vishnu, Ganesha, and Saraswati, while opposing forces that spread poverty, greed, and ignorance."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Lotus of Purity** symbolizes spiritual and material prosperity, the **Shower of Gold Coins** represents abundance, and the **Mantra of Prosperity** brings divine fortune."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Lakshmi is revered as the giver of good fortune, and her blessings are sought for financial stability, success, and family harmony."
+            }
+          ],
+          "legends": [
+            "🌊 The Churning of the Ocean: Lakshmi emerged from the cosmic ocean, bringing fortune to the gods and choosing Vishnu as her eternal consort.",
+            "💰 The Blessings of Diwali: During the festival of lights, devotees pray to Lakshmi to invite wealth and success into their lives.",
+            "🌾 The Gift of Agriculture: Lakshmi blessed the land with fertility and abundance, ensuring prosperity for civilizations.",
+            "🔮 The Test of Devotion: She rewards those who seek wealth with wisdom and punishes those who pursue greed."
+          ],
+          "lore": [
+            "🌸 The Lotus of Purity: A symbol of beauty, purity, and spiritual enlightenment.",
+            "💰 The Shower of Gold Coins: Represents her power to bestow wealth and prosperity.",
+            "🕉 The Mantra of Prosperity: Sacred chants invoke her blessings for success and fortune."
+          ]
+        }
+      },
+      {
+        "id": "durga",
+        "name": "Durga",
+        "title": "The Fierce Warrior Goddess, Vanquisher of Evil",
+        "image": "mapimages/durga.png",
+        "core_identity": {
+          "pantheon": "Hindu",
+          "faction": "The Devas",
+          "domain": "War, Protection, Strength, Righteousness"
+        },
+        "archetype_alignment": {
+          "roles": ["The Champion"],
+          "alignment": "Aries",
+          "essence": ["🔥🌊🪨 Pyroclasm"],
+          "instruments": ["🗡 The Sword of Justice", "🔱 The Trident of Power", "🦁 The Lion Mount"]
+        },
+        "attributes": {
+          "dominion": 100,
+          "wrath": 100,
+          "arcana": 85,
+          "guile": 60,
+          "resolve": 100
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🛕 Vaishno Devi Temple", "🏔 Himalayas"],
+            "rivalries_alliances": {
+              "rivals": ["Mahishasura", "The Forces of Adharma"],
+              "allies": ["Shiva", "Vishnu", "The Devas"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Divine Warrior and Guardian of Dharma",
+              "description": "Durga is the supreme goddess of power and protection, created by the gods to eliminate the forces of evil."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "Armed with celestial weapons and divine strength, Durga vanquishes demons and safeguards the universe from chaos."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Durga is widely worshipped during **Navratri**, where devotees celebrate her victory over evil and seek her blessings for courage and protection."
+            },
+            {
+              "title": "Allies & Rivalries",
+              "description": "Durga stands alongside the Devas, yet her fiercest battle was against **Mahishasura**, the shape-shifting demon king."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "The **Sword of Justice** symbolizes her duty to uphold righteousness, the **Trident of Power** is her divine weapon, and the **Lion Mount** represents her fearlessness."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Durga is invoked in times of crisis, granting strength and wisdom to those who seek her aid against injustice and oppression."
+            }
+          ],
+          "legends": [
+            "⚔ The Slaying of Mahishasura: Durga battled the buffalo demon for nine days and nights before vanquishing him on the tenth day, celebrated as Vijayadashami.",
+            "🔥 The Creation of Durga: The gods combined their divine energies to create Durga, gifting her celestial weapons to defeat evil.",
+            "🦁 The Goddess and Her Lion: She rides a mighty lion, symbolizing her supreme power, control, and fearless nature.",
+            "🌺 The Festival of Navratri: Hindus worldwide honor Durga for nine nights, celebrating her victory over darkness and evil."
+          ],
+          "lore": [
+            "🗡 The Sword of Justice: A celestial blade that slays evil and protects righteousness.",
+            "🔱 The Trident of Power: A three-pronged weapon gifted by Shiva, symbolizing the destruction of ignorance and evil.",
+            "🦁 The Lion Mount: Durga’s fierce companion, embodying bravery and divine authority."
+          ]
+        }
+      },
+      {
+        "id": "krishna",
+        "name": "Krishna",
+        "title": "The Divine Hero, The Supreme Avatar of Vishnu",
+        "image": "mapimages/krishna.png",
+        "core_identity": {
+          "pantheon": "Hindu",
+          "faction": "The Avatars of Vishnu",
+          "domain": "Love, Wisdom, Dharma, Divine Play"
+        },
+        "archetype_alignment": {
+          "roles": ["The Hero"],
+          "alignment": "leo",
+          "essence": ["🔥⚡ Solar"],
+          "instruments": ["🎶 The Flute of Enchantment", "📖 The Bhagavad Gita", "⚔ The Sudarshana Chakra"]
+        },
+        "attributes": {
+          "dominion": 100,
+          "wrath": 50,
+          "arcana": 95,
+          "guile": 100,
+          "resolve": 90
+        },
+        "expandable_section": {
+          "quick_facts": {
+            "sacred_places": ["🛕 Vrindavan", "🏛 Dwarka", "🌊 The Yamuna River"],
+            "rivalries_alliances": {
+              "rivals": ["Kamsa", "Duryodhana", "Shishupala"],
+              "allies": ["Radha", "Arjuna", "The Pandavas"]
+            }
+          },
+          "about_section": [
+            {
+              "title": "The Divine Hero and Supreme Guide",
+              "description": "Krishna is the eighth avatar of Vishnu, embodying divine love, wisdom, and heroism. He plays a crucial role in guiding the world towards dharma."
+            },
+            {
+              "title": "Mythological Power & Influence",
+              "description": "As a divine strategist and warrior, Krishna helped shape the Mahabharata's epic events and imparted spiritual wisdom in the **Bhagavad Gita**."
+            },
+            {
+              "title": "Worship & Cultural Impact",
+              "description": "Krishna is adored as a **child prankster**, a **romantic flute-player**, and the **Supreme Being** by Vaishnavites worldwide, especially during **Janmashtami**."
+            },
+            {
+              "title": "Allies & Rivalries",
+              "description": "Krishna aided the Pandavas in their quest for justice, yet he also faced treacherous foes like **Kamsa, Shishupala, and Duryodhana**."
+            },
+            {
+              "title": "Artifacts & Symbols of Power",
+              "description": "His **Flute of Enchantment** symbolizes divine love and harmony, the **Bhagavad Gita** embodies his spiritual teachings, and the **Sudarshana Chakra** wields cosmic justice."
+            },
+            {
+              "title": "Mortal Encounters & Legacy",
+              "description": "Krishna's presence transformed the lives of those around him, leading humanity towards **devotion (bhakti), wisdom, and righteousness.**"
+            }
+          ],
+          "legends": [
+            "🎭 The Childhood Mischiefs: As a child, Krishna enchanted Vrindavan with his divine pranks, stealing butter and dancing on the serpent Kaliya.",
+            "⚔ The Slaying of Kamsa: Krishna fulfilled his destiny by vanquishing his tyrannical uncle Kamsa, liberating Mathura from oppression.",
+            "📖 The Bhagavad Gita: On the battlefield of Kurukshetra, Krishna revealed the ultimate wisdom of duty, devotion, and divine realization to Arjuna.",
+            "💙 The Love of Radha-Krishna: His eternal bond with Radha symbolizes the divine union of the soul with the Supreme."
+          ],
+          "lore": [
+            "🎶 The Flute of Enchantment: Krishna’s flute carries a divine melody that captivates both mortals and gods.",
+            "📖 The Bhagavad Gita: His discourse to Arjuna stands as one of the greatest spiritual and philosophical texts in history.",
+            "⚔ The Sudarshana Chakra: A celestial weapon wielded by Krishna to enforce cosmic justice and dharma."
+          ]
+        }
+      }
+      
+      
+      
+      
+      
+
+      
+
+    ]

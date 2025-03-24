@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OracleMythos - Explore the World</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/map.css">
+</head>
+<body>
+
+    <!-- Map Container -->
+    <div class="map-container">
+        <div class="map-background">
+            <button class="region-button" style="top: 30%; left: 50%;" data-region="north" aria-label="Explore Northern Mythologies" tabindex="0"></button>
+            <button class="region-button" style="top: 70%; left: 50%;" data-region="south" aria-label="Explore Southern Mythologies" tabindex="0"></button>
+            <button class="region-button" style="top: 50%; left: 65%;" data-region="east" aria-label="Explore Eastern Mythologies" tabindex="0"></button>
+            <button class="region-button" style="top: 50%; left: 35%;" data-region="west" aria-label="Explore Western Mythologies" tabindex="0"></button>
+        </div>
+    </div>
+
+    <!-- Modal for Region Info (Fix: Spacer to Maintain Spacing) -->
+    <div id="cultureModal" class="modal" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="spacer"></div> <!-- This maintains the spacing -->
+            <ul id="culture-list"></ul>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/map.js"></script>
+</body>
+</html>

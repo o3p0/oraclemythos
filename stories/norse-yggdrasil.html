@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World Tree, Yggdrasil - Norse Mythology</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/story.css">
+    <script defer src="/scripts/global.js"></script>
+    <script defer src="/scripts/story.js"></script>
+    <script defer src="/scripts/stories.js"></script>
+    <script defer src="/scripts/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        .hero-overlay {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #8b5e3b;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .chapter-card {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            transition: transform 0.3s ease;
+            margin: 10px;
+        }
+
+        .chapter-card:hover {
+            transform: scale(1.05);
+        }
+
+        .chapter-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .chapters-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        #back-to-stories {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin: 20px auto;
+        }
+
+        #back-to-stories:hover {
+            background-color: #e6b800;
+        }
+
+        footer {
+            text-align: center;
+            color: #e0e0e0;
+            background-color: #1a1a1a;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body data-book-id="yggdrasil">
+    <!-- Hero Section -->
+    <div class="hero-overlay">
+        <h1>The World Tree, Yggdrasil</h1>
+        <p>"The great ash tree that binds the nine realms."</p>
+    </div>
+
+    <header class="chapter-hero" style="background-image: url('/images/stories/yggdrasil.jpg');"></header>
+
+    <!-- Chapter Cards Section (Now Dynamic) -->
+    <main class="chapters-container chapter-cards"></main>
+
+    <!-- Back to Stories Button -->
+    <div style="text-align: center;">
+        <a href="/stories.html" id="back-to-stories">Back to Stories</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 OracleMythos. All rights reserved.</p>
+    </footer>
+</body>
+</html>
