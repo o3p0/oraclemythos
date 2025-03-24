@@ -1,0 +1,80 @@
+/* Updated global.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #ffcc00;
+}
+
+/* Unified Hamburger Menu */
+.hamburger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 5000; /* 🔥 Ensures it's above everything */
+}
+
+
+#hamburger-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #ffcc00;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#hamburger-btn:hover {
+    transform: scale(1.1);
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dropdown a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.dropdown a:hover {
+    background: #ffcc00;
+    color: black;
+}
+
+.show-dropdown {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.show-dropdown {
+    display: block !important;
+}
