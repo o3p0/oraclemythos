@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const card = document.createElement("a");
             card.className = "story-card";
             card.href = story.full_story;
+            card.setAttribute("data-id", story.id); // ✅ Add this line
+            
 
             card.innerHTML = `
                 <img src="${story.image}" alt="${story.title}">
@@ -62,15 +64,16 @@ document.addEventListener("DOMContentLoaded", () => {
     function highlightRandomCard(storyId) {
         const cards = document.querySelectorAll('.story-card');
         cards.forEach(card => card.classList.remove('highlight'));
-
-        const randomCard = [...cards].find(card => card.href.includes(storyId));
+    
+        const randomCard = [...cards].find(card => card.dataset.id === storyId);
         if (randomCard) {
             randomCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
             randomCard.classList.add('highlight');
-
+    
             setTimeout(() => randomCard.classList.remove('highlight'), 3000);
         }
     }
+    
 
     // Apply hover effect for CD-like feel
     function applyCardHoverEffect() {
