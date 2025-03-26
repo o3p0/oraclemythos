@@ -5,63 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OracleMythos Store</title>
   <link rel="stylesheet" href="styles/store.css" />
+  <link rel="stylesheet" href="styles/global.css" />
 </head>
+
+
+<body style="background-color: black; color: white;">
+  <!-- ✅ Hamburger Menu -->
+  <div class="hamburger-menu">
+      <button id="hamburger-btn" aria-label="Open Menu">&#9776;</button>
+      <div class="dropdown" id="dropdown-menu">
+          <a href="stories.html">Stories</a>
+          <a href="characters.html">Characters</a>
+      </div>
+  </div>
+
+
+
+
+
 <body>
   <!-- Hero Section: Featured eBook -->
   <section id="hero">
     <div class="hero-content">
       <img src="images/ebook-cover.png" alt="Oracle eBook" class="ebook-cover" />
-      <h1>Unlock the Ancient Knowledge – Set Your Own Price</h1>
-      <input type="number" min="0" step="0.01" placeholder="Enter your price" id="price-input" />
-      <button id="download-btn">Instant Download</button>
+      <h1>The Alchemy OF Myths</h1>
+      <p></p>
+      <a href="https://buy.stripe.com/test_6oE6s0dJh88DaXKcMM" target="_blank">
+        <button id="download-btn">Buy Now</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Secondary Products Grid Below Hero -->
+  <section id="featured-hero">
+    <h2 class="section-title">Featured Relics</h2>
+    <div class="featured-grid">
+      <div class="featured-card coming-soon">
+        <img src="images/product1.png" alt="" />
+        <h2></h2>
+        <p>Coming Soon – .</p>
+        <button disabled>Coming Soon</button>
+      </div>
+      <div class="featured-card coming-soon">
+        <img src="images/product2.png" alt="" />
+        <h2></h2>
+        <p>Coming Soon – .</p>
+        <button disabled>Coming Soon</button>
+      </div>
+      <div class="featured-card coming-soon">
+        <img src="images/product3.png" alt="" />
+        <h2></h2>
+        <p>Coming Soon – </p>
+        <button disabled>Coming Soon</button>
+      </div>
     </div>
   </section>
 
   <!-- Rotating Featured Products -->
   <section id="featured-products">
     <div class="carousel">
-      <div class="product-card">
-        <img src="images/product1.png" alt="Product 1" />
-        <p>Relic of the Sun God – Only 12 Left</p>
-      </div>
-      <div class="product-card">
-        <img src="images/product2.png" alt="Product 2" />
-        <p>Feather of Ma'at – Limited Drop</p>
-      </div>
-      <div class="product-card">
-        <img src="images/product3.png" alt="Product 3" />
-        <p>Chalice of Prophecy – 8 Remaining</p>
-      </div>
     </div>
   </section>
 
   <!-- Expandable Product Grid -->
   <section id="product-grid">
     <div class="grid">
-      <div class="grid-item">Product A</div>
-      <div class="grid-item">Product B</div>
-      <div class="grid-item coming-soon">Coming Soon</div>
+      <div class="grid-item" id="product-detail" style="display: none;">
+        <img id="detail-image" src="" alt="Product Detail" style="max-width: 100%; border-radius: 0.5rem; margin-bottom: 1rem;" />
+        <h2 id="detail-title"></h2>
+        <p id="detail-description"></p>
+        <a id="detail-buy" href="#" target="_blank">
+          <button style="margin-top: 1rem; padding: 0.75rem 2rem; background: gold; color: #000; border: none; border-radius: 0.5rem; cursor: pointer;">Buy Now</button>
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- Footer Section -->
-  <footer>
-    <div class="checkout">
-      <button>PayPal</button>
-      <button>Stripe</button>
-      <button>Apple Pay</button>
-    </div>
-    <div class="social-proof">
-      <p>Join the Oracle Circle</p>
-      <input type="email" placeholder="Your email" />
-      <button>Subscribe</button>
-      <div class="reviews">
-        <p>"Loved it!" – @mythseeker</p>
-        <p>"Powerful energy." – @cosmictribe</p>
-      </div>
-    </div>
-  </footer>
+
 
   <script src="scripts/store.js"></script>
+
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>

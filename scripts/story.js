@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="${chapter.full_story}">
                     <img src="${chapter.image}" alt="${chapter.title}" class="chapter-image">
                     <h3>${chapter.title}</h3>
-                    <p>${chapter.summary || "Continue the journey..."}</p>
+                    
                 </a>
             </div>
         `).join('');
