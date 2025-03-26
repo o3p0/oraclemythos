@@ -224,15 +224,24 @@ body {
 /* Highlight for Random Myth */
 .highlight {
     outline: 4px solid gold;
-    transition: outline 0.3s ease-in-out;
-    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 20px 8px rgba(255, 204, 0, 0.5);
+    transform: scale(1.1);
+    z-index: 20;
+    transition: all 0.4s ease-in-out;
+    animation: pop-highlight 1.5s ease-in-out infinite alternate;
 }
 
-@keyframes pulse {
-    0% { outline-width: 4px; }
-    50% { outline-width: 8px; }
-    100% { outline-width: 4px; }
+@keyframes pop-highlight {
+    0% {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px 5px rgba(255, 204, 0, 0.5);
+    }
+    100% {
+        transform: scale(1.12);
+        box-shadow: 0 0 25px 10px rgba(255, 204, 0, 0.8);
+    }
 }
+
 
 /* Responsive Fixes */
 @media (max-width: 768px) {
