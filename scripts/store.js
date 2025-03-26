@@ -11,14 +11,11 @@ downloadBtn.addEventListener("click", () => {
     return;
   }
 
-  // Log the price (simulate checkout process)
   console.log(`User set price: $${price.toFixed(2)}`);
-
-  // Simulate instant download (replace URL with actual file)
   window.location.href = "files/oracle-ebook.pdf";
 });
 
-// Simple Carousel Auto Scroll for Featured Products
+// Simple Carousel Auto Scroll
 const carousel = document.querySelector(".carousel");
 let scrollInterval = setInterval(() => {
   if (!carousel) return;
@@ -30,4 +27,29 @@ carousel?.addEventListener("mouseleave", () => {
   scrollInterval = setInterval(() => {
     carousel.scrollBy({ left: 220, behavior: "smooth" });
   }, 4000);
+});
+
+// Product Click to Expand
+const productCards = document.querySelectorAll(".product-card");
+const detailSection = document.getElementById("product-detail");
+const detailTitle = document.getElementById("detail-title");
+const detailDesc = document.getElementById("detail-description");
+const detailImg = document.getElementById("detail-image");
+const detailBuy = document.getElementById("detail-buy");
+
+productCards.forEach((card) => {
+  card.addEventListener("click", () => {
+    const title = card.dataset.title;
+    const description = card.dataset.description;
+    const image = card.dataset.image;
+    const link = card.dataset.link;
+
+    detailTitle.textContent = title;
+    detailDesc.textContent = description;
+    detailImg.src = image;
+    detailBuy.href = link;
+
+    detailSection.style.display = "block";
+    detailSection.scrollIntoView({ behavior: "smooth" });
+  });
 });

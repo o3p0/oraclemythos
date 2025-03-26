@@ -2,163 +2,214 @@
 
 /* Reset and base styles */
 body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Georgia', serif;
-    background-color: #0d0d0d;
-    color: #f5f5f5;
-  }
-  
-  /* Hero Section */
-  #hero {
-    background: url('images/hero-bg.jpg') center/cover no-repeat;
-    padding: 4rem 2rem;
-    text-align: center;
-    position: relative;
-  }
-  
-  .hero-content {
-    max-width: 600px;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 0 20px #fff3;
-  }
-  
-  .ebook-cover {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-  
-  #price-input {
-    width: 100%;
-    padding: 0.75rem;
-    margin-top: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-  }
-  
-  #download-btn {
-    margin-top: 1rem;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    background: gold;
-    color: #000;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  #download-btn:hover {
-    background: #f7c600;
-  }
-  
-  /* Rotating Featured Products */
-  #featured-products {
-    padding: 3rem 1rem;
-    background-color: #111;
-  }
-  
-  .carousel {
-    display: flex;
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-  }
-  
-  .product-card {
-    flex: 0 0 auto;
-    background: #1a1a1a;
-    padding: 1rem;
-    border-radius: 0.75rem;
-    text-align: center;
-    scroll-snap-align: center;
-    min-width: 200px;
-  }
-  
-  .product-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Product Grid */
-  #product-grid {
-    padding: 3rem 2rem;
-    background: #141414;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-  }
-  
-  .grid-item {
-    background: #222;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    text-align: center;
-  }
-  
-  .coming-soon {
-    opacity: 0.5;
-    font-style: italic;
-  }
-  
-  /* Footer */
-  footer {
-    padding: 2rem 1rem;
-    background: #000;
-    text-align: center;
-  }
-  
-  .checkout button {
-    margin: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    background: #333;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .checkout button:hover {
-    background: #555;
-  }
-  
-  .social-proof {
-    margin-top: 2rem;
-  }
-  
-  .social-proof input {
-    padding: 0.5rem;
-    width: 60%;
-    max-width: 300px;
-    border: none;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-  }
-  
-  .social-proof button {
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    background: gold;
-    color: #000;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-  }
-  
-  .reviews p {
-    margin: 0.5rem 0;
-    font-style: italic;
-    color: #ccc;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+}
+
+/* Hero Section - eBook */
+#hero {
+  background: url('images/hero-bg.jpg') center/cover no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #fff3;
+}
+
+.ebook-cover {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+#download-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: gold;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#download-btn:hover {
+  background: #f7c600;
+}
+
+/* Featured Product Grid Section */
+#featured-hero {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.featured-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.featured-card {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 280px;
+  box-shadow: 0 0 10px #fff2;
+}
+
+.featured-card img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.featured-card h2 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.featured-card p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.featured-card button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: gold;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.featured-card button:hover {
+  background: #f7c600;
+}
+
+/* Rotating Featured Products */
+#featured-products {
+  padding: 3rem 1rem;
+  background-color: #111;
+}
+
+.carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  scroll-snap-align: center;
+  min-width: 200px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Product Grid */
+#product-grid {
+  padding: 3rem 2rem;
+  background: #141414;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.grid-item {
+  background: #222;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.coming-soon {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 1rem;
+  background: #000;
+  text-align: center;
+}
+
+.checkout button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.checkout button:hover {
+  background: #555;
+}
+
+.social-proof {
+  margin-top: 2rem;
+}
+
+.social-proof input {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 300px;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.social-proof button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background: gold;
+  color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.reviews p {
+  margin: 0.5rem 0;
+  font-style: italic;
+  color: #ccc;
+}

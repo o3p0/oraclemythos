@@ -16,9 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // ✅ Updated Dropdown Menu Links
         dropdownMenu.innerHTML = `
             <a href="/index.html">Home</a>
+            <a href="/map.html">Map</a>
             <a href="/stories.html">Stories</a>
             <a href="/characters.html">Characters</a>
-            <a href="/guestbook.html">Guestbook</a> <!-- 🔥 Added Guestbook Link -->
+            
+           
         `;
     } else {
         console.error('Hamburger button or dropdown menu not found.');
