@@ -27,10 +27,14 @@ body, html {
 }
 
 .ebook-cover {
-  max-width: 100%;
+  max-width: 220px;      /* 🪄 Slightly smaller */
+  width: 100%;
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
 }
+
 
 #download-btn {
   margin-top: 1rem;
