@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="/stories.html">Stories</a>
             <a href="/characters.html">Characters</a>
             
+            
            
         `;
     } else {
