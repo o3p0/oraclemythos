@@ -390,3 +390,44 @@ body {
 
 
 
+@media (max-width: 480px) {
+    .hero-text h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-text .subtitle {
+      font-size: 1rem;
+    }
+  
+    .container {
+      padding: 15px;
+    }
+  
+    .character-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .character-card {
+      width: 100%;
+    }
+  
+    .character-image {
+      height: 140px;
+    }
+  
+    .story-card {
+      flex: 0 0 100%;
+    }
+  
+    .back-link {
+      font-size: 0.95rem;
+      padding: 8px 16px;
+      margin-top: 30px;
+    }
+  
+    .scroll-btn {
+      font-size: 1.5rem;
+      padding: 4px 10px;
+    }
+  }
+  

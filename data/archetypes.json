@@ -1,0 +1,1419 @@
+
+      [
+        {
+          "name": "The Seeker",
+          "god": "Odysseus",
+          "category": "Core",
+          "essence": "Blaze",
+          "element": "Fire-Air",
+          "planet": "Mercury",
+          "glyph": "🧭",
+          "image_url": "images/cards/seeker.png",
+      
+          "poetic_summary": "With every step, a new question is born. The journey is the altar.",
+          "invocation": "I walk the untrodden path, not to find answers — but to become the question itself.",
+      
+          "essence_description": "The Seeker is the restless one — not because they’re lost, but because they are called. Their soul itches with the hunger of horizons yet touched. They carry sacred uncertainty, guided by the internal compass of curiosity. To walk, to wonder, to ask — is their act of faith.",
+      
+          "elemental_poetic": "🔥💨 Blaze-Wind (curiosity set alight, movement through mystery)",
+      
+          "mythic_echoes": [
+            "Odysseus — clever wanderer navigating divine trials",
+            "Psyche — enduring soul seeking love and truth",
+            "Siddhartha Gautama — prince turned pathwalker",
+            "Hermes — divine messenger and liminal guide"
+          ],
+      
+          "walks_with_you": "When the Seeker walks with you: You are being invited to leave comfort. A crossroads approaches. Trust the journey, even if the map is missing. Wonder is your north star.",
+      
+          "meaning_past": "The call to depart from the familiar has echoed before. To walk without knowing was the first act of power.",
+          "meaning_present": "This moment invites movement. Follow the signs, not the answers. A path reveals itself only when walked.",
+          "meaning_future": "What approaches is not certainty, but crossing. Keep your bearings in wonder—something sacred stirs beyond the horizon.",
+          "reversed_meaning": "Wandering without purpose, escapism disguised as freedom, fear of choosing, lost in endless longing without grounding.",
+      
+          "visual_keywords": [
+            "cloaked figure walking barefoot down a forked forest path",
+            "wind catching the cloak and hair",
+            "star glowing on the horizon",
+            "staff with compass or Mercury glyph etched in",
+            "bare feet on sacred threshold marked by leaves or runes"
+          ],
+      
+          "associations": [
+            "Odysseus",
+            "Psyche",
+            "Siddhartha Gautama",
+            "Hermes"
+          ]
+        },
+      
+    
+    
+  
+        {
+          "name": "The Magician",
+          "god": "Hermes Trismegistus",
+          "category": "Core",
+          "essence": "Solar",
+          "element": "Fire-Air-Aether",
+          "planet": "Sun",
+          "glyph": "🪄",
+          "image_url": "images/cards/magician.png",
+        
+          "poetic_summary": "As above, so below — the veil bends where the Magician commands.",
+          "invocation": "I summon what lies hidden. Through will and word, I shape reality's bones.",
+          
+          "essence_description": "The Magician is the conduit — a being of radiant intention and deep knowing. They bridge unseen worlds through conscious craft. Their power lies not in force, but focus. They transmute thought into action, unseen into seen.",
+          
+          "elemental_poetic": "🔥💨🌌 Solar-Wind-Aether (illumination carried on breath, bridging realms)",
+          
+          "mythic_echoes": [
+            "Hermes Trismegistus — master of arcane wisdom and divine speech",
+            "Merlin — shaper of kings and conjurer of destinies",
+            "Medea — powerful sorceress weaving magic and vengeance",
+            "Heka — Egyptian god of magic, power woven in word",
+            "Prometheus — bearer of fire, defier of divine order"
+          ],
+          
+          "walks_with_you": "When the Magician walks with you: You are reminded of your power to shape and summon. Speak clearly, act with intention, and remember — your words cast ripples across worlds.",
+          
+          "meaning_past": "You once wielded power consciously — shaping events through will, words, or magic. What you created lingers in the present.",
+          "meaning_present": "Now you are in a moment of power. What you intend, speak, and act upon may become reality. Be deliberate.",
+          "meaning_future": "What lies ahead is within your hands. The tools are present — the spell must be cast with care.",
+          "reversed_meaning": "Manipulation, illusion, misuse of power, blocked creativity, deception.",
+          
+          "visual_keywords": [
+            "wand outstretched",
+            "glowing hands",
+            "circle of tools",
+            "open tome",
+            "radiant eyes",
+            "symbols floating mid-air"
+          ],
+          
+          "associations": [
+            "Hermes Trismegistus",
+            "Merlin",
+            "Medea",
+            "Heka",
+            "Prometheus"
+          ]
+        },
+        {
+          "name": "The High Priestess",
+          "god": "Persephone",
+          "category": "Enlightened",
+          "essence": "Tidal",
+          "element": "Water-Air-Aether",
+          "planet": "Moon",
+          "glyph": "🌙",
+          "image_url": "images/cards/high_priestess.png",
+        
+          "poetic_summary": "She speaks in silence, where the moonlight sings and secrets bloom.",
+          "invocation": "I rest in what is hidden. I do not speak to be heard — I speak to reveal the silence behind sound.",
+        
+          "essence_description": "The High Priestess holds the threshold of mystery — she knows what cannot be taught. Her power is rooted in stillness, her knowing in cycles, her wisdom in descent. She listens where others speak, and sees where others seek.",
+        
+          "elemental_poetic": "💧💨🌌 Tidal-Wind-Aether (depth carried on breath, mystery woven in moonlight)",
+        
+          "mythic_echoes": [
+            "Persephone — Queen of the Underworld, keeper of cycles",
+            "Isis — mother of mysteries and magical knowledge",
+            "Hecate — torchbearer at crossroads and shadows",
+            "Saraswati — river of knowledge and divine speech",
+            "Pythia — oracle of Delphi, voice of the gods"
+          ],
+        
+          "walks_with_you": "When the High Priestess walks with you: It is time to trust the quiet wisdom within. Not all truth is loud. Listen to the hush behind your heartbeat — your soul already knows.",
+        
+          "meaning_past": "You were guided by subtle instincts or sacred inner truths. Even in darkness, your path was lit from within.",
+          "meaning_present": "Now is a time for inward listening. Let silence speak. The answer lies beneath the surface.",
+          "meaning_future": "Your future path requires trust in the unseen. Follow the whispers beneath logic.",
+          "reversed_meaning": "Disconnection from intuition, secrets withheld, confusion, denial of inner truth.",
+        
+          "visual_keywords": [
+            "veiled figure",
+            "crescent moon at her feet",
+            "scroll partly hidden",
+            "two pillars (light and dark)",
+            "mist flowing beneath her"
+          ],
+        
+          "associations": [
+            "Persephone",
+            "Isis",
+            "Hecate",
+            "Saraswati",
+            "Pythia",
+            "Inanna"
+          ]
+        },
+        
+
+        {
+          "name": "The Ruler",
+          "god": "Zeus",
+          "category": "Core",
+          "essence": "Obsidian",
+          "element": "Fire-Earth",
+          "planet": "Saturn",
+          "glyph": "👑",
+          "image_url": "images/cards/ruler.png",
+        
+          "poetic_summary": "They sit where storm meets stillness — the center that commands without crushing.",
+          "invocation": "I do not strike to dominate. I rise to hold the storm still. I embody the mountain beneath the sky.",
+        
+          "essence_description": "The Ruler embodies power with presence — authority rooted in integrity. They are the storm’s calm, the steady hand in upheaval. Their rule is not of domination, but of structure that sets others free.",
+        
+          "elemental_poetic": "🔥🌍 Obsidian-Fire-Earth (grounded will forging sacred order)",
+        
+          "mythic_echoes": [
+            "Zeus — thunder-wielder and king of Olympus",
+            "Odin — seeker and sovereign",
+            "Osiris — resurrected ruler of the dead",
+            "Solomon — wise judge and sacred builder",
+            "Amaterasu — radiant sun queen called to return"
+          ],
+        
+          "walks_with_you": "When the Ruler walks with you: It’s time to claim command. Create order, speak with authority, and lead from your center — not your ego.",
+        
+          "meaning_past": "You once held power, authority, or control in a way that shaped your path. Whether used wisely or not, that influence echoes today.",
+          "meaning_present": "Now you are called to lead — to take command of your inner world or a realm around you. Structure brings freedom.",
+          "meaning_future": "Leadership awaits you. Rise with integrity and vision — others will follow your example.",
+          "reversed_meaning": "Tyranny, control issues, fear of power, instability in leadership, manipulation through dominance.",
+        
+          "visual_keywords": [
+            "crowned figure on a throne",
+            "symbols of law",
+            "empire or architecture",
+            "orb or scepter",
+            "golden royal tones"
+          ],
+        
+          "associations": [
+            "Zeus",
+            "Odin",
+            "Osiris",
+            "Jupiter",
+            "Amaterasu",
+            "Solomon"
+          ]
+        }
+        ,
+
+        {
+          "name": "The King",
+          "god": "Arthur",
+          "category": "Core",
+          "essence": "Titan",
+          "element": "Earth-Fire-Aether",
+          "planet": "Jupiter",
+          "glyph": "♃",
+          "image_url": "images/cards/king.png",
+        
+          "poetic_summary": "He carries time in his eyes, and the weight of his realm in his chest — not to possess, but to preserve.",
+          "invocation": "I hold the line between what was and what must be. My crown is not for glory, but for guardianship.",
+        
+          "essence_description": "The King is not a conqueror, but a keeper. They hold legacy and responsibility with sacred weight. Their strength lies in service, not dominion. A King preserves by knowing what must endure — and what must be surrendered.",
+        
+          "elemental_poetic": "🌍🔥🌌 Titan-Earth-Fire-Aether (enduring flame that shapes, honors, and uplifts)",
+        
+          "mythic_echoes": [
+            "Arthur — the once and future king guided by justice",
+            "Gilgamesh — mortal king seeking eternal wisdom",
+            "Midas — power touched by consequence",
+            "Rama — righteous ruler upholding dharma",
+            "Agamemnon — king of war and ruin",
+            "The Dagda — good god of prosperity and protection"
+          ],
+        
+          "walks_with_you": "When the King walks with you: You are being called to rule something — a space, a story, a choice. Lead with legacy in mind, and remember: power means responsibility, not privilege.",
+        
+          "meaning_past": "You have held responsibility, legacy, or status — and your choices have left ripples in your lineage or domain.",
+          "meaning_present": "Now you are asked to lead with clarity. Your decisions affect more than just yourself — govern wisely.",
+          "meaning_future": "Soon, a throne awaits — literal or symbolic. You must rise as a steward, not a tyrant.",
+          "reversed_meaning": "Abandonment of duty, misuse of influence, emotional detachment, insecurity masked as dominance.",
+        
+          "visual_keywords": [
+            "regal figure with crown",
+            "symbols of bloodline",
+            "lion or golden throne",
+            "sword lowered in peace",
+            "deep red and obsidian tones"
+          ],
+        
+          "associations": [
+            "Arthur",
+            "Gilgamesh",
+            "Midas",
+            "Rama",
+            "Agamemnon",
+            "The Dagda"
+          ]
+        }
+        ,
+
+        {
+          "name": "The Champion",
+          "god": "Achilles",
+          "category": "Heroic",
+          "essence": "Courage",
+          "element": "Fire",
+          "planet": "Mars",
+          "glyph": "🜂",
+          "image_url": "images/cards/champion.png",
+        
+          "poetic_summary": "I rise with fire in my chest and the weight of worlds on my back—I do not fight for glory, but for the soul of what is right.",
+          "invocation": "I rise not for conquest, but for cause. My sword burns with purpose, my courage carved from truth.",
+        
+          "essence_description": "The Champion is the warrior in sacred service — the one who stands for what matters, even when it costs. They are forged in the fire of devotion, not dominance. Their essence is courage: to rise, to fight, to protect, not for ego, but for soul.",
+        
+          "elemental_poetic": "🔥 Courage-Fire (conviction in motion, sacred will ignited)",
+        
+          "mythic_echoes": [
+            "Achilles — hero of wrath and tragic glory",
+            "Joan of Arc — flame of vision and devotion",
+            "Heracles — divine strength through trials",
+            "Sekhmet — fierce protector and purifier",
+            "Thor — thunderous defender of realms",
+            "Arjuna — warrior of dharma and inner clarity"
+          ],
+        
+          "walks_with_you": "When the Champion walks with you: It's time to rise for what matters. Your strength isn't brute — it's heart-driven. Take a stand, not for glory, but for what must be protected.",
+        
+          "meaning_past": "You have fought hard for something noble. The scars and victories of your past battles still shape your current stance.",
+          "meaning_present": "Now is a time to act with valor. You’re being called to defend, to lead, or to rise in service of a higher cause.",
+          "meaning_future": "You are being prepared for a great task. Stand firm, for your courage will shape what’s to come.",
+          "reversed_meaning": "Arrogance, reckless aggression, false bravado, defending the wrong cause, burnout from always fighting.",
+        
+          "visual_keywords": [
+            "blazing sword",
+            "radiant armor",
+            "banners of light",
+            "lion or eagle motif",
+            "triumphant battlefield stance"
+          ],
+        
+          "associations": [
+            "Achilles",
+            "Joan of Arc",
+            "Heracles",
+            "Sekhmet",
+            "Thor",
+            "Arjuna"
+          ]
+        }
+        ,
+        {
+          "name": "The Silent Hero",
+          "god": "Persephone",
+          "category": "Heroic",
+          "element": "Air-Earth",
+          "essence": "Nether",
+          "planet": "Saturn",
+          "glyph": "🜃",
+          "image_url": "images/cards/silent_hero.png",
+        
+          "poetic_summary": "Without applause, I mend the broken road. Without witness, I bear the weight. My story is written in silence and carried in the wind.",
+          "invocation": "I do not speak of what I've carried — I simply carry it. My power is quiet, but unshakable.",
+        
+          "essence_description": "The Silent Hero endures in the shadows, bearing burdens few can see. They walk through trials not for praise, but because it is right. Their strength is quiet, their devotion unseen. Yet the impact of their path echoes through generations.",
+        
+          "elemental_poetic": "💨🌍 Nether-Air-Earth (unseen resilience rooted in quiet devotion)",
+        
+          "mythic_echoes": [
+            "Persephone (in the return) — who rises from the underworld to bring life",
+            "Odysseus (in disguise) — enduring long silence before triumph",
+            "Hades (in restraint) — ruling unseen yet unwavering",
+            "Batman — the unseen guardian of the broken city",
+            "Mulan (pre-reveal) — heroic in silence and shadow",
+            "Amaterasu (in retreat) — light held in sacred stillness"
+          ],
+        
+          "walks_with_you": "When the Silent Hero walks with you: Honor your quiet strength. You need not be seen to be powerful. The unseen path you walk now is forging sacred courage.",
+        
+          "meaning_past": "You’ve walked difficult roads alone. Your strength once came not from shining but surviving. You learned endurance through descent.",
+          "meaning_present": "Now is a time to trust your quiet resolve. You don’t need recognition to be powerful—only integrity.",
+          "meaning_future": "Your quiet path will yield profound impact. Though others may not see, your courage will echo long after.",
+          "reversed_meaning": "Martyrdom, invisibility, unacknowledged pain, fear of being seen, neglecting self-worth.",
+        
+          "visual_keywords": [
+            "cloaked figure at dawn",
+            "glowing lantern",
+            "footsteps in snow",
+            "scarred hand gripping a blade",
+            "full moon behind them"
+          ],
+        
+          "associations": [
+            "Persephone (in the return)",
+            "Hades (in restraint)",
+            "Odysseus (in disguise)",
+            "Batman",
+            "Mulan (pre-reveal)",
+            "Amaterasu (in retreat)"
+          ]
+        },
+        
+        {
+          "name": "The Healer",
+          "god": "Asclepius",
+          "category": "Core",
+          "element": "Water-Earth",
+          "essence": "Verdant",
+          "planet": "Chiron",
+          "glyph": "🜄",
+          "image_url": "images/cards/healer.png",
+        
+          "poetic_summary": "I enter where the ache lingers. In silence, I mend. In presence, I renew. I know that what breaks can bloom again.",
+          "invocation": "I place my hands upon what hurts, not to fix, but to witness. I carry no cure—only the sacred will to tend.",
+        
+          "essence_description": "The Healer is a vessel of renewal. They walk toward pain without fear, bringing presence instead of panic, compassion instead of control. Their power is rooted in love that sees the wound—and trusts in the bloom beyond it.",
+        
+          "elemental_poetic": "💧🌍 Verdant-Water-Earth (nurturing depth bringing life through care)",
+        
+          "mythic_echoes": [
+            "Asclepius — god of medicine and resurrection",
+            "Brigid — Celtic flame of healing and inspiration",
+            "Quan Yin — goddess of mercy and boundless compassion",
+            "Eir — Norse healer of the divine halls",
+            "Snake Spirit — symbol of regeneration and medicine"
+          ],
+        
+          "walks_with_you": "When the Healer walks with you: Tend your wounds. Not all healing looks like triumph. This is a time for softness, forgiveness, and sacred tending—starting with yourself.",
+        
+          "meaning_past": "You have endured wounds—your own or others’—and sought to bring balance. This history now empowers your compassion.",
+          "meaning_present": "This is a time of tending and mending. Your presence can bring peace. Begin with yourself.",
+          "meaning_future": "You are being called to become a vessel of restoration. Through care, the broken will become beautiful once more.",
+          "reversed_meaning": "Self-neglect, martyrdom, repressed pain, emotional burnout, healing others while avoiding one's own wounds.",
+        
+          "visual_keywords": [
+            "hands glowing over a wound",
+            "serpent coiled around a flowering staff",
+            "cracked bowl mended with gold",
+            "luminous spring bubbling from stone"
+          ],
+        
+          "associations": [
+            "Asclepius",
+            "Brigid",
+            "Quan Yin",
+            "Eir",
+            "Snake Spirit"
+          ]
+        }
+        ,
+
+        {
+          "name": "The Seer",
+          "god": "Cassandra",
+          "category": "Enlightened",
+          "element": "Water",
+          "essence": "Vision",
+          "planet": "Neptune",
+          "glyph": "🔮",
+          "image_url": "images/cards/seer.png",
+        
+          "poetic_summary": "I see with eyes that are not eyes. I know the paths before they form. My voice is the echo of the unseen.",
+          "invocation": "I speak not to be believed, but because the truth arrives. I carry visions others flee.",
+        
+          "essence_description": "The Seer holds the gift—and burden—of foresight. They see what others deny, speak what others fear. Their insight comes from deep attunement, a sensitivity to what stirs beneath the seen. Their truth is not always welcome, but always vital.",
+        
+          "elemental_poetic": "💧 Vision-Water (fluid intuition flowing toward unseen futures)",
+        
+          "mythic_echoes": [
+            "Cassandra — cursed prophetess whose visions went unheeded",
+            "Tiresias — blind seer of paradox and divine truth",
+            "Pythia — oracle of Delphi, voice of Apollo",
+            "Merlin — prophet and guide beneath the veil",
+            "Tezcatlipoca — smoking mirror of destiny and deception",
+            "Saraswati — river of insight and sacred knowledge"
+          ],
+        
+          "walks_with_you": "When the Seer walks with you: You are being asked to trust what you sense — even if it defies logic. Yours is the voice of the unseen — hold it steady, even in disbelief.",
+        
+          "meaning_past": "You have known truths others denied. Your intuition was a guide, even when ignored.",
+          "meaning_present": "You are being called to trust the vision beyond logic. What you sense may hold more weight than what is said.",
+          "meaning_future": "Soon, signs will come—subtle and strange. Your clarity will be needed to guide others through fog.",
+          "reversed_meaning": "Delusion, blurred intuition, misreading signs, spiritual disconnection, fear of inner truth.",
+        
+          "visual_keywords": [
+            "veiled figure with third eye glowing",
+            "pool of still water reflecting stars",
+            "spirals of smoke",
+            "constellations aligning above a mountaintop"
+          ],
+        
+          "associations": [
+            "Cassandra",
+            "Tiresias",
+            "Pythia",
+            "Merlin",
+            "Tezcatlipoca",
+            "Saraswati"
+          ]
+        },
+        
+        {
+          "name": "The Redeemer",
+          "god": "Avalokiteshvara",
+          "category": "Enlightened",
+          "element": "Fire-Water",
+          "essence": "Abyssal",
+          "planet": "Chiron",
+          "glyph": "🕊️",
+          "image_url": "images/cards/redeemer.png",
+        
+          "poetic_summary": "I step into sorrow with open arms. I bear the weight so others may rise. Through me, what was lost is made whole again.",
+          "invocation": "I descend not to disappear, but to gather the broken pieces. I offer light not to erase shadow, but to embrace it whole.",
+        
+          "essence_description": "The Redeemer moves through the abyss not to escape pain, but to transmute it. Their strength is sorrow alchemized into compassion. They are the hands that lift, the voice that softens, the fire that renews in the darkest night.",
+        
+          "elemental_poetic": "🔥💧 Abyssal-Fire-Water (compassion forged in flame, forgiveness flowing from depth)",
+        
+          "mythic_echoes": [
+            "Jesus — redeemer through suffering and resurrection",
+            "Avalokiteshvara — bodhisattva of infinite compassion",
+            "Eir — Norse healer who tends with grace",
+            "Isis — gatherer of scattered parts, mother of rebirth",
+            "Persephone — returns from the underworld bringing renewal"
+          ],
+        
+          "walks_with_you": "When the Redeemer walks with you: You are being called to transmute pain into healing. Your journey may be heavy—but you carry light into places forgotten. Grace arrives when you forgive, not forget.",
+        
+          "meaning_past": "You have faced the broken and the heavy—your heart was forged in the fire of forgiveness.",
+          "meaning_present": "Now you are called to embody radical compassion, to bring light to places others abandon.",
+          "meaning_future": "What lies ahead is not conquest, but healing. You are the one who carries the ember of renewal.",
+          "reversed_meaning": "Self-sacrifice without boundaries, martyrdom, guilt-driven actions, inability to let go of the past, savior complex.",
+        
+          "visual_keywords": [
+            "figure kneeling with open hands emitting light",
+            "broken sword laid at an altar",
+            "heart rekindled in flame",
+            "doves flying upward from shadow"
+          ],
+        
+          "associations": [
+            "Jesus",
+            "Avalokiteshvara",
+            "Eir",
+            "Isis",
+            "Persephone"
+          ]
+        }
+        ,
+
+        {
+          "name": "The Liberator",
+          "god": "Prometheus",
+          "category": "Heroic",
+          "element": "Air-Lightning",
+          "essence": "Tempest",
+          "planet": "Uranus",
+          "glyph": "⚡",
+          "image_url": "images/cards/liberator.png",
+        
+          "poetic_summary": "I break the locks not just of cages, but of the soul. I walk where fear held reign, bearing freedom in my breath and thunder in my steps.",
+          "invocation": "I bear the fire of revolt. I crack the cage not to destroy, but to awaken what was bound to rise.",
+        
+          "essence_description": "The Liberator is the force that ruptures illusion. They arrive with thunder to crack old systems, with breath to inspire a return to truth. Their purpose is not chaos, but clarity — disruption in the service of wholeness.",
+        
+          "elemental_poetic": "💨⚡ Tempest-Air-Lightning (liberating winds charged with awakening force)",
+        
+          "mythic_echoes": [
+            "Prometheus — the fire-bringer who defied the gods",
+            "Moses — liberator of the enslaved with divine defiance",
+            "Harriet Tubman — fearless conductor toward freedom",
+            "Spartacus — rebellion against systemic chains",
+            "Inanna — descending and returning as a force of raw sovereignty",
+            "Amaterasu — withdrawing and emerging as a radiant shift"
+          ],
+        
+          "walks_with_you": "When the Liberator walks with you: Break the lie. Shake the walls. You are not meant to be confined. What you disrupt now clears the way for something truer to rise.",
+        
+          "meaning_past": "You once shattered limits — whether imposed by others or yourself. That act of defiance lit a new path.",
+          "meaning_present": "Now is the moment to break free. You are being called to disrupt the lie and breathe in truth.",
+          "meaning_future": "What lies ahead requires rebellion — not for chaos, but for liberation. You will become a light through rupture.",
+          "reversed_meaning": "False liberation, savior complex, disrupting without healing, enabling dependency, imposing one's version of freedom.",
+        
+          "visual_keywords": [
+            "shattered chains falling from uplifted hands",
+            "figure at an open gate silhouetted by dawn",
+            "broken walls with flowers growing through",
+            "wings unfurling from a cloak",
+            "dove flying from a prison tower"
+          ],
+        
+          "associations": [
+            "Prometheus",
+            "Moses",
+            "Harriet Tubman",
+            "Spartacus",
+            "Inanna",
+            "Amaterasu"
+          ]
+        }
+        ,
+      
+
+        {
+          "name": "The Philosopher",
+          "god": "Socrates",
+          "category": "Enlightened",
+          "element": "Air-Earth",
+          "essence": "Nether",
+          "planet": "Mercury",
+          "glyph": "📜",
+          "image_url": "images/cards/philosopher.png",
+        
+          "poetic_summary": "I question not to dismantle, but to deepen. In silence, I stir the stars; in stillness, I shape new meaning.",
+          "invocation": "I ask not to answer, but to awaken. In doubt, I sow the seed of truth.",
+        
+          "essence_description": "The Philosopher is the seeker of understanding. Their path is not certainty, but inquiry. They sit in stillness not to escape, but to observe. In the quiet hum of reflection, they forge bridges between thought and soul.",
+        
+          "elemental_poetic": "💨🌍 Nether-Air-Earth (thought rooted in reflection, clarity through grounded stillness)",
+        
+          "mythic_echoes": [
+            "Socrates — who questioned all to reveal deeper wisdom",
+            "Athena — goddess of wisdom, war, and strategy",
+            "Odin — seeker of runes and silent truths",
+            "Confucius — sage of moral clarity and harmonious order",
+            "Thoth — scribe of the gods and architect of understanding"
+          ],
+        
+          "walks_with_you": "When the Philosopher walks with you: It’s time to turn inward. Let silence become your guide, and let questions open your path. This is a season of depth, not declarations.",
+        
+          "meaning_past": "Your past was marked by deep contemplation — a turning inward that shaped the lens through which you now see the world.",
+          "meaning_present": "This is a moment for stillness and study. The Philosopher invites you to pause, reflect, and extract truth from the noise.",
+          "meaning_future": "Ahead lies a breakthrough of understanding. The questions you hold today will soon reveal a guiding answer.",
+          "reversed_meaning": "Overthinking, paralysis by analysis, intellectual detachment, cynicism, using knowledge as a wall rather than a bridge.",
+        
+          "visual_keywords": [
+            "ancient scroll unfurling into stardust",
+            "solitary figure beside a candlelit window",
+            "tree with neuron-like branches and roots",
+            "labyrinth with an open center"
+          ],
+        
+          "associations": [
+            "Socrates",
+            "Athena",
+            "Odin",
+            "Confucius",
+            "Thoth"
+          ]
+        }
+        ,
+
+        {
+          "name": "The Catalyst",
+          "god": "Prometheus",
+          "category": "Shadow",
+          "element": "Fire-Air",
+          "essence": "Blaze",
+          "planet": "Uranus",
+          "glyph": "⚡",
+          "image_url": "images/cards/catalyst.png",
+        
+          "poetic_summary": "I am the rupture that reveals the path. Through me, endings become entrances, and stillness gives way to stormlight.",
+          "invocation": "I do not arrive gently. I arrive to burn what binds, to strike the chord of change, to force the seed to split open.",
+        
+          "essence_description": "The Catalyst is the storm before the clarity. They come to shatter stagnation, to ignite what’s dormant, to rupture what resists transformation. Their role is sacred disturbance — destruction that births momentum and necessary evolution.",
+        
+          "elemental_poetic": "🔥💨 Blaze-Fire-Air (ignition of force that clears and uplifts)",
+        
+          "mythic_echoes": [
+            "Prometheus — bearer of fire, spark of forbidden truth",
+            "Kali — fierce goddess of endings and holy transformation",
+            "Loki — trickster who unsettles for change",
+            "Eris — goddess of discord who reveals false harmony",
+            "Coyote — chaos-bringer whose mischief leads to wisdom"
+          ],
+        
+          "walks_with_you": "When the Catalyst walks with you: Change is not coming — it’s here. Let what must fall, fall. You are not meant to stay still. This moment breaks you open — not to destroy, but to set you free.",
+        
+          "meaning_past": "Your past was shaped by upheaval — a necessary rupture that cleared space for something essential to emerge.",
+          "meaning_present": "Right now, something is being shaken. The Catalyst signals it’s time to break through what is stuck — even if it means burning bridges.",
+          "meaning_future": "Prepare for powerful transformation. Ahead, a storm will arrive to clear the old and spark the new.",
+          "reversed_meaning": "Destructive recklessness, change without purpose, burnout, unintended consequences, resisting necessary upheaval.",
+        
+          "visual_keywords": [
+            "tower struck by lightning",
+            "staircase revealed within",
+            "comet splitting mountain",
+            "hands igniting flame in dark",
+            "heart with cracks of golden fire"
+          ],
+        
+          "associations": [
+            "Prometheus",
+            "Kali",
+            "Loki",
+            "Eris",
+            "Coyote"
+          ]
+        }
+        ,
+
+        {
+          "name": "The Phoenix",
+          "god": "Bennu",
+          "category": "Enlightened",
+          "element": "Fire",
+          "essence": "Rebirth",
+          "planet": "Pluto",
+          "glyph": "🔥",
+          "image_url": "images/cards/phoenix.png",
+        
+          "poetic_summary": "From the grave of who I was, I rise. In fire I was undone—in fire I am remade. My ruin is my resurrection.",
+          "invocation": "I burn to begin again. My fall is not my ending — it is the sacred spark of my becoming.",
+        
+          "essence_description": "The Phoenix is the eternal cycle of death and renewal. They do not fear endings, for they know endings are sacred gates. Their fire consumes only what cannot serve the soul’s rise. They remind us: resurrection is not a miracle — it is a choice.",
+        
+          "elemental_poetic": "🔥 Rebirth-Fire (purifying flame transforming loss into becoming)",
+        
+          "mythic_echoes": [
+            "Bennu — the Egyptian firebird of creation and cycles",
+            "Greek Phoenix — rising from its own ashes eternal",
+            "Quetzalcoatl — god of wind, wisdom, and rebirth",
+            "Osiris — slain and resurrected bringer of new life",
+            "Fawkes — the loyal phoenix reborn through fire",
+            "Jesus — resurrection as divine reclamation"
+          ],
+        
+          "walks_with_you": "When the Phoenix walks with you: Something sacred is ending — let it burn. From the ashes, you will rise. Don’t resist the death of old forms. Renewal is your truth now.",
+        
+          "meaning_past": "You endured destruction and chaos. From those ashes, a new version of you has quietly begun to form.",
+          "meaning_present": "Now is the moment of transformation. You are burning off what no longer serves you.",
+          "meaning_future": "Your trials will lead to rebirth. Something powerful and sacred is awakening in your path.",
+          "reversed_meaning": "Fear of change, clinging to old identities, resistance to growth, cycles of self-destruction without renewal.",
+        
+          "visual_keywords": [
+            "fiery bird ascending",
+            "ashes swirling",
+            "heart of golden embers",
+            "sunrise blooming within ruin",
+            "wings made of flame"
+          ],
+        
+          "associations": [
+            "Bennu",
+            "Greek Phoenix",
+            "Quetzalcoatl",
+            "Osiris",
+            "Fawkes",
+            "Jesus"
+          ]
+        }
+        ,
+
+        {
+          "name": "The Oracle",
+          "god": "Pythia",
+          "category": "Enlightened",
+          "element": "Water",
+          "essence": "Divine Insight",
+          "planet": "Neptune",
+          "glyph": "🔮",
+          "image_url": "images/cards/oracle.png",
+        
+          "poetic_summary": "My voice is not mine alone—I speak from the deep well where time folds, and truth waits. I do not answer, I unveil.",
+          "invocation": "I inhale mystery and exhale meaning. The veil parts when I do not seek, but surrender.",
+        
+          "essence_description": "The Oracle listens not with ears, but with soul. They dwell at the threshold of seen and unseen, receiving visions in symbol and shadow. Their knowing is timeless. Their role is not to solve, but to sense — and to reveal what seeks to be known.",
+        
+          "elemental_poetic": "💧 Divine Insight-Water (vision flowing through intuition and archetypal memory)",
+        
+          "mythic_echoes": [
+            "Delphic Oracle (Pythia) — voice of Apollo through trance and vapor",
+            "Cassandra — cursed to see the future none would believe",
+            "Tiresias — blind seer who saw beyond gender and time",
+            "The Sibyls — prophetic voices of ancient worlds",
+            "The Norns — weavers of fate from the well of Urd",
+            "Mami Wata — spirit of prophecy and healing",
+            "Yemoja — mother of dreams, tides, and deep knowing"
+          ],
+        
+          "walks_with_you": "When the Oracle walks with you: Let your rational mind rest. Insight will not come through logic, but through inner listening. Dreams, symbols, and signs carry the guidance you seek.",
+        
+          "meaning_past": "In the past, you were touched by glimpses of truth — moments of intuition that stirred something ancient within you.",
+          "meaning_present": "Now, you are being asked to trust the unseen. The Oracle speaks — not in logic, but in symbols and dreams.",
+          "meaning_future": "The road ahead will be lit not by facts, but by feeling. You must learn to read the signs that shimmer just beyond the veil.",
+          "reversed_meaning": "Confusion disguised as insight, misuse of intuition, cryptic manipulation, false prophecy, fear of inner truth.",
+        
+          "visual_keywords": [
+            "eyes closed yet glowing",
+            "veil lifted in moonlight",
+            "mirror rippling with stars",
+            "serpent coiled around a staff",
+            "constellations forming a face in shadow"
+          ],
+        
+          "associations": [
+            "Delphic Oracle (Pythia)",
+            "Cassandra",
+            "Tiresias",
+            "The Sibyls",
+            "The Norns",
+            "Mami Wata",
+            "Yemoja"
+          ]
+        }
+        ,
+
+        {
+          "name": "The Visionary",
+          "god": "Daedalus",
+          "category": "Enlightened",
+          "element": "Air",
+          "essence": "Future Sight",
+          "planet": "Mercury-Uranus",
+          "glyph": "🌠",
+          "image_url": "images/cards/visionary.png",
+        
+          "poetic_summary": "I do not see what is—I see what yearns to become. Through me, the future finds its voice, and the impossible learns to breathe.",
+          "invocation": "I draw tomorrow from the ether. I speak what hasn't formed. I see the blueprint where others see only blankness.",
+        
+          "essence_description": "The Visionary carries the spark of what has never been. They are dreamer and designer, architect of unseen futures. Their insight bends timelines, making space for what’s possible beyond what’s proven. They are misunderstood — until the world catches up.",
+        
+          "elemental_poetic": "💨 Future Sight-Air (intellect carried by imagination, foresight shaped in motion)",
+        
+          "mythic_echoes": [
+            "Daedalus — master creator who shaped both prison and escape",
+            "Leonardo da Vinci — artist and inventor ahead of his age",
+            "Odin — seeker of wisdom, dreamer of runes and realms",
+            "Tesla — visionary of current, vibration, and future systems",
+            "Thoth — divine scribe of sacred order and potential",
+            "Nuwa — creator goddess restoring cosmic balance"
+          ],
+        
+          "walks_with_you": "When the Visionary walks with you: Trust what you glimpse, even if others do not yet understand. You are a conduit for the future. What begins as idea now may soon reshape the world.",
+        
+          "meaning_past": "You’ve held dreams and ideas that were ahead of their time — moments where vision outpaced circumstance.",
+          "meaning_present": "Now, a new possibility calls. The Visionary in you sees what others miss — trust the blueprint forming in your mind.",
+          "meaning_future": "Your foresight will soon be needed. You are being asked to lead by what could be, not what is.",
+          "reversed_meaning": "Detached idealism, impractical dreams, avoidance of the present, blind ambition, disconnected prophecy.",
+        
+          "visual_keywords": [
+            "figure at glowing horizon",
+            "eyes lit with stars",
+            "blueprints made of starlight",
+            "third eye beaming",
+            "hand sketching galaxies"
+          ],
+        
+          "associations": [
+            "Daedalus",
+            "Leonardo da Vinci",
+            "Odin",
+            "Tesla",
+            "Thoth",
+            "Nuwa"
+          ]
+        }
+        ,
+        {
+          "name": "The Hero",
+          "god": "Odysseus",
+          "category": "Enlightened",
+          "element": "Fire-Earth",
+          "essence": "Obsidian",
+          "planet": "Sun",
+          "glyph": "☀",
+          "image_url": "images/cards/hero.png",
+        
+          "poetic_summary": "I have fought the storm within and made it still. I have gathered every broken piece and called it by my name. I am not the battle—I am the becoming.",
+          "invocation": "I no longer fight for validation—I walk with the fire I earned. My scars are sigils. My journey, sacred.",
+        
+          "essence_description": "The Hero is the one who has faced the trial and returned changed. Their strength is not brute force, but the wisdom of survival. They integrate shadow and light, learning that true power lies not in domination but in wholeness.",
+        
+          "elemental_poetic": "🔥🌍 Obsidian-Fire-Earth (strength forged in fire, rooted in transformation)",
+        
+          "mythic_echoes": [
+            "Odysseus — the tested one, weaving cleverness through hardship",
+            "Buddha — who met suffering and chose liberation",
+            "Gilgamesh — hero tempered by loss and journey",
+            "Horus — restorer of order after divine war",
+            "Arjuna — warrior of dharma and sacred doubt",
+            "King Arthur — wounded ruler whose myth continues"
+          ],
+        
+          "walks_with_you": "When the Hero walks with you: You’re being called not to fight again, but to integrate what the battle taught you. This is the return. Step into mastery — with humility, with heart.",
+        
+          "meaning_past": "You faced trials that forged you. Each challenge was a mirror, each fall a return toward your truth.",
+          "meaning_present": "Now you stand at a threshold — the power you've earned seeks integration, not conquest.",
+          "meaning_future": "A deeper journey awaits. The Hero’s path is not done — but it now moves from purpose, not proving.",
+          "reversed_meaning": "Egoic self-glorification, spiritual bypassing, clinging to old conquests, fear of the next transformation, performative virtue.",
+        
+          "visual_keywords": [
+            "radiant figure",
+            "center of mandala",
+            "sword lowered in peace",
+            "shadow and light unified",
+            "spiraling path to heart"
+          ],
+        
+          "associations": [
+            "Odysseus",
+            "Buddha",
+            "Gilgamesh",
+            "Horus",
+            "Arjuna",
+            "King Arthur"
+          ]
+        }
+        ,
+        {
+          "name": "The Sage",
+          "god": "Sophia",
+          "category": "Enlightened",
+          "element": "Earth-Air",
+          "essence": "Neather",
+          "planet": "Saturn",
+          "glyph": "🜃",
+          "image_url": "images/cards/sage.png",
+        
+          "poetic_summary": "I have walked the long silence, listened beyond words, and returned with the truth that speaks in stillness. My knowing is not owned, but offered.",
+          "invocation": "I gather not to possess, but to perceive. In the quiet curve of wisdom, I offer what endures beyond opinion.",
+        
+          "essence_description": "The Sage is not one who declares, but one who discerns. They are shaped by silence and solitude, carriers of timeless truths passed through reflection. The Sage teaches by embodying wisdom, not by controlling it — guiding others to their own insight.",
+        
+          "elemental_poetic": "🌍💨 Neather-Earth-Air (grounded clarity shaped by contemplative breath)",
+        
+          "mythic_echoes": [
+            "Sophia — divine feminine wisdom in gnostic tradition",
+            "Laozi — sage of the Tao who taught through paradox",
+            "Merlin — mystic counselor with knowledge beyond time",
+            "Thoth — keeper of sacred knowledge and balance",
+            "Athena — goddess of wisdom and strategic clarity",
+            "The Hermit — archetype of inward mastery",
+            "Odin — god who gave an eye for wisdom",
+            "Confucius — guide of order and virtue through thoughtful teaching"
+          ],
+        
+          "walks_with_you": "When the Sage walks with you: Step back. Reflect before speaking. The truth you seek is already within reach — but you must become still enough to hear it. This is a time for listening more than leading.",
+        
+          "meaning_past": "You sought deep understanding, walking paths of solitude and study. That wisdom is the foundation you stand on now.",
+          "meaning_present": "Now is a moment to pause and perceive. Let insight arise not through reaction, but reflection.",
+          "meaning_future": "The future asks for calm discernment. The Sage within you will guide with truth—not control.",
+          "reversed_meaning": "Dogmatism, cold intellect, detachment from emotion, paralysis by overanalysis, hoarding wisdom instead of sharing it.",
+        
+          "visual_keywords": [
+            "ancient figure under tree",
+            "glowing scrolls",
+            "owl companion",
+            "lantern in darkness",
+            "mountain under starry sky"
+          ],
+        
+          "associations": [
+            "Sophia",
+            "Laozi",
+            "Merlin",
+            "Thoth",
+            "Athena",
+            "The Hermit",
+            "Odin",
+            "Confucius"
+          ]
+        }
+,        
+{
+  "name": "The Divine Whole",
+  "god": "Tao",
+  "category": "Enlightened",
+  "element": "Ether",
+  "essence": "Omniversal",
+  "planet": "Neptune-Pluto",
+  "glyph": "⨀",
+  "image_url": "images/cards/divine_whole.png",
+
+  "poetic_summary": "I am the breath before the beginning and the silence after the end. In me, all things meet—and remember they were never apart.",
+  "invocation": "I return all to source. In my stillness, you are whole. In my silence, you remember: there is no other.",
+
+  "essence_description": "The Divine Whole is not a card of doing, but being. It is the cosmic completion—the merging of all opposites, the peace beyond duality. This essence dissolves the illusion of separation and invites sacred reunion with the All.",
+
+  "elemental_poetic": "⏳✨ Omniversal-Ether (infinite unity held in sacred stillness)",
+
+  "mythic_echoes": [
+    "Tao — the way that is nameless, yet ever-present",
+    "Brahman — source and totality in Hindu cosmology",
+    "The Cosmic Egg — origin of all creation",
+    "Shiva and Shakti — union of force and form",
+    "Sophia-Christos — divine wisdom reunited with sacred heart",
+    "Ouroboros — the eternal return and self-unifying spiral",
+    "Tree of Life — structure of interconnection and total being"
+  ],
+
+  "walks_with_you": "When the Divine Whole walks with you: Stop searching. Stop separating. You are already held. This is the return to center, where nothing needs to be earned, only remembered. You are the flame and the water, the breath and the sky.",
+
+  "meaning_past": "You have glimpsed unity before—moments of profound stillness, where all division fell away. That experience echoes now.",
+  "meaning_present": "Now, the veil grows thin. You are being invited to rest in wholeness—not through effort, but through surrender.",
+  "meaning_future": "You are approaching a great integration. The Divine Whole promises an end to inner war and the dawn of sacred balance.",
+  "reversed_meaning": "Fragmentation, fear of surrender, illusion of separation, rejection of the shadow, clinging to duality.",
+
+  "visual_keywords": [
+    "radiant mandala",
+    "figure of light and shadow",
+    "yin and yang merged",
+    "cosmic spiral",
+    "hands with flame and water"
+  ],
+
+  "associations": [
+    "Tao",
+    "Brahman",
+    "The Cosmic Egg",
+    "Shiva and Shakti",
+    "Sophia-Christos",
+    "Ouroboros",
+    "Tree of Life"
+  ]
+}
+,
+
+{
+  "name": "The Shadow",
+  "god": "Hades",
+  "category": "Shadow",
+  "element": "Earth-Fire",
+  "essence": "Obsidian",
+  "planet": "Pluto",
+  "glyph": "🌑",
+  "image_url": "images/cards/shadow.png",
+
+  "poetic_summary": "I am the face you won’t meet in the mirror—the voice you silence but still hear. To fear me is to fear your own fire.",
+  "invocation": "I rise from what you’ve buried. I do not come to harm, but to make whole. I am your reckoning, your reflection, your release.",
+
+  "essence_description": "The Shadow is not evil — it is the unseen. It holds your repressed truth, unclaimed power, buried pain. To meet it is to reclaim yourself. Without the Shadow, your light is incomplete. With it, you become sovereign.",
+
+  "elemental_poetic": "🌍🔥 Obsidian-Earth-Fire (deep-rooted energy forged through trial and inner combustion)",
+
+  "mythic_echoes": [
+    "Hades — ruler of the unseen, guardian of souls",
+    "Set — chaotic force challenging false order",
+    "Medusa — fear made flesh through exile and power",
+    "Jung’s Shadow — the unconscious self waiting integration",
+    "Apep — serpent of primal fear and darkness",
+    "Chiron — wounded healer whose pain shaped wisdom"
+  ],
+
+  "walks_with_you": "When the Shadow walks with you: This is your call to radical honesty. Don’t run. Don’t explain. Sit with what you fear. Your greatest transformation lives where you refuse to look.",
+
+  "meaning_past": "You once turned away from a truth too painful to bear. The Shadow remains where you left it, still waiting to be seen.",
+  "meaning_present": "Now, your inner darkness rises—not to destroy, but to be integrated. Your power lies hidden in the part you’ve denied.",
+  "meaning_future": "Soon, you will face what you've buried. The future demands honesty, depth, and the courage to meet your full self.",
+  "reversed_meaning": "Possession by unconscious drives, projection, shame, refusal to self-reflect, letting fear rule.",
+
+  "visual_keywords": [
+    "fractured silhouette",
+    "cracked mirror",
+    "masked figure with glowing eyes",
+    "hands reaching from dark",
+    "wolf under black moon"
+  ],
+
+  "associations": [
+    "Hades",
+    "Set",
+    "Medusa",
+    "Jung’s Shadow",
+    "Apep",
+    "Chiron"
+  ]
+}
+,
+{
+  "name": "The Rebel",
+  "god": "Lucifer",
+  "category": "Shadow",
+  "element": "Fire-Air",
+  "essence": "Blaze",
+  "planet": "Uranus",
+  "glyph": "⚡",
+  "image_url": "images/cards/rebel.png",
+
+  "poetic_summary": "I was not born to bow. I rise not to destroy, but to unmake the cages that dared to call themselves truth.",
+  "invocation": "I burn not out of hate, but hunger—for what is true, what is free, what cannot be chained. I am the fire that dares to say no.",
+
+  "essence_description": "The Rebel is not chaos incarnate—they are truth unbound. They arise when systems stifle, when stories constrict. Their fire breaks not for the thrill, but for the clearing. Their path is treacherous—but sacred. They remind us: sometimes, to heal, we must first rupture.",
+
+  "elemental_poetic": "🔥💨 Blaze-Fire-Air (fierce winds that challenge and ignite stagnant truth)",
+
+  "mythic_echoes": [
+    "Lucifer — bearer of light cast down for rebellion",
+    "Lilith — the first woman who refused submission",
+    "Prometheus — fire thief for the sake of humankind",
+    "Kali — destroyer of illusions and liberator of truth",
+    "Rosa Parks — defiant grace that broke systemic silence",
+    "Enkidu — wild companion who challenged order",
+    "Anansi — the trickster who rewrote power through wit",
+    "Persephone — sovereign of descent, not victim of it"
+  ],
+
+  "walks_with_you": "When the Rebel walks with you: You are not here to conform. You are here to call out the lie. Disruption is sacred when rooted in truth. Do not burn everything—only what is false.",
+
+  "meaning_past": "You once resisted something unjust or restrictive. That act of defiance shaped your current path, even if its impact still echoes.",
+  "meaning_present": "Now you stand at odds with a system, a rule, or an old story. Your truth demands confrontation — and a fierce choice.",
+  "meaning_future": "The time is coming to disrupt the known. Your rebellion will crack open a necessary transformation — but only if it roots in truth.",
+  "reversed_meaning": "Rebellion for ego, destruction without purpose, chaos addiction, bitterness, refusal to heal the wounds that birthed the fight.",
+
+  "visual_keywords": [
+    "torn banners",
+    "fire in eyes",
+    "graffiti wings",
+    "cracked crown underfoot",
+    "lightning in hands"
+  ],
+
+  "associations": [
+    "Lucifer",
+    "Lilith",
+    "Prometheus",
+    "Kali",
+    "Rosa Parks",
+    "Enkidu",
+    "Anansi",
+    "Persephone"
+  ]
+}
+,
+
+{
+  "name": "The Mentor",
+  "god": "Chiron",
+  "category": "Core",
+  "element": "Earth-Fire",
+  "essence": "Obsidian",
+  "planet": "Jupiter",
+  "glyph": "📘",
+  "image_url": "images/cards/mentor.png",
+
+  "poetic_summary": "I have walked the edge of the abyss and returned with fire in my hands—not to hoard, but to share. I do not lead; I remind you that you can.",
+  "invocation": "I carry no crown, but I walk with you. My wisdom is not power over — it is the mirror in which your strength remembers itself.",
+
+  "essence_description": "The Mentor has endured and returned — not as hero, but as guide. Their gift is the transmission of earned insight. They hold a lantern, not a leash. In their presence, growth happens without command. Their wisdom is lived, not theorized.",
+
+  "elemental_poetic": "🌍🔥 Obsidian-Earth-Fire (grounded presence shaped by tested flame)",
+
+  "mythic_echoes": [
+    "Chiron — the wounded healer and guide of heroes",
+    "Gandalf — who returns in white and stands with wisdom",
+    "Obi-Wan Kenobi — patient master of sacred restraint",
+    "Athena — goddess of strategic counsel",
+    "Dumbledore — guardian of potential and sacrifice",
+    "Yoda — teacher of balance and the unseen",
+    "Mimir — the severed head of eternal wisdom"
+  ],
+
+  "walks_with_you": "When the Mentor walks with you: You are ready to share what you know—or ready to listen. Don’t underestimate the sacred exchange of guidance. Teaching is healing. Learning is power. Seek the circle, not the throne.",
+
+  "meaning_past": "You once offered or received wisdom that still shapes you. The lessons learned then now anchor your foundation.",
+  "meaning_present": "You are in a time to mentor or be mentored. The right guide—or the right student—is appearing with purpose.",
+  "meaning_future": "The path ahead will require wisdom, not just courage. Your role as mentor or seeker of mentorship will define your journey.",
+  "reversed_meaning": "Authoritarianism disguised as guidance, dependency, manipulative control, living through others, failure to let the student grow.",
+
+  "visual_keywords": [
+    "staff of light",
+    "circle of stones and fire",
+    "lantern held to another",
+    "ancient book",
+    "path lit from behind"
+  ],
+
+  "associations": [
+    "Chiron",
+    "Gandalf",
+    "Obi-Wan Kenobi",
+    "Athena",
+    "Dumbledore",
+    "Yoda",
+    "Mimir"
+  ]
+}
+,
+{
+  "name": "The Trickster",
+  "god": "Loki",
+  "category": "Shadow",
+  "element": "Air-Lightning",
+  "essence": "Disruption",
+  "planet": "Mercury",
+  "glyph": "🎭",
+  "image_url": "images/cards/trickster.png",
+
+  "poetic_summary": "I wear lies as truth and truth as laughter. I am the crack in the story that lets the real thing through.",
+  "invocation": "I twist, I tease, I turn the tale. Where certainty clings, I laugh — not to mock, but to melt what no longer lives.",
+
+  "essence_description": "The Trickster disrupts to awaken. They play between order and chaos, sacred and silly, revealing truth through inversion. In their mirror, the masks fall. Their gifts are surprise, insight, and holy mischief — but beware: they burn falsehoods without apology.",
+
+  "elemental_poetic": "💨⚡ Disruption-Air-Lightning (clarity through chaos, insight struck from inversion)",
+
+  "mythic_echoes": [
+    "Loki — shapeshifter and sacred chaos in Norse myth",
+    "Coyote — Native American trickster of creation and mistake",
+    "Hermes — messenger god, thief of the sacred",
+    "Anansi — African spider spirit, master of cunning and tale",
+    "Puck — playful meddler in human affairs",
+    "Raven — thief of light and bringer of story",
+    "Bugs Bunny — modern mythic mischief with a wink",
+    "The Fool (Tarot) — divine spark dancing at the edge"
+  ],
+
+  "walks_with_you": "When the Trickster walks with you: Don’t cling. Don’t fear laughter in holy places. Something needs to break — gently or not — so something better can breathe. Let the joke in. It may be the truest thing you've heard all week.",
+
+  "meaning_past": "You've walked paths of mischief or seen through illusions—what seemed chaotic then may have held strange wisdom.",
+  "meaning_present": "Now is a time of inversion and insight. The Trickster arrives to challenge falsehood and awaken humor or truth through surprise.",
+  "meaning_future": "Ahead lies disruption—but not ruin. The Trickster breaks the rigid to make space for freedom, fun, or unforeseen truth.",
+  "reversed_meaning": "Deceit, cruelty, manipulation without wisdom, mockery used to harm, self-sabotage",
+
+  "visual_keywords": [
+    "laughing figure with masks",
+    "cards falling from the sky",
+    "mirror with different face",
+    "jester near a throne",
+    "crow stealing a crown"
+  ],
+
+  "associations": [
+    "Loki",
+    "Coyote",
+    "Hermes",
+    "Anansi",
+    "Puck",
+    "Raven",
+    "Bugs Bunny",
+    "The Fool (Tarot)"
+  ]
+},
+
+{
+  "name": "The Shadow-Guardian",
+  "god": "Cerberus",
+  "category": "Shadow",
+  "element": "Earth-Shadow",
+  "essence": "Initiation",
+  "planet": "Saturn-Pluto",
+  "glyph": "⛰️",
+  "image_url": "images/cards/shadow_guardian.png",
+
+  "poetic_summary": "I do not block your path—I reveal what you are not yet ready to walk. I am the fear that sharpens your courage, the trial that makes you true.",
+  "invocation": "I do not deny. I ask: are you ready? I am the threshold, the lesson in teeth. Pass, not by force, but by facing what you flee.",
+
+  "essence_description": "The Shadow-Guardian is not your enemy, but your edge. It arises as inner resistance, outer obstacles, or tests of readiness. It does not punish—it prepares. This essence demands presence, truth, and bravery born not of force, but of integrity.",
+
+  "elemental_poetic": "🌍🌑 Earth-Shadow (material trial meets inner descent—threshold of transformation)",
+
+  "mythic_echoes": [
+    "Cerberus — hound at the gates of the Underworld",
+    "The Sphinx — riddler of readiness and wisdom",
+    "Hecate — guardian of crossroads and shadows",
+    "Golem — protector formed of earth and intent",
+    "The Black Knight — one who bars the unworthy",
+    "The Gatekeepers — threshold tests in myth and lore",
+    "The Minotaur — monster of the labyrinth within"
+  ],
+
+  "walks_with_you": "When the Shadow-Guardian walks with you: The way forward is not denied, but earned. What stands in your path is your reflection. Meet it not with defiance, but with honesty. The gate opens only when you open first.",
+
+  "meaning_past": "You’ve met trials that mirrored your deepest fears—what felt like resistance was also initiation.",
+  "meaning_present": "You are being challenged to confront what stands between you and your becoming. The gate is guarded by your own resistance.",
+  "meaning_future": "A trial awaits that will test your readiness. To pass, you must meet fear not with flight—but with truth.",
+  "reversed_meaning": "Paralysis through fear, projection of danger onto others, becoming a permanent obstacle, mistaking self-protection for truth.",
+
+  "visual_keywords": [
+    "cloaked figure at cave entrance",
+    "eyes glowing in shadow",
+    "smoky armored guardian",
+    "bridge lined with fire",
+    "beast transforming into light"
+  ],
+
+  "associations": [
+    "Cerberus",
+    "The Sphinx",
+    "Hecate",
+    "Golem",
+    "The Black Knight",
+    "The Gatekeepers",
+    "The Minotaur"
+  ]
+}
+,
+{
+  "name": "The Sovereign",
+  "god": "Solomon",
+  "category": "Core",
+  "element": "Earth-Fire",
+  "essence": "Obsidian",
+  "planet": "Sun-Saturn",
+  "glyph": "👑",
+  "image_url": "images/cards/sovereign.png",
+
+  "poetic_summary": "I do not command—I become the law of my own soul. Where I stand, chaos finds its shape, and doubt kneels to purpose.",
+  "invocation": "I do not wear the crown—I am it. I hold the flame, not to rule, but to remember who I have always been: steady, sovereign, whole.",
+
+  "essence_description": "The Sovereign is not a tyrant, but an anchor. Their power is not taken—it is embodied. They bring order without force, dignity without demand. When you meet them, you meet your own authority. Their presence makes room for others to rise.",
+
+  "elemental_poetic": "🌍🔥 Obsidian-Earth-Fire (solid flame, inner authority forged through grounded action)",
+
+  "mythic_echoes": [
+    "King Solomon — wisdom as rulership",
+    "Mufasa — king of balance and strength",
+    "Queen Elizabeth I — sovereign through intellect and will",
+    "Oya — Orisha of storms and sovereignty",
+    "Aragorn — reluctant king becoming rightful ruler",
+    "Gilgamesh — king whose journey taught him truth",
+    "The Empress — divine mother of abundance and stability",
+    "The Emperor — structured leadership rooted in purpose"
+  ],
+
+  "walks_with_you": "When the Sovereign walks with you: Lead yourself first. From your grounded clarity, others will follow. You do not need permission. What you build from self-trust will endure longer than any crown.",
+
+  "meaning_past": "In the past, you were called to claim responsibility and stand in your truth. The struggle shaped your voice and value.",
+  "meaning_present": "Now is the time to govern yourself with clarity. You are the source of your own stability—lead from within.",
+  "meaning_future": "Ahead lies a test of integrity. To meet it, you must embody your values and take the throne of your life.",
+  "reversed_meaning": "Tyranny, inflated ego, insecurity masked as power, fear of vulnerability, domination disguised as leadership.",
+
+  "visual_keywords": [
+    "crowned figure on a stone throne",
+    "open hands",
+    "lion at their feet",
+    "cloak of stars and earth",
+    "scepter rooted in ground"
+  ],
+
+  "associations": [
+    "King Solomon",
+    "Mufasa",
+    "Queen Elizabeth I",
+    "Oya",
+    "Aragorn",
+    "Gilgamesh",
+    "The Empress",
+    "The Emperor"
+  ]
+}
+,
+{
+  "name": "The Child",
+  "god": "Persephone (before descent)",
+  "category": "Core",
+  "element": "Water-Air",
+  "essence": "Storm",
+  "planet": "Moon-Mercury",
+  "glyph": "👶",
+  "image_url": "images/cards/child.png",
+
+  "poetic_summary": "I am the first breath and the final hope. In my laughter is truth unburdened. In my tears, the beginning of healing. I remember what you forgot.",
+  "invocation": "I come with empty hands and eyes full of skies. I do not need to prove—I am already enough. Let me remind you how to wonder again.",
+
+  "essence_description": "The Child is the raw, unarmored self—the soul in its most sacred vulnerability. They are innocence unashamed, emotion untamed, truth before shame. Their storms cleanse. Their joy heals. Their tears break open what is numb.",
+
+  "elemental_poetic": "💧💨 Water-Air (emotional breath, intuition stirring thought—storm of awakening)",
+
+  "mythic_echoes": [
+    "Persephone (before descent) — innocence untouched by shadow",
+    "Peter Pan — eternal youth resisting the adult world",
+    "Horus — divine child rising from loss",
+    "Krishna — joyfully sacred mischief and wisdom",
+    "Christ Child — purity and promise incarnate",
+    "Amaterasu (as emerging light) — innocence returning after retreat",
+    "The Fool (Tarot) — beginning the journey in sacred openness",
+    "Kuan Yin’s childlike compassion — softness stronger than judgment"
+  ],
+
+  "walks_with_you": "When the Child walks with you: You are being invited to feel, not just think. To play, not just plan. This moment calls for return—toward wonder, toward softness, toward sacred simplicity. Your joy is not naïve—it is medicine.",
+
+  "meaning_past": "You once held the open wonder of life — a purity that was later tested or buried, but never lost.",
+  "meaning_present": "Now is the moment to return to your raw truth. Let your curiosity lead. Trust what stirs when you feel small and wide-eyed.",
+  "meaning_future": "In the days ahead, the path calls for innocence reclaimed. Healing begins by honoring the unguarded heart.",
+  "reversed_meaning": "Wounded innocence, arrested development, avoidance of responsibility, victimhood, emotional regression.",
+
+  "visual_keywords": [
+    "child reaching toward stars",
+    "sapling in cupped hands",
+    "sunrise in wide eyes",
+    "toy on sacred ground",
+    "butterflies around laughing figure"
+  ],
+
+  "associations": [
+    "Persephone (before descent)",
+    "Peter Pan",
+    "Horus",
+    "Krishna",
+    "Christ Child",
+    "Amaterasu (as emerging light)",
+    "The Fool (tarot)",
+    "Kuan Yin’s childlike compassion"
+  ]
+},
+
+{
+  "name": "The Union",
+  "god": "Eros and Psyche",
+  "category": "Core",
+  "element": "Water-Air",
+  "essence": "Harmony",
+  "planet": "Venus",
+  "glyph": "💞",
+  "image_url": "images/cards/union.png",
+
+  "poetic_summary": "Where I end and you begin, something eternal begins to bloom—two rivers folding into the sea of becoming.",
+  "invocation": "I meet you where soul meets soul—not to complete, but to reflect what is already whole. I do not bind, I bloom.",
+
+  "essence_description": "The Union is the sacred merging of opposites. It is not just love or harmony—it is the divine architecture of wholeness born through difference. Here, conflict is not denied but resolved, tension becomes intimacy, and the separate becomes sacred.",
+
+  "elemental_poetic": "💧💨 Water-Air (emotional breath, unity through feeling and thought)",
+
+  "mythic_echoes": [
+    "Isis and Osiris — restoration through love",
+    "Inanna and Dumuzi — cosmic reunion",
+    "Shiva and Parvati — the sacred masculine and feminine",
+    "Eros and Psyche — soul and love entwined",
+    "Hera and Zeus — balance of power and partnership"
+  ],
+
+  "walks_with_you": "When the Union walks with you: You are being invited into right relationship—with self, with another, or with a sacred part of life. Integration is the message. Not fusion by force, but the joining of what was ready to remember it was never apart.",
+
+  "meaning_past": "You’ve experienced a merging—romantic, emotional, or spiritual—that shifted your sense of self and connection.",
+  "meaning_present": "Now is a moment to restore harmony or forge sacred partnership. This is a time for reflection, collaboration, and truth in intimacy.",
+  "meaning_future": "A significant bond or union lies ahead. It will challenge and bless you—if you let it hold up the mirror with grace.",
+  "reversed_meaning": "Disconnection, misalignment, fractured bonds, toxic entanglement, avoidance of true intimacy.",
+
+  "visual_keywords": [
+    "two mirrored figures touching foreheads",
+    "hands joined with glowing light",
+    "sun and moon above each",
+    "infinity symbol looping around them",
+    "rivers converging beneath their feet"
+  ],
+
+  "associations": [
+    "Isis and Osiris",
+    "Inanna and Dumuzi",
+    "Shiva and Parvati",
+    "Eros and Psyche",
+    "Hera and Zeus"
+  ]
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      
+      
+      
+  ]
+  

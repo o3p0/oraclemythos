@@ -761,3 +761,71 @@ main {
     border-radius: 10px;
     box-shadow: inset 0px 0px 5px rgba(255, 204, 0, 0.5);
 }
+
+
+@media (max-width: 480px) {
+    .hero-section {
+      flex-direction: column;
+      height: auto;
+      padding: 20px 10px;
+      gap: 20px;
+    }
+  
+    .character-overview {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+    }
+  
+    .character-identity,
+    .character-attributes {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .dropdown-button {
+      font-size: 1rem;
+      padding: 8px 15px;
+    }
+  
+    .modal-content {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    #hero-image {
+      width: 220px;
+    }
+  
+    .carousel-button {
+      font-size: 1.2em;
+      padding: 8px;
+    }
+  
+    .read-more {
+      padding: 6px 10px;
+      font-size: 0.95rem;
+    }
+  
+    .dropdown-item {
+      font-size: 0.95rem;
+      padding: 10px;
+    }
+  
+    #modal-title {
+      font-size: 1.6rem;
+    }
+  
+    #modal-quick-facts p {
+      font-size: 1.1rem;
+    }
+  
+    #world-building-list li,
+    #legend-list li,
+    #lore-list li {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  

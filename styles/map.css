@@ -273,3 +273,67 @@ body {
     height: 90px; /* Adjust to match removed title & close button space */
     display: block;
 }
+
+
+
+@media (max-width: 480px) {
+    .map-hero h1 {
+      font-size: 2rem;
+      padding: 6px;
+      border-width: 2px;
+    }
+  
+    .region-button {
+      width: 80px;
+      height: 80px;
+      font-size: 0.9rem;
+      border-width: 2px;
+    }
+  
+    .modal-content {
+      width: 90%;
+      height: 70vh;
+      padding: 20px;
+    }
+  
+    #culture-list li {
+      font-size: 1.2rem;
+      padding: 10px 0;
+    }
+  
+    .close {
+      font-size: 24px;
+    }
+  
+    .hero-text {
+      padding: 1rem;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .region-button {
+      width: 140px;
+      height: 140px;
+      font-size: 1.2rem;
+    }
+  
+    .modal-content {
+      width: 75%;
+      height: 75vh;
+      padding: 24px;
+    }
+  
+    .map-hero h1 {
+      font-size: 3rem;
+    }
+  
+    #culture-list {
+      padding-left: 1.5rem;
+      padding-top: 1.5rem;
+    }
+  
+    #culture-list li {
+      font-size: 1.3rem;
+    }
+  }
+  

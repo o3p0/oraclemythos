@@ -217,3 +217,85 @@ footer {
   font-style: italic;
   color: #ccc;
 }
+
+
+
+@media (max-width: 768px) {
+  #hero {
+    padding: 2rem 1rem;
+    background-attachment: scroll;
+  }
+
+  .hero-content {
+    padding: 1.5rem;
+  }
+
+  .ebook-cover {
+    max-width: 160px;
+  }
+
+  #download-btn {
+    padding: 0.65rem 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .featured-grid {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .featured-card {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+
+  .featured-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .featured-card p {
+    font-size: 0.9rem;
+  }
+
+  .featured-card button {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .carousel {
+    gap: 0.75rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .product-card {
+    min-width: 160px;
+    padding: 0.75rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  .grid-item {
+    padding: 1rem;
+  }
+
+  .checkout button {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .social-proof input {
+    width: 90%;
+  }
+
+  .social-proof button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}

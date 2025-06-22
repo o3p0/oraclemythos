@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You – Astrology Reading</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #000;
+      color: #ffcc00;
+      font-family: 'Inter', sans-serif;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    p.intro {
+      font-size: 1.1rem;
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #111;
+      padding: 30px;
+      border: 1px solid #ffcc00;
+      border-radius: 16px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 8px;
+      color: #eee;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ffcc00;
+      border-radius: 8px;
+      background: #222;
+      color: #fff;
+    }
+
+    input[name="honeypot"] {
+      display: none;
+    }
+
+    button {
+      background: #ffcc00;
+      color: #000;
+      padding: 12px 20px;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #fff200;
+    }
+
+    .success-message {
+      display: none;
+      color: #90ee90;
+      font-size: 1.1rem;
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>🪐 Thank You for Ordering Your Astrology Reading</h2>
+  <p class="intro">
+    Let us know your details and any specific interests so we can tune your reading.
+  </p>
+
+  <form id="astroForm" action="https://script.google.com/macros/s/AKfycbw8obRIyx8FV4xb8uJZIL80-N3sOy_Jd9BAuveEBDCp-ZQdcGOv22cNzuAQsdAT8ky4/exec" method="POST">
+    <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
+
+    <input type="hidden" name="Product" value="Astrology Reading">
+
+    <label for="email">Email Address</label>
+    <input type="email" name="Email" id="email" required />
+
+    <label for="focus">Focus/Interest <em>(career, personality, life events...)</em></label>
+    <input type="text" name="Focus" id="focus" required />
+
+    <label for="notes">Birth Info or any additional context</label>
+    <textarea name="Notes" id="notes" rows="5" placeholder="Birth date, place, time, or questions..."></textarea>
+
+    <button type="submit">🔐 Submit Details</button>
+    <div class="success-message" id="successMsg">✅ Thank you! Your details were received.</div>
+  </form>
+
+  <script>
+    const form = document.getElementById('astroForm');
+    const successMsg = document.getElementById('successMsg');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      fetch(form.action, {
+        method: form.method,
+        body: formData
+      }).then(response => {
+        if (response.ok) {
+          form.reset();
+          successMsg.style.display = 'block';
+        } else {
+          alert('Oops! Something went wrong.');
+        }
+      }).catch(() => alert('Submission failed.'));
+    });
+  </script>
+</body>
+</html>

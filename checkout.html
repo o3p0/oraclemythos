@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Your Path</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/gloBAL.css" />
+  <script defer src="scripts/scripts.js"></script>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      background: linear-gradient(to right, #ffcc00, #fff, #ffcc00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% auto;
+      animation: textShine 4s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes textShine {
+      0% { background-position: 0% center; }
+      100% { background-position: 200% center; }
+    }
+
+    .invocation-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: #ddd;
+      max-width: 720px;
+      margin: 0 auto 40px;
+      line-height: 1.8;
+      font-style: italic;
+    }
+
+    .product-grid {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 30px;
+      overflow-x: auto;
+      max-width: 100%;
+      padding-bottom: 20px;
+      scroll-snap-type: x mandatory;
+    }
+
+    .product-card {
+      background: linear-gradient(145deg, #1a1a1a, #111);
+      border: 2px solid #ffcc00;
+      border-radius: 16px;
+      padding: 30px;
+      width: 320px;
+      box-shadow: 0 0 30px rgba(255, 204, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: left;
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      opacity: 0;
+      transform: translateY(40px);
+    }
+
+    .product-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .product-card h3::first-letter {
+      font-size: 2rem;
+      color: #fff;
+      text-shadow: 0 0 10px #ffcc00;
+    }
+
+    .product-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+      font-family: 'Playfair Display', serif;
+      color: #ffcc00;
+    }
+
+    .product-card p {
+      font-size: 1rem;
+      color: #eee;
+      margin-bottom: 12px;
+      line-height: 1.6;
+      opacity: 0;
+      animation: fadeIn 0.8s ease forwards;
+    }
+
+    .product-card p:nth-of-type(1) { animation-delay: 0.2s; }
+    .product-card p:nth-of-type(2) { animation-delay: 0.4s; }
+    .product-card p:nth-of-type(3) { animation-delay: 0.6s; }
+    .product-card p:nth-of-type(4) { animation-delay: 0.8s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .buy-btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      text-align: center;
+    }
+
+    .buy-btn:hover {
+      background: #fff200;
+    }
+
+    .footer-note {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      margin-top: 40px;
+      color: #ccc;
+      max-width: 720px;
+      margin-inline: auto;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .product-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        padding: 0 10px;
+        overflow-x: visible;
+      }
+
+      .product-card {
+        width: 100%;
+        max-width: 90vw;
+        padding: 24px;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      .invocation-text {
+        font-size: 1.05rem;
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ Hamburger Menu -->
+<div class="hamburger-menu">
+  <button id="hamburger-btn" aria-label="Open Menu">&#9776;</button>
+  <div class="dropdown" id="dropdown-menu"></div>
+</div>
+
+  <h2>🔓 Choose Your Reading</h2>
+  <p class="invocation-text">
+    Love. Destiny. Purpose.<br>
+    
+  </p>
+  <div class="product-grid">
+    <div class="product-card">
+      <h3>🌟 Full Card Draw</h3>
+      <p>A 6-card PDF reading that maps your soul’s path through symbolic archetypes.</p>
+      <p>Reveals your Core Self, Shadow, Trial, Enlightened Self, and two guiding forces.</p>
+      <p></p>
+      <p>Choose a focus: Love, Career, Growth, or General.</p>
+      <a href="https://buy.stripe.com/your-live-link-1" class="buy-btn">🔮  – $8.99</a>
+    </div>
+  
+    <div class="product-card">
+      <h3>🌙 Dream Interpretation</h3>
+      <p>Send a dream. Receive a full in depth PDF decoding symbols, archetypes, and guidance.</p>
+      <p>Each reading is personal, poetic, While leaving room for you to make futher investigations</p>
+      <p>Ideal for deep reflection and insight into the unconscious.</p>
+      <a href="https://buy.stripe.com/your-live-link-2" class="buy-btn">💤  – $11</a>
+    </div>
+  
+    <div class="product-card">
+      <h3>🌌 Astrology Reading</h3>
+      <p>Discover the Forces Influencing Your Astrology</p>
+      <p>Explore the divine energies and elemental powers shaping your path.</p>
+      <p>Includes archetypal interpretation, elemental balance, and planetary wisdom.</p>
+      <a href="https://buy.stripe.com/your-live-link-3" class="buy-btn">🪐  – $44</a>
+    </div>
+  </div>
+  <div class="footer-note">
+    <br>
+    Follow where your path takes you. The next step is already waiting.
+  </div>
+  
+  <script>
+    const cards = document.querySelectorAll('.product-card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    cards.forEach(card => observer.observe(card));
+  </script>
+</body>
+</html>

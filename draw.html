@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Oracle Draw</title>
+  <link rel="stylesheet" href="styles/oracle.css" />
+  <link rel="stylesheet" href="styles/gloBAL.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+  <script defer src="scripts/oracle-tarot.js"></script>
+  <script defer src="scripts/scripts.js"></script>
+
+
+  <style>
+    .page-title {
+      font-size: 2.5rem;
+      color: #ffcc00;
+      margin: 40px auto 20px;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .card-read-pair {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 33%;
+    }
+
+    .card-read-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      margin-top: 60px;
+    }
+
+    .premium-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .premium-button:hover {
+      background-color: #fff200;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ Hamburger Menu -->
+<div class="hamburger-menu">
+  <button id="hamburger-btn" aria-label="Open Menu">&#9776;</button>
+  <div class="dropdown" id="dropdown-menu"></div>
+</div>
+
+  <h1 class="page-title">The Oracle Draw</h1>
+  <div class="oracle-container">
+    <button id="oracleStartBtn" class="oracle-button">🔮 Draw Your Cards</button>
+
+    <button id="toggleReversedBtn" class="oracle-button" style="align-self: flex-end; margin-bottom: 10px;">🔄 Show Reversed</button>
+
+    <div class="title-row card-container">
+      <div class="card-label">Past</div>
+      <div class="card-label">Present</div>
+      <div class="card-label">Future</div>
+    </div>
+
+    <div class="card-read-container">
+      <div class="card-read-pair">
+        <div class="card-slot" id="card-slot-0"></div>
+        <div id="reading-past" class="reading-box reading-entry"></div>
+      </div>
+      <div class="card-read-pair">
+        <div class="card-slot" id="card-slot-1"></div>
+        <div id="reading-present" class="reading-box reading-entry"></div>
+      </div>
+      <div class="card-read-pair">
+        <div class="card-slot" id="card-slot-2"></div>
+        <div id="reading-future" class="reading-box reading-entry"></div>
+      </div>
+    </div>
+
+    
+    <section class="premium-offer" style="margin-top: 60px; max-width: 700px;">
+      <h2 class="page-title">✨ Recive Your Full Reading Here</h2>
+    
+      <p style="margin-bottom: 16px; font-size: 1.1rem; color: #eee;">
+        The stars remember what we have forgotten.</p>
+    
+      <ul style="list-style: none; padding-left: 0; line-height: 1.7; color: #ccc; font-size: 1rem;">
+        <li>🃏 6-Card Deep Complete Tarot Spread</li>
+        <li>🌙 Dream & Symbol Interpretation</li>
+        <li>📜 Full Astrological Insight</li>
+        <li>💌 Contact Us</li>
+      </ul>
+  
+    
+      <a href="checkout.html" class="premium-button" onclick="handleUnlockClick(event)">
+        🔓 
+      </a>
+    </section>
+    
+    <script>
+    function handleUnlockClick(e) {
+      console.log("Unlock clicked");
+      // Optional: Add tracking logic here
+    }
+    </script>
+    
+
+   
+  
+    
+      
+    </div>
+    
+  
+    <div id="cardModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="modal-body">
+          <h2 id="modal-title"></h2>
+          <p id="modal-summary"></p>
+          <p id="modal-element"></p>
+          <p id="modal-planet"></p>
+          <p id="modal-reversed"></p>
+          <p id="modal-mythic"></p>
+        </div>
+      </div>
+
+    
+    </div>
+  </div>
+</body>
+</html>

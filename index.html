@@ -81,6 +81,49 @@
     box-shadow: 0px 5px 15px rgba(255, 204, 0, 0.7);
 }
 
+.draw-btn {
+  background-color: #ffcc00;
+  color: black;
+}
+.button-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.button-group a {
+  min-width: 120px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .button-group {
+    flex-direction: column;
+    top: 60%;
+  }
+}
+.button-group a {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.button-group a:nth-child(2) { animation-delay: 0.1s; }
+.button-group a:nth-child(3) { animation-delay: 0.2s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
     </style>
 </head>
 
@@ -105,9 +148,11 @@
                 <img src="mapimages/map1.png" alt="World Map of Mythologies" />
                 <div class="button-group">
                     <a href="map.html" class="explore-btn">Explore</a>
+                    <a href="draw.html" class="draw-btn">Draw</a>
                     <a href="shop.html" class="shop-btn">Shop</a>
+                  </div>
                 </div>
-            </div>
+                  
         </section>
 
         <!-- ✅ Navigation Section -->

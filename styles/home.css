@@ -598,3 +598,70 @@ footer .social-links a:hover {
     margin: 20px auto;        /* Adds spacing from other sections */
     max-width: 900px;         /* Prevents cards from stretching too wide */
 }
+
+
+/* 📱 Responsive Optimizations - Home Page */
+@media (max-width: 768px) {
+    .hero-section {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .hero-section .tagline h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-section .button-group {
+      flex-direction: column;
+      gap: 16px;
+      top: auto;
+      bottom: 40px;
+      transform: translateX(-50%);
+    }
+  
+    .spotlight-carousel {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .videos-section iframe {
+      width: 100%;
+      height: 220px;
+    }
+  
+    .character-grid,
+    .myths-grid {
+      grid-template-columns: 1fr;
+      padding: 0 10px;
+    }
+  
+    .navigation-buttons {
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .cta-section {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .cta-section a {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .character-card {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .character-card h3 {
+      font-size: 1rem;
+      width: 90%;
+    }
+  }
+  
