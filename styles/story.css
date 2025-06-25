@@ -258,30 +258,28 @@ a {
 
 @media (max-width: 768px) {
   .chapter-content {
-    grid-template-columns: 1fr;
-    padding: 16px;
+    grid-template-columns: 1fr;  /* Ensures single-column layout */
+    padding: 10px;
+    gap: 16px;
   }
 
   .chapter-section {
-    padding: 20px;
-    border-radius: 12px;
-    font-size: 1.05rem;
-    line-height: 1.7;
+    padding: 16px;
+    margin: 0;
+    background: rgba(20, 20, 20, 0.95); /* Slightly darker for contrast */
   }
 
   .chapter-section h2 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .chapter-section p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.6;
   }
-  .chapter-section {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-  
+
+
 
 
   #prev-button, #next-button {
