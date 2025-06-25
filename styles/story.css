@@ -113,11 +113,11 @@ a {
 
 /* Chapter Content Styling */
 .chapter-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -146,10 +146,6 @@ a {
 .chapter-section.fade-in p {
   opacity: 1;
   transform: translateY(0);
-}
-
-.chapter-section:last-child {
-  grid-column: span 2;
 }
 
 /* Dynamic Progress Bar */
@@ -248,67 +244,6 @@ a {
   0% { outline-width: 4px; }
   50% { outline-width: 8px; }
   100% { outline-width: 4px; }
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .chapter-content {
-    grid-template-columns: 1fr;
-    padding: 10px;
-    gap: 16px;
-  }
-  .chapter-section {
-    padding: 16px;
-    margin: 0;
-  }
-  .chapter-section h2 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .chapter-section p {
-    font-size: 1rem;
-  }
-  #prev-button, #next-button {
-    top: auto;
-    bottom: 10px;
-    transform: none;
-    padding: 12px 18px;
-  }
-  #prev-button { left: 15px; }
-  #next-button { right: 15px; }
-  .chapter-card img {
-    height: 120px;
-  }
-  .chapter-card h3 {
-    font-size: 1.3rem;
-  }
-  .chapter-card p {
-    font-size: 0.95rem;
-  }
-  .floating-quote {
-    margin: 10px;
-    padding: 12px;
-    font-size: 1rem;
-  }
-  .chapter-cards {
-    grid-template-columns: 1fr;
-    padding: 10px;
-    gap: 16px;
-  }
-  .hero-overlay {
-    padding: 16px;
-    margin: 10px auto;
-  }
-  .hero-overlay h1 {
-    font-size: 2rem;
-  }
-  .hero-overlay p {
-    font-size: 1.1rem;
-  }
-  #back-to-book {
-    font-size: 0.95rem;
-    padding: 8px 14px;
-  }
 }
 
 /* Navbar */
