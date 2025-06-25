@@ -1,25 +1,25 @@
+/* story.css - complete responsive and styled story layout */
+
 /* Base Styling */
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;  /* Updated Font */
+  font-family: 'Merriweather', serif;
   background-color: black;
   color: white;
   line-height: 1.6;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-size: 18px; /* Increased Base Font Size */
+  font-size: 18px;
 }
 
-/* Remove Underline from All Links */
 a {
   text-decoration: none;
-  color: inherit; /* Inherit text color from parent */
+  color: inherit;
   transition: color 0.3s ease;
 }
 
-/* Apply Hover Effect on Chapter Links */
 .chapter-card a:hover {
-  color: #ffcc00; /* Highlighted color on hover */
+  color: #ffcc00;
 }
 
 /* Hero Image Styling */
@@ -54,7 +54,7 @@ a {
 }
 
 .hero-overlay h1 {
-  font-size: 3.5rem; /* Increased Font Size */
+  font-size: 3.5rem;
   color: #ffcc00;
   margin: 0;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
@@ -62,7 +62,7 @@ a {
 
 .hero-overlay p {
   font-style: italic;
-  font-size: 1.4rem; /* Increased Font Size */
+  font-size: 1.4rem;
   color: #ccc;
   margin: 5px 0 20px;
 }
@@ -84,13 +84,8 @@ a {
   opacity: 0.9;
 }
 
-#prev-button {
-  left: 20px;
-}
-
-#next-button {
-  right: 20px;
-}
+#prev-button { left: 20px; }
+#next-button { right: 20px; }
 
 #prev-button:hover, #next-button:hover {
   background-color: #e6b800;
@@ -98,7 +93,6 @@ a {
   opacity: 1;
 }
 
-/* Back to Book Button */
 #back-to-book {
   position: fixed;
   bottom: 20px;
@@ -129,21 +123,21 @@ a {
 
 .chapter-section {
   background: rgba(20, 20, 20, 0.9);
-  padding: 25px; /* Adjusted Padding */
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .chapter-section h2 {
   color: #ffcc00;
-  font-size: 2rem; /* Increased Font Size */
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 .chapter-section p {
-  font-size: 1.2rem; /* Increased Font Size */
+  font-size: 1.2rem;
   color: #ddd;
-  line-height: 1.6; /* Improved Line Height */
+  line-height: 1.6;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.6s ease, transform 0.6s ease;
@@ -169,7 +163,7 @@ a {
   z-index: 1000;
 }
 
-/* Floating Quote Styling */
+/* Floating Quote */
 .floating-quote {
   background: rgba(255, 255, 255, 0.1);
   border-left: 4px solid #ffcc00;
@@ -230,7 +224,7 @@ a {
 .chapter-card h3 {
   color: #ffcc00;
   margin: 10px 0;
-  font-size: 1.6rem; /* Increased Font Size */
+  font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
@@ -238,12 +232,12 @@ a {
 
 .chapter-card p {
   color: #ddd;
-  font-size: 1rem; /* Increased Font Size */
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 10px;
 }
 
-/* Highlight Effect for Random Myth */
+/* Highlight Effect */
 .highlight {
   outline: 4px solid gold;
   transition: outline 0.3s ease-in-out;
@@ -256,131 +250,68 @@ a {
   100% { outline-width: 4px; }
 }
 
+/* Mobile Responsive */
 @media (max-width: 768px) {
   .chapter-content {
-    grid-template-columns: 1fr;  /* Ensures single-column layout */
+    grid-template-columns: 1fr;
     padding: 10px;
     gap: 16px;
   }
-
   .chapter-section {
     padding: 16px;
     margin: 0;
-    background: rgba(20, 20, 20, 0.95); /* Slightly darker for contrast */
   }
-
   .chapter-section h2 {
     font-size: 1.5rem;
     text-align: center;
   }
-
   .chapter-section p {
     font-size: 1rem;
-    line-height: 1.6;
   }
-
-
-
-
   #prev-button, #next-button {
-      top: auto;
-      bottom: 10px;
-      transform: none;
-      padding: 12px 18px;
+    top: auto;
+    bottom: 10px;
+    transform: none;
+    padding: 12px 18px;
   }
-
-  #prev-button {
-      left: 15px;
-  }
-
-  #next-button {
-      right: 15px;
-  }
-
+  #prev-button { left: 15px; }
+  #next-button { right: 15px; }
   .chapter-card img {
-      height: 120px;
+    height: 120px;
   }
-}
-
-
-
-/* 📱 Mobile Compatibility Enhancements for Story Pages */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 0 10px;
+  .chapter-card h3 {
+    font-size: 1.3rem;
   }
-
-  .hero-overlay {
-    padding: 16px;
-    margin: 10px auto;
-  }
-
-  .hero-overlay h1 {
-    font-size: 2rem;
-  }
-
-  .hero-overlay p {
-    font-size: 1.1rem;
-  }
-
-  #prev-button,
-  #next-button {
-    font-size: 1.1rem;
-    padding: 10px 16px;
-  }
-
-  #back-to-book {
+  .chapter-card p {
     font-size: 0.95rem;
-    padding: 8px 14px;
   }
-
-  .chapter-content {
-    padding: 10px;
-    gap: 12px;
-  }
-
-  .chapter-section {
-    padding: 18px;
-  }
-
-  .chapter-section h2 {
-    font-size: 1.5rem;
-  }
-
-  .chapter-section p {
-    font-size: 1rem;
-  }
-
   .floating-quote {
     margin: 10px;
     padding: 12px;
     font-size: 1rem;
   }
-
   .chapter-cards {
     grid-template-columns: 1fr;
     padding: 10px;
     gap: 16px;
   }
-
-  .chapter-card h3 {
-    font-size: 1.3rem;
+  .hero-overlay {
+    padding: 16px;
+    margin: 10px auto;
   }
-
-  .chapter-card p {
+  .hero-overlay h1 {
+    font-size: 2rem;
+  }
+  .hero-overlay p {
+    font-size: 1.1rem;
+  }
+  #back-to-book {
     font-size: 0.95rem;
-  }
-
-  .chapter-card img {
-    height: 110px;
+    padding: 8px 14px;
   }
 }
 
-
-
-/* story.css */
-
+/* Navbar */
 .navbar {
   background: black;
   padding: 10px 20px;
@@ -426,10 +357,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
+  .hamburger { display: block; }
   .nav-links {
     display: none;
     position: absolute;
@@ -440,11 +368,7 @@ a {
     background: rgba(0, 0, 0, 0.95);
     padding: 20px 10px;
   }
-
-  .nav-links.active {
-    display: flex;
-  }
-
+  .nav-links.active { display: flex; }
   .nav-links li {
     margin: 10px 0;
     text-align: center;

@@ -8,12 +8,15 @@ body {
     color: white;
     line-height: 1.6;
     overflow-x: hidden;
-  }
-  
-  /* ✅ Hero Section */
-  .hero {
+}
+
+/* ✅ Hero Section */
+.hero {
     position: relative;
-    background: url('../images/mythic-banner.jpg') center center / cover no-repeat fixed;
+    background-image: url('../images/mythic-banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 120px 20px;
     text-align: center;
     color: white;
@@ -22,9 +25,9 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  }
-  
-  .hero::before {
+}
+
+.hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -34,14 +37,14 @@ body {
     background: linear-gradient(120deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
     animation: fadeOverlay 5s infinite alternate;
     z-index: 1;
-  }
-  
-  @keyframes fadeOverlay {
+}
+
+@keyframes fadeOverlay {
     from { background: rgba(0, 0, 0, 0.7); }
     to { background: rgba(0, 0, 0, 0.3); }
-  }
-  
-  .hero-overlay {
+}
+
+.hero-overlay {
     position: relative;
     z-index: 2;
     background: rgba(0, 0, 0, 0.6);
@@ -51,9 +54,9 @@ body {
     max-width: 800px;
     margin: auto;
     box-shadow: 0 8px 24px rgba(255, 204, 0, 0.4);
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
     font-size: 4rem;
     color: #ffcc00;
     font-family: 'Cinzel', serif;
@@ -61,67 +64,67 @@ body {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
     margin-bottom: 10px;
     animation: fadeInDown 2s ease-out;
-  }
-  
-  @keyframes fadeInDown {
+}
+
+@keyframes fadeInDown {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
-  }
-  
-  .hero p {
+}
+
+.hero p {
     font-size: 1.5rem;
     color: #ddd;
     margin: 15px 0 25px;
     font-style: italic;
     animation: fadeIn 2s ease-in;
-  }
-  
-  /* ✅ Responsive Fix for Hero */
-  @media (max-width: 768px) {
+}
+
+/* ✅ Responsive Fix for Hero */
+@media (max-width: 768px) {
     .hero {
-      padding: 60px 15px;
-      min-height: 300px;
-      background-size: cover !important;
-      background-position: center !important;
-      background-repeat: no-repeat !important;
+        padding: 60px 15px;
+        min-height: 300px;
+        background-image: url('../images/mythic-banner.jpg') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
     }
-  
+
     .hero-overlay {
-      padding: 20px;
-      margin: 0 auto;
-      max-width: 90%;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 90%;
     }
-  
+
     .hero h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .hero p {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .hero {
-      padding: 50px 10px;
-      min-height: 260px;
+        padding: 50px 10px;
+        min-height: 260px;
     }
-  
+
     .hero-overlay {
-      padding: 16px;
+        padding: 16px;
     }
-  
+
     .hero h1 {
-      font-size: 1.8rem;
+        font-size: 1.8rem;
     }
-  
+
     .hero p {
-      font-size: 0.95rem;
+        font-size: 0.95rem;
     }
-  }
-  
-  /* The rest of the styles remain unchanged for timeline, cards, etc. */
-  
+}
+
+/* The rest of the styles remain unchanged for timeline, cards, etc. */
 
 /* CTA Buttons */
 .cta-button {
@@ -289,114 +292,3 @@ body {
         box-shadow: 0 0 25px 10px rgba(255, 204, 0, 0.8);
     }
 }
-
-
-/* Responsive Fixes */
-@media (max-width: 768px) {
-    .hero {
-        padding: 80px 15px;
-        min-height: 400px;
-        background-size: cover;
-    }
-
-    .hero h1 {
-        font-size: 2.8rem;
-    }
-
-    .hero p {
-        font-size: 1.2rem;
-    }
-
-    .cta-button {
-        font-size: 0.9rem;
-        padding: 10px 20px;
-    }
-
-    .filter-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    #mythology-filter {
-        width: 90%;
-    }
-
-    .timeline-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-
-
-@media (max-width: 480px) {
-    body {
-      font-size: 16px;
-    }
-  
-    .hero {
-      padding: 60px 10px;
-      min-height: 300px;
-    }
-  
-    .hero-overlay {
-      padding: 20px;
-      margin: 10px;
-    }
-  
-    .hero h1 {
-      font-size: 2.2rem;
-      letter-spacing: 1px;
-    }
-  
-    .hero p {
-      font-size: 1rem;
-    }
-  
-    .cta-button {
-      padding: 10px 16px;
-      font-size: 0.85rem;
-      border-radius: 8px;
-    }
-  
-    .filters {
-      padding: 20px 12px;
-      margin: 15px;
-    }
-  
-    .filters h2 {
-      font-size: 1.6rem;
-    }
-  
-    .filter-container {
-      gap: 10px;
-      align-items: center;
-    }
-  
-    #mythology-filter {
-      font-size: 0.95rem;
-      padding: 10px 16px;
-    }
-  
-    .timeline h2 {
-      font-size: 1.6rem;
-    }
-  
-    .timeline-container {
-      padding: 10px;
-      gap: 16px;
-    }
-  
-    .story-card {
-      height: 280px;
-    }
-  
-    .story-title {
-      font-size: 1rem;
-      padding: 10px;
-    }
-  
-    .highlight {
-      outline-width: 2px;
-    }
-  }
-  
