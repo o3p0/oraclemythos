@@ -1,95 +1,95 @@
 /* mobile.css — responsive overrides for small screens */
 
 @media (max-width: 768px) {
-    body {
-      font-size: 16px;
-      padding: 10px;
-      margin: 0;
-      overflow-x: hidden;
-    }
-  
-    header,
-    nav,
-    footer {
-      flex-direction: column !important;
-      text-align: center;
-      align-items: center;
-    }
-  
-    nav ul,
-    .navbar-menu {
-      flex-direction: column;
-      padding: 0;
-      margin: 0;
-    }
-  
-    nav li,
-    .navbar-item {
-      margin: 10px 0;
-    }
-  
-    .container,
-    .content,
-    .main {
-      width: 100%;
-      padding: 0 10px;
-      box-sizing: border-box;
-    }
-  
-    .grid,
-    .story-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .story-card,
-    .card,
-    .tile {
-      width: 100%;
-      max-width: 100%;
-    }
-  
-    img,
-    .responsive-img {
-      width: 100%;
-      height: auto;
-      max-width: 100%;
-    }
-  
-    .button,
-    button,
-    .btn {
-      width: 100%;
-      box-sizing: border-box;
-    }
-  
-    h1, h2, h3 {
-      font-size: 1.25em;
-    }
-  
-    .sidebar,
-    .ads,
-    .extra-panel {
-      display: none !important;
-    }
+  body {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+    overflow-x: hidden;
   }
-  /* Add to mobile.css */
-.character-grid,
-.myths-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 0 10px;
-}
 
-.character-card img,
-.myth-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.character-card-image {
+  header,
+  nav,
+  footer {
+    flex-direction: column !important;
+    text-align: center;
+    align-items: center;
+  }
+
+  nav ul,
+  .navbar-menu {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li,
+  .navbar-item {
+    margin: 10px 0;
+  }
+
+  .container,
+  .content,
+  .main {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .grid,
+  .story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .story-card,
+  .card,
+  .tile {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  img,
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .button,
+  button,
+  .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.25em;
+  }
+
+  .sidebar,
+  .ads,
+  .extra-panel {
+    display: none !important;
+  }
+
+  .character-grid,
+  .myths-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .character-card img,
+  .myth-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .character-card-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -98,40 +98,38 @@
     aspect-ratio: 16 / 9;
     margin-bottom: 10px;
   }
-  @media (max-width: 768px) {
-    .hero {
-      background-image: url('/images/stories/mythic-banner.jpg') !important;
-      background-size: cover !important;
-      background-position: center !important;
-      background-repeat: no-repeat !important;
-      padding: 60px 16px !important;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .hero-overlay h1 {
-      font-size: 1.6rem;
-      margin-bottom: 10px;
-    }
-  
-    .hero-overlay p {
-      font-size: 1rem;
-      margin-bottom: 20px;
-    }
-  
-    .cta-buttons {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-  
-    .cta-button {
-      width: 100%;
-      padding: 12px;
-      font-size: 1rem;
-    }
+
+  .hero {
+    background-image: url('/images/stories/mythic-banner.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    padding: 60px 16px !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  
-  
+
+  .hero-overlay h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .hero-overlay p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cta-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
