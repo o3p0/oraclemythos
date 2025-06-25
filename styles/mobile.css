@@ -1,0 +1,77 @@
+/* mobile.css — responsive overrides for small screens */
+
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 10px;
+      margin: 0;
+      overflow-x: hidden;
+    }
+  
+    header,
+    nav,
+    footer {
+      flex-direction: column !important;
+      text-align: center;
+      align-items: center;
+    }
+  
+    nav ul,
+    .navbar-menu {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav li,
+    .navbar-item {
+      margin: 10px 0;
+    }
+  
+    .container,
+    .content,
+    .main {
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+  
+    .grid,
+    .story-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .story-card,
+    .card,
+    .tile {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    img,
+    .responsive-img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
+  
+    .button,
+    button,
+    .btn {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.25em;
+    }
+  
+    .sidebar,
+    .ads,
+    .extra-panel {
+      display: none !important;
+    }
+  }
+  
