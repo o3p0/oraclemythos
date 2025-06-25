@@ -60,7 +60,7 @@
   <h2>🔮 Thank You for Your Tarot Reading</h2>
   <p>Please share your focus to help guide your personal spread.</p>
 
-  <form id="thankyouForm" method="POST" action="https://script.google.com/macros/s/AKfycbw8obRIyx8FV4xb8uJZIL80-N3sOy_Jd9BAuveEBDCp-ZQdcGOv22cNzuAQsdAT8ky4/exec">
+  <form id="thankyouForm" method="POST" action="/.netlify/functions/submit-tarot">
     <input type="hidden" name="Product" value="Tarot">
     
     <label>Email address (please use the one you purchased with)</label>
@@ -80,21 +80,24 @@
     const form = document.getElementById('thankyouForm');
     const successMsg = document.getElementById('successMsg');
 
-    form.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const formData = new FormData(form);
-      fetch(form.action, {
-        method: form.method,
-        body: formData
-      }).then(res => {
-        if (res.ok) {
-          form.reset();
-          successMsg.style.display = 'block';
-        } else {
-          alert('Something went wrong.');
-        }
-      }).catch(() => alert('Submission failed.'));
-    });
+    const jsonData = Object.fromEntries(formData.entries());
+
+fetch("/.netlify/functions/submit-tarot", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(jsonData)
+})
+.then(res => res.json())
+.then(json => {
+  if (json.result === 'success') {
+    form.reset();
+    successMsg.style.display = 'block';
+  } else {
+    alert('Something went wrong.');
+  }
+})
+.catch(() => alert('Submission failed.'));
+
   </script>
 </body>
 </html>
