@@ -80,10 +80,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (characterGrid) {
             characterGrid.innerHTML = selectedCharacters.map(char => `
                 <a href="characters.html?mythology=${char.mythology}&character=${char.id}" class="character-card">
-                    <div class="character-card-image" style="background-image: url('${char.image}');"></div>
-                    <h3>${char.name}</h3>
+                  <img src="${char.image}" alt="${char.name}" loading="lazy" class="character-card-image" />
+                  <h3>${char.name}</h3>
                 </a>
-            `).join("");
+              `).join("");
+              
         }
 
         // ✅ Populate Story Grid (FULLY CLICKABLE)
@@ -101,3 +102,4 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("❌ Error loading content:", error);
     }
 });
+

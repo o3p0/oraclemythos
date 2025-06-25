@@ -74,4 +74,29 @@
       display: none !important;
     }
   }
+  /* Add to mobile.css */
+.character-grid,
+.myths-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.character-card img,
+.myth-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.character-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 10px;
+  }
+  
   
