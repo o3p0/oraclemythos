@@ -103,25 +103,23 @@
   <p class="intro">
     Let us know your details and any specific interests so we can tune your reading.
   </p>
-
-  <form id="astroForm" action="<form id="astroForm">
-    <form id="astroForm">
-
+  <form id="astroForm">
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
     <input type="hidden" name="Product" value="Astrology Reading">
-
+  
     <label for="email">Email address (please use the one you purchased with)</label>
     <input type="email" name="Email" id="email" required />
-
+  
     <label for="focus">Focus/Interest <em>(career, personality, life events...)</em></label>
     <input type="text" name="Focus" id="focus" required />
-
+  
     <label for="notes">Birth Info or any additional context</label>
     <textarea name="Notes" id="notes" rows="5" placeholder="Birth date, place, time, or questions..."></textarea>
-
+  
     <button type="submit">🔐 Send</button>
     <div class="success-message" id="successMsg">✅ Thank you! Your details were received.</div>
   </form>
+  
 
   <div id="toast">✅ Your details were submitted!</div>
 
@@ -130,28 +128,30 @@
     const successMsg = document.getElementById('successMsg');
     const toast = document.getElementById('toast');
 
-    form.addEventListener('submit', function(e) {
+    form.addEventListener('submit', function (e) {
   e.preventDefault();
   const formData = new FormData(form);
   const jsonData = Object.fromEntries(formData.entries());
 
   fetch("/.netlify/functions/submit-form", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type": "application/json"
+    },
     body: JSON.stringify(jsonData)
   })
-  .then(res => res.json())
-  .then(json => {
-    if (json.result === 'success') {
-      form.reset();
-      successMsg.style.display = 'block';
-      toast.classList.add('show');
-      setTimeout(() => toast.classList.remove('show'), 3500);
-    } else {
-      alert('Something went wrong.');
-    }
-  })
-  .catch(() => alert('Submission failed.'));
+    .then(res => res.json())
+    .then(json => {
+      if (json.result === 'success') {
+        form.reset();
+        successMsg.style.display = 'block';
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 3500);
+      } else {
+        alert('Something went wrong.');
+      }
+    })
+    .catch(() => alert('Submission failed.'));
 });
 
   </script>

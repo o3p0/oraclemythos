@@ -1,3 +1,5 @@
+// netlify/functions/submit-form.js
+
 exports.handler = async (event, context) => {
     if (event.httpMethod !== "POST") {
       return {
@@ -8,7 +10,7 @@ exports.handler = async (event, context) => {
   
     const data = JSON.parse(event.body || '{}');
   
-    // Example: log to Netlify (can be replaced with emailing, storage, etc.)
+    // You can log or handle the data here
     console.log("Form submitted:", data);
   
     return {
