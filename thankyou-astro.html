@@ -72,6 +72,29 @@
       margin-top: 20px;
       text-align: center;
     }
+    #toast {
+      visibility: hidden;
+      min-width: 250px;
+      background-color: #222;
+      color: #ffcc00;
+      text-align: center;
+      border-radius: 8px;
+      padding: 16px;
+      position: fixed;
+      z-index: 9999;
+      left: 50%;
+      bottom: 40px;
+      transform: translateX(-50%);
+      font-size: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: opacity 0.5s ease, bottom 0.5s ease;
+    }
+    #toast.show {
+      visibility: visible;
+      opacity: 1;
+      bottom: 60px;
+    }
   </style>
 </head>
 <body>
@@ -97,9 +120,12 @@
     <div class="success-message" id="successMsg">✅ Thank you! Your details were received.</div>
   </form>
 
+  <div id="toast">✅ Your details were submitted!</div>
+
   <script>
     const form = document.getElementById('astroForm');
     const successMsg = document.getElementById('successMsg');
+    const toast = document.getElementById('toast');
 
     form.addEventListener('submit', function(e) {
       e.preventDefault();
@@ -113,6 +139,8 @@
         if (json.result === 'success') {
           form.reset();
           successMsg.style.display = 'block';
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3500);
         } else if (json.result === 'ignored') {
           alert('Spam bot detected.');
         } else {
