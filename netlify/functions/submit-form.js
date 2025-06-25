@@ -1,5 +1,11 @@
 // netlify/functions/submit-form.js
 
+const { google } = require("googleapis");
+const { JWT } = require("google-auth-library");
+
+const SHEET_ID = process.env.GOOGLE_SHEET_ID;
+const CREDENTIALS = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
+
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return {
@@ -11,8 +17,41 @@ exports.handler = async (event) => {
   const data = Object.fromEntries(new URLSearchParams(event.body));
   console.log("General Form Submission:", data);
 
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ result: "success", received: data }),
-  };
+  try {
+    const client = new JWT({
+      email: CREDENTIALS.client_email,
+      key: CREDENTIALS.private_key,
+      scopes: ["https://www.googleapis.com/auth/spreadsheets"],
+    });
+
+    const sheets = google.sheets({ version: "v4", auth: client });
+
+    const row = [
+      new Date().toISOString(),
+      data.Product || "",
+      data.Email || "",
+      data.Focus || "",
+      data.Notes || ""
+    ];
+
+    await sheets.spreadsheets.values.append({
+      spreadsheetId: SHEET_ID,
+      range: "FormResponses!A1",
+      valueInputOption: "RAW",
+      requestBody: {
+        values: [row],
+      },
+    });
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ result: "success", received: data }),
+    };
+  } catch (error) {
+    console.error("Sheet append error:", error);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: "Internal Server Error" }),
+    };
+  }
 };

@@ -137,10 +137,11 @@
   fetch("/.netlify/functions/submit-form", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/x-www-form-urlencoded"
     },
-    body: JSON.stringify(jsonData)
+    body: new URLSearchParams(jsonData).toString()
   })
+
     .then(res => res.json())
     .then(json => {
       if (json.result === 'success') {

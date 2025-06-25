@@ -60,7 +60,7 @@
   <h2>💤 Thank You for Your Dream Submission</h2>
   <p>Share your dream or symbols that stood out so we can begin the interpretation.</p>
 
-  <form id="thankyouForm" method="POST" action="/.netlify/functions/submit-dream"></form>
+  <form id="thankyouForm" method="POST" action="/.netlify/functions/submit-dream">
     <input type="hidden" name="Product" value="Dream">
 
     <label>Email address (please use the one you purchased with)</label>
@@ -80,25 +80,32 @@
 
   <script>
     const form = document.getElementById('thankyouForm');
-    const successMsg = document.getElementById('successMsg');
+const successMsg = document.getElementById('successMsg');
 
-    const jsonData = Object.fromEntries(formData.entries());
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const jsonData = Object.fromEntries(formData.entries());
 
-fetch("/.netlify/functions/submit-dream", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify(jsonData)
-})
-.then(res => res.json())
-.then(json => {
-  if (json.result === 'success') {
-    form.reset();
-    successMsg.style.display = 'block';
-  } else {
-    alert('Something went wrong.');
-  }
-})
-.catch(() => alert('Submission failed.'));
+  fetch("/.netlify/functions/submit-dream", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: new URLSearchParams(jsonData).toString()
+  })
+  .then(res => res.json())
+  .then(json => {
+    if (json.result === 'success') {
+      form.reset();
+      successMsg.style.display = 'block';
+    } else {
+      alert('Something went wrong.');
+    }
+  })
+  .catch(() => alert('Submission failed.'));
+});
+
 
   </script>
 </body>

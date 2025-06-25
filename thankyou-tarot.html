@@ -80,25 +80,30 @@
 
   <script>
     const form = document.getElementById('thankyouForm');
-    const successMsg = document.getElementById('successMsg');
+const successMsg = document.getElementById('successMsg');
 
-    const jsonData = Object.fromEntries(formData.entries());
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const jsonData = Object.fromEntries(formData.entries());
 
-fetch("/.netlify/functions/submit-tarot", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify(jsonData)
-})
-.then(res => res.json())
-.then(json => {
-  if (json.result === 'success') {
-    form.reset();
-    successMsg.style.display = 'block';
-  } else {
-    alert('Something went wrong.');
-  }
-})
-.catch(() => alert('Submission failed.'));
+  fetch("/.netlify/functions/submit-tarot", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(jsonData).toString()
+  })
+  .then(res => res.json())
+  .then(json => {
+    if (json.result === 'success') {
+      form.reset();
+      successMsg.style.display = 'block';
+    } else {
+      alert('Something went wrong.');
+    }
+  })
+  .catch(() => alert('Submission failed.'));
+});
+
 
   </script>
 </body>
