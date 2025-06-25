@@ -98,5 +98,40 @@
     aspect-ratio: 16 / 9;
     margin-bottom: 10px;
   }
+  @media (max-width: 768px) {
+    .hero {
+      background-image: url('/images/stories/mythic-banner.jpg') !important;
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      padding: 60px 16px !important;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .hero-overlay h1 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+  
+    .hero-overlay p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+  
+    .cta-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .cta-button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+    }
+  }
   
   
