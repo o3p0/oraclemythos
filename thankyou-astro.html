@@ -13,13 +13,11 @@
       padding: 40px 20px;
       text-align: center;
     }
-
     h2 {
       font-family: 'Playfair Display', serif;
       font-size: 2rem;
       margin-bottom: 20px;
     }
-
     p.intro {
       font-size: 1.1rem;
       color: #ccc;
@@ -27,7 +25,6 @@
       margin: 0 auto 30px;
       line-height: 1.6;
     }
-
     form {
       max-width: 500px;
       margin: 0 auto;
@@ -37,14 +34,12 @@
       border-radius: 16px;
       text-align: left;
     }
-
     label {
       display: block;
       font-family: 'Playfair Display', serif;
       margin-bottom: 8px;
       color: #eee;
     }
-
     input, textarea {
       width: 100%;
       padding: 12px;
@@ -54,11 +49,9 @@
       background: #222;
       color: #fff;
     }
-
     input[name="honeypot"] {
       display: none;
     }
-
     button {
       background: #ffcc00;
       color: #000;
@@ -69,11 +62,9 @@
       border-radius: 10px;
       cursor: pointer;
     }
-
     button:hover {
       background: #fff200;
     }
-
     .success-message {
       display: none;
       color: #90ee90;
@@ -84,14 +75,13 @@
   </style>
 </head>
 <body>
-  <h2>🪐 Thank You for Ordering Your Astrology Reading</h2>
+  <h2>🖐️ Thank You for Ordering Your Astrology Reading</h2>
   <p class="intro">
     Let us know your details and any specific interests so we can tune your reading.
   </p>
 
-  <form id="astroForm" action="https://script.google.com/macros/s/AKfycbw8obRIyx8FV4xb8uJZIL80-N3sOy_Jd9BAuveEBDCp-ZQdcGOv22cNzuAQsdAT8ky4/exec" method="POST">
+  <form id="astroForm" action="https://script.google.com/macros/s/AKfycbztOKb8iLuunHoybVD0Q5eanGsT4VdH2W0VsNtASUQ20cc0uc8ve6Sfnd893iN04Yu7/exec" method="POST">
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
-
     <input type="hidden" name="Product" value="Astrology Reading">
 
     <label for="email">Email address (please use the one you purchased with)</label>
@@ -103,7 +93,7 @@
     <label for="notes">Birth Info or any additional context</label>
     <textarea name="Notes" id="notes" rows="5" placeholder="Birth date, place, time, or questions..."></textarea>
 
-    <button type="submit">🔐 Submit Details</button>
+    <button type="submit">🔐 Send</button>
     <div class="success-message" id="successMsg">✅ Thank you! Your details were received.</div>
   </form>
 
@@ -117,14 +107,19 @@
       fetch(form.action, {
         method: form.method,
         body: formData
-      }).then(response => {
-        if (response.ok) {
+      })
+      .then(response => response.json())
+      .then(json => {
+        if (json.result === 'success') {
           form.reset();
           successMsg.style.display = 'block';
+        } else if (json.result === 'ignored') {
+          alert('Spam bot detected.');
         } else {
-          alert('Oops! Something went wrong.');
+          alert('Something went wrong.');
         }
-      }).catch(() => alert('Submission failed.'));
+      })
+      .catch(() => alert('Submission failed.'));
     });
   </script>
 </body>
