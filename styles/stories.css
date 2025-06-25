@@ -351,4 +351,27 @@ body {
       outline-width: 2px;
     }
   }
+  @media (max-width: 768px) {
+    .hero {
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      min-height: 300px;
+      padding: 60px 15px;
+    }
+  
+    .hero-overlay {
+      padding: 20px;
+      margin: 0 auto;
+      max-width: 90%;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
   

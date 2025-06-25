@@ -258,8 +258,31 @@ a {
 
 @media (max-width: 768px) {
   .chapter-content {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    padding: 16px;
   }
+
+  .chapter-section {
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  .chapter-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .chapter-section p {
+    font-size: 1.1rem;
+  }
+  .chapter-section {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+
 
   #prev-button, #next-button {
       top: auto;
