@@ -1,6 +1,6 @@
 [build]
-  publish = "public"
   command = "echo 'No build step required'"
+  publish = "."  # ← publish current folder instead of non-existent public/
 
 [build.environment]
   GOOGLE_SHEET_ID = "true"
