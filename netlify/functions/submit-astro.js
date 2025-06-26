@@ -8,6 +8,7 @@ exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: JSON.stringify({ error: "Method Not Allowed" }) };
   }
+
   let data = {};
   if (event.headers["content-type"]?.includes("application/x-www-form-urlencoded")) {
     data = Object.fromEntries(new URLSearchParams(event.body));
@@ -15,11 +16,13 @@ exports.handler = async (event) => {
     try {
       data = JSON.parse(event.body);
     } catch (e) {
-      console.error("Failed to parse body:", event.body);
+      console.error("Body parse error:", e);
+      return {
+        statusCode: 400,
+        body: JSON.stringify({ error: "Invalid request body" }),
+      };
     }
   }
-  
-  console.log("Astrology Form Submission:", data);
 
   try {
     const client = new JWT({
@@ -36,7 +39,7 @@ exports.handler = async (event) => {
       data.BirthDate || "",
       data.BirthTime || "",
       data.BirthPlace || "",
-      data.Notes || ""
+      data.Notes || "",
     ];
 
     await sheets.spreadsheets.values.append({
@@ -51,7 +54,7 @@ exports.handler = async (event) => {
       body: JSON.stringify({ result: "success", received: data }),
     };
   } catch (error) {
-    console.error("Astro Sheet append error:", error);
+    console.error("Google Sheets Error:", error);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: "Internal Server Error", details: error.message }),
