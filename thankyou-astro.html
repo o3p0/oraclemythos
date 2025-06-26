@@ -139,9 +139,9 @@
       const formData = new FormData(form);
       const jsonData = Object.fromEntries(formData.entries());
 
-      console.log("Submitting to: /functions/submit-astro");
+      console.log("Submitting to: /functions/submit-form");
 
-      fetch("/.netlify/functions/submit-astro", {
+      fetch("/.netlify/functions/submit-form", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded"
