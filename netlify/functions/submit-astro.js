@@ -8,8 +8,17 @@ exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: JSON.stringify({ error: "Method Not Allowed" }) };
   }
-
-  const data = Object.fromEntries(new URLSearchParams(event.body));
+  let data = {};
+  if (event.headers["content-type"]?.includes("application/x-www-form-urlencoded")) {
+    data = Object.fromEntries(new URLSearchParams(event.body));
+  } else {
+    try {
+      data = JSON.parse(event.body);
+    } catch (e) {
+      console.error("Failed to parse body:", event.body);
+    }
+  }
+  
   console.log("Astrology Form Submission:", data);
 
   try {
@@ -32,7 +41,7 @@ exports.handler = async (event) => {
 
     await sheets.spreadsheets.values.append({
       spreadsheetId: SHEET_ID,
-      range: "AstroFormResponses!A1",
+      range: "FormResponses!A1",
       valueInputOption: "RAW",
       requestBody: { values: [row] },
     });
