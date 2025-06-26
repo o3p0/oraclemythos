@@ -1,18 +1,16 @@
-
-
 [build]
-  publish = "public"            # Adjust if your site lives elsewhere
-  command = "npm run build"     # Or your static build command
+  publish = "public"
+  command = "echo 'No build step required'"
 
 [build.environment]
   GOOGLE_SHEET_ID = "true"
   GOOGLE_SERVICE_ACCOUNT = "true"
-  NODE_VERSION = "18"            # Recommended runtime
-  SECRETS_SCAN_ENABLED = "false" # Optional: disables Netlify build failure on secret detection
+  NODE_VERSION = "18"
+  SECRETS_SCAN_ENABLED = "false"
 
 [functions]
   node_bundler = "esbuild"
-  included_files = ["netlify/functions/**"] # Ensures all function files are bundled
+  included_files = ["netlify/functions/**"]
 
 [[redirects]]
   from = "/submit"
@@ -20,7 +18,6 @@
   status = 302
   force = true
 
-# Optional: Set headers for CORS or caching
 [[headers]]
   for = "/.netlify/functions/*"
   [headers.values]
