@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Thank You – Your Dream Interpretation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You – Dream Analysis</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
   <style>
     body {
@@ -13,100 +13,123 @@
       padding: 40px 20px;
       text-align: center;
     }
+
     h2 {
       font-family: 'Playfair Display', serif;
       font-size: 2rem;
+      color: #ffcc00;
       margin-bottom: 20px;
     }
+
+    p.intro {
+      font-size: 1.1rem;
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
     form {
-      background: #111;
-      border: 1px solid #ffcc00;
-      padding: 30px;
-      border-radius: 16px;
       max-width: 500px;
-      margin: auto;
+      margin: 0 auto;
+      background: #111;
+      padding: 30px;
+      border: 1px solid #ffcc00;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
       text-align: left;
     }
-    label, input, textarea {
+
+    label {
       display: block;
-      width: 100%;
-      margin-bottom: 16px;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 8px;
       font-size: 1rem;
+      color: #eee;
     }
+
     input, textarea {
-      background: #222;
-      color: #fff;
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
       border: 1px solid #ffcc00;
       border-radius: 8px;
-      padding: 12px;
+      background: #222;
+      color: #fff;
+      font-size: 1rem;
     }
+
+    input[name="honeypot"] {
+      display: none;
+    }
+
     button {
       background: #ffcc00;
       color: #000;
-      font-weight: bold;
-      border: none;
       padding: 12px 20px;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
       border-radius: 10px;
       cursor: pointer;
+      transition: background 0.3s ease;
     }
+
+    button:hover {
+      background: #fff200;
+    }
+
     .success-message {
       display: none;
+      color: #90ee90;
+      font-size: 1.1rem;
       margin-top: 20px;
-      color: lightgreen;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <h2>💤 Thank You for Your Dream Submission</h2>
-  <p>Share your dream or symbols that stood out so we can begin the interpretation.</p>
+  <h2>🌙 Thank You for Sharing Your Dream</h2>
+  <p class="intro">
+    Every dream is a doorway. Share your symbols, stories, and sensations — and we'll craft your personalized analysis.
+  </p>
 
-  <form id="thankyouForm" method="POST" action="/.netlify/functions/submit-dream">
-    <input type="hidden" name="Product" value="Dream">
+  <form action="/.netlify/functions/submit-form" method="POST">
 
-    <label>Email address (please use the one you purchased with)</label>
-    <input type="email" name="Email" required>
+    <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
 
-    <label>Dream Focus</label>
-    <input type="text" name="Focus" placeholder="e.g. flying, ocean, shadow, etc." required>
+    <label for="email">Email Address</label>
+    <input type="email" name="Email" id="email" required />
 
-    <label>Dream Details</label>
-    <textarea name="Notes" rows="5" placeholder="Describe the dream, symbols, emotions, or anything relevant..."></textarea>
+    <label for="dream">Describe Your Dream</label>
+    <textarea name="Dream" id="dream" rows="6" required placeholder="Tell us what happened, how it felt, what stood out..."></textarea>
 
-    <button type="submit">Send Dream</button>
-    <div class="success-message" id="successMsg">✅ Submitted! We’ll begin your dream reading shortly.</div>
+    <label for="symbols">Any Specific Symbols or Themes?</label>
+    <input type="text" name="Symbols" id="symbols" placeholder="e.g. snakes, flying, water, running" />
+
+    <button type="submit">🔐 Submit Your Dream</button>
+    <div class="success-message" id="successMsg">✅ Thank you! Your dream has been received for analysis.</div>
   </form>
 
-  <div id="toast">✅ Success</div>
-
   <script>
-    const form = document.getElementById('thankyouForm');
-const successMsg = document.getElementById('successMsg');
+    const form = document.getElementById('dreamForm');
+    const successMsg = document.getElementById('successMsg');
 
-form.addEventListener('submit', function(e) {
-  e.preventDefault();
-  const formData = new FormData(form);
-  const jsonData = Object.fromEntries(formData.entries());
-
-  fetch("/.netlify/functions/submit-dream", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded"
-    },
-    body: new URLSearchParams(jsonData).toString()
-  })
-  .then(res => res.json())
-  .then(json => {
-    if (json.result === 'success') {
-      form.reset();
-      successMsg.style.display = 'block';
-    } else {
-      alert('Something went wrong.');
-    }
-  })
-  .catch(() => alert('Submission failed.'));
-});
-
-
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      fetch(form.action, {
+        method: form.method,
+        body: formData
+      }).then(response => {
+        if (response.ok) {
+          form.reset();
+          successMsg.style.display = 'block';
+        } else {
+          alert('Oops! Something went wrong.');
+        }
+      }).catch(() => alert('Oops! Submission failed.'));
+    });
   </script>
 </body>
 </html>

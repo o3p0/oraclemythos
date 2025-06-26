@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thank You – Astrology Reading</title>
+  <title>Thank You – Astrology Mapping</title>
   <link rel="icon" href="data:,">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
   <style>
@@ -62,6 +62,7 @@
       border: none;
       border-radius: 10px;
       cursor: pointer;
+      transition: background 0.3s ease;
     }
     button:hover {
       background: #fff200;
@@ -99,28 +100,32 @@
   </style>
 </head>
 <body>
-  <h2>🖐️ Thank You for Ordering Your Astrology Reading</h2>
+  <h2>🌌 Thank You for Unlocking Your Astrology Mapping</h2>
   <p class="intro">
-    Let us know your details and any specific interests so we can tune your reading.
+    To chart your mythic sky, we need a few details. This allows us to explore your soul's planetary code with precision.
   </p>
-  <form id="astroForm" method="POST">
+  <form action="/.netlify/functions/submit-form" method="POST">
 
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
-    <input type="hidden" name="Product" value="Astrology Reading">
-  
-    <label for="email">Email address (please use the one you purchased with)</label>
+
+    <label for="email">Email Address</label>
     <input type="email" name="Email" id="email" required />
-  
-    <label for="focus">Focus/Interest <em>(career, personality, life events...)</em></label>
-    <input type="text" name="Focus" id="focus" required />
-  
-    <label for="notes">Birth Info or any additional context</label>
-    <textarea name="Notes" id="notes" rows="5" placeholder="Birth date, place, time, or questions..."></textarea>
-  
-    <button type="submit">🔐 Send</button>
-    <div class="success-message" id="successMsg">✅ Thank you! Your details were received.</div>
+
+    <label for="birthdate">Birth Date</label>
+    <input type="date" name="BirthDate" id="birthdate" required />
+
+    <label for="birthtime">Birth Time</label>
+    <input type="time" name="BirthTime" id="birthtime" required />
+
+    <label for="birthplace">Birth Place (City, Country)</label>
+    <input type="text" name="BirthPlace" id="birthplace" required />
+
+    <label for="notes">Optional Notes / Intentions</label>
+    <textarea name="Notes" id="notes" rows="4" placeholder="Any questions, intentions, or personal focus..."></textarea>
+
+    <button type="submit">📩 Submit Your Chart Info</button>
+    <div class="success-message" id="successMsg">✅ Thank you! Your details have been received.</div>
   </form>
-  
 
   <div id="toast">✅ Success</div>
 
@@ -130,32 +135,32 @@
     const toast = document.getElementById('toast');
 
     form.addEventListener('submit', function (e) {
-  e.preventDefault();
-  const formData = new FormData(form);
-  const jsonData = Object.fromEntries(formData.entries());
+      e.preventDefault();
+      const formData = new FormData(form);
+      const jsonData = Object.fromEntries(formData.entries());
 
-  fetch("/.netlify/functions/submit-astro", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded"
-    },
-    body: new URLSearchParams(jsonData).toString()
-  })
+      console.log("Submitting to: /functions/submit-astro");
 
-    .then(res => res.json())
-    .then(json => {
-      if (json.result === 'success') {
-        form.reset();
-        successMsg.style.display = 'block';
-        toast.classList.add('show');
-        setTimeout(() => toast.classList.remove('show'), 3500);
-      } else {
-        alert('Something went wrong.');
-      }
-    })
-    .catch(() => alert('Submission failed.'));
-});
-
+      fetch("/.netlify/functions/submit-astro", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: new URLSearchParams(jsonData).toString()
+      })
+      .then(res => res.json())
+      .then(json => {
+        if (json.result === 'success') {
+          form.reset();
+          successMsg.style.display = 'block';
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3500);
+        } else {
+          alert('Something went wrong.');
+        }
+      })
+      .catch(() => alert('Submission failed.'));
+    });
   </script>
 </body>
 </html>
