@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thank You – Astrology Mapping</title>
+  <link rel="icon" href="data:,">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
   <style>
     body {
@@ -13,14 +14,11 @@
       padding: 40px 20px;
       text-align: center;
     }
-
     h2 {
       font-family: 'Playfair Display', serif;
       font-size: 2rem;
-      color: #ffcc00;
       margin-bottom: 20px;
     }
-
     p.intro {
       font-size: 1.1rem;
       color: #ccc;
@@ -28,7 +26,6 @@
       margin: 0 auto 30px;
       line-height: 1.6;
     }
-
     form {
       max-width: 500px;
       margin: 0 auto;
@@ -36,18 +33,14 @@
       padding: 30px;
       border: 1px solid #ffcc00;
       border-radius: 16px;
-      box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
       text-align: left;
     }
-
     label {
       display: block;
       font-family: 'Playfair Display', serif;
       margin-bottom: 8px;
-      font-size: 1rem;
       color: #eee;
     }
-
     input, textarea {
       width: 100%;
       padding: 12px;
@@ -56,13 +49,10 @@
       border-radius: 8px;
       background: #222;
       color: #fff;
-      font-size: 1rem;
     }
-
     input[name="honeypot"] {
       display: none;
     }
-
     button {
       background: #ffcc00;
       color: #000;
@@ -74,17 +64,38 @@
       cursor: pointer;
       transition: background 0.3s ease;
     }
-
     button:hover {
       background: #fff200;
     }
-
     .success-message {
       display: none;
       color: #90ee90;
       font-size: 1.1rem;
       margin-top: 20px;
       text-align: center;
+    }
+    #toast {
+      visibility: hidden;
+      min-width: 250px;
+      background-color: #222;
+      color: #ffcc00;
+      text-align: center;
+      border-radius: 8px;
+      padding: 16px;
+      position: fixed;
+      z-index: 9999;
+      left: 50%;
+      bottom: 40px;
+      transform: translateX(-50%);
+      font-size: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      opacity: 0;
+      transition: opacity 0.5s ease, bottom 0.5s ease;
+    }
+    #toast.show {
+      visibility: visible;
+      opacity: 1;
+      bottom: 60px;
     }
   </style>
 </head>
@@ -93,9 +104,7 @@
   <p class="intro">
     To chart your mythic sky, we need a few details. This allows us to explore your soul's planetary code with precision.
   </p>
-
   <form id="astroForm" action="/.netlify/functions/submit-astro" method="POST">
-
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
 
     <label for="email">Email Address</label>
@@ -117,44 +126,40 @@
     <div class="success-message" id="successMsg">✅ Thank you! Your details have been received.</div>
   </form>
 
-
+  <div id="toast">✅ Success</div>
 
   <script>
-    const form = document.getElementById('FormResponses');
+    const form = document.getElementById('astroForm');
     const successMsg = document.getElementById('successMsg');
-  
-    form.addEventListener('submit', function(e) {
+    const toast = document.getElementById('toast');
+
+    form.addEventListener('submit', function (e) {
       e.preventDefault();
-  
-      const honeypot = form.querySelector('input[name="honeypot"]');
-      if (honeypot.value) return;
-  
       const formData = new FormData(form);
-      const encoded = new URLSearchParams([...formData]);
-  
+      const jsonData = Object.fromEntries(formData.entries());
 
-  
+      console.log("Submitting to: /functions/submit-astro");
+
       fetch("/.netlify/functions/submit-astro", {
-
-        method: form.method,
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encoded
-      }).then(response => {
-        if (response.ok) {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: new URLSearchParams(jsonData).toString()
+      })
+      .then(res => res.json())
+      .then(json => {
+        if (json.result === 'success') {
           form.reset();
           successMsg.style.display = 'block';
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3500);
         } else {
-          alert('Oops! Something went wrong.');
+          alert('Something went wrong.');
         }
-      }).catch(() => alert('Oops! Submission failed.'));
+      })
+      .catch(() => alert('Submission failed.'));
     });
-  </script>
-  
-
-
-
-
-
   </script>
 </body>
 </html>
