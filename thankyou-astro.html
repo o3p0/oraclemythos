@@ -1,3 +1,4 @@
+<!-- thankyou-astro.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,9 +105,10 @@
   <p class="intro">
     To chart your mythic sky, we need a few details. This allows us to explore your soul's planetary code with precision.
   </p>
-  <form action="/.netlify/functions/submit-form" method="POST">
 
+  <form id="astroForm" action="/.netlify/functions/submit-form" method="POST">
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
+    <input type="hidden" name="Product" value="Astrology Mapping">
 
     <label for="email">Email Address</label>
     <input type="email" name="Email" id="email" required />
@@ -138,8 +140,6 @@
       e.preventDefault();
       const formData = new FormData(form);
       const jsonData = Object.fromEntries(formData.entries());
-
-      console.log("Submitting to: /functions/submit-form");
 
       fetch("/.netlify/functions/submit-form", {
         method: "POST",

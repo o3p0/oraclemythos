@@ -1,10 +1,10 @@
-<!-- thankyou-dream.html -->
+<!-- thankyou-tarot.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thank You – Dream Analysis</title>
+  <title>Thank You – Tarot Reading</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
   <style>
     body {
@@ -115,36 +115,36 @@
   </style>
 </head>
 <body>
-  <h2>🌙 Thank You for Sharing Your Dream</h2>
+  <h2>🔮 Thank You for Ordering a Tarot Reading</h2>
   <p class="intro">
-    Every dream is a doorway. Share your symbols, stories, and sensations — and we'll craft your personalized analysis.
+    Share your focus and intent — the cards will respond to your energy.
   </p>
 
-  <form id="dreamForm" action="/.netlify/functions/submit-form" method="POST">
+  <form id="tarotForm" action="/.netlify/functions/submit-form" method="POST">
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
-    <input type="hidden" name="Product" value="Dream Analysis">
+    <input type="hidden" name="Product" value="Tarot Reading">
 
     <label for="email">Email Address</label>
     <input type="email" name="Email" id="email" required />
 
-    <label for="dream">Describe Your Dream</label>
-    <textarea name="Dream" id="dream" rows="6" required placeholder="Tell us what happened, how it felt, what stood out..."></textarea>
+    <label for="focus">Focus or Question</label>
+    <input type="text" name="Focus" id="focus" placeholder="e.g. love, career, guidance..." required />
 
-    <label for="symbols">Any Specific Symbols or Themes?</label>
-    <input type="text" name="Symbols" id="symbols" placeholder="e.g. snakes, flying, water, running" />
+    <label for="notes">Optional Notes / Background</label>
+    <textarea name="Notes" id="notes" rows="4" placeholder="Any context you want to share..."></textarea>
 
-    <button type="submit">🔐 Submit Your Dream</button>
-    <div class="success-message" id="successMsg">✅ Thank you! Your dream has been received for analysis.</div>
+    <button type="submit">🔐 Submit Your Reading Info</button>
+    <div class="success-message" id="successMsg">✅ Thank you! Your tarot request was received.</div>
   </form>
 
   <div id="toast">✅ Success</div>
 
   <script>
-    const form = document.getElementById('dreamForm');
+    const form = document.getElementById('tarotForm');
     const successMsg = document.getElementById('successMsg');
     const toast = document.getElementById('toast');
 
-    form.addEventListener('submit', function(e) {
+    form.addEventListener('submit', function (e) {
       e.preventDefault();
       const formData = new FormData(form);
       const jsonData = Object.fromEntries(formData.entries());
@@ -165,7 +165,7 @@
         } else {
           alert('Something went wrong.');
         }
-      }).catch(() => alert('Oops! Submission failed.'));
+      }).catch(() => alert('Submission failed.'));
     });
   </script>
 </body>
