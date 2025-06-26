@@ -4,8 +4,8 @@ const { google } = require("googleapis");
 const { JWT } = require("google-auth-library");
 
 const SHEET_ID = process.env.GOOGLE_SHEET_ID;
-let CREDENTIALS;
 
+let CREDENTIALS;
 try {
   CREDENTIALS = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
 } catch (e) {
