@@ -94,7 +94,7 @@
     To chart your mythic sky, we need a few details. This allows us to explore your soul's planetary code with precision.
   </p>
 
-  <form id="astroForm" action="https://script.google.com/macros/s/YOUR-ASTROLOGY-ENDPOINT/exec" method="POST">
+  <form id="astroForm" action="/.netlify/functions/submit-astro" method="POST">
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
 
     <label for="email">Email Address</label>
@@ -116,6 +116,8 @@
     <div class="success-message" id="successMsg">✅ Thank you! Your details have been received.</div>
   </form>
 
+
+
   <script>
     const form = document.getElementById('astroForm');
     const successMsg = document.getElementById('successMsg');
@@ -135,6 +137,11 @@
         }
       }).catch(() => alert('Oops! Submission failed.'));
     });
+
+
+
+
+
   </script>
 </body>
 </html>

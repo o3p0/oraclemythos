@@ -1,5 +1,3 @@
-// netlify/functions/submit-form.js
-
 const { google } = require("googleapis");
 const { JWT } = require("google-auth-library");
 
@@ -8,14 +6,11 @@ const CREDENTIALS = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
-    return {
-      statusCode: 405,
-      body: JSON.stringify({ error: "Method Not Allowed" }),
-    };
+    return { statusCode: 405, body: JSON.stringify({ error: "Method Not Allowed" }) };
   }
 
   const data = Object.fromEntries(new URLSearchParams(event.body));
-  console.log("General Form Submission:", data);
+  console.log("Astrology Form Submission:", data);
 
   try {
     const client = new JWT({
@@ -28,19 +23,18 @@ exports.handler = async (event) => {
 
     const row = [
       new Date().toISOString(),
-      data.Product || "",
       data.Email || "",
-      data.Focus || "",
+      data.BirthDate || "",
+      data.BirthTime || "",
+      data.BirthPlace || "",
       data.Notes || ""
     ];
 
     await sheets.spreadsheets.values.append({
       spreadsheetId: SHEET_ID,
-      range: "FormResponses!A1",
+      range: "AstroFormResponses!A1",
       valueInputOption: "RAW",
-      requestBody: {
-        values: [row],
-      },
+      requestBody: { values: [row] },
     });
 
     return {
@@ -48,10 +42,10 @@ exports.handler = async (event) => {
       body: JSON.stringify({ result: "success", received: data }),
     };
   } catch (error) {
-    console.error("Sheet append error:", error);
+    console.error("Astro Sheet append error:", error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: "Internal Server Error" }),
+      body: JSON.stringify({ error: "Internal Server Error", details: error.message }),
     };
   }
 };
