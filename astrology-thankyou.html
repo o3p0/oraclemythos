@@ -120,7 +120,7 @@
 
 
   <script>
-    const form = document.getElementById('astroForm');
+    const form = document.getElementById('FormResponses');
     const successMsg = document.getElementById('successMsg');
   
     form.addEventListener('submit', function(e) {
@@ -134,7 +134,7 @@
   
 
   
-      fetch(form.action, {
+      fetch("/.netlify/functions/submit-astro", {
         method: form.method,
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encoded
