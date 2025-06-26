@@ -62,6 +62,8 @@ exports.handler = async (event) => {
       data.BirthPlace || "",
       data.Notes || "",
     ];
+    console.log("Row being appended:", row);
+
 
     await sheets.spreadsheets.values.append({
       spreadsheetId: SHEET_ID,
@@ -75,7 +77,8 @@ exports.handler = async (event) => {
       body: JSON.stringify({ result: "success", received: data }),
     };
   } catch (error) {
-    console.error("Google Sheets Error:", error);
+    console.error("Google Sheets Error Stack:", error.stack || error);
+
     return {
       statusCode: 500,
       body: JSON.stringify({ error: "Internal Server Error", details: error.message }),
