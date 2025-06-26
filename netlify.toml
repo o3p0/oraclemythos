@@ -1,6 +1,4 @@
-[functions]
-  node_bundler = "esbuild"
-# Production-ready netlify.toml for Google Sheets form submissions
+
 
 [build]
   publish = "public"            # Adjust if your site lives elsewhere
