@@ -1,13 +1,34 @@
+// netlify/functions/submit-astro.js
+
 const { google } = require("googleapis");
 const { JWT } = require("google-auth-library");
 
 const SHEET_ID = process.env.GOOGLE_SHEET_ID;
-const CREDENTIALS = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
+let CREDENTIALS;
+
+try {
+  CREDENTIALS = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
+} catch (e) {
+  console.error("Invalid GOOGLE_SERVICE_ACCOUNT env var:", e);
+  exports.handler = async () => ({
+    statusCode: 500,
+    body: JSON.stringify({ error: "Malformed service account credentials" }),
+  });
+  return;
+}
+
+console.log("ENV VARS:", {
+  SHEET_ID,
+  client_email: CREDENTIALS.client_email,
+  private_key_loaded: !!CREDENTIALS.private_key,
+});
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: JSON.stringify({ error: "Method Not Allowed" }) };
   }
+
+  console.log("Incoming Request Body:", event.body);
 
   let data = {};
   if (event.headers["content-type"]?.includes("application/x-www-form-urlencoded")) {
