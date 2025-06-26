@@ -95,6 +95,7 @@
   </p>
 
   <form id="astroForm" action="/.netlify/functions/submit-astro" method="POST">
+
     <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
 
     <label for="email">Email Address</label>
@@ -130,6 +131,8 @@
   
       const formData = new FormData(form);
       const encoded = new URLSearchParams([...formData]);
+  
+
   
       fetch(form.action, {
         method: form.method,
