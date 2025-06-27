@@ -1,11 +1,10 @@
-<!-- thankyou-tarot.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thank You – Tarot Reading</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet" />
   <style>
     body {
       background: #000;
@@ -14,14 +13,12 @@
       padding: 40px 20px;
       text-align: center;
     }
-
     h2 {
       font-family: 'Playfair Display', serif;
       font-size: 2rem;
       color: #ffcc00;
       margin-bottom: 20px;
     }
-
     p.intro {
       font-size: 1.1rem;
       color: #ccc;
@@ -29,7 +26,6 @@
       margin: 0 auto 30px;
       line-height: 1.6;
     }
-
     form {
       max-width: 500px;
       margin: 0 auto;
@@ -40,7 +36,6 @@
       box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
       text-align: left;
     }
-
     label {
       display: block;
       font-family: 'Playfair Display', serif;
@@ -48,7 +43,6 @@
       font-size: 1rem;
       color: #eee;
     }
-
     input, textarea {
       width: 100%;
       padding: 12px;
@@ -59,11 +53,9 @@
       color: #fff;
       font-size: 1rem;
     }
-
     input[name="honeypot"] {
       display: none;
     }
-
     button {
       background: #ffcc00;
       color: #000;
@@ -75,11 +67,9 @@
       cursor: pointer;
       transition: background 0.3s ease;
     }
-
     button:hover {
       background: #fff200;
     }
-
     .success-message {
       display: none;
       color: #90ee90;
@@ -87,7 +77,6 @@
       margin-top: 20px;
       text-align: center;
     }
-
     #toast {
       visibility: hidden;
       min-width: 250px;
@@ -106,7 +95,6 @@
       opacity: 0;
       transition: opacity 0.5s ease, bottom 0.5s ease;
     }
-
     #toast.show {
       visibility: visible;
       opacity: 1;
@@ -120,9 +108,9 @@
     Share your focus and intent — the cards will respond to your energy.
   </p>
 
-  <form id="tarotForm" action="/.netlify/functions/submit-form" method="POST">
-    <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
-    <input type="hidden" name="Product" value="Tarot Reading">
+  <form id="tarotForm" action="https://formspree.io/f/mjkrjwgj" method="POST">
+    <input type="text" name="honeypot" tabindex="-1" autocomplete="off" />
+    <input type="hidden" name="Product" value="Tarot Reading" />
 
     <label for="email">Email Address</label>
     <input type="email" name="Email" id="email" required />
@@ -133,7 +121,7 @@
     <label for="notes">Optional Notes / Background</label>
     <textarea name="Notes" id="notes" rows="4" placeholder="Any context you want to share..."></textarea>
 
-    <button type="submit">🔐 Submit Your Reading Info</button>
+    <button type="send">🔐 Send Your Reading Info</button>
     <div class="success-message" id="successMsg">✅ Thank you! Your tarot request was received.</div>
   </form>
 
@@ -147,26 +135,32 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       const formData = new FormData(form);
-      const jsonData = Object.fromEntries(formData.entries());
 
-      fetch("/.netlify/functions/submit-form", {
+      fetch(form.action, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded"
-        },
-        body: new URLSearchParams(jsonData).toString()
-      }).then(res => res.json())
-      .then(json => {
-        if (json.result === 'success') {
+        headers: { "Accept": "application/json" },
+        body: formData
+      }).then(response => {
+        if (response.ok) {
           form.reset();
           successMsg.style.display = 'block';
           toast.classList.add('show');
           setTimeout(() => toast.classList.remove('show'), 3500);
         } else {
-          alert('Something went wrong.');
+          response.json().then(data => {
+            alert(data.error || 'Submission failed.');
+          });
         }
-      }).catch(() => alert('Submission failed.'));
+      }).catch(() => {
+        alert('Submission failed.');
+      });
     });
   </script>
 </body>
+
+<footer style="text-align:center; padding: 20px 0; color:#ccc; font-size:0.9rem; background: #000;">
+  <a href="/privacy-policy.html" style="color:#ffcc00; margin-right: 20px; text-decoration: none;">Privacy Policy</a>
+  <a href="/terms-and-conditions.html" style="color:#ffcc00; text-decoration: none;">Terms & Conditions</a>
+</footer>
+
 </html>

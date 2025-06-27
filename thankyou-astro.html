@@ -1,4 +1,3 @@
-<!-- thankyou-astro.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,9 +105,11 @@
     To chart your mythic sky, we need a few details. This allows us to explore your soul's planetary code with precision.
   </p>
 
-  <form id="astroForm" action="/.netlify/functions/submit-form" method="POST">
-    <input type="text" name="honeypot" tabindex="-1" autocomplete="off">
-    <input type="hidden" name="Product" value="Astrology Mapping">
+  <form id="astroForm" action="https://formspree.io/f/mblyqodz" method="POST">
+
+    <input type="text" name="honeypot" tabindex="-1" autocomplete="off" />
+
+    <input type="hidden" name="Product" value="Astrology Mapping" />
 
     <label for="email">Email Address</label>
     <input type="email" name="Email" id="email" required />
@@ -125,9 +126,15 @@
     <label for="notes">Optional Notes / Intentions</label>
     <textarea name="Notes" id="notes" rows="4" placeholder="Any questions, intentions, or personal focus..."></textarea>
 
-    <button type="submit">📩 Submit Your Chart Info</button>
+    <button type="send">📩 Send Your Chart Info</button>
     <div class="success-message" id="successMsg">✅ Thank you! Your details have been received.</div>
   </form>
+
+  <footer style="text-align:center; padding: 20px 0; color:#ccc; font-size:0.9rem; background: #000;">
+    <a href="/privacy-policy.html" style="color:#ffcc00; margin-right: 20px; text-decoration: none;">Privacy Policy</a>
+    <a href="/terms-and-conditions.html" style="color:#ffcc00; text-decoration: none;">Terms & Conditions</a>
+  </footer>
+  
 
   <div id="toast">✅ Success</div>
 
@@ -139,27 +146,25 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       const formData = new FormData(form);
-      const jsonData = Object.fromEntries(formData.entries());
 
-      fetch("/.netlify/functions/submit-form", {
+      fetch(form.action, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded"
-        },
-        body: new URLSearchParams(jsonData).toString()
-      })
-      .then(res => res.json())
-      .then(json => {
-        if (json.result === 'success') {
+        headers: { "Accept": "application/json" },
+        body: formData
+      }).then(response => {
+        if (response.ok) {
           form.reset();
           successMsg.style.display = 'block';
           toast.classList.add('show');
           setTimeout(() => toast.classList.remove('show'), 3500);
         } else {
-          alert('Something went wrong.');
+          response.json().then(data => {
+            alert(data.error || 'Submission failed.');
+          });
         }
-      })
-      .catch(() => alert('Submission failed.'));
+      }).catch(() => {
+        alert('Submission failed.');
+      });
     });
   </script>
 </body>
